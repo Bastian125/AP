@@ -1,4 +1,4 @@
-# T/s a/m n=3*Schwingungen
+# T/s a/m n=3*Schwingungen Achtung dies ist eine Übung
 8.75 0.05
 9.57 0.075
 11.75 0.1
