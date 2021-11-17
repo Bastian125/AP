@@ -5,10 +5,11 @@ Die Winkelrichtgröße wird durch die Formel
 \begin{equation}
   D = \frac{F \cdot r}{\phi}
 \end{equation}
-bestimmt. Die verwendeten Werte sind in angegeben.
+bestimmt. Die verwendeten Werte sind in \ref{tab:winkelrichtgr} angegeben.
 \begin{table}
   \centering
   \label{tab:winkelrichtgr}
+  \caption{Messdaten zur Bestimmung der Winkelrichtgröße D}
   \begin{tabular}{c c c c}
     \toprule
     $F/N$ & $\phi$ & $r/m$ & $D/Nm$ \\
@@ -26,19 +27,20 @@ bestimmt. Die verwendeten Werte sind in angegeben.
     \bottomrule
   \end{tabular}
 \end{table}
-
-Sowohl der Mittelwert, als auch die Standardabweichung wurden mit Python bestimmt. Daraus ergibt sich der
+\\Sowohl der Mittelwert, als auch die Standardabweichung wurden mit Python bestimmt. Daraus ergibt sich der
 gemittelte Wert
 \begin{align*}
-    D = (0.000456 \pm 0{,}000048)\,\mathrm{Nm}
+    D = (0.000456 \pm 0{,}000048)\,\mathrm{Nm} .
 \end{align*}
 
+\section{Eigenträgheitsmoment}
 \begin{figure}
   \centering
   \includegraphics{plot.pdf}
   \caption{Plot.}
   \label{fig:plot}
 \end{figure}
+
 
 
 Siehe \autoref{fig:plot}!

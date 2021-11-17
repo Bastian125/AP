@@ -9,7 +9,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Winkelrichtgröße}{3}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Diskussion}{4}{section.4}%
+\contentsline {section}{\numberline {4}Eigenträgheitsmoment}{3}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{4}{section.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\nonumberline Literatur}{4}{section*.5}%
 \defcounter {refsection}{0}\relax 
