@@ -30,44 +30,52 @@ bestimmt. Die verwendeten Werte sind in \ref{tab:winkelrichtgr} angegeben.
 \\Sowohl der Mittelwert, als auch die Standardabweichung wurden mit Python bestimmt. Daraus ergibt sich der
 gemittelte Wert
 \begin{align*}
-    D = (0.000456 \pm 0{,}000048)\,\mathrm{Nm} .
+    D = (0{,}000456 \pm 0{,}000048)\,\mathrm{Nm} .
 \end{align*}
 
 \subsection{Eigenträgheitsmoment}
-\begin{figure}
-  \centering
-  \includegraphics{plot.pdf}
-  \caption{Plot.}
-  \label{fig:plot}
-\end{figure}
+% \begin{figure}
+%   \centering
+%   \includegraphics{plot.pdf}
+%   \caption{Plot.}
+%   \label{fig:plot}
+% \end{figure}
 
 \subsection{Trägheitsmoment des Zylinders}
 \subsubsection{Theoretische Werte}
 
 \subsubsection{Experimentelle Werte}
-Der Zylinder wird auf der Drillahse um den Winkel $\phi_{Zyl} = 90^{\circ}$ ausgelenkt und die Zeit
-nach fünf Schwingungen gestoppt. Die Schwingungsdauern $T_{Zyl}$ sind in \ref{tab:T_Zyl} zu finden.
+Der Zylinder wird auf der Drillachse um den Winkel $\phi_{Zyl} = 90^{\circ}$ ausgelenkt und die Zeit
+nach fünf Schwingungen gestoppt.
+Durch teilen der Zeitmessungen $Z_{Zyl}$ durch fünf ergeben sich die Schwingungsdauern $T_{Zyl}$. 
+Diese sind in Tabelle \ref{tab:T_Zyl} zu finden.
 \begin{table}
   \centering
   \caption{Messdaten der Schwingungsdauer des Zylinders}
   \label{tab:T_Zyl}
-  \begin{tabular}{c}
+  \begin{tabular}{c c}
     \toprule
-    $T_{Zyl}/s$ \\
+    $Z_{Zyl}$ & $T_{Zyl}/s$ \\
     \midrule
-    3.94 \\
-    3.75 \\
-    4.16 \\
-    5.78 \\
-    3.69 \\
-    3.97 \\
-    3.85 \\
-    3.84 \\
-    4.12 \\
-    3.88 \\
+    3.94 & 0.79 \\
+    3.75 & 0.75 \\
+    4.16 & 0.83 \\
+    5.78 & 1.16 \\
+    3.69 & 0.74 \\
+    3.97 & 0.79 \\
+    3.85 & 0.77 \\
+    3.84 & 0.77 \\
+    4.12 & 0.82 \\
+    3.88 & 0.78 \\
     \bottomrule
   \end{tabular}
 \end{table}
+\\
+Der Mittelwert und die Abweichung wurden wieder mit Python berechnet.
+Aus den Daten ergibt sich
+\begin{align*}
+  T_{Zyl} = (0{,}82 \pm 0{,}12)\, \mathrm{s} .
+\end{align*}
 
 \subsection{Trägheitsmoment der Kugel}
 \subsubsection{Theoretische Werte}
@@ -75,4 +83,4 @@ nach fünf Schwingungen gestoppt. Die Schwingungsdauern $T_{Zyl}$ sind in \ref{t
 \subsubsection{Experimentelle Werte}
 
 
-Siehe \autoref{fig:plot}!
+%Siehe \autoref{fig:plot}!

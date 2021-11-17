@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/vXXX"] 1637154701 "build/vXXX.bcf" "build/vXXX.bbl" "build/vXXX" 1637154717
+["biber build/vXXX"] 1637156372 "build/vXXX.bcf" "build/vXXX.bbl" "build/vXXX" 1637156525
   "../lit.bib" 1637069785 128 34b509bfeacae0da17ec5d58b8388389 ""
-  "build/vXXX.bcf" 1637154716 106994 0c2fdf32bbfb9ce9a77c67a84c613c44 "lualatex"
+  "build/vXXX.bcf" 1637156525 106994 0c2fdf32bbfb9ce9a77c67a84c613c44 "lualatex"
   (generated)
-  "build/vXXX.blg"
   "build/vXXX.bbl"
-["lualatex"] 1637154712 "vXXX.tex" "build/vXXX.pdf" "vXXX" 1637154717
+  "build/vXXX.blg"
+["lualatex"] 1637156521 "vXXX.tex" "build/vXXX.pdf" "vXXX" 1637156525
   "../header.tex" 1637136378 3567 794c196ea2045e300ade2e73e406ee39 ""
   "/home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -222,20 +222,19 @@
   "/home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc" 1637135977 1223446 b6baee7f599858174076be800212f4ec ""
   "/home/bastian/.local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1633276712 6672 fccc597d1763c57681f858a920ccf112 ""
   "/home/bastian/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1633276817 3360335 dac7123cd22e9b536ad0a5aea883c70c ""
-  "build/plot.pdf" 1637144496 10107 20134a9428ac212b98df19fcfb11ba9a ""
-  "build/vXXX.aux" 1637154716 9330 b2b196ad543a9bdd27be760b137ec1c9 "lualatex"
-  "build/vXXX.bbl" 1637154702 885 309e18d2dcfda2567e50d5cd4e4c7368 "biber build/vXXX"
-  "build/vXXX.run.xml" 1637154716 2396 13f55f0f4af380a580b3504a55d8b3b1 "lualatex"
-  "build/vXXX.toc" 1637154716 1757 161332e9cec409ef8c5e23ebd0b5aca7 "lualatex"
-  "content/auswertung.tex" 1637154694 1989 1891461abd7783ec11dbdf9746708b86 ""
+  "build/vXXX.aux" 1637156525 9085 1b28e3eee85bc1d4e67106a7e45641ff "lualatex"
+  "build/vXXX.bbl" 1637156373 885 309e18d2dcfda2567e50d5cd4e4c7368 "biber build/vXXX"
+  "build/vXXX.run.xml" 1637156525 2396 13f55f0f4af380a580b3504a55d8b3b1 "lualatex"
+  "build/vXXX.toc" 1637156525 1757 36b587ad612f7f1910f36934b7382ac8 "lualatex"
+  "content/auswertung.tex" 1637156514 2346 d13b837e7e7a7da32fed78d14dd7b9e7 ""
   "content/diskussion.tex" 1637069785 44 402cc6c9751419c0f1a455b2d4ed1f51 ""
   "content/durchfuehrung.tex" 1637069785 50 21282d8bb0cc9b2f3316d3739203a5a9 ""
   "content/theorie.tex" 1637069785 53 c390c8e878df566d7f19d269547c91b4 ""
   "vXXX.tex" 1637136515 386 cacb1548dc3a989fca01a5f15ebbeaec ""
   (generated)
+  "build/vXXX.aux"
+  "build/vXXX.bcf"
+  "build/vXXX.log"
   "build/vXXX.run.xml"
   "build/vXXX.toc"
-  "build/vXXX.log"
   "build/vXXX.pdf"
-  "build/vXXX.bcf"
-  "build/vXXX.aux"

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.3)  17 NOV 2021 14:11
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.3)  17 NOV 2021 14:42
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1357,36 +1357,30 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \openout4 = vXXX.toc
  [2
 
-] (./content/theorie.tex) (./content/durchfuehrung.tex) (./content/auswertung.tex
-<plot.pdf, id=50, 417.7206pt x 258.0049pt>
-File: plot.pdf Graphic file (type pdf)
-<use plot.pdf>
-Package luatex.def Info: plot.pdf  used on input line 39.
-(luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-) (./content/diskussion.tex [3] [4<build/plot.pdf>] [5]) [6] (./build/vXXX.aux)
+] (./content/theorie.tex) (./content/durchfuehrung.tex) (./content/auswertung.tex [3]) (./content/diskussion.tex) [4] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: B2B196AD543A9BDD27BE760B137EC1C9;9330.
+(rerunfilecheck)             Checksum: 1B28E3EEE85BC1D4E67106A7E45641FF;9085.
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: 161332E9CEC409EF8C5E23EBD0B5ACA7;1757.
+(rerunfilecheck)             Checksum: 36B587AD612F7F1910F36934B7382AC8;1757.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36682 strings out of 478112
+ 36662 strings out of 478112
  100000,1977958 words of node,token memory allocated
  647 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 78 glue_spec, 9 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1264,3:256,4:86,5:181,6:44,7:3194,8:35,9:394,10:6,11:191
- 55904 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:1170,3:221,4:86,5:202,6:41,7:3439,8:36,9:400,10:6,11:201
+ 55891 multiletter control sequences out of 65536+600000
  94 fonts using 34926111 bytes
  113i,11n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (6 pages, 50152 bytes).
+Output written on vXXX.pdf (4 pages, 40041 bytes).
 
-PDF statistics: 205 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 131072)
+PDF statistics: 162 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 131072)
  105 words of extra memory for PDF output out of 10000 (max. 100000000)
 
