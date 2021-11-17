@@ -1,20 +1,14 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0, 10, 1000)
-y = x ** np.sin(x)
+T, a = np.genfromtxt('Messdaten_I_d.txt', unpack=True)
 
-plt.subplot(1, 2, 1)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \mathbin{/} \unit{\ohm}$')
-plt.ylabel(r'$y \mathbin{/} \unit{\micro\joule}$')
-plt.legend(loc='best')
-
-plt.subplot(1, 2, 2)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \mathbin{/} \unit{\ohm}$')
-plt.ylabel(r'$y \mathbin{/} \unit{\micro\joule}$')
-plt.legend(loc='best')
+plt.plot(a**2, T**2, 'x')
+plt.xlabel(r'$a / \mathrm{m^2}$')
+plt.ylabel(r'$T / \mathrm{s^2}$')
+plt.xlim(0)
+plt.ylim(0)
+plt.grid()
 
 # in matplotlibrc leider (noch) nicht möglich
 plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
