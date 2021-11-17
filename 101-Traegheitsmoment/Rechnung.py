@@ -8,4 +8,5 @@ def D(F, phi, r):
     return (F*r)/(phi)
 
 D = D(F, phi, r)
-print('D: ', np.round(D, 6),' Mittelwert: ', np.mean(D),' , Abweichung: ', np.std(D))
+D_r = np.round(D, 6)
+print('D: ', np.round(D_r, 6),' Mittelwert: ', np.round(np.mean(D_r), 6),' , Abweichung: ', np.round(np.std(D_r), 6))
