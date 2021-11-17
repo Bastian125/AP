@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.3)  17 NOV 2021 11:06
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.3)  17 NOV 2021 11:16
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1365,39 +1365,39 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `tab:winkelrichtgr' on page 3 undefined on input line 8.
 
-<plot.pdf, id=38, 417.7206pt x 258.0049pt>
+<plot.pdf, id=50, 417.7206pt x 258.0049pt>
 File: plot.pdf Graphic file (type pdf)
 <use plot.pdf>
 Package luatex.def Info: plot.pdf  used on input line 39.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-) (./content/diskussion.tex [3]) [4<build/plot.pdf>] (./build/vXXX.aux)
+) (./content/diskussion.tex [3] [4<build/plot.pdf>]) [5] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: 27A2D6B3E4880C45338BE43F279C6BB6;5546.
+(rerunfilecheck)             Checksum: 5D4D5E26FAC6BC7C8AC6B61D6A18D404;9022.
 
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: 12387308E5FC9326537150E231169C53;969.
+(rerunfilecheck)             Checksum: C5F27BA1B120A5AB64A6EE6E8D138E0A;1757.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36653 strings out of 478112
+ 36679 strings out of 478112
  100000,1977958 words of node,token memory allocated
- 642 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 77 glue_spec, 9 attribute_list, 1 write nodes
-   avail lists: 1:2,2:850,3:171,4:66,5:136,6:30,7:2243,8:35,9:318,10:6,11:113
- 55884 multiletter control sequences out of 65536+600000
- 94 fonts using 34926399 bytes
+ 647 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 78 glue_spec, 9 attribute_list, 1 write nodes
+   avail lists: 1:2,2:1069,3:204,4:86,5:150,6:41,7:2449,8:35,9:329,10:6,11:140
+ 55903 multiletter control sequences out of 65536+600000
+ 94 fonts using 34926687 bytes
  113i,10n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (4 pages, 42469 bytes).
+Output written on vXXX.pdf (5 pages, 45109 bytes).
 
-PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 131072)
- 57 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 185 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 131072)
+ 105 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -9,10 +9,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Winkelrichtgröße}{3}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Eigenträgheitsmoment}{3}{section.4}%
+\contentsline {subsection}{\numberline {3.2}Eigenträgheitsmoment}{4}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{4}{section.5}%
+\contentsline {subsection}{\numberline {3.3}Trägheitsmoment des Zylinders}{4}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{4}{section*.5}%
+\contentsline {subsubsection}{\numberline {3.3.1}Theoretische Werte}{4}{subsubsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2}Experimentelle Werte}{4}{subsubsection.3.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Trägheitsmoment der Kugel}{4}{subsection.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.1}Theoretische Werte}{4}{subsubsection.3.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.2}Experimentelle Werte}{4}{subsubsection.3.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Diskussion}{5}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{5}{section*.5}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
