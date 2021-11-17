@@ -5,14 +5,14 @@ Die Winkelrichtgröße wird durch die Formel
 \begin{equation}
   D = \frac{F \cdot r}{\phi}
 \end{equation}
-bestimmt. Die verwendeten Werte sind in \ref{tab:winkelrichtgr} angegeben.
+bestimmt. Die verwendeten Werte sind in Tabelle \ref{tab:winkelrichtgr} angegeben.
 \begin{table}
   \centering
   \caption{Messdaten zur Bestimmung der Winkelrichtgröße D}
   \label{tab:winkelrichtgr}
   \begin{tabular}{c c c c}
     \toprule
-    $F/N$ & $\phi$ & $r/m$ & $D/Nm$ \\
+    $F/N$ & $\phi /^{\circ}$ & $r/m$ & $D/Nm$ \\
     \midrule
     0,1  &  30 & 0,1 & 0,000333\\
     0,26 &  60 & 0,1 & 0,000433\\
@@ -55,18 +55,18 @@ Diese sind in Tabelle \ref{tab:T_Zyl} zu finden.
   \label{tab:T_Zyl}
   \begin{tabular}{c c}
     \toprule
-    $Z_{Zyl}$ & $T_{Zyl}/s$ \\
+    $Z_{Zyl}/s$ & $T_{Zyl}/s$ \\
     \midrule
-    3.94 & 0.79 \\
-    3.75 & 0.75 \\
-    4.16 & 0.83 \\
-    5.78 & 1.16 \\
-    3.69 & 0.74 \\
-    3.97 & 0.79 \\
-    3.85 & 0.77 \\
-    3.84 & 0.77 \\
-    4.12 & 0.82 \\
-    3.88 & 0.78 \\
+    3,94 & 0,79 \\
+    3,75 & 0,75 \\
+    4,16 & 0,83 \\
+    5,78 & 1,16 \\
+    3,69 & 0,74 \\
+    3,97 & 0,79 \\
+    3,85 & 0,77 \\
+    3,84 & 0,77 \\
+    4,12 & 0,82 \\
+    3,88 & 0,78 \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -81,6 +81,36 @@ Aus den Daten ergibt sich
 \subsubsection{Theoretische Werte}
 
 \subsubsection{Experimentelle Werte}
+Die Kugel wird auf der Drillachse um $\phi = 90^{\circ}$ ausgelenkt und die Zeit nach drei
+Schwingungen gestoppt. Die Schwingungsdauern $T_{Kugel}$ erhält man durch teilen der Zeitmessungen
+$Z_{Kugel}$ durch drei. Die Zeitmessungen und berechneten Schwingungsdauern sind in
+Tabelle \ref{tab:T_Kugel} zu finden.
+\begin{table}
+  \centering
+  \caption{Messdaten der Schwingungsdauer der Kugel}
+  \label{tab:T_Kugel}
+  \begin{tabular}{c c}
+    \toprule
+    $Z_{Kugel}/s$ & $T_{Kugel}/s$ \\
+    \midrule
+    5,94 & 1,98 \\
+    5,71 & 1,90 \\
+    5,62 & 1,87 \\
+    5,47 & 1,82 \\
+    5,63 & 1,88 \\
+    5,47 & 1,82 \\
+    5,75 & 1,92 \\
+    5,47 & 1,82 \\
+    5,66 & 1,89 \\
+    5,57 & 1,86 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+\\
+Der Mittelwert und die Abweichug wurden mit Hilfe von Python bestimmt. Aus den Werten erhält man
+\begin{equation}
+  T_{Kugel} = (1{,}88 \pm 0{,}05)
+\end{equation}
 
 
 %Siehe \autoref{fig:plot}!
