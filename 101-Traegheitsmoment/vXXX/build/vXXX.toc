@@ -7,6 +7,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Auswertung}{3}{section.3}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Winkelrichtgröße}{3}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Diskussion}{3}{section.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\nonumberline Literatur}{3}{section*.4}%
