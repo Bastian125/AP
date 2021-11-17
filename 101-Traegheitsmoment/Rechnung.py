@@ -20,3 +20,8 @@ print('\n T_Zyl: ', T_Zyl, '\n Mittelwert: ', np.round(np.mean(T_Zyl), 2), '\n A
 Z_Kugel = np.genfromtxt('Messdaten_Kugel.txt', unpack=True)
 T_Kugel = np.round(Z_Kugel/3, 2)
 print('\n T_Kugel: ', T_Kugel, '\n Mittelwert: ', np.round(np.mean(T_Kugel), 2), '\n Abweichung: ', np.round(np.std(T_Kugel), 2))
+
+# T_Koerper1
+Z_K1 = np.genfromtxt('Messdaten_Koerper1.txt', unpack=True)
+T_K1 = np.round(Z_K1/3, 2)
+print('\n T_K1: ', T_K1, '\n Mittelwert: ', np.round(np.mean(T_K1), 2), '\n Abweichung: ', np.round(np.std(T_K1), 2))

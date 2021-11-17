@@ -14,16 +14,16 @@ bestimmt. Die verwendeten Werte sind in Tabelle \ref{tab:winkelrichtgr} angegebe
     \toprule
     $F/N$ & $\phi /^{\circ}$ & $r/m$ & $D/Nm$ \\
     \midrule
-    0,1  &  30 & 0,1 & 0,000333\\
-    0,26 &  60 & 0,1 & 0,000433\\
-    0,41 &  90 & 0,1 & 0,000456\\
-    0,56 & 120 & 0,1 & 0,000467\\
-    0,72 & 150 & 0,1 & 0,000480\\
-    0,85 & 180 & 0,1 & 0,000472\\
-    0,48 & 180 & 0,2 & 0,000533\\
-    0,55 & 240 & 0,2 & 0,000458\\
-    0,63 & 270 & 0,2 & 0,000467\\
-    0,69 & 300 & 0,2 & 0,000460\\
+    0,1  &  30 & 0,1 & 0,000333 \\
+    0,26 &  60 & 0,1 & 0,000433 \\
+    0,41 &  90 & 0,1 & 0,000456 \\
+    0,56 & 120 & 0,1 & 0,000467 \\
+    0,72 & 150 & 0,1 & 0,000480 \\
+    0,85 & 180 & 0,1 & 0,000472 \\
+    0,48 & 180 & 0,2 & 0,000533 \\
+    0,55 & 240 & 0,2 & 0,000458 \\
+    0,63 & 270 & 0,2 & 0,000467 \\
+    0,69 & 300 & 0,2 & 0,000460 \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -109,8 +109,46 @@ Tabelle \ref{tab:T_Kugel} zu finden.
 \\
 Der Mittelwert und die Abweichug wurden mit Hilfe von Python bestimmt. Aus den Werten erhält man
 \begin{equation}
-  T_{Kugel} = (1{,}88 \pm 0{,}05)
+  T_{Kugel} = (1{,}88 \pm 0{,}05)\, \mathrm{s} .
 \end{equation}
 
+\subsection{Trägheitsmoment der Puppe in Körperhaltung 1}
+\subsubsection{Theoretische Werte}
+
+\subsubsection{Experimentelle Werte}
+Die Puppe wird in der ersten Körperhaltung um $\phi = 90^{\circ}$ ausgelenkt und die Zeit $Z_{K1}$ nach drei
+Schwingungen gemessen. Die Schwingungsdauern $T_{K1}$ erhält man durch drei teilen. Die Zeitmessungen und
+Schwingunsdauern sind in Tabelle \ref{tab:Koerper1} angegeben.
+\begin{table}
+  \centering
+  \caption{Messdaten der Schwingunsdauer des Körpers in der ersten Position}
+  \label{tab:Koerper1}
+  \begin{tabular}{c c}
+    \toprule
+    $Z_{K1}/s$ & $T_{K1}/s$ \\
+    \midrule
+    2,75 & 0,92 \\
+    2,66 & 0,89 \\
+    2,66 & 0,89 \\
+    2,90 & 0,97 \\
+    3,16 & 1,05 \\
+    2,56 & 0,85 \\
+    2,47 & 0,82 \\
+    2,75 & 0,92 \\
+    2,53 & 0,84 \\
+    2,78 & 0,93 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+\\
+Mit Hilfe von Python lässt sich der Mittelwert und die Abweichung bestimmen. Aus den Messdaten
+erhält man
+\begin{align*}
+  T_{K1} = (0{,}91 \pm 0{,}06)\, \mathrm{s} .
+\end{align*}
+\subsection{Trägheitsmoment der Puppe in Körperhaltung 2}
+\subsubsection{Theoretische Werte}
+
+\subsubsection{Experimentelle Werte}
 
 %Siehe \autoref{fig:plot}!
