@@ -3,9 +3,9 @@ import numpy as np
 
 T, a = np.genfromtxt('Messdaten_I_d.txt', unpack=True)
 
-plt.plot(a**2, T**2, 'x')
-plt.xlabel(r'$a / \mathrm{m^2}$')
-plt.ylabel(r'$T / \mathrm{s^2}$')
+plt.plot(a**2, (T/3)**2, 'x')
+plt.xlabel(r'$a^2 / \mathrm{m^2}$')
+plt.ylabel(r'$T^2 / \mathrm{s^2}$')
 plt.xlim(0)
 plt.ylim(0)
 plt.grid()

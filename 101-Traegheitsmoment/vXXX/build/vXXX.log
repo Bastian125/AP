@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.3)  17 NOV 2021 11:16
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.3)  17 NOV 2021 11:21
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1389,15 +1389,15 @@ Here is how much of LuaTeX's memory you used:
  100000,1977958 words of node,token memory allocated
  647 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 78 glue_spec, 9 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1069,3:204,4:86,5:150,6:41,7:2449,8:35,9:329,10:6,11:140
+   avail lists: 1:2,2:1063,3:201,4:86,5:145,6:41,7:2419,8:35,9:326,10:6,11:134
  55903 multiletter control sequences out of 65536+600000
- 94 fonts using 34926687 bytes
+ 94 fonts using 34926399 bytes
  113i,10n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (5 pages, 45109 bytes).
+Output written on vXXX.pdf (5 pages, 46562 bytes).
 
-PDF statistics: 185 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
+PDF statistics: 192 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  25 named destinations out of 1000 (max. 131072)
  105 words of extra memory for PDF output out of 10000 (max. 100000000)
 
