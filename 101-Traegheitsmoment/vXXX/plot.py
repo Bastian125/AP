@@ -22,10 +22,8 @@ plt.plot(
     label='Lineare Regression',
     linewidth=2,
 )
-plt.xlabel(r'$a^2 / \mathrm{m^2}$')
-plt.ylabel(r'$T^2 / \mathrm{s^2}$')
-plt.xlim(0, 0.08)
-plt.ylim(0, 70)
+plt.xlabel(r'$\frac{a^2}{\mathrm{m^2}}$')
+plt.ylabel(r'$\frac{T^2}{\mathrm{s^2}}$')
 plt.grid()
 plt.legend()
 
