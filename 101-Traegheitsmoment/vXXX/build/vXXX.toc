@@ -11,11 +11,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Eigenträgheitsmoment}{3}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Trägheitsmoment des Zylinders}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Trägheitsmoment des Zylinders}{5}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1}Theoretische Werte}{3}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1}Theoretische Werte}{5}{subsubsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2}Experimentelle Werte}{3}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2}Experimentelle Werte}{5}{subsubsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Trägheitsmoment der Kugel}{5}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
@@ -23,17 +23,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2}Experimentelle Werte}{5}{subsubsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5}Trägheitsmoment der Puppe in Körperhaltung 1}{5}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.5}Trägheitsmoment der Puppe in Körperhaltung 1}{6}{subsection.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.1}Theoretische Werte}{5}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1}Theoretische Werte}{6}{subsubsection.3.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.2}Experimentelle Werte}{5}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2}Experimentelle Werte}{6}{subsubsection.3.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6}Trägheitsmoment der Puppe in Körperhaltung 2}{6}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.6}Trägheitsmoment der Puppe in Körperhaltung 2}{7}{subsection.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.6.1}Theoretische Werte}{6}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.1}Theoretische Werte}{7}{subsubsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.6.2}Experimentelle Werte}{6}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2}Experimentelle Werte}{7}{subsubsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Diskussion}{7}{section.4}%
 \defcounter {refsection}{0}\relax 
