@@ -9,7 +9,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Winkelrichtgröße}{3}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Eigenträgheitsmoment}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Eigenträgheitsmoment}{4}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Trägheitsmoment des Zylinders}{5}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
