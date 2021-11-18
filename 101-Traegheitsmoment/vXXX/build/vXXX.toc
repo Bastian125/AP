@@ -5,23 +5,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Durchführung}{3}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Auswertung}{3}{section.3}%
+\contentsline {section}{\numberline {3}Auswertung}{4}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Winkelrichtgröße}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Winkelrichtgröße}{4}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Eigenträgheitsmoment}{4}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Trägheitsmoment des Zylinders}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Trägheitsmoment des Zylinders}{4}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1}Theoretische Werte}{5}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1}Theoretische Werte}{4}{subsubsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2}Experimentelle Werte}{5}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2}Experimentelle Werte}{6}{subsubsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Trägheitsmoment der Kugel}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Trägheitsmoment der Kugel}{6}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.1}Theoretische Werte}{5}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1}Theoretische Werte}{6}{subsubsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2}Experimentelle Werte}{5}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2}Experimentelle Werte}{6}{subsubsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5}Trägheitsmoment der Puppe in Körperhaltung 1}{6}{subsection.3.5}%
 \defcounter {refsection}{0}\relax 
@@ -35,8 +35,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.6.2}Experimentelle Werte}{7}{subsubsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Diskussion}{7}{section.4}%
+\contentsline {section}{\numberline {4}Diskussion}{8}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{7}{section*.9}%
+\contentsline {section}{\nonumberline Literatur}{8}{section*.9}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
