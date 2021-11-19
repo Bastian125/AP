@@ -1,5 +1,47 @@
 \section{Theorie}
 \label{sec:Theorie}
+\subsection{Das Trägheitsmoment und Drehmoment}
+\subsubsection{Das Trägheitsmoment}
+Bei einer geradlinigen Bewegung wird eine Änderung der Bahn durch die Kraft $\vec{F} = m \cdot \vec{a}$ bewirkt.
+Diese Kraft hängt von der Masse $m$ ab. Diese Masse ist die Trägheit eines starren Körpers gegenüber der Änderung
+der Geschwindigkeit. 
+\\
+Analog dazu gibt es bei der Rotation das Drehmoment und das Trägheitsmoment. Das Trägheitsmoment gibt also (wie die 
+Masse bei der geradlinigen Bewegung) an, wie träge ein Körper gegenüber einer Änderung der Winkelgeschwindigkeit ist.
+Im Folgenden werden wir das Formelzeichen $I$ für das Trägheitsmoment verwenden.
+\\
+Allgemein wird das Gesamtträgheitsmoment eines ausgedehnten Körpers folgendermaßen bestimmt:
+\begin{align}
+    I = \sum_{i}^{n} r_i^2 \cdot m_i
+\end{align}
+$r_i$ ist hierbei der Abstand der Massenelemente $m_i$ von der Drehachse.
+Für infinitisimale Massen integrieren wir:
+\begin{align}
+    I = \int_{}^{}r^2 \mathrm{d}m
+\end{align}
+Aus den Formeln folgt bereits, dass das Trägheitsmoment $I$ im Gegensatz zu der Masse $m$ nicht in $\mathrm{kg}$ angegeben wird,
+sondern in $\mathrm{kg} \cdot \mathrm{m}^2$.
+\\ \\
+Das Trägheitsmoment wird immer bezüglich einer Drehachse angegeben. Falls diese Achse nicht durch den Schwerpunkt des Körpers
+verläuft, sondern parallel mit einem Abstand $a$, so kann man mithilfe des Steinerschen Satzes das Trägheitsmoment bezüglich
+der verschobenen Achse berechnen:
+\begin{equation}
+    I = I_S + m \cdot a^2
+\end{equation}
+$I_S$ ist das Trägheitsmoment durch den Schwerpunkt des Körpers, $m$ die Masse des Körpers und $a$, wie oben erwähnt, ist der 
+Abstand der beiden Achsen.
+\subsubsection{Das Drehmoment}
+Das Drehmoment ist das Analogon zu der Kraft bei einer geradlinigen Bewegung und wird so bestimmt:
+\begin{align}
+    \vec{M} = \vec{F} \times \vec{r} \:\: \mathrm{bzw.} \:\: M = F \cdot r \cdot sin(\phi)
+\end{align}
+Wenn der Körper durch das Drehmoment aus seiner Ruhelage ausgelenkt wird, führt das bei schwingungsfähigen Systemen dazu,
+dass ein rücktreibendes Drehmoment (z.B. durch eine Feder) bewirkt wird und der Körper anfängt harmonisch zu schwingen. Die Schwingungdsdauer
+ist gegeben durch:
+\begin{align}
+    T = 2\pi \sqrt{\frac{I}{D}}
+\end{align}
+Dabei ist $D$ die Winkelrichtgröße und $I$ das Gesamtträgheitsmoment. Mit der Winkelrichtgröße lässt sich auch das Drehmoment beschreiben: $M = D \cdot \phi$.
 
 \cite{sample}
 \newpage
