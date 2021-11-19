@@ -11,6 +11,7 @@ D = D(F, phi, r)
 D_r = np.round(D, 6)
 print('D: ', np.round(D_r, 6),'\n Mittelwert: ', np.round(np.mean(D_r), 6),'\n Abweichung: ', np.round(np.std(D_r), 6))
 
+# Schwingungsdauern
 # T_Zyl durch mitteln bestimmen
 Z_Zyl = np.genfromtxt('Messdaten_Zylinder.txt', unpack=True)
 T_Zyl = np.round(Z_Zyl/5, 2)
@@ -30,3 +31,8 @@ print('\n T_K1: ', T_K1, '\n Mittelwert: ', np.round(np.mean(T_K1), 2), '\n Abwe
 Z_K2 = np.genfromtxt('Messdaten_Koerper2.txt', unpack=True)
 T_K2 = np.round(Z_K2/3, 2)
 print('\n T_K2: ', T_K2, '\n Mittelwert: ', np.round(np.mean(T_K2), 2), '\n Abweichung: ', np.round(np.std(T_K2), 2))
+
+# Maße des Koerpers
+r_K = np.genfromtxt('r_kopf.txt', unpack=True)
+r_k = np.round(r_K, 4)
+print('\n r_k: ', r_k, '\n Mittelwert: ', np.round(np.mean(r_k), 4), '\n Abweichung: ', np.round(np.std(r_k), 4))
