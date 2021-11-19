@@ -127,8 +127,38 @@ Der Mittelwert und die Abweichug wurden mit Hilfe von Python bestimmt. Aus den W
 \subsection{Maße des Körpers}
 \label{sec:maskoerper}
 Der Körper wird durch sechs Zylinder angenähert. Er besteht aus einem Oberkörper, einem Kopf und jeweils zwei Armen und Beinen.
-Die Abmessungen lassen sich in Tabelle finden.
-
+Die Abmessungen lassen sich in Tabelle \ref{tab:r_Koerper} finden.
+\begin{table}
+  \centering
+  \caption{Maße des Körpers}
+  \label{tab:r_Koerper}
+  \begin{tabular}{c c c c}
+    \toprule
+    $r_{Ober\ddot{o}rper}/m$ & $r_{Beine}/m$ & $r_{Arme}/m$ & $r_{Kopf}/m$ \\
+    \midrule
+    0,0203 &  0,0091 &  0,0063 & 0,0109 \\
+    0,0160 &  0,0084 &  0,0071 & 0,0145 \\
+    0,0199 &  0,0084 &  0,0066 & 0,0117 \\
+    0,0104 &  0,0065 &  0,0073 & 0,0110 \\
+    0,0194 &         &         &        \\
+    0,0167 &         &         &        \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+Die Standardabweichung und die Mittelwerte wurden mit Python berechnet.
+\begin{align*}
+  r_{Ober\ddot{o}rper}       = (0{,}0171 \pm 0{,}0034)\, \mathrm{m} \\
+  r_{Beine}      = (0{,}0081 \pm 0{,}0010)\, \mathrm{m} \\
+  r_{Arme}       = (0{,}0068 \pm 0{,}0004)\, \mathrm{m} \\
+  r_{Kopf}       = (0{,}0120 \pm 0{,}0015)\, \mathrm{m} \\
+\end{align*}
+Die gemessen Höhen der Zylinder sind als
+\begin{align*}
+  h_{Ober\ddot{o}rper}       = 0{,}0991 \, \mathrm{m} \\
+  h_{Beine}      = 0{,}1502 \, \mathrm{m} \\
+  h_{Arme}       = 0{,}1129 \, \mathrm{m} \\
+  h_{Kopf}       = 0{,}0519 \, \mathrm{m} \\
+\end{align*}
 
 
 \subsection{Trägheitsmoment der Puppe in Körperhaltung 1}
