@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.3)  18 NOV 2021 15:31
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.9.17)  19 NOV 2021 14:17
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -672,7 +672,7 @@ LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `normal'
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `bold'
 (Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/b/n on input line 54.
  (/home/bastian/.local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2021-09-29 v3.0.32 A comprehensive (SI) units package
+Package: siunitx 2021-09-14 v3.0.30 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen162
 \l__siunitx_angle_marker_box=\box56
 \l__siunitx_angle_unit_box=\box57
@@ -1357,36 +1357,41 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \openout4 = vXXX.toc
  [2
 
-] (./content/theorie.tex [3]) (./content/durchfuehrung.tex [4]) (./content/auswertung.tex
-<plot.pdf, id=74, 417.7206pt x 258.0049pt>
+] (./content/theorie.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--28
+
+ []
+
+[3] [4]) (./content/durchfuehrung.tex [5]) (./content/auswertung.tex
+<plot.pdf, id=89, 417.7206pt x 258.0049pt>
 File: plot.pdf Graphic file (type pdf)
 <use plot.pdf>
 Package luatex.def Info: plot.pdf  used on input line 42.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
- [5] [6<build/plot.pdf>] [7]) (./content/diskussion.tex [8]) [9] (./build/vXXX.aux)
+ [6] [7<build/plot.pdf>] [8]) (./content/diskussion.tex [9]) [10] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: B00DF7E134448B286F35FE06EFF0EA9E;14832.
+(rerunfilecheck)             Checksum: 1F36FACD367689ECB5638BD8A4EC6112;16548.
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: B2C028DCDB2FCA1E51B059B623C30BF4;2571.
+(rerunfilecheck)             Checksum: AB2C7C8828AA2A19BA0BD80FE408DA2D;2965.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36706 strings out of 478112
+ 36718 strings out of 478112
  100000,1977958 words of node,token memory allocated
- 659 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 19 attribute, 78 glue_spec, 11 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1325,3:273,4:110,5:253,6:59,7:3858,8:44,9:508,10:9,11:308
- 55915 multiletter control sequences out of 65536+600000
+ 671 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 23 attribute, 78 glue_spec, 13 attribute_list, 1 write nodes
+   avail lists: 1:2,2:1325,3:311,4:122,5:371,6:68,7:4467,8:49,9:508,10:9,11:424
+ 55918 multiletter control sequences out of 65536+600000
  94 fonts using 34926543 bytes
  113i,11n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (9 pages, 64812 bytes).
+Output written on vXXX.pdf (10 pages, 70486 bytes).
 
-PDF statistics: 265 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 131072)
- 153 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 289 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 131072)
+ 177 words of extra memory for PDF output out of 10000 (max. 100000000)
 

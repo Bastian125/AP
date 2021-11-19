@@ -1,4 +1,4 @@
-PWD /mnt/c/Users/49157/Desktop/AP_Praktikum/AP-Praktikum/101-Traegheitsmoment/vXXX
+PWD /mnt/c/Users/HP1/Desktop/AP-Praktikum/AP-Praktikum/101-Traegheitsmoment/vXXX
 INPUT /home/bastian/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./vXXX.tex
 OUTPUT build/vXXX.log
@@ -457,12 +457,12 @@ INPUT build/vXXX.toc
 OUTPUT build/vXXX.toc
 INPUT ./content/theorie.tex
 INPUT ./content/theorie.tex
-INPUT ./content/durchfuehrung.tex
-INPUT ./content/durchfuehrung.tex
-INPUT ./content/auswertung.tex
-INPUT ./content/auswertung.tex
 INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
+INPUT ./content/durchfuehrung.tex
+INPUT ./content/durchfuehrung.tex
+INPUT ./content/auswertung.tex
+INPUT ./content/auswertung.tex
 INPUT build/plot.pdf
 INPUT build/plot.pdf
 INPUT build/plot.pdf
