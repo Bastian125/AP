@@ -15,11 +15,13 @@ Im Folgenden werden wir das Formelzeichen $I$ für das Trägheitsmoment, und $M$
 
 Allgemein wird das Gesamtträgheitsmoment eines ausgedehnten Körpers folgendermaßen bestimmt:
 \begin{align}
+    \label{eqn:Idiskret}
     I = \sum_{i}^{n} r_i^2 \cdot m_i
 \end{align}
 $r_i$ ist hierbei der Abstand der Massenelemente $m_i$ von der Drehachse.
 Für infinitisimale Massen integrieren wir:
 \begin{align}
+    \label{eqn:I}
     I = \int_{}^{}r^2 \mathrm{d}m
 \end{align}
 Aus den Formeln folgt bereits, dass das Trägheitsmoment $I$ im Gegensatz zu der Masse $m$ nicht in $\mathrm{kg}$ angegeben wird,
@@ -29,6 +31,7 @@ Das Trägheitsmoment wird immer bezüglich einer Drehachse angegeben. Falls dies
 verläuft, sondern parallel mit einem Abstand $a$, so kann man mithilfe des Steinerschen Satzes das Trägheitsmoment bezüglich
 der verschobenen Achse berechnen:
 \begin{equation}
+    \label{eqn:Steiner}
     I = I_S + m \cdot a^2
 \end{equation}
 $I_S$ ist das Trägheitsmoment durch den Schwerpunkt des Körpers, $m$ die Masse des Körpers und $a$, wie oben erwähnt, ist der 
@@ -38,12 +41,14 @@ Abstand der beiden Achsen.
 
 Das Drehmoment ist das Analogon zu der Kraft bei einer geradlinigen Bewegung und wird so bestimmt:
 \begin{align}
+    \label{eqn:Drehmoment}
     \vec{M} = \vec{F} \times \vec{r} \:\: \mathrm{bzw.} \:\: M = F \cdot r \cdot sin(\varphi)
 \end{align}
 Wenn der Körper durch das Drehmoment aus seiner Ruhelage ausgelenkt wird, führt das bei schwingungsfähigen Systemen dazu,
 dass ein rücktreibendes Drehmoment (z.B. durch eine Feder) bewirkt wird und der Körper anfängt harmonisch zu schwingen. Die Schwingungdsdauer
 ist gegeben durch:
 \begin{align}
+    \label{eqn:Schwingungsdauer}
     T = 2\pi \sqrt{\frac{I}{D}}
 \end{align}
 Dabei ist $D$ die Winkelrichtgröße und $I$ das Gesamtträgheitsmoment. Mit der Winkelrichtgröße lässt sich auch das Drehmoment beschreiben: $M = D \cdot \varphi$.
@@ -51,20 +56,21 @@ Dabei ist $D$ die Winkelrichtgröße und $I$ das Gesamtträgheitsmoment. Mit der
 
 \subsection{Weitere nützliche Formeln}
 
-Die Formel (5) ist Teil der Lösung der DGL 2ter Ordnung (von der Bewegungsgleichung eines harmonischen Oszillators) und gilt nur für kleine
+Formel \ref{eqn:Schwingungsdauer} ist Teil der Lösung der DGL 2-ter Ordnung (von der Bewegungsgleichung eines harmonischen Oszillators) und gilt nur für kleine
  Winkel, da zur Lösung die Kleinwinkelnäherung verwendet wurde.
 Die Formel lässt sich zudem umstellen zum Trägheitsmoment:
-\begin{equation}
-    \Leftrightarrow T^2 = 4\pi^2 \cdot \frac{I}{D} 
-\end{equation}
 \begin{align*}
-    \Leftrightarrow I = \frac{T^2 \cdot D}{4\pi^2}
+    \Leftrightarrow T^2 = 4\pi^2 \cdot \frac{I}{D} 
 \end{align*}
+\begin{align}
+    \label{eqn:I(T)}
+    \Leftrightarrow I = \frac{T^2 \cdot D}{4\pi^2}
+\end{align}
 
 \subsubsection{Trägheitsmoment Zylinder}
 
 Das Trägheitsmoment eines Zylinders mit Radius $r$, Höhe $h$ und dessen Drehachse durch den Schwerpunkt und senkrecht zur Bodenfläche steht (stehend),
- lässt sich folgendermaßen mithilfe Formel (2) berechnen:
+ lässt sich folgendermaßen mithilfe Formel \ref{eqn:I} berechnen:
 \begin{align*}
     I_{Z,z} = \int_{}^{}r^2 \mathrm{d}m = \iiint_{V}^{}r_\bot^2 \rho(r) \mathrm{d}V = \frac{M}{V} \int_{\frac{-h}{2}}^{\frac{h}{2}} \int_{0}^{R} \int_{0}^{2\pi}r^3 \mathrm{d}\varphi \mathrm{d}r \mathrm{d}z
 \end{align*}
@@ -89,7 +95,7 @@ Zunächst benutzen wir die Relationen $I_{Z,x} = I_{Z,y}$ und $I_{Z,x} = \frac{1
  
 \subsubsection{Trägheitsmoment Kugel}
 
-Das Trägheitsmoment einer Kugel mit Radius $R$ und Höhe $h$ lässt sich wie folgt mit Formel (2) berechnen:
+Das Trägheitsmoment einer Kugel mit Radius $R$ und Höhe $h$ lässt sich wie folgt mit Formel \ref{eqn:I} berechnen:
 \begin{align*}
     I_{K,x=y=z} = \int_{}^{}r^2 \mathrm{d}m \underset{I_{K,z}}{=} \iiint_{V}^{} (x^2 + y^2) \rho(r) \mathrm{d}V    
 \end{align*}
@@ -102,7 +108,7 @@ Das Trägheitsmoment einer Kugel mit Radius $R$ und Höhe $h$ lässt sich wie fo
 
 \subsubsection{Trägheitsmoment langer Stab}
 
-Das Trägheitsmoment eines Stabes der Masse $M$ und der Länge $a$ lässt sich wie folgt mit Formel (2) berechnen:
+Das Trägheitsmoment eines Stabes der Masse $M$ und der Länge $a$ lässt sich wie folgt mit Formel \ref{eqn:I} berechnen:
 
 \begin{align*}
     I_{St,z} = \int_{}^{}x^2 \mathrm{d}m = \int_{\frac{-a}{2}}^{\frac{a}{2}} x^2 \rho(x) \mathrm{d}x = \frac{M}{a} \cdot \frac{1}{3} \left( \left(\frac{a}{2} \right)^3 - \left(\frac{-a}{2} \right)^3 \right)
