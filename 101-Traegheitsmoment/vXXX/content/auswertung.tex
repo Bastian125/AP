@@ -88,7 +88,7 @@ ist. Es wird nun $T^2$ gegen $a^2$ aufgetragen (Abbildung \ref{fig:plot}) und pe
  \begin{figure}
    \centering
    \includegraphics{plot.pdf}
-   \caption{Plot.}
+   \caption{Messung des Eigenträgheitsmoments}
    \label{fig:plot}
  \end{figure}
 \\
@@ -272,6 +272,15 @@ Mit Hilfe von Formel \ref{eqn:I(T)} lässt sich das Trägheitsmoment bestimmen a
 \begin{align*}
   I_{K1} = 9{,}57 \cdot 10^{-6}\, \mathrm{mkg^2}.
 \end{align*}
+Gaußsche-Fehlerforpflanzung ergibt in Formel \ref{eqn:I(T)}
+\begin{align}
+  \label{eqn:K_Gauss}
+  \Delta I_{K} = \sqrt{\left(\frac{TD}{4\pi^2}\right)^2 \Delta T^2}.
+\end{align}
+Damit erhält man insgesamt
+\begin{align*}
+  I_{K1} = (9{,}57 \pm 0{,}63) \cdot 10^{-6}\, \mathrm{mkg^2}.
+\end{align*}
 
 \subsection{Trägheitsmoment der Puppe in Körperhaltung 2}
 \label{TraegheitsmomentderPuppeinKoerperhaltung2}
@@ -280,7 +289,7 @@ Mit Hilfe von Formel \ref{eqn:I(T)} lässt sich das Trägheitsmoment bestimmen a
 \subsubsection{Experimentelle Werte}
 Die Puppe wurde in der zweiten Körperhaltung um $\phi = 90^{\circ}$ ausgelenkt und die Zeit $Z_{K2}$
 wurde nach drei Schwingungen gestoppt. Die Schwingungsdauer $T_{K2}$ wird durch teilen von $Z_{K2}$
-durch drei berechnet. Die Zeitmessungen und Schwingungdsdauern sind in Tabelle\ref{tab:Koerper2} zu finden.
+durch drei berechnet. Die Zeitmessungen und Schwingungdsdauern sind in Tabelle \ref{tab:Koerper2} zu finden.
 \begin{table}
   \centering
   \caption{Messdaten der Schwingugnsdauer des Körpers in der zweiten Position}
@@ -307,7 +316,7 @@ Sowohl der Mittelwert, als auch die Standarabweichung wurde mit Python bestimmt.
 \begin{align*}
   T_{K2} = (0{,}59 \pm 0{,}03)\, \mathrm{s} .
 \end{align*}
-Mit Hilfe von Formel \ref{eqn:I(T)} lässt sich das Trägheitsmoment bestimmen als
+Mit Hilfe von Formel \ref{eqn:I(T)} und Formel \ref{eqn:K_Gauss} lässt sich das Trägheitsmoment bestimmen als
 \begin{align*}
-  I_{K2} = 4{,}02 \cdot 10^{-6}\, \mathrm{mkg^2}.
+  I_{K2} = (4{,}02 \pm 0{,}20) \cdot 10^{-6}\, \mathrm{mkg^2}.
 \end{align*}
