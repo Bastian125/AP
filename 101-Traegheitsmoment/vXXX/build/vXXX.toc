@@ -53,6 +53,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Diskussion}{13}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{13}{section*.11}%
-\defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

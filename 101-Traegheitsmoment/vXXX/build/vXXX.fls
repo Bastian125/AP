@@ -484,7 +484,6 @@ INPUT build/plot.pdf
 INPUT build/plot.pdf
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
-INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
 INPUT build/vXXX.aux
 INPUT build/vXXX.aux
 INPUT build/vXXX.toc

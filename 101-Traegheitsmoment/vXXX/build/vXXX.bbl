@@ -16,20 +16,5 @@
   {}
 \endgroup
 
-
-\refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{sample}{manual}{}
-      \list{organization}{1}{%
-        {TU Dortmund, Fakultät Physik}%
-      }
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{labeltitlesource}{title}
-      \field{title}{Versuch zum Literaturverzeichnis}
-      \field{year}{2014}
-    \endentry
-  \enddatalist
-\endrefsection
 \endinput
 
