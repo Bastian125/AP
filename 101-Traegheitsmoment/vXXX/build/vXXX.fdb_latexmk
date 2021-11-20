@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber build/vXXX"] 1637409981 "build/vXXX.bcf" "build/vXXX.bbl" "build/vXXX" 1637409995
-  "build/vXXX.bcf" 1637409994 106946 3fcb1715288976b8cd732cfc31187482 "lualatex"
+["biber build/vXXX"] 1637409981 "build/vXXX.bcf" "build/vXXX.bbl" "build/vXXX" 1637412292
+  "build/vXXX.bcf" 1637412292 106946 3fcb1715288976b8cd732cfc31187482 "lualatex"
   (generated)
   "build/vXXX.blg"
   "build/vXXX.bbl"
-["lualatex"] 1637409989 "vXXX.tex" "build/vXXX.pdf" "vXXX" 1637409995
+["lualatex"] 1637412286 "vXXX.tex" "build/vXXX.pdf" "vXXX" 1637412292
   "../header.tex" 1637177430 3567 794c196ea2045e300ade2e73e406ee39 ""
   "/home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -222,19 +222,19 @@
   "/home/bastian/.local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1631186307 6672 4504b277412cc39a56b75a65c1a67d0b ""
   "/home/bastian/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1631881451 3360341 de74068062750a9a35dc5f993fa53a73 ""
   "build/plot.pdf" 1637390989 12696 3172abc7def16c2d300feb04d8a0b023 ""
-  "build/vXXX.aux" 1637409994 20309 e61970810c968382d0911af5d70e39d5 "lualatex"
+  "build/vXXX.aux" 1637412292 20379 06b3f2c040a55873c755620762af3666 "lualatex"
   "build/vXXX.bbl" 1637409983 466 f7f239c736cf01ac6ce7bd829f9b3c7b "biber build/vXXX"
-  "build/vXXX.run.xml" 1637409994 2396 13f55f0f4af380a580b3504a55d8b3b1 "lualatex"
-  "build/vXXX.toc" 1637409994 3528 47e5d4144f945f5164a0bde988dcafb0 "lualatex"
-  "content/auswertung.tex" 1637409925 10815 caddc232246f6014deb6057b27f394ae ""
+  "build/vXXX.run.xml" 1637412292 2396 13f55f0f4af380a580b3504a55d8b3b1 "lualatex"
+  "build/vXXX.toc" 1637412292 3528 47e5d4144f945f5164a0bde988dcafb0 "lualatex"
+  "content/auswertung.tex" 1637412285 11233 179f266815f359304952dfd53d057c83 ""
   "content/diskussion.tex" 1637177430 44 402cc6c9751419c0f1a455b2d4ed1f51 ""
   "content/durchfuehrung.tex" 1637271934 1239 ec6d9a757614c020320fc6219408707f ""
-  "content/theorie.tex" 1637409953 6256 db7f8c4200f900c0efb85dfd1776c201 ""
+  "content/theorie.tex" 1637411108 6295 8ea85bb679888db5d95cd271f3bf2ebb ""
   "vXXX.tex" 1637177430 386 cacb1548dc3a989fca01a5f15ebbeaec ""
   (generated)
   "build/vXXX.toc"
   "build/vXXX.log"
   "build/vXXX.bcf"
   "build/vXXX.pdf"
-  "build/vXXX.aux"
   "build/vXXX.run.xml"
+  "build/vXXX.aux"

@@ -84,7 +84,7 @@ Formel \ref{eqn:linreg} besitzt die Form $y = mx + b$. Wobei
 \begin{equation*}
   y = T^2,\, m = \frac{8\pi^2 \cdot m_G}{D},\, x = a^2 \, \mathrm{und}\, b = \frac{4\pi^2 \cdot I_D}{D}  + \frac{8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{D}
 \end{equation*}
-ist. Es wird nun $T^2$ gegen $a^2$ aufgetragen und per Regression $m$ und $b$ bestimmt. 
+ist. Es wird nun $T^2$ gegen $a^2$ aufgetragen (Abbildung \ref{fig:plot}) und per linearer Regression $m$ und $b$ bestimmt.
  \begin{figure}
    \centering
    \includegraphics{plot.pdf}
@@ -114,10 +114,10 @@ Dies wird nun nach $I_D$ umgestellt:
 Der Zylinder hat einen Radius von $r_{Zyl} = 0{,}0494 \, \mathrm{m}$ und eine Höhe von $h_{Zyl} = 0{,}10 \, \mathrm{m}$
 und eine Masse von $m_{Zyl} = 0{,}3678 \, \mathrm{kg}$.
 Die Messunsicherheiten der Waage beträgt $\Delta m = 0,0001\, \mathrm{kg}$ und die des Nonius' $\Delta r = 0,0001\, \mathrm{m}$.\\
-Das Volumen wird bestimmt durch
+Das Trägheitsmoment wird durch Formel \ref{eqn:Izz} bestimmt und der Fehler wird mit Gaußscher-Fehlerfortpflanzung bestimmt.
+Daraus ergibt sich
 \begin{align}
-  \label{eqn:volZyl}
-  V_{Zyl} = \pi r^2 h.
+  I_{Th, Zyl} = 4{,}5 \cdot 10^{-4} \, \mathrm{kg}\cdot\mathrm{m^2}
 \end{align}
 
 
@@ -157,8 +157,12 @@ Aus den Daten ergibt sich
 \subsection{Trägheitsmoment der Kugel}
 \label{sec:TraegheitsmomentderKugel}
 \subsubsection{Theoretische Werte}
-Die Kugel hat einen Radius von $r_{Kugel} = 0{,}7263\,\mathrm{m} $ und eine Masse $m_{Kugel} = 1{,}1727 \,\mathrm{kg} $.
+Die Kugel hat einen Radius von $r_{Kugel} = 0{,}0726\,\mathrm{m} $ und eine Masse $m_{Kugel} = 1{,}1727 \,\mathrm{kg} $.
 Die Messunsicherheiten der Waage beträgt $\Delta m = 0,0001\, \mathrm{kg}$ und die des Nonius' $\Delta r = 0,0001\, \mathrm{m}$.
+Aus Formel \ref{eqn:Ik} und der Gaußschen-Fehlerfortpflanzung ergibt sich
+\begin{align*}
+  I_{Th, K} = 24{,}7 \cdot 10^{-4} \, \mathrm{kg}\cdot\mathrm{m^2}.
+\end{align*}
 
 \subsubsection{Experimentelle Werte}
 Die Kugel wird auf der Drillachse um $\phi = 90^{\circ}$ ausgelenkt und die Zeit nach drei
@@ -195,7 +199,7 @@ Der Mittelwert und die Abweichug wurden mit Hilfe von Python bestimmt. Aus den W
 \subsection{Maße des Körpers}
 \label{sec:maskoerper}
 Der Körper wird durch sechs Zylinder angenähert. Er besteht aus einem Oberkörper, einem Kopf und jeweils zwei Armen und Beinen.
-Die Abmessungen lassen sich in Tabelle \ref{tab:r_Koerper} finden.
+Die Abmessungen lassen sich in Tabelle \ref{tab:r_Koerper} finden. Außerdem hat der Körper eine Masse von $m_{Puppe} = 0{,}1683\,\mathrm{kg}$
 \begin{table}
   \centering
   \caption{Maße des Körpers}
@@ -275,7 +279,7 @@ wurde nach drei Schwingungen gestoppt. Die Schwingungsdauer $T_{K2}$ wird durch 
 durch drei berechnet. Die Zeitmessungen und Schwingungdsdauern sind in Tabelle\ref{tab:Koerper2} zu finden.
 \begin{table}
   \centering
-  \caption{Messdaten der Schwingunsdauer des Körpers in der zweiten Position}
+  \caption{Messdaten der Schwingugnsdauer des Körpers in der zweiten Position}
   \label{tab:Koerper2}
   \begin{tabular}{c c}
     \toprule
