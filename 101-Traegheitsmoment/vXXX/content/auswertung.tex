@@ -36,6 +36,53 @@ gemittelte Wert
 \end{align*}
 
 \subsection{Eigenträgheitsmoment}
+Um das Eigenträgheitsmoment der Konstruktion zu bestimmen, messen wir die Schwingunngsdauern unter verschiedenen Abstände $a$ zur Drehachse
+der beiden identischen Masse $m_G$ unter dem selben Auslenkungswinkel $\varphi$.
+Die beiden Gewichte besitzen die Masse $m_G = 0,2611 \mathrm{kg}$, die Höhe $h = 0,0203 \mathrm{m}$ und den Radius $r = 0,0225 \mathrm{m}$, mit
+den Messunsicherheiten $\Delta m = 0,0001 \mathrm{kg}$ und $\Delta r\mathrm{(bzw. h)} = 0,0001 \mathrm{m}$.
+
+\begin{table}
+  \centering
+  \caption{Messdaten zur Bestimmung des Eigenträgheitsmoment $I_D$}
+  \label{tab:eigentrmom}
+  \begin{tabular}{c c c c}
+    \toprule
+    $a/m$ & $T/s^{-1}$ & $a^2/m^2$ & $T^2/s^{-2}$ \\
+    \midrule
+    0,050 & 2,92 & 0,003 & 8,53 \\
+    0,075 & 3,19 & 0,006 & 10,18 \\
+    0,100 & 3,92 & 0,010 & 15,37 \\
+    0,125 & 4,32 & 0,016 & 18,66 \\
+    0,150 & 4,88 & 0,023 & 23,81 \\
+    0,175 & 5,58 & 0,031 & 31,14 \\
+    0,200 & 5,86 & 0,040 & 34,34 \\
+    0,225 & 6,65 & 0,051 & 44,22 \\
+    0,250 & 7,14 & 0,063 & 50,98 \\
+    0,275 & 7,74 & 0,076 & 59,91 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Um nun das Eigenträgheitsmoment zu errechnen wird die Tatsache verwendet, dass das Trägheitsmoment der Gewichte bestimmt und
+das Gesamtträgheitsmoment ($I_G$ und $I_D$) gemessen werden kann. Es gilt $I_{Ges} = I_D + I_G$. Mithilfe von Formel (1) und (8) ergibt sich Folgendes:
+\begin{equation}
+    I_{Ges} = I_D + 2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right) + 2 \cdot m_G \cdot a^2
+\end{equation}
+
+Die Formel (12) wird nun in Formel (6) eingesetzt:
+
+\begin{align*}
+  T^2 = 4\pi^2 \cdot \frac{I_D + 2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right) + 2 \cdot m_G \cdot a^2}{D}
+\end{align*}
+\begin{equation}
+  \Leftrightarrow T^2 = \frac{8\pi^2 \cdot m_G}{D}\cdot a^2 + \frac{4\pi^2 \cdot I_D}{D}  + \frac{8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{D}
+\end{equation}
+Formel (13) besitzt die Form $y = mx + b$. Wobei 
+\begin{align*}
+  y = T^2,\, m = \frac{8\pi^2 \cdot m_G}{D},\, x = a^2 \,\mathrm{und}\, b = \frac{4\pi^2 \cdot I_D}{D}  + \frac{8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{D}
+\end{align*}
+ist. Es wird nun $T^2$ gegen $a^2$ aufgetragen und per Regression $m$ und $b$ bestimmt. 
+
 \label{sec:Eigentraegheitsmoment}
  \begin{figure}
    \centering
@@ -43,17 +90,31 @@ gemittelte Wert
    \caption{Plot.}
    \label{fig:plot}
  \end{figure}
-Die lineare Regression wurde mit Python durchgeführt und ergibt für die Gerade $y = ax + b$ die Werte
+
+Die lineare Regression wurde mit Python durchgeführt und ergibt für die Gerade $y = mx + b$ die Werte
 \begin{align*}
-  a = (701{,}1 \pm 15{,}8)\, \frac{1}{\mathrm{s^2 m^2}} \\
+  m = (701{,}1 \pm 15{,}8)\, \frac{1}{\mathrm{s^2 m^2}} \\
   b = (7{,}6 \pm 0{,}6)\, \frac{1}{\mathrm{s^2}} .
 \end{align*}
+Dies wird nun nach $I_D$ umgestellt:
+\begin{align*}
+  b = \frac{4\pi^2 \cdot I_D}{D}  + \frac{8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{D}
+\end{align*}
+\begin{align*}
+  \Leftrightarrow I_D = \frac{D \cdot b - 8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{4\pi^2}
+\end{align*}
+\begin{equation}
+  \Leftrightarrow I_D = \frac{D \cdot b}{4\pi^2} - 2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)
+\end{equation}
 
 \subsection{Trägheitsmoment des Zylinders}
 \label{sec:TraegheitsmomentdesZylinders}
 \subsubsection{Theoretische Werte}
-Der Zylinder hat einen Radius von $r_{Zyl} = 0{,}05 \, \mathrm{m}$ und eine Höhe von $h_{Zyl} = 0{,}10 \, \mathrm{cm}$
-und eine Masse von $m_{Zyl} = 0{,}2611 \, \mathrm{kg}$.
+Der Zylinder hat einen Radius von $r_{Zyl} = 0{,}0494 \, \mathrm{m}$ und eine Höhe von $h_{Zyl} = 0{,}10 \, \mathrm{cm}$
+und eine Masse von $m_{Zyl} = 0{,}3678 \, \mathrm{kg}$.
+Die Messunsicherheiten der Waage beträgt $\Delta m = 0,0001 \mathrm{kg}$ und die des Nonius' $\Delta r = 0,0001 \mathrm{m}$.
+
+
 
 \subsubsection{Experimentelle Werte}
 Der Zylinder wird auf der Drillachse um den Winkel $\phi_{Zyl} = 90^{\circ}$ ausgelenkt und die Zeit
