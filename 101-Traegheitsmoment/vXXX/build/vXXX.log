@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.9.17)  20 NOV 2021 12:31
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.9.17)  20 NOV 2021 12:47
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1374,18 +1374,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
 [4] [5]) (./content/durchfuehrung.tex [6]) (./content/auswertung.tex
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 46.
+(Font)              scaled to size 5.00053pt on input line 47.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 46.
+(Font)              scaled to size 4.99947pt on input line 47.
  [7]
-<plot.pdf, id=123, 417.7206pt x 258.0049pt>
+<plot.pdf, id=127, 417.7206pt x 258.0049pt>
 File: plot.pdf Graphic file (type pdf)
 <use plot.pdf>
-Package luatex.def Info: plot.pdf  used on input line 89.
+Package luatex.def Info: plot.pdf  used on input line 90.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
  [8] [9<build/plot.pdf>] [10] [11]) (./content/diskussion.tex) [12] [13] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: 833E46EC296895C2006E6C0F8A910592;20574.
+(rerunfilecheck)             Checksum: DFFB263CECB6D6E2E291F2D35EC24A10;20716.
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
 (rerunfilecheck)             Checksum: 898650AEDBD46EEBE6E781139E37BDD6;3630.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
@@ -1394,19 +1394,19 @@ Package logreq Info: Writing requests to 'vXXX.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 36843 strings out of 478112
+ 36845 strings out of 478112
  100000,1977958 words of node,token memory allocated
- 755 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 51 attribute, 78 glue_spec, 27 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1562,3:379,4:142,5:494,6:83,7:4762,8:85,9:1047,10:9,11:411
- 56025 multiletter control sequences out of 65536+600000
- 140 fonts using 55489835 bytes
+ 761 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 53 attribute, 78 glue_spec, 28 attribute_list, 1 write nodes
+   avail lists: 1:2,2:1562,3:379,4:142,5:494,6:83,7:4762,8:85,9:1023,10:9,11:411
+ 56027 multiletter control sequences out of 65536+600000
+ 140 fonts using 55490079 bytes
  113i,14n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (13 pages, 93688 bytes).
+Output written on vXXX.pdf (13 pages, 93787 bytes).
 
-PDF statistics: 354 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
+PDF statistics: 359 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
  67 named destinations out of 1000 (max. 131072)
  217 words of extra memory for PDF output out of 10000 (max. 100000000)
 

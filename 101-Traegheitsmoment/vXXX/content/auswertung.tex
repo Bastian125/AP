@@ -36,6 +36,7 @@ gemittelte Wert
 \end{align*}
 
 \subsection{Eigenträgheitsmoment}
+\label{sec:Eigentraegheitsmoment}
 Um das Eigenträgheitsmoment der Konstruktion zu bestimmen, messen wir die Schwingunngsdauern unter verschiedenen Abstände $a$ zur Drehachse
 der beiden identischen Masse $m_G$ unter dem selben Auslenkungswinkel $\varphi$.
 Die beiden Gewichte besitzen die Masse $m_G = 0,2611\, \mathrm{kg}$, die Höhe $h = 0,0203\, \mathrm{m}$ und den Radius $r = 0,0225\, \mathrm{m}$, mit
@@ -64,33 +65,33 @@ den Messunsicherheiten $\Delta m = 0,0001\, \mathrm{kg}$ und $\Delta r\mathrm{(b
 \end{table}
 
 Um nun das Eigenträgheitsmoment zu errechnen wird die Tatsache verwendet, dass das Trägheitsmoment der Gewichte bestimmt und
-das Gesamtträgheitsmoment ($I_G$ und $I_D$) gemessen werden kann. Es gilt $I_{Ges} = I_D + I_G$. Mithilfe von Formel (1) und (8) ergibt sich Folgendes:
+das Gesamtträgheitsmoment ($I_G$ und $I_D$) gemessen werden kann. Es gilt $I_{Ges} = I_D + I_G$. Mithilfe von Formel \ref{eqn:Idiskret} und 8 ergibt sich Folgendes:
 \begin{equation}
+  \label{eqn:I_ges}
     I_{Ges} = I_D + 2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right) + 2 \cdot m_G \cdot a^2
 \end{equation}
 
-Die Formel (12) wird nun in Formel (6) eingesetzt:
+Die Formel \ref{eqn:I_ges} wird nun in Formel \ref{eqn:I(T)} eingesetzt:
 
 \begin{align*}
   T^2 = 4\pi^2 \cdot \frac{I_D + 2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right) + 2 \cdot m_G \cdot a^2}{D}
 \end{align*}
 \begin{equation}
+  \label{eqn:linreg}
   \Leftrightarrow T^2 = \frac{8\pi^2 \cdot m_G}{D}\cdot a^2 + \frac{4\pi^2 \cdot I_D}{D}  + \frac{8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{D}
 \end{equation}
-Formel (13) besitzt die Form $y = mx + b$. Wobei 
-\begin{align*}
-  y = T^2,\, m = \frac{8\pi^2 \cdot m_G}{D},\, x = a^2 \,\mathrm{und}\, b = \frac{4\pi^2 \cdot I_D}{D}  + \frac{8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{D}
-\end{align*}
+Formel \ref{eqn:linreg} besitzt die Form $y = mx + b$. Wobei 
+\begin{equation*}
+  y = T^2,\, m = \frac{8\pi^2 \cdot m_G}{D},\, x = a^2 \, \mathrm{und}\, b = \frac{4\pi^2 \cdot I_D}{D}  + \frac{8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{D}
+\end{equation*}
 ist. Es wird nun $T^2$ gegen $a^2$ aufgetragen und per Regression $m$ und $b$ bestimmt. 
-
-\label{sec:Eigentraegheitsmoment}
  \begin{figure}
    \centering
    \includegraphics{plot.pdf}
    \caption{Plot.}
    \label{fig:plot}
  \end{figure}
-
+\\
 Die lineare Regression wurde mit Python durchgeführt und ergibt für die Gerade $y = mx + b$ die Werte
 \begin{align*}
   m = (701{,}1 \pm 15{,}8)\, \frac{1}{\mathrm{s^2 m^2}} \\
