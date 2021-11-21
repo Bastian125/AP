@@ -39,8 +39,8 @@ gemittelte Wert
 \label{sec:Eigentraegheitsmoment}
 Um das Eigenträgheitsmoment der Konstruktion zu bestimmen, messen wir die Schwingunngsdauern unter verschiedenen Abstände $a$ zur Drehachse
 der beiden identischen Masse $m_G$ unter dem selben Auslenkungswinkel $\varphi$.
-Die beiden Gewichte besitzen die Masse $m_G = 0,2611\, \mathrm{kg}$, die Höhe $h = 0,0203\, \mathrm{m}$ und den Radius $r = 0,0225\, \mathrm{m}$, mit
-den Messunsicherheiten $\Delta m = 0,0001\, \mathrm{kg}$ und $\Delta r\mathrm{(bzw. h)} = 0,0001\, \mathrm{m}$.
+Die beiden Gewichte besitzen die Masse $m_G = 0,2611\, \mathrm{kg}$, die Höhe $h_G = 0,0203\, \mathrm{m}$ und den Radius $R_G = 0,0225\, \mathrm{m}$, mit
+den Messunsicherheiten $\Delta m_G = 0,0001\, \mathrm{kg}$ und $\Delta R_G\mathrm{(bzw. h_G)} = 0,0001\, \mathrm{m}$.
 
 \begin{table}
   \centering
@@ -97,7 +97,7 @@ Die lineare Regression wurde mit Python durchgeführt und ergibt für die Gerade
   m = (701{,}1 \pm 15{,}8)\, \frac{1}{\mathrm{s^2 m^2}} \\
   b = (7{,}6 \pm 0{,}6)\, \frac{1}{\mathrm{s^2}} .
 \end{align*}
-Dies wird nun nach $I_D$ umgestellt:
+Die Formel für b wird nun nach $I_D$ umgestellt:
 \begin{align*}
   b = \frac{4\pi^2 \cdot I_D}{D}  + \frac{8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{D}
 \end{align*}
@@ -105,21 +105,33 @@ Dies wird nun nach $I_D$ umgestellt:
   \Leftrightarrow I_D = \frac{D \cdot b - 8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{4\pi^2}
 \end{align*}
 \begin{equation}
-  \Leftrightarrow I_D = \frac{D \cdot b}{4\pi^2} - 2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)
+  \label{eqn:I_D}
+  \Leftrightarrow I_D = \frac{D \cdot b}{4\pi^2} - \left(\frac{m_G R_G^2}{2} + \frac{m_G h_G^2}{6} \right)
+\end{equation}
+
+Die Messunsicherheit für $I_D$ wird mithilfe der Gaußschen Fehlerfortpflanzung berechnet (Formel \ref{eqn:Gauss}):
+
+\begin{equation}
+  \Delta I_D = 1,2 \cdot 10^{-5} \cdot \mathrm{kg \cdot m^2}
+\end{equation}
+
+Also ergibt sich mit Formel \ref{eqn:Gauss} und \ref{eqn:I_D} $I_D$ folgendermaßen:
+
+\begin{equation}
+  I_D = \left(0,2 \pm 1,2 \right)\cdot 10^{-5} \mathrm{kg \cdot m^2}
 \end{equation}
 
 \subsection{Trägheitsmoment des Zylinders}
 \label{sec:TraegheitsmomentdesZylinders}
-\subsubsection{Theoretische Werte}
-Der Zylinder hat einen Radius von $r_{Zyl} = 0{,}0494 \, \mathrm{m}$ und eine Höhe von $h_{Zyl} = 0{,}10 \, \mathrm{m}$
+Der Zylinder hat einen Radius von $R_{Zyl} = 0{,}0494 \, \mathrm{m}$ und eine Höhe von $h_{Zyl} = 0{,}1008 \, \mathrm{m}$
 und eine Masse von $m_{Zyl} = 0{,}3678 \, \mathrm{kg}$.
-Die Messunsicherheiten der Waage beträgt $\Delta m = 0,0001\, \mathrm{kg}$ und die des Nonius' $\Delta r = 0,0001\, \mathrm{m}$.\\
-Das Trägheitsmoment wird durch Formel \ref{eqn:Izz} bestimmt und der Fehler wird mit Gaußscher-Fehlerfortpflanzung bestimmt.
+Die Messunsicherheiten der Waage beträgt $\Delta m = 0,0001\, \mathrm{kg}$ und die des Nonius' $\Delta r = 0,0001\, \mathrm{m}$.
+\subsubsection{Theoretische Werte}
+Das Gesamtträgheitsmoment wird durch Formel \ref{eqn:Izz} bestimmt und der Fehler wird mit der Gaußscheb-Fehlerfortpflanzung (\ref{eqn:Gauss}) bestimmt.
 Daraus ergibt sich
-\begin{align}
-  I_{Th, Zyl} = 4{,}5 \cdot 10^{-4} \, \mathrm{kg}\cdot\mathrm{m^2}
-\end{align}
-
+\begin{align*}
+  I_{Th, Zyl} = \left(4{,}5 \pm 0{,}02 \right) \cdot 10^{-4} \, \mathrm{kg}\cdot\mathrm{m^2}
+\end{align*}
 
 \subsubsection{Experimentelle Werte}
 Der Zylinder wird auf der Drillachse um den Winkel $\phi_{Zyl} = 90^{\circ}$ ausgelenkt und die Zeit
@@ -165,13 +177,17 @@ Aus Formel \ref{eqn:I(T)} und Formel \ref{eqn:K_Gauss} erhält man
 \end{align*}
 
 \subsection{Trägheitsmoment der Kugel}
-\label{sec:TraegheitsmomentderKugel}
-\subsubsection{Theoretische Werte}
-Die Kugel hat einen Radius von $r_{Kugel} = 0{,}0726\,\mathrm{m} $ und eine Masse $m_{Kugel} = 1{,}1727 \,\mathrm{kg} $.
+
+Die Kugel hat einen Radius von $R_{Kugel} = 0{,}0726\,\mathrm{m} $ und eine Masse $m_{Kugel} = 1{,}1727 \,\mathrm{kg} $.
 Die Messunsicherheiten der Waage beträgt $\Delta m = 0,0001\, \mathrm{kg}$ und die des Nonius' $\Delta r = 0,0001\, \mathrm{m}$.
-Aus Formel \ref{eqn:Ik} und der Gaußschen-Fehlerfortpflanzung ergibt sich
+
+\label{sec:TraegheitsmomentderKugel}
+
+\subsubsection{Theoretische Werte}
+
+Aus Formel \ref{eqn:Ik} und der Gaußschen-Fehlerfortpflanzung ergibt sich für das Gesamtträgheitsmoment:
 \begin{align*}
-  I_{Th, K} = 24{,}7 \cdot 10^{-4} \, \mathrm{kg}\cdot\mathrm{m^2}.
+  I_{Th, K} = \left(24{,}7 \pm 0{,}068 \right) \cdot 10^{-4} \, \mathrm{kg}\cdot\mathrm{m^2}.
 \end{align*}
 
 \subsubsection{Experimentelle Werte}
@@ -207,7 +223,7 @@ Der Mittelwert und die Abweichug wurden mit Hilfe von Python bestimmt. Aus den W
 \end{equation}
 Aus Formel \ref{eqn:I(T)} und Formel \ref{eqn:K_Gauss} erhält man
 \begin{align*}
-  I_{Zyl} = (4{,}08 \pm 0{,}11)\cdot 10^{-6}\, \mathrm{mkg^2}.
+  I_{Kugel} = (4{,}08 \pm 0{,}11)\cdot 10^{-6}\, \mathrm{mkg^2}.
 \end{align*}
 
 \subsection{Maße des Körpers}
@@ -220,7 +236,7 @@ Die Abmessungen lassen sich in Tabelle \ref{tab:r_Koerper} finden. Außerdem hat
   \label{tab:r_Koerper}
   \begin{tabular}{c c c c}
     \toprule
-    $r_{Ober\ddot{o}rper}/m$ & $r_{Beine}/m$ & $r_{Arme}/m$ & $r_{Kopf}/m$ \\
+    $r_{Oberk\ddot{o}rper}/m$ & $r_{Beine}/m$ & $r_{Arme}/m$ & $r_{Kopf}/m$ \\
     \midrule
     0,0203 &  0,0091 &  0,0063 & 0,0109 \\
     0,0160 &  0,0084 &  0,0071 & 0,0145 \\
@@ -233,23 +249,73 @@ Die Abmessungen lassen sich in Tabelle \ref{tab:r_Koerper} finden. Außerdem hat
 \end{table}
 Die Standardabweichung und die Mittelwerte wurden mit Python berechnet.
 \begin{align*}
-  r_{Ober\ddot{o}rper}       = (0{,}0171 \pm 0{,}0034)\, \mathrm{m} \\
-  r_{Beine}      = (0{,}0081 \pm 0{,}0010)\, \mathrm{m} \\
-  r_{Arme}       = (0{,}0068 \pm 0{,}0004)\, \mathrm{m} \\
-  r_{Kopf}       = (0{,}0120 \pm 0{,}0015)\, \mathrm{m} \\
+  R_{Oberk\ddot{o}rper}       = (0{,}0171 \pm 0{,}0034)\, \mathrm{m} \\
+  R_{Beine}      = (0{,}0081 \pm 0{,}0010)\, \mathrm{m} \\
+  R_{Arme}       = (0{,}0068 \pm 0{,}0004)\, \mathrm{m} \\
+  R_{Kopf}       = (0{,}0120 \pm 0{,}0015)\, \mathrm{m} \\
 \end{align*}
 Die gemessen Höhen der Zylinder sind als
 \begin{align*}
-  h_{Ober\ddot{o}rper}       = 0{,}0991 \, \mathrm{m} \\
-  h_{Beine}      = 0{,}1502 \, \mathrm{m} \\
-  h_{Arme}       = 0{,}1129 \, \mathrm{m} \\
-  h_{Kopf}       = 0{,}0519 \, \mathrm{m} \\
+  h_{Oberk\ddot{o}rper}       = (0{,}0991 \pm 0{,}0001)\, \mathrm{m} \\
+  h_{Beine}      = (0{,}1502 \pm 0{,}0001)\, \mathrm{m} \\
+  h_{Arme}       = (0{,}1129 \pm 0{,}0001)\, \mathrm{m} \\
+  h_{Kopf}       = (0{,}0519 \pm 0{,}0001)\, \mathrm{m} \\
 \end{align*}
 angegeben.
+
+Es wird die Massendichte bestimmt, um die Massen und somit die Trägheitsmomente auszurechnen:
+
+\begin{align*}
+& \rho = \frac{M_{Ges}}{V_{Ges}} \\
+&  V_{Ges} = V_{Oberk\ddot{o}rper} + V_{Kopf} + 2 \cdot V_{Arme} + 2 \cdot V_{Beine} \\
+&  = \pi \cdot \left(R_{Oberk\ddot{o}rper}^2  \cdot h_{Oberk\ddot{o}rper} + R_{Kopf}^2 \cdot h_{Kopf} + 2 \cdot R_{Arme}^2 \cdot h_{Arme} +2 \cdot R_{Beine}^2 \cdot h_{Beine} \right) \\
+&  = (2{,}09 \pm 0{,}38) \cdot 10^{-4} \, \mathrm{m^3} \\
+& \rho = (805{,}263 \pm 146{,}412) \, \mathrm{\frac{kg}{m^3}}
+\end{align*}
+
+Daraus lässt sich nun die Masse der einzelnen Zylinder berechnen:
+
+\begin{align*}
+  &  m_Zyl = \rho \cdot V_Zyl \\
+  &  m_{Oberk\ddot{o}rper} = \rho \cdot \pi R_{Ober\ddot{o}rper}^2 h_{Ober\ddot{o}rper} = 0{,}073308 \pm 0{,}032055 \mathrm{kg} \\
+  &  m_{Beine} = \rho \cdot \pi R_{Beine}^2 h_{Beine} = 0{,}02493 \pm 0{,}007644 \, \mathrm{kg} \\
+  &  m_{Arme} = \rho \cdot \pi R_{Arme}^2 h_{Arme} = 0{,}013207 \pm 0{,}00286 \, \mathrm{kg} \\
+  &  m_{Kopf} = \rho \cdot \pi R_{Kopf}^2 h_{Kopf} = 0{,}018907 \pm 0{,}00609 \, \mathrm{kg} \\
+\end{align*}
 
 \subsection{Trägheitsmoment der Puppe in Körperhaltung 1}
 \label{sec:TraegheitsmomentderPuppeinKoerperhaltung 1}
 \subsubsection{Theoretische Werte}
+
+Um das Gesamtträgheitsmoment zu errechnen, werden die Einzelträgheitsmomente der Zylinder berechnet:
+
+Für den Oberkörper gilt, dass die Drehachse durch seinen Schwerpunkt verläuft. Wir können somit Formel \ref{eqn:Izz} anwenden ohne den 
+Satz von Steiner zu verwenden (Formel \ref{eqn:Steiner}):
+\begin{align*}
+  & I_{Oberk\ddot{o}rper} = \frac{m_{Oberk\ddot{o}rper}R_{Oberk\ddot{o}rper}^2}{2} = (1{,}0718 \pm 0{,}6335) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}}
+\end{align*}
+
+Für den Kopf gilt das Gleiche, wie für den Oberkörper:
+
+\begin{align*}
+  & I_{Kopf} = \frac{m_{Kopf}R_{Kopf}^2}{2} = (0{,}1361 \pm 0{,}0555) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}}
+\end{align*}
+
+In Position 1 hängen die Arme an den Seiten des Oberkörpers herunter, das heißt die Drehachse ist um $a = R_{Oberk\ddot{o}rper} + R_{Arme} = 0{,}0239 \pm 0{,}003716 \, \mathrm{m}$
+verschoben und wir müssen die Formeln \ref{eqn:Steiner} und \ref{eqn:Izz} anwenden:
+
+\begin{align*}
+  & I_{Arme,1} = \frac{m_{Arme}R_{Arme}^2}{2} = (0{,}0305 \pm 0{,}0075) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}} \\
+  & I_{Arme,2} = I_{Arme,1} + m_{Arme} \cdot a^2 = (0{,}7849 \pm 6{,}8889) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}}
+\end{align*}
+
+Bei den Beinen gilt ähnliches, nur dass diese um $a = h_{Beine} \cdot 0{,}5 = 0{,}01247 \pm 0{,}00382 \, \mathrm{m}$ verschoben sind
+und wir die Formeln \label{eqn:Izx} und \ref{eqn:Steiner} verwenden:
+
+\begin{align*}
+  & I_{Beine,1} = \frac{m_{Beine}R_{Beine}^2}{4} + \frac{m_{Beine}h_{Beine}^2}{12} =  \\
+  & I_{Beine,2} = I_{Beine,1} + m_{Beine} \cdot a^2 = 
+\end{align*}
 
 \subsubsection{Experimentelle Werte}
 Die Puppe wird in der ersten Körperhaltung um $\phi = 90^{\circ}$ ausgelenkt und die Zeit $Z_{K1}$ nach drei
