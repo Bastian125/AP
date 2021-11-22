@@ -5,40 +5,41 @@
 \label{sec:Winkelrichtgroeße}
 Die Winkelrichtgröße wird durch die Formel
 \begin{equation}
-  D = \frac{F \cdot r}{\phi}
+  D = \frac{F \cdot r}{\varphi}
 \end{equation}
-bestimmt. Die verwendeten Werte sind in Tabelle \ref{tab:winkelrichtgr} angegeben.
+bestimmt, wobei $\varphi$ in Bogenmaß angegeben wird: $\alpha_{Rad} = \frac{\alpha_{Deg}}{180^{\circ}}\cdot \pi $. 
+Die verwendeten Werte sind in Tabelle \ref{tab:winkelrichtgr} angegeben.
 \begin{table}
   \centering
   \caption{Messdaten zur Bestimmung der Winkelrichtgröße D}
   \label{tab:winkelrichtgr}
-  \begin{tabular}{c c c c}
+  \begin{tabular}{c c c c c}
     \toprule
-    $F/N$ & $\phi /^{\circ}$ & $r/m$ & $D/Nm$ \\
+    $F/N$ & $\varphi /^{\circ}$ & $\varphi /$ Rad & $r/m$ & $D/Nm$ \\
     \midrule
-    0,1  &  30 & 0,1 & 0,000333 \\
-    0,26 &  60 & 0,1 & 0,000433 \\
-    0,41 &  90 & 0,1 & 0,000456 \\
-    0,56 & 120 & 0,1 & 0,000467 \\
-    0,72 & 150 & 0,1 & 0,000480 \\
-    0,85 & 180 & 0,1 & 0,000472 \\
-    0,48 & 180 & 0,2 & 0,000533 \\
-    0,55 & 240 & 0,2 & 0,000458 \\
-    0,63 & 270 & 0,2 & 0,000467 \\
-    0,69 & 300 & 0,2 & 0,000460 \\
+    0,1  &  30 & $\frac{\pi}{6}$ & 0,1 & 0,019099 \\
+    0,26 &  60 & $\frac{\pi}{3}$ & 0,1 & 0,024828 \\
+    0,41 &  90 & $\frac{\pi}{2}$ & 0,1 & 0,026101 \\
+    0,56 & 120 & $\frac{2\pi}{3}$ & 0,1 & 0,026738 \\
+    0,72 & 150 & $\frac{5\pi}{6}$ & 0,1 & 0,027502 \\
+    0,85 & 180 & $\pi$ & 0,1 & 0,027056 \\
+    0,48 & 210 & $\frac{7\pi}{6}$ & 0,2 & 0,026192 \\
+    0,55 & 240 & $\frac{4\pi}{3}$ & 0,2 & 0,026261 \\
+    0,63 & 270 & $\frac{3\pi}{2}$ & 0,2 & 0,026738 \\
+    0,69 & 300 & $\frac{5\pi}{3}$ & 0,2 & 0,026356 \\
     \bottomrule
   \end{tabular}
 \end{table}
 \\Sowohl der Mittelwert, als auch die Standardabweichung wurden mit Python bestimmt. Daraus ergibt sich der
 gemittelte Wert
 \begin{align*}
-    D = (0{,}000456 \pm 0{,}000048)\,\mathrm{Nm} .
+    D = (0{,}0256871 \pm 0{,}000765)\,\mathrm{Nm} .
 \end{align*}
 
 \subsection{Eigenträgheitsmoment}
 \label{sec:Eigentraegheitsmoment}
-Um das Eigenträgheitsmoment der Konstruktion zu bestimmen, messen wir die Schwingunngsdauern unter verschiedenen Abstände $a$ zur Drehachse
-der beiden identischen Masse $m_G$ unter dem selben Auslenkungswinkel $\varphi$.
+Um das Eigenträgheitsmoment der Konstruktion zu bestimmen, werden die Schwingungsdauern unter verschiedenen Abständen $a$ zur Drehachse
+der beiden identischen Massen $m_G$ unter demselben Auslenkungswinkel $\varphi$ gemessen.
 Die beiden Gewichte besitzen die Masse $m_G = 0,2611\, \mathrm{kg}$, die Höhe $h_G = 0,0203\, \mathrm{m}$ und den Radius $R_G = 0,0225\, \mathrm{m}$, mit
 den Messunsicherheiten $\Delta m_G = 0,0001\, \mathrm{kg}$ und $\Delta R_G\mathrm{(bzw. h_G)} = 0,0001\, \mathrm{m}$.
 
@@ -65,13 +66,13 @@ den Messunsicherheiten $\Delta m_G = 0,0001\, \mathrm{kg}$ und $\Delta R_G\mathr
 \end{table}
 
 Um nun das Eigenträgheitsmoment zu errechnen wird die Tatsache verwendet, dass das Trägheitsmoment der Gewichte bestimmt und
-das Gesamtträgheitsmoment ($I_G$ und $I_D$) gemessen werden kann. Es gilt $I_{Ges} = I_D + I_G$. Mithilfe von Formel \ref{eqn:Idiskret} und 8 ergibt sich Folgendes:
+das Gesamtträgheitsmoment ($I_G$ und $I_D$) gemessen werden kann. Es gilt $I_{Ges} = I_D + I_G$. Mithilfe von Formel \ref{eqn:Steiner} und \ref{eqn:Izx} ergibt sich Folgendes:
 \begin{equation}
   \label{eqn:I_ges}
     I_{Ges} = I_D + 2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right) + 2 \cdot m_G \cdot a^2
 \end{equation}
 
-Die Formel \ref{eqn:I_ges} wird nun in Formel \ref{eqn:I(T)} eingesetzt:
+Die Formel \ref{eqn:I_ges} wird nun in Formel \ref{eqn:T} eingesetzt:
 
 \begin{align*}
   T^2 = 4\pi^2 \cdot \frac{I_D + 2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right) + 2 \cdot m_G \cdot a^2}{D}
@@ -111,15 +112,25 @@ Die Formel für b wird nun nach $I_D$ umgestellt:
 
 Die Messunsicherheit für $I_D$ wird mithilfe der Gaußschen Fehlerfortpflanzung berechnet (Formel \ref{eqn:Gauss}):
 
+\begin{flalign}
+  \label{eqn:FehlerID}
+  \begin{split}
+    \Delta I_D &= \bigg(\left(\frac{b}{4\pi^2} \right)^2 \cdot (\Delta D)^2 + \left(\frac{D}{4\pi^2} \right)^2 \cdot (\Delta b)^2 + \left(-\frac{R_G^2}{2} - \frac{h_G^2}{6} \right)^2 \cdot (\Delta m_G)^2 \\ 
+    &+ (m_G R_G)^2 \cdot (\Delta R_G)^2 + \left(\frac{m_G h_G}{3} \right)^2 \cdot (\Delta h_G)^2 \bigg)^{0{,}5}
+  \end{split}
+\end{flalign}
+
+\begin{equation*}
+  \Delta I_D = 0{,}417 \cdot 10^{-3} \cdot \mathrm{kg \cdot m^2}
+\end{equation*}
+
+Also ergibt sich mit Formel \ref{eqn:FehlerID} und \ref{eqn:I_D} $I_D$ folgendermaßen:
+
 \begin{equation}
-  \Delta I_D = 1,2 \cdot 10^{-5} \cdot \mathrm{kg \cdot m^2}
+  \label{Erg:ID}
+  I_D = \left(4{,}861 \pm 0{,}417 \right)\cdot 10^{-3} \cdot \mathrm{kg \cdot m^2}
 \end{equation}
 
-Also ergibt sich mit Formel \ref{eqn:Gauss} und \ref{eqn:I_D} $I_D$ folgendermaßen:
-
-\begin{equation}
-  I_D = \left(0,2 \pm 1,2 \right)\cdot 10^{-5} \mathrm{kg \cdot m^2}
-\end{equation}
 
 \subsection{Trägheitsmoment des Zylinders}
 \label{sec:TraegheitsmomentdesZylinders}
@@ -127,10 +138,17 @@ Der Zylinder hat einen Radius von $R_{Zyl} = 0{,}0494 \, \mathrm{m}$ und eine H�
 und eine Masse von $m_{Zyl} = 0{,}3678 \, \mathrm{kg}$.
 Die Messunsicherheiten der Waage beträgt $\Delta m = 0,0001\, \mathrm{kg}$ und die des Nonius' $\Delta r = 0,0001\, \mathrm{m}$.
 \subsubsection{Theoretische Werte}
-Das Gesamtträgheitsmoment wird durch Formel \ref{eqn:Izz} bestimmt und der Fehler wird mit der Gaußscheb-Fehlerfortpflanzung (\ref{eqn:Gauss}) bestimmt.
-Daraus ergibt sich
+Das Gesamtträgheitsmoment wird durch Formel \ref{eqn:Izz} bestimmt und der Fehler wird mit der Gaußschen-Fehlerfortpflanzung (\ref{eqn:Gauss}) errechnet:
+
+\begin{align}
+  \label{eqn:FehlerIZ}
+  \Delta I_{Th, Zyl} &= \sqrt{\left(m_{Zyl} \cdot R_{Zyl} \right)^2 \cdot (\Delta R_{Zyl})^2 + \left(\frac{R_{Zyl}^2}{2} \right)^2 \cdot (\Delta m_{Zyl})^2} \\
+  \Delta I_{Th, Zyl} &= 0{,}002 \cdot 10^{-3} \cdot \mathrm{kg}\cdot\mathrm{m^2}
+\end{align}
+
+Daraus ergibt sich schließlich für $I_{Th, Zyl}$:
 \begin{align*}
-  I_{Th, Zyl} = \left(4{,}5 \pm 0{,}02 \right) \cdot 10^{-4} \, \mathrm{kg}\cdot\mathrm{m^2}
+  I_{Th, Zyl} = \left(0{,}45 \pm 0{,}002 \right) \cdot 10^{-3} \, \mathrm{kg}\cdot\mathrm{m^2}
 \end{align*}
 
 \subsubsection{Experimentelle Werte}
@@ -165,15 +183,15 @@ Aus den Daten ergibt sich
 \begin{align*}
   T_{Zyl} = (0{,}82 \pm 0{,}12)\, \mathrm{s} .
 \end{align*}
-Gaußsche-Fehlerforpflanzung ergibt in Formel \ref{eqn:I(T)}
+Mit der Gaußschen-Fehlerforpflanzung ergibt sich aus Formel \ref{eqn:I(T)}:
 \begin{align}
-  \label{eqn:K_Gauss}
-  \Delta I_{K} = \sqrt{\left(\frac{TD}{4\pi^2}\right)^2 \Delta T^2} \nonumber \\
-  \Delta I_{K} = \left(\frac{TD}{4\pi^2}\right) \cdot \Delta T.
+  \label{eqn:Z_Gauss}
+  \Delta I_{Exp, Zyl} &= \sqrt{\left(\frac{TD}{2\pi^2}\right)^2 \cdot (\Delta T)^2 + \left(\frac{T^2}{4\pi^2} \right)^2 \cdot (\Delta D)^2}  \\
+  \Delta I_{Exp, Zyl} &= 0{,}129 \cdot 10^{-3} \, \mathrm{kg \cdot m^2}.
 \end{align}
-Aus Formel \ref{eqn:I(T)} und Formel \ref{eqn:K_Gauss} erhält man
+Aus Formel \ref{eqn:I(T)} und Formel \ref{eqn:Z_Gauss} erhält man
 \begin{align*}
-  I_{Zyl} = (7{,}77 \pm 1{,}14)\cdot 10^{-6}\, \mathrm{kgm^2}.
+  I_{Exp, Zyl} = (0{,}438 \pm 0{,}129)\cdot 10^{-3}\, \mathrm{kg \cdot m^2}.
 \end{align*}
 
 \subsection{Trägheitsmoment der Kugel}
@@ -185,13 +203,19 @@ Die Messunsicherheiten der Waage beträgt $\Delta m = 0,0001\, \mathrm{kg}$ und 
 
 \subsubsection{Theoretische Werte}
 
-Aus Formel \ref{eqn:Ik} und der Gaußschen-Fehlerfortpflanzung ergibt sich für das Gesamtträgheitsmoment:
+Aus Formel \ref{eqn:Ik} und \ref{eqn:Gauss} ergibt sich für die Gaußschen-Fehlerfortpflanzung:
+\begin{align}
+  \label{eqn:K_Gauss}
+  \Delta I_{Th, K} &= \sqrt{\left(\frac{2 R_{Kugel}^2}{5} \right)^2 \cdot (\Delta m_{Kugel})^2 + \left(\frac{4MR}{5} \right)^2 \cdot (\Delta R_{Kugel})^2} \nonumber \\
+  \Delta I_{Th, K} &= 0{,}0068 \cdot 10^{-3} \, \mathrm{kg \cdot m^2}
+\end{align}
+
 \begin{align*}
-  I_{Th, K} = \left(24{,}7 \pm 0{,}068 \right) \cdot 10^{-4} \, \mathrm{kg}\cdot\mathrm{m^2}.
+  I_{Th, K} = \left(2{,}47 \pm 0{,}0068 \right) \cdot 10^{-3} \, \mathrm{kg}\cdot\mathrm{m^2}.
 \end{align*}
 
 \subsubsection{Experimentelle Werte}
-Die Kugel wird auf der Drillachse um $\phi = 90^{\circ}$ ausgelenkt und die Zeit nach drei
+Die Kugel wird auf der Drillachse um $\varphi = 90^{\circ}$ ausgelenkt und die Zeit nach drei
 Schwingungen gestoppt. Die Schwingungsdauern $T_{Kugel}$ erhält man durch teilen der Zeitmessungen
 $Z_{Kugel}$ durch drei. Die Zeitmessungen und berechneten Schwingungsdauern sind in
 Tabelle \ref{tab:T_Kugel} zu finden.
@@ -221,9 +245,13 @@ Der Mittelwert und die Abweichug wurden mit Hilfe von Python bestimmt. Aus den W
 \begin{equation}
   T_{Kugel} = (1{,}88 \pm 0{,}05)\, \mathrm{s} .
 \end{equation}
-Aus Formel \ref{eqn:I(T)} und Formel \ref{eqn:K_Gauss} erhält man
+Aus Formel \ref{eqn:I(T)} und Formel \ref{eqn:Z_Gauss} erhält man:
+\begin{equation*}
+  \Delta I_{Exp, K} = 0{,}140 \cdot 10^{-3} \, \mathrm{kg \cdot m^2}
+\end{equation*}
+Daraus folgt für $I_{Exp, K}$:
 \begin{align*}
-  I_{Kugel} = (4{,}08 \pm 0{,}11)\cdot 10^{-6}\, \mathrm{kgm^2}.
+  I_{Exp, K} = (2{,}2997 \pm 0{,}140)\cdot 10^{-3} \, \mathrm{kg \cdot m^2}.
 \end{align*}
 
 \subsection{Maße des Körpers}
@@ -276,7 +304,7 @@ Es wird die Massendichte bestimmt, um die Massen und somit die Trägheitsmomente
 Daraus lässt sich nun die Masse der einzelnen Zylinder berechnen:
 
 \begin{align*}
-  &  m_Zyl = \rho \cdot V_Zyl \\
+  &  m_{Zyl} = \rho \cdot V_{Zyl} \\
   &  m_{Oberk\ddot{o}rper} = \rho \cdot \pi R_{Ober\ddot{o}rper}^2 h_{Ober\ddot{o}rper} = 0{,}073308 \pm 0{,}032055 \mathrm{kg} \\
   &  m_{Beine} = \rho \cdot \pi R_{Beine}^2 h_{Beine} = 0{,}02493 \pm 0{,}007644 \, \mathrm{kg} \\
   &  m_{Arme} = \rho \cdot \pi R_{Arme}^2 h_{Arme} = 0{,}013207 \pm 0{,}00286 \, \mathrm{kg} \\
@@ -313,9 +341,15 @@ Bei den Beinen gilt ähnliches, nur dass diese um $a = h_{Beine} \cdot 0{,}5 = 0
 und wir die Formeln \label{eqn:Izx} und \ref{eqn:Steiner} verwenden:
 
 \begin{align*}
-  & I_{Beine,1} = \frac{m_{Beine}R_{Beine}^2}{4} + \frac{m_{Beine}h_{Beine}^2}{12} =  \\
-  & I_{Beine,2} = I_{Beine,1} + m_{Beine} \cdot a^2 = 
+  & I_{Beine,1} = \frac{m_{Beine}R_{Beine}^2}{4} + \frac{m_{Beine}h_{Beine}^2}{12} = (0,47 \pm 0,145) \cdot 10^{-4} \, kg \cdot m^2 \\
+  & I_{Beine,2} = I_{Beine,1} + m_{Beine} \cdot a^2 = (0,51 \pm 0,147) \cdot 10^{-4} \, kg \cdot m^2
 \end{align*}
+
+Das Gesamtträgheitsmoment bestimmt sich nun aus der Addition aller einzelnen Trägheitsmomente:
+
+\begin{align}
+  I_{Ges} = 2 \cdot I_{Beine,2} + 2 \cdot I_{Arme,2} + I_{Kopf} + I_{Oberk\ddot{o}rper} = 0,00013 \pm 0,006025
+\end{align}
 
 \subsubsection{Experimentelle Werte}
 Die Puppe wird in der ersten Körperhaltung um $\phi = 90^{\circ}$ ausgelenkt und die Zeit $Z_{K1}$ nach drei
