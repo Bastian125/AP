@@ -55,4 +55,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Diskussion}{15}{section.4}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Messwerte}{16}{section.5}%
+\defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
