@@ -320,21 +320,21 @@ Um das Gesamtträgheitsmoment zu errechnen, werden die Einzelträgheitsmomente d
 Für den Oberkörper gilt, dass die Drehachse durch seinen Schwerpunkt verläuft. Wir können somit Formel \ref{eqn:Izz} anwenden ohne den 
 Satz von Steiner zu verwenden (Formel \ref{eqn:Steiner}):
 \begin{align*}
-  & I_{Oberk\ddot{o}rper} = \frac{m_{Oberk\ddot{o}rper}R_{Oberk\ddot{o}rper}^2}{2} = (1{,}0718 \pm 0{,}6335) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}}
+  & I_{Oberk\ddot{o}rper} = \frac{m_{Oberk\ddot{o}rper}R_{Oberk\ddot{o}rper}^2}{2} = (1{,}0718 \pm 0{,}6335) \cdot 10^{-5} \, \mathrm{kgm^2}
 \end{align*}
 
 Für den Kopf gilt das Gleiche, wie für den Oberkörper:
 
 \begin{align*}
-  & I_{Kopf} = \frac{m_{Kopf}R_{Kopf}^2}{2} = (0{,}1361 \pm 0{,}0555) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}}
+  & I_{Kopf} = \frac{m_{Kopf}R_{Kopf}^2}{2} = (0{,}1361 \pm 0{,}0555) \cdot 10^{-5} \, \mathrm{kgm^2}
 \end{align*}
 
 In Position 1 hängen die Arme an den Seiten des Oberkörpers herunter, das heißt die Drehachse ist um $a = R_{Oberk\ddot{o}rper} + R_{Arme} = 0{,}0239 \pm 0{,}003716 \, \mathrm{m}$
 verschoben und wir müssen die Formeln \ref{eqn:Steiner} und \ref{eqn:Izz} anwenden:
 
 \begin{align*}
-  & I_{Arme,1} = \frac{m_{Arme}R_{Arme}^2}{2} = (0{,}0305 \pm 0{,}0075) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}} \\
-  & I_{Arme,2} = I_{Arme,1} + m_{Arme} \cdot a^2 = (0{,}7849 \pm 6{,}8889) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}}
+  & I_{Arme,1} = \frac{m_{Arme}R_{Arme}^2}{2} = (0{,}0305 \pm 0{,}0075) \cdot 10^{-5} \, \mathrm{kgm^2} \\
+  & I_{Arme,2} = I_{Arme,1} + m_{Arme} \cdot a^2 = (0{,}7849 \pm 0{,}68889) \cdot 10^{-5} \, \mathrm{kgm^2}
 \end{align*}
 
 Bei den Beinen gilt ähnliches, nur dass diese um $a = h_{Beine} \cdot 0{,}5 = 0{,}01247 \pm 0{,}00382 \, \mathrm{m}$ verschoben sind
@@ -348,7 +348,7 @@ und wir die Formeln \label{eqn:Izx} und \ref{eqn:Steiner} verwenden:
 Das Gesamtträgheitsmoment bestimmt sich nun aus der Addition aller einzelnen Trägheitsmomente:
 
 \begin{align}
-  I_{Ges} = 2 \cdot I_{Beine,2} + 2 \cdot I_{Arme,2} + I_{Kopf} + I_{Oberk\ddot{o}rper} = 0,00013 \pm 0,006025
+  I_{Ges} = 2 \cdot I_{Beine,2} + 2 \cdot I_{Arme,2} + I_{Kopf} + I_{Oberk\ddot{o}rper} = (0,00013 \pm 0,000024) \, kg \cdot m^2
 \end{align}
 
 \subsubsection{Experimentelle Werte}
@@ -391,6 +391,41 @@ Mit Hilfe von Formel \ref{eqn:I(T)} und Formel \ref{eqn:K_Gauss} lässt sich das
 \label{TraegheitsmomentderPuppeinKoerperhaltung2}
 \subsubsection{Theoretische Werte}
 
+Um das Gesamtträgheitsmoment zu errechnen, werden die Einzelträgheitsmomente der Zylinder berechnet:
+
+Für den Oberkörper gilt das gleiche wie bei Position 1:
+\begin{align*}
+  & I_{Oberk\ddot{o}rper} = \frac{m_{Oberk\ddot{o}rper}R_{Oberk\ddot{o}rper}^2}{2} = (1{,}0718 \pm 0{,}6335) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}}
+\end{align*}
+
+Für den Kopf gilt ebenfalls das Gleiche, wie für den Oberkörper:
+
+\begin{align*}
+  & I_{Kopf} = \frac{m_{Kopf}R_{Kopf}^2}{2} = (0{,}1361 \pm 0{,}0555) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}}
+\end{align*}
+
+In Position 2 stehen die Arme an den Seiten des Oberkörpers ab und die Drehachse ist um $a = R_{Oberk\ddot{o}rper} + 0,5 \cdot h_{Arme} = 0{,}07355 \pm 0{,}003401 \, \mathrm{m}$
+verschoben und wir müssen die Formeln \ref{eqn:Steiner} und \ref{eqn:Izx} anwenden:
+
+\begin{align*}
+  & I_{Arme,1} = frac{M_{Arme}R_{Arme}^2}{4} + \frac{M_{Arme}h_{Arme}^2}{12} = (1{,}4181 \pm 0{,}3071) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}} \\
+  & I_{Arme,2} = I_{Arme,1} + m_{Arme} \cdot a^2 = (8{,}563 \pm 0{,}2105) \cdot 10^{-5} \, \mathrm{\frac{kg}{m^3}}
+\end{align*}
+
+Bei den Beinen gilt ähnliches, nur dass diese um $a = R_{Oberk\ddot{o}rper} \cdot 0{,}5 = 0{,}00855 \pm 0{,}0017 \, \mathrm{m}$ verschoben sind
+und wir die Formeln \ref{eqn:Izz} und \ref{eqn:Steiner} verwenden:
+
+\begin{align*}
+  & I_{Beine,1} = \frac{M_{Beine}R_{Beine}^2}{2} = (8,18 \pm 6,296) \cdot 10^{-7} \, kg \cdot m^2 \\
+  & I_{Beine,2} = I_{Beine,1} + m_{Beine} \cdot a^2 = (1,357 \pm 0,147) \cdot 10^{-4} \, kg \cdot m^2
+\end{align*}
+
+Das Gesamtträgheitsmoment bestimmt sich nun aus der Addition aller einzelnen Trägheitsmomente:
+
+\begin{align}
+  I_{Ges} = 2 \cdot I_{Beine,2} + 2 \cdot I_{Arme,2} + I_{Kopf} + I_{Oberk\ddot{o}rper} = (0{,}000288 \pm 0{,}000024) \, kg \cdot m^2
+\end{align}
+
 \subsubsection{Experimentelle Werte}
 Die Puppe wurde in der zweiten Körperhaltung um $\phi = 90^{\circ}$ ausgelenkt und die Zeit $Z_{K2}$
 wurde nach drei Schwingungen gestoppt. Die Schwingungsdauer $T_{K2}$ wird durch teilen von $Z_{K2}$
@@ -423,5 +458,5 @@ Sowohl der Mittelwert, als auch die Standarabweichung wurde mit Python bestimmt.
 \end{align*}
 Mit Hilfe von Formel \ref{eqn:I(T)} und Formel \ref{eqn:K_Gauss} lässt sich das Trägheitsmoment bestimmen als
 \begin{align*}
-  I_{K2} = (4{,}02 \pm 0{,}20) \cdot 10^{-6}\, \mathrm{mkg^2}.
+  I_{K2} = (4{,}02 \pm 0{,}20) \cdot 10^{-6}\, \mathrm{kgm^2}.
 \end{align*}

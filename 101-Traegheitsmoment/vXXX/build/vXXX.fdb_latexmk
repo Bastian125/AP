@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber build/vXXX"] 1637623617 "build/vXXX.bcf" "build/vXXX.bbl" "build/vXXX" 1637624255
-  "build/vXXX.bcf" 1637624232 106946 3fcb1715288976b8cd732cfc31187482 "lualatex"
+["biber build/vXXX"] 1637623617 "build/vXXX.bcf" "build/vXXX.bbl" "build/vXXX" 1637653834
+  "build/vXXX.bcf" 1637653834 106946 3fcb1715288976b8cd732cfc31187482 "lualatex"
   (generated)
-  "build/vXXX.bbl"
   "build/vXXX.blg"
-["lualatex"] 1637624226 "vXXX.tex" "build/vXXX.pdf" "vXXX" 1637624255
+  "build/vXXX.bbl"
+["lualatex"] 1637653828 "vXXX.tex" "build/vXXX.pdf" "vXXX" 1637653834
   "../header.tex" 1637595118 3567 794c196ea2045e300ade2e73e406ee39 ""
   "../index.jpg" 1637622018 144708 1525b3d211b5e49c381615509ba05152 ""
   "../index2.jpg" 1637622039 149826 94542cba848dc34e8b9c07e3a8fa19c0 ""
@@ -228,19 +228,19 @@
   "/home/bastian/.local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1631186307 6672 4504b277412cc39a56b75a65c1a67d0b ""
   "/home/bastian/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1631881451 3360341 de74068062750a9a35dc5f993fa53a73 ""
   "build/plot.pdf" 1637621128 12696 882565ddc68c878663aa90180c436f90 ""
-  "build/vXXX.aux" 1637624232 23758 16378de5f1f475c209320cd63309fd6d "lualatex"
+  "build/vXXX.aux" 1637653834 23758 1a49faa299e29613c76aaf9eea91f130 "lualatex"
   "build/vXXX.bbl" 1637623619 466 f7f239c736cf01ac6ce7bd829f9b3c7b "biber build/vXXX"
-  "build/vXXX.run.xml" 1637624232 2396 13f55f0f4af380a580b3504a55d8b3b1 "lualatex"
-  "build/vXXX.toc" 1637624232 3771 cc2d2270131e97157e9d209e38d6b69f "lualatex"
-  "content/auswertung.tex" 1637621090 17476 f4e02e5c98ba1290fb6c0ee70e6ec182 ""
-  "content/diskussion.tex" 1637624250 2363 eea5b67c6bb059ccac93bc43d029a63a ""
+  "build/vXXX.run.xml" 1637653834 2396 13f55f0f4af380a580b3504a55d8b3b1 "lualatex"
+  "build/vXXX.toc" 1637653834 3771 1791bea054d7ed828b0fe4a746aa6137 "lualatex"
+  "content/auswertung.tex" 1637653254 19269 30734ef3f0e83efe5413212789d2e56d ""
+  "content/diskussion.tex" 1637653827 2454 0c7be41b058bb54dfbc9a8ea570c810e ""
   "content/durchfuehrung.tex" 1637621043 1239 ec6d9a757614c020320fc6219408707f ""
   "content/theorie.tex" 1637621072 6750 3f1c23738d8c9e1f50abb9acdba1292c ""
   "vXXX.tex" 1637595118 386 cacb1548dc3a989fca01a5f15ebbeaec ""
   (generated)
-  "build/vXXX.aux"
+  "build/vXXX.pdf"
+  "build/vXXX.bcf"
   "build/vXXX.run.xml"
   "build/vXXX.log"
   "build/vXXX.toc"
-  "build/vXXX.bcf"
-  "build/vXXX.pdf"
+  "build/vXXX.aux"
