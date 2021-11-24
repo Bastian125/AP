@@ -5,10 +5,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Durchführung}{3}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Auswertung}{3}{section.3}%
+\contentsline {section}{\numberline {3}Auswertung}{4}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Diskussion}{3}{section.4}%
+\contentsline {section}{\numberline {4}Diskussion}{5}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{3}{section*.4}%
+\contentsline {section}{\nonumberline Literatur}{5}{section*.6}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -455,6 +455,12 @@ INPUT ./content/theorie.tex
 INPUT ./content/theorie.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
+INPUT ./Aufbau1.png
+INPUT ./Aufbau1.png
+INPUT ./Aufbau1.png
+INPUT ./Aufbau2.png
+INPUT ./Aufbau2.png
+INPUT ./Aufbau2.png
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
 INPUT build/plot.pdf
