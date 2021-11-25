@@ -5,12 +5,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Durchführung}{4}{section.3}%
+\contentsline {section}{\numberline {3}Durchführung}{5}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Messung bis 1bar}{5}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Messung von 1 bis 15bar}{6}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Auswertung}{6}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{6}{section.5}%
+\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{6}{section*.7}%
+\contentsline {section}{\nonumberline Literatur}{7}{section*.8}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

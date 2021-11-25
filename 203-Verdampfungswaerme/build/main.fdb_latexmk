@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/main"] 1637777460 "build/main.bcf" "build/main.bbl" "build/main" 1637787337
-  "build/main.bcf" 1637787336 107282 a09710c6b2485aa891ac126cc9e3d3fa "lualatex"
+["biber build/main"] 1637777460 "build/main.bcf" "build/main.bbl" "build/main" 1637828368
+  "build/main.bcf" 1637828367 107282 a09710c6b2485aa891ac126cc9e3d3fa "lualatex"
   "lit.bib" 1637776800 110 b62643d7c0743c01ef68fdd967a507e8 ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["lualatex"] 1637787331 "main.tex" "build/main.pdf" "main" 1637787337
+["lualatex"] 1637828362 "main.tex" "build/main.pdf" "main" 1637828368
   "/home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
   "/home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf" 1255129361 118828 4d461c73423fe2666dad2ff0dfc3ca68 ""
@@ -222,21 +222,22 @@
   "Aufbau1.png" 1637776800 52768 55e1760709e398d2b3d4952c97bb7563 ""
   "Aufbau2.png" 1637776800 29693 5102309d7ec0a01a14bf49f8627ab4ba ""
   "Theorie1.png" 1637776800 14257 c051b5cf79878990117eca63d53ad011 ""
-  "build/main.aux" 1637787336 5858 10b4c7cae54b86659615d37e5873450c "lualatex"
+  "Theorie2.png" 1637776800 13146 aba7387241955a3423823456d209773a ""
+  "build/main.aux" 1637828367 7517 00e17acfe10a7db9ef328fee92ea20f9 "lualatex"
   "build/main.bbl" 1637777462 1431 39336088d8fff14afcb01960aae83ecb "biber build/main"
-  "build/main.run.xml" 1637787336 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
-  "build/main.toc" 1637787336 840 eb65bd2be997e800159e1336680111ee "lualatex"
+  "build/main.run.xml" 1637828367 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
+  "build/main.toc" 1637828367 1081 fc8b078004bf79bd42ce95ebf13f27ff "lualatex"
   "build/plot.pdf" 1637776800 11109 907009529fcb5b73c00a7788b59507e3 ""
   "content/auswertung.tex" 1602434215 180 979545206919101e3933038b45e3411d ""
   "content/diskussion.tex" 1602434215 44 402cc6c9751419c0f1a455b2d4ed1f51 ""
-  "content/durchfuehrung.tex" 1637777162 319 39256e3d7ba80d8fd8065827a5df12d8 ""
-  "content/theorie.tex" 1637787330 3311 80d0d8ad59979217e2f2a6c164973516 ""
+  "content/durchfuehrung.tex" 1637828349 386 872b19bf2ee9442c46c0457560f56f57 ""
+  "content/theorie.tex" 1637828279 4853 4c1614666cfc720691ecfd5c052ca313 ""
   "header.tex" 1637776800 3565 4ca6ff42e329f0fd9db0965e61bfcbb0 ""
   "main.tex" 1637776800 405 2439c417bf2da5649acc76841990441a ""
   (generated)
-  "build/main.bcf"
-  "build/main.aux"
+  "build/main.pdf"
   "build/main.log"
+  "build/main.aux"
+  "build/main.bcf"
   "build/main.run.xml"
   "build/main.toc"
-  "build/main.pdf"

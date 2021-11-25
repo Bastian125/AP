@@ -460,6 +460,9 @@ INPUT ./content/theorie.tex
 INPUT ./Theorie1.png
 INPUT ./Theorie1.png
 INPUT ./Theorie1.png
+INPUT ./Theorie2.png
+INPUT ./Theorie2.png
+INPUT ./Theorie2.png
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./Aufbau1.png

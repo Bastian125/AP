@@ -4,17 +4,17 @@ Dafür soll die Verdampfungswärme des Wassers in Abhängigkeit der Temperatur e
 erstellt werden.
 
 \section{Theorie}
-Allgemein kann Wasser die Phasen fest, flüssig und gasförmig annehmen. Diese Phasen lassen sich in einem Zustandsdiagramm (s. Abbildung \ref{fig:theorie1})
+\label{sec:Theorie}
+Allgemein kann Wasser die Phasen fest, flüssig und gasförmig annehmen. Diese Phasen lassen sich in einem Zustandsdiagramm (s. Abbildung \ref{fig:pV-Diagramm})
 darstellen. In dem Zustandsdiagramm ist der Druck $p$ gegen die Temperatur $T$ aufgetragen und mit Hilfe dreier Kurven lassen sich Bereiche abgrenzen, die 
 die Phasen definieren. In den durch die Kurven abgegrenzten Arealen hat das System die zwei Freiheitsgrade $p$ und $T$.\\
 Sobald sich der Punkt $(T{,}\,p)$ einer der Kurven nähert erreicht man Zustände in denen zwei Phasen koexistieren. Dies ist für die Punkte TP. und K.P. der Fall, die
 auch den Anfangs- und Endpunkt der Dampfdruckkurve charakterisieren.\\
-\label{sec:Theorie}
 \begin{figure}
     \centering
     \includegraphics{Theorie1.png}
     \caption{qualitatives Zustandsdiagramm des Wassers [\cite{sample}}, S. 176]
-    \label{fig:theorie1}
+    \label{fig:pV-Diagramm}
 \end{figure}
 \\
 Auf der Dampfdruckkurve hat das System nur noch einen Freiheitsgrad, da $p$ und $T$ nicht mehr beliebig wählbar sind. Diese Kurve wird durch die Verdampfungswärme $L$
@@ -32,17 +32,43 @@ Wenn das Gleichgewicht erreicht ist, gilt der Verdammpfungsvorgang als abgeschlo
 Da bei höherer Temperatur die Geschwindigkeitsverteilung zu höheren Geschwindigkeiten verschoben wird, steigt bei der Sättigungsdruck an. Dabei ist zu beachten, dass der Druck nicht
 vom Volumen abhängt, so dass die ideale Gasgleichung
 \begin{equation}
-    \label{eqn:allgGasgl}
+    \label{eqn:idealeGasgl}
     pV = RT
 \end{equation}
 nicht verwendet werden kann.
 \\
 \\
-Formel zum Zitieren schonmal
+Um eine DGL für die Dampfdruckkurve zu erhalten, wird ein Kreisprozess in einem pV-Diagramm aufgetragen. In Abbildung \ref{fig:kreisprozess} wird einem Mol die Wärmeenergie 
+$Q_{AB}$ hinzugefügt. Dadurch steigt der Druck auf $T+dT$ und das Volumen auf $V_F$. Danach verdampft die Flüssigkeit isotherm und isobar zu einem Gas und die Wärmeenergie
+wird wieder abgegeben.
+\begin{figure}
+    \centering
+    \includegraphics{Theorie2.png}
+    \caption{Kreisprozess mit Verdampfung und Kondensation}
+    \label{fig:kreisprozess}
+\end{figure}
+In der darauffolgenden Kondensation, die isotherm und isobar abläuft, hat die Flüssigkeit wieder den Anfangsdruck $p$. Durch Addieren der Wärmeenergien und anschließendem
+Gleichsetzen der verrichteten Arbeit erhält man
+\begin{align}
+    \label{eqn:waermearbeit}
+    (C_F - C_D)dT + dL = (V_D - V_F)dp.
+\end{align}
+Dabei sind $C_F$ die Molwärme der Flüssigkeit, $C_D$ die Molwärme des Gases und $dL$ der Unterschied der Verdampfungswärmen. Mit Hilfe des zweiten Hauptsatzes der Thermodynamik
+\begin{align}
+    \label{eqn:2HSTD}
+    \sum_i \frac{Q_i}{T_i} = 0
+\end{align}
+und Vernachlässigung der Therme zweiter Ordnung, bestimmt sich die Clausius-Clapeyronsche Gleichung zu
+\begin{align}
+    \label{eqn:ClausiusClap}
+    (V_D - V_F)dp = \frac{L}{T}dT .
+\end{align}
+Unter den Annahmen, dass $V_F$ gegenüber $V_D$vernachlässigt werden kann, $V_D$ sich dann durch die ideale Gasgleichung (\ref{idealeGasgl}) beschreiben lässt und dass $L$
+nicht von der Temperatur und dem Druck abhängt, ergibt sich die Formel
 \begin{align}
     \label{eqn:druck}
     p = exp(ln(p_0))\cdot exp(-\frac{L}{RT}) \\
-    ln(p) = -\frac{L}{RT} + ln(p_0)
+    ln(p) = -\frac{L}{RT} + ln(p_0) .
 \end{align}
 
 \cite{sample}
