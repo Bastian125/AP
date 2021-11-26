@@ -1,4 +1,4 @@
-PWD /mnt/c/Users/HP1/Desktop/AP-Praktikum/AP-Praktikum/203-Verdampfungswaerme
+PWD /mnt/c/Users/49157/Desktop/AP_Praktikum/AP-Praktikum/203-Verdampfungswaerme
 INPUT /home/bastian/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT build/main.log
@@ -179,7 +179,6 @@ INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/generic/babel/luababel.def
 INPUT /home/bastian/.local/texlive/2021/texmf-var/tex/generic/config/language.dat
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/generic/babel/luababel.def
@@ -230,13 +229,6 @@ INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
@@ -254,6 +246,8 @@ INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
@@ -395,6 +389,11 @@ INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/ncctools/extdash.st
 INPUT build/main.aux
 INPUT build/main.aux
 OUTPUT build/main.aux
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -402,9 +401,6 @@ INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pd
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
