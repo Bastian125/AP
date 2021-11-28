@@ -15,10 +15,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}Messung bis 1 bar}{7}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}%
+\contentsline {subsection}{\numberline {4.2}Messung von 1 bis 15 bar}{10}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Messdaten}{7}{section.6}%
+\contentsline {section}{\numberline {5}Diskussion}{14}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{7}{section*.8}%
+\contentsline {section}{\numberline {6}Messdaten}{14}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{14}{section*.11}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
