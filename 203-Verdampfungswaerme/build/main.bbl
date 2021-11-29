@@ -40,6 +40,34 @@
       \field{title}{Verdampfungswärme und Dampfdruckkurve}
       \field{year}{2014}
     \endentry
+    \entry{verdampf}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d32f26c6dc8d9b5ebcbada8fe8470680}{%
+           family={Paschotta},
+           familyi={P\bibinitperiod},
+           given={Dr.\bibnamedelimi Rüdiger},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{d32f26c6dc8d9b5ebcbada8fe8470680}
+      \strng{fullhash}{d32f26c6dc8d9b5ebcbada8fe8470680}
+      \strng{bibnamehash}{d32f26c6dc8d9b5ebcbada8fe8470680}
+      \strng{authorbibnamehash}{d32f26c6dc8d9b5ebcbada8fe8470680}
+      \strng{authornamehash}{d32f26c6dc8d9b5ebcbada8fe8470680}
+      \strng{authorfullhash}{d32f26c6dc8d9b5ebcbada8fe8470680}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Online; zuletzt besucht am 29.11.2021}
+      \field{title}{Verdampfungswärme und Kondensationswärme}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.energie-lexikon.info/verdampfungswaerme_und_kondensationswaerme.html
+      \endverb
+      \verb{url}
+      \verb https://www.energie-lexikon.info/verdampfungswaerme_und_kondensationswaerme.html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
