@@ -9,10 +9,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Auswertung}{3}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{3}{section.5}%
+\contentsline {subsection}{\numberline {4.1}Wheatston'sche Messbrücke}{3}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Messwerte}{3}{section.6}%
+\contentsline {section}{\numberline {5}Diskussion}{4}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{9}{section*.9}%
+\contentsline {section}{\numberline {6}Messwerte}{4}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{10}{section*.11}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

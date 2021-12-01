@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.9.17)  1 DEC 2021 15:29
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.9.17)  1 DEC 2021 16:32
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1358,61 +1358,65 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
  [2
 
 ] (./content/theorie.tex) (./content/durchfuehrung.tex) (./content/auswertung.tex
-<plot.pdf, id=36, 417.7206pt x 258.0049pt>
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 8.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 8.
+<plot.pdf, id=39, 417.7206pt x 258.0049pt>
 File: plot.pdf Graphic file (type pdf)
 <use plot.pdf>
-Package luatex.def Info: plot.pdf  used on input line 6.
+Package luatex.def Info: plot.pdf  used on input line 39.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-) (./content/diskussion.tex
-<M_a).jpeg, id=38, 481.04718pt x 779.91376pt>
+) (./content/diskussion.tex [3]
+<M_a).jpeg, id=53, 481.04718pt x 779.91376pt>
 File: M_a).jpeg Graphic file (type jpg)
 <use M_a).jpeg>
 Package luatex.def Info: M_a).jpeg  used on input line 9.
 (luatex.def)             Requested size: 292.7776pt x 474.68756pt.
-<M_b).jpeg, id=39, 390.70969pt x 685.05937pt>
+<M_b).jpeg, id=54, 390.70969pt x 685.05937pt>
 File: M_b).jpeg Graphic file (type jpg)
 <use M_b).jpeg>
 Package luatex.def Info: M_b).jpeg  used on input line 16.
 (luatex.def)             Requested size: 292.7776pt x 513.37514pt.
-<M_c).jpeg, id=40, 439.6425pt x 761.09344pt>
+<M_c).jpeg, id=55, 439.6425pt x 761.09344pt>
 File: M_c).jpeg Graphic file (type jpg)
 <use M_c).jpeg>
 Package luatex.def Info: M_c).jpeg  used on input line 23.
 (luatex.def)             Requested size: 292.7776pt x 506.86404pt.
-<M_d).jpeg, id=41, 417.05812pt x 610.53094pt>
+<M_d).jpeg, id=56, 417.05812pt x 610.53094pt>
 File: M_d).jpeg Graphic file (type jpg)
 <use M_d).jpeg>
 Package luatex.def Info: M_d).jpeg  used on input line 30.
 (luatex.def)             Requested size: 292.7776pt x 428.61708pt.
-<M_e).jpeg, id=42, 562.35094pt x 742.27313pt>
+<M_e).jpeg, id=57, 562.35094pt x 742.27313pt>
 File: M_e).jpeg Graphic file (type jpg)
 <use M_e).jpeg>
 Package luatex.def Info: M_e).jpeg  used on input line 37.
 (luatex.def)             Requested size: 292.7776pt x 386.44862pt.
-) [3<build/plot.pdf>] [4<./M_a).jpeg>] [5<./M_b).jpeg>] [6<./M_c).jpeg>] [7<./M_d).jpeg>] [8<./M_e).jpeg>] [9] (./build/main.aux)
+) [4<build/plot.pdf>] [5<./M_a).jpeg>] [6<./M_b).jpeg>] [7<./M_c).jpeg>] [8<./M_d).jpeg>] [9<./M_e).jpeg>] [10] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 4C171A6BC1E4129351124BBB2E676E9D;6298.
+(rerunfilecheck)             Checksum: E7AC8FE553FEAC754F7E3A920D98B375;7583.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 553FC5A89DFB5A343778D140117E9509;940.
+(rerunfilecheck)             Checksum: D10167686DA49ABF002A11D250BED7E0;1069.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36677 strings out of 478112
+ 36740 strings out of 478112
  100000,1977958 words of node,token memory allocated
- 645 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 12 attribute, 75 glue_spec, 8 attribute_list, 1 write nodes
-   avail lists: 1:2,2:926,3:247,4:75,5:101,6:39,7:1012,8:26,9:212,10:4,11:82
- 55880 multiletter control sequences out of 65536+600000
- 91 fonts using 34531191 bytes
- 113i,7n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (9 pages, 507739 bytes).
+ 650 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 12 attribute, 76 glue_spec, 8 attribute_list, 1 write nodes
+   avail lists: 1:2,2:826,3:174,4:74,5:100,6:31,7:1399,8:22,9:282,10:7,11:82
+ 55939 multiletter control sequences out of 65536+600000
+ 100 fonts using 38617459 bytes
+ 113i,9n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (10 pages, 514012 bytes).
 
-PDF statistics: 163 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 131072)
- 57 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 188 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 131072)
+ 65 words of extra memory for PDF output out of 10000 (max. 100000000)
 
