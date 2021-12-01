@@ -13,10 +13,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Kapazitätsmessbrücke}{3}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{4}{section.5}%
+\contentsline {subsection}{\numberline {4.3}Induktivitätsmessbrücke}{4}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Messwerte}{4}{section.6}%
+\contentsline {subsection}{\numberline {4.4}Maxwellbrücke}{4}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{10}{section*.12}%
+\contentsline {subsection}{\numberline {4.5}Wien-Robinson-Brücke}{4}{subsection.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{5}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Messwerte}{5}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{11}{section*.13}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

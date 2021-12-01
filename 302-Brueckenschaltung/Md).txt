@@ -1,0 +1,1 @@
+# R3 [Ohm], R4 [Ohm], R16 [Ohm], L16 [Henry]
