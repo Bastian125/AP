@@ -498,6 +498,7 @@ INPUT ../index5.jpg
 INPUT ../index6.jpg
 INPUT ../index6.jpg
 INPUT ../index6.jpg
+INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
 INPUT build/vXXX.aux
 INPUT build/vXXX.aux
 INPUT build/vXXX.toc

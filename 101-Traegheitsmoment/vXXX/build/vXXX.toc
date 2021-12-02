@@ -59,4 +59,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Messwerte}{19}{section.6}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{25}{section*.17}%
+\defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

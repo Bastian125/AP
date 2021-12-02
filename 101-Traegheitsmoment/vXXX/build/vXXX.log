@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  2 DEC 2021 13:44
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  2 DEC 2021 15:14
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1534,79 +1534,84 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 45.
  [8]
-<plot.pdf, id=139, 417.7206pt x 258.0049pt>
+<plot.pdf, id=141, 417.7206pt x 258.0049pt>
 File: plot.pdf Graphic file (type pdf)
 <use plot.pdf>
 Package luatex.def Info: plot.pdf  used on input line 88.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
  [9] [10<build/plot.pdf>] [11] [12]
-Overfull \hbox (5.97453pt too wide) detected at line 295
+Overfull \hbox (5.97453pt too wide) detected at line 298
 []
  []
 
-[13] [14] [15] [16]) (./content/diskussion.tex [17] [18]
-<index.jpg, id=272, 599.23875pt x 869.49844pt>
+[13] [14]
+
+LaTeX Warning: Reference `eqn:K_Gauss' on page 15 undefined on input line 381.
+
+[15] [16]) (./content/diskussion.tex [17] [18]
+<index.jpg, id=271, 599.23875pt x 869.49844pt>
 File: index.jpg Graphic file (type jpg)
 <use index.jpg>
 Package luatex.def Info: index.jpg  used on input line 27.
 (luatex.def)             Requested size: 292.7776pt x 424.8241pt.
-<index2.jpg, id=273, 545.03625pt x 759.58781pt>
+<index2.jpg, id=272, 545.03625pt x 759.58781pt>
 File: index2.jpg Graphic file (type jpg)
 <use index2.jpg>
 Package luatex.def Info: index2.jpg  used on input line 34.
 (luatex.def)             Requested size: 292.7776pt x 408.02708pt.
-<index3.jpg, id=274, 441.14813pt x 386.94562pt>
+<index3.jpg, id=273, 441.14813pt x 386.94562pt>
 File: index3.jpg Graphic file (type jpg)
 <use index3.jpg>
 Package luatex.def Info: index3.jpg  used on input line 41.
 (luatex.def)             Requested size: 292.7776pt x 256.81374pt.
-<index4.jpg, id=275, 531.48563pt x 769.37437pt>
+<index4.jpg, id=274, 531.48563pt x 769.37437pt>
 File: index4.jpg Graphic file (type jpg)
 <use index4.jpg>
 Package luatex.def Info: index4.jpg  used on input line 47.
 (luatex.def)             Requested size: 292.7776pt x 423.82637pt.
-<index5.jpg, id=276, 425.33907pt x 559.33969pt>
+<index5.jpg, id=275, 425.33907pt x 559.33969pt>
 File: index5.jpg Graphic file (type jpg)
 <use index5.jpg>
 Package luatex.def Info: index5.jpg  used on input line 53.
 (luatex.def)             Requested size: 292.7776pt x 385.03157pt.
-<index6.jpg, id=277, 431.36156pt x 797.22844pt>
+<index6.jpg, id=276, 431.36156pt x 797.22844pt>
 File: index6.jpg Graphic file (type jpg)
 <use index6.jpg>
 Package luatex.def Info: index6.jpg  used on input line 60.
 (luatex.def)             Requested size: 292.7776pt x 541.12283pt.
-)
+) [19<../index.jpg>] [20<../index2.jpg>] [21<../index3.jpg>] [22<../index4.jpg>] [23<../index5.jpg>] [24<../index6.jpg>] [25
 
-LaTeX Warning: Empty bibliography on input line 23.
-
-[19<../index.jpg>] [20<../index2.jpg>] [21<../index3.jpg>] [22<../index4.jpg>] [23<../index5.jpg>] [24<../index6.jpg>] (./build/vXXX.aux)
+] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: E7B99217CFF0ACB26E991C973A9DE1BE;24095.
+(rerunfilecheck)             Checksum: 71C684336E779AA84AC64262EACBC3A2;24532.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: 6DA43D5061109000196C8C7380EC0776;3875.
+(rerunfilecheck)             Checksum: 7547670CFC2802A88B986E0B1813543E;3977.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37703 strings out of 477893
+ 37901 strings out of 477893
  100000,1977958 words of node,token memory allocated
- 3801 words of node memory still in use:
-   128 hlist, 16 vlist, 10 rule, 1 local_par, 16 math, 59 glue, 24 kern, 1 penalty, 1 margin_kern, 126 glyph, 141 attribute, 76 glue_spec, 72 attribute_list, 1 write nodes
-   avail lists: 1:4,2:1443,3:406,4:153,5:457,6:89,7:4773,8:79,9:1042,10:11,11:444,12:1
- 57067 multiletter control sequences out of 65536+600000
- 139 fonts using 55357415 bytes
+ 3811 words of node memory still in use:
+   128 hlist, 16 vlist, 10 rule, 1 local_par, 16 math, 59 glue, 24 kern, 1 penalty, 1 margin_kern, 126 glyph, 141 attribute, 78 glue_spec, 72 attribute_list, 1 write nodes
+   avail lists: 1:2,2:1489,3:421,4:161,5:457,6:92,7:4773,8:78,9:1042,10:11,11:444,12:1
+ 57264 multiletter control sequences out of 65536+600000
+ 140 fonts using 55489591 bytes
  113i,18n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (24 pages, 841012 bytes).
+</home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on vXXX.pdf (25 pages, 844734 bytes).
 
-PDF statistics: 460 PDF objects out of 1000 (max. 8388607)
- 384 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 131072)
- 233 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 474 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
+ 95 named destinations out of 1000 (max. 131072)
+ 241 words of extra memory for PDF output out of 10000 (max. 100000000)
 

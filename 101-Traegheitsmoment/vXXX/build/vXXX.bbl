@@ -16,5 +16,20 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{sample}{manual}{}
+      \list{organization}{1}{%
+        {TU Dortmund, Fakultät Physik}%
+      }
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Trägheitsmoment}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
