@@ -3,10 +3,7 @@
 
 \subsection{Winkelrichtgröße}
 \label{sec:Winkelrichtgroeße}
-Die Winkelrichtgröße wird durch die Formel
-\begin{equation}
-  D = \frac{F \cdot r}{\varphi}
-\end{equation}
+Die Winkelrichtgröße wird durch (\ref{eqn:Drehmoment})
 bestimmt, wobei $\varphi$ in Bogenmaß angegeben wird: $\alpha_{Rad} = \frac{\alpha_{Deg}}{180^{\circ}}\cdot \pi $. 
 Die verwendeten Werte sind in Tabelle \ref{tab:winkelrichtgr} angegeben.
 \begin{table}
@@ -66,7 +63,7 @@ den Messunsicherheiten $\Delta m_G = 0,0001\, \mathrm{kg}$ und $\Delta R_G\mathr
 \end{table}
 
 Um nun das Eigenträgheitsmoment zu errechnen wird die Tatsache verwendet, dass das Trägheitsmoment der Gewichte bestimmt und
-das Gesamtträgheitsmoment ($I_G$ und $I_D$) gemessen werden kann. Es gilt $I_{Ges} = I_D + I_G$. Mithilfe von Formel \ref{eqn:Steiner} und \ref{eqn:Izx} ergibt sich Folgendes:
+das Gesamtträgheitsmoment ($I_G$ und $I_D$) gemessen werden kann. Es gilt $I_{Ges} = I_D + I_G$. Mithilfe von Formel \ref{eqn:Steiner} und \autoref{eqn:Izx} ergibt sich Folgendes:
 \begin{equation}
   \label{eqn:I_ges}
     I_{Ges} = I_D + 2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right) + 2 \cdot m_G \cdot a^2
@@ -85,7 +82,7 @@ Formel \ref{eqn:linreg} besitzt die Form $y = mx + b$. Wobei
 \begin{equation*}
   y = T^2,\, m = \frac{8\pi^2 \cdot m_G}{D},\, x = a^2 \, \mathrm{und}\, b = \frac{4\pi^2 \cdot I_D}{D}  + \frac{8\pi^2 \cdot \left(\frac{m_G R_G^2}{4} + \frac{m_G h_G^2}{12} \right)}{D}
 \end{equation*}
-ist. Es wird nun $T^2$ gegen $a^2$ aufgetragen (Abbildung \ref{fig:plot}) und per linearer Regression $m$ und $b$ bestimmt.
+ist. In Abbildung \ref{fig:plot} wird nun $T^2$ gegen $a^2$ aufgetragen und per linearer Regression $m$ und $b$ bestimmt.
  \begin{figure}
    \centering
    \includegraphics{plot.pdf}
@@ -119,10 +116,6 @@ Die Messunsicherheit für $I_D$ wird mithilfe der Gaußschen Fehlerfortpflanzung
     &+ (m_G R_G)^2 \cdot (\Delta R_G)^2 + \left(\frac{m_G h_G}{3} \right)^2 \cdot (\Delta h_G)^2 \bigg)^{0{,}5}
   \end{split}
 \end{flalign}
-
-\begin{equation*}
-  \Delta I_D = 0{,}417 \cdot 10^{-3} \cdot \mathrm{kg \cdot m^2}
-\end{equation*}
 
 Also ergibt sich mit Formel \ref{eqn:FehlerID} und \ref{eqn:I_D} $I_D$ folgendermaßen:
 
@@ -338,7 +331,7 @@ verschoben und wir müssen die Formeln \ref{eqn:Steiner} und \ref{eqn:Izz} anwen
 \end{align*}
 
 Bei den Beinen gilt ähnliches, nur dass diese um $a = h_{Beine} \cdot 0{,}5 = 0{,}01247 \pm 0{,}00382 \, \mathrm{m}$ verschoben sind
-und wir die Formeln \label{eqn:Izx} und \ref{eqn:Steiner} verwenden:
+und wir die Formeln \ref{eqn:Izx} und \ref{eqn:Steiner} verwenden:
 
 \begin{align*}
   & I_{Beine,1} = \frac{m_{Beine}R_{Beine}^2}{4} + \frac{m_{Beine}h_{Beine}^2}{12} = (0,47 \pm 0,145) \cdot 10^{-4} \, kg \cdot m^2 \\
