@@ -1,2 +1,38 @@
 \section{Durchführung}
 \label{sec:Durchführung}
+Alle Brückenschaltungen werden mit einer Wechselspannung mit 1000 Hz betrieben und als Spannungsmessgerät wird
+ein digitales Oszilloskop benutzt.
+
+\subsection{Wheatstonesche Brückenschaltung}
+
+Die Schaltung wird nach \autoref{Abb:Wheatstone} aufgebaut und sich zwei unbekannte Widerstände ausgesucht. In diesem
+Fall wurden Wert 13 und Wert 14 verwendet. Für Wert 13 wird das Potentiometer zunächst solange verstellt, bis die gemessene Brückenspannung
+verschwindet. Dann werden alle bekannten Werte abgelesen und notiert. Dies wird für jeweils drei verschiedene bekannte 
+Widerstände $R_2$ wiederholt. Anschließend wird das Ganze nochmal für Wert 14 durchgeführt.
+
+\subsection{Kapazitätsmessbrücke}
+
+Die Schaltung wird zunächst wie in \autoref{Abb:Kapazitaetsmessbruecke} aufgebaut und sich zwei Kondensatoren mit unbekannten
+Kapazitäten und in Reihe geschalteten unbekannten Widerständen rausgesucht. Hier wurde nur Wert 8 verwendet, da Wert 15 fehlerhafte Ergebnisse
+am Oszilloskop angezeigt hatte. \\
+Das Potentiometer und der veränderliche Widerstand $R_2$ werden so lange verändert, bis die Brückenspannung minimal ist. Alle bekannten 
+Werte werden wieder abgelesen und notiert.
+
+\subsection{Induktivitätsmessbrücke}
+
+Die Schaltung wird nach \autoref{Abb:Induktivitaetsmessbruecke} aufgebaut und analog zur Kapazitätsmessbrücke durchgeführt. Nur, dass
+anstelle des Kondensators $C_2$ nun eine bekannte Spule $L_2$ verwendet wird. Die Werte werden wieder abgelesen und notiert.
+
+\subsection{Maxwell-Brücke}
+
+Die Brückenschaltung wird wie in \autoref{Abb:Maxwell} aufgebaut und sich dasselbe unbekannte Bauteil wie bei der Induktivitätsmessbrücke genommen,
+welches aus einer unbekannten Spule und einem unbekannten Ohm'schen Widerstand besteht. Die Widerstände $R_3$ und $R_4$ werden so lange varriiert, 
+bis die gemessene Brückenspannung Null wird. Dann werden wieder alle Werte notiert.
+
+\subsection{Wien-Robinson-Brücke}
+
+Die Schaltung wird wie in \autoref{Abb:Wien} gezeigt aufgebaut. Bei diesem Versuch sind alle verwendeten Bauteile bekannt. Es wird die Spannungsfrequenz 
+zwischen 20 und 30 000 Hz varriiert und notiert wie sich die Brückenspannung $U_{Br}$ dementsprechend verändert. Hierzu wurde bei 20 Hz begonnen und der
+nächste Wert immer als doppeltes des vorherigen genommen, also: 20 Hz, 40 Hz, 80 Hz... . Anschließend wurde die Speisespannung $U_S$ nach dem gleichen Schema untersucht.
+
+\newpage
