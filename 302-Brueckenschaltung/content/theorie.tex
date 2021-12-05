@@ -10,36 +10,130 @@ Dabei werden bisher nur in der Theorie benutze Konzepte angewendet, wie beispiel
 Brückenschaltungen werden dazu benutzt, durch bereits bekannte Widerstände Unbekannte zu bestimmen. Zu diesen Widerständen zählen
 Ohm'sche Widerstände, induktive Widerstände und kapazitative Widerstände. Bei den letzteren Beiden handelt es sich um komplexe
 Widerstände. \\
-Allgemein werden bei allen folgenden Schaltungen die Kirchhoffschen Gesetze
+Allgemein werden bei allen folgenden Schaltungen die Kirchhoffschen Gesetze verwendet. Das Erste besagt, dass die Summe aller eingehenden
+und ausgehenden Ströme an einem Knoten Null ist:
 \begin{equation}
     \sum_k I_k = 0 \\ \label{eqn:K1}
 \end{equation}
+Das Zweite besagt, dass die Summe aller Speisespannungen gleich der Summe der Produkte der Stromstärken und Widerständen innerhalb einer Masche ist:
 \begin{equation}
     \sum_k U_k = \sum_k I_k R_k \label{eqn:K2}
 \end{equation}
-verwendet, wobei bei \autoref{eqn:K2} alle $I_k$ im Uhzeigersinn als positiv und alle gegen den Uhzeigersinn als negativ zu werten sind. \\
-Aus diesen grundlegenden Gesetzten \autoref{eqn:K1} und \autoref{eqn:K2} lässt sich die Abgleichbedingung herleiten:
+Bei \autoref{eqn:K2} werden alle $I_k$ im Uhzeigersinn als positiv und alle gegen den Uhzeigersinn als negativ gewertet. \\
+Aus diesen grundlegenden Gesetzten (\autoref{eqn:K1} und \autoref{eqn:K2}) lässt sich die Abgleichbedingung herleiten:
+\begin{equation*}
+    U_{Br} = \frac{R_2 R_3 - R_1 R_4}{(R_3 + R_4)(R_1 + R_2)} U_S
+\end{equation*}
+Wenn nun die Brückenspannung verschwindet, ergibt sich:
 \begin{equation}
-    R_1 R_4 = R_2 R_3
+    R_1 R_4 = R_2 R_3 \label{eqn:Abgl}
 \end{equation}
-Diese Formel ist nur erfüllt wenn die Brückenspannung minimal wird.
 \\
 
 \subsection{Wheatstonesche Brückenschaltung}
  
-Die meisten Brückenschaltungen bestehen aus einer Speisespannung $U_S$, bekannten Widerständen, einem unbekannten Widerstand und einem Spannungsmessgerät.
-Der einfachste Aufbau besteht aus drei bekannten und einem unbekannten Widerstand, welche wie in \autoref{Abb:Wheatstone} aufgebaut werden.
+Der einfachste Aufbau einer Brückenschaltung besteht aus einer Speisespannung $U_S$, drei bekannten und einem unbekannten Ohm'schen Widerstand und
+einem Spannungsmessgerät, was wie in \autoref{Abb:Wheatstone} aufgebaut wird.
 
 \begin{figure}
     \centering
     \includegraphics{Wheatstone.png}
-    \caption{Wheatstonesche Brückenschaltung}
+    \caption{Wheatstonesche Brückenschaltung \cite{Blatt}}
     \label{Abb:Wheatstone}
 \end{figure}
 
 Bei \autoref{Abb:Wheatstone} handelt es sich um eine Wheatstonesche Brückenschaltung. Sie kann sowohl mit Gleichstrom, als auch mit Wechselstrom betrieben werden.
-Diese Schaltung wird zur Bestimmung des Widerstands $R_X$ benutzt. Die Widerstände $R_3$ und $R_4$ können in diesem Fall durch ein Potentiometer ersetzt werden,
+Diese Schaltung wird zur Bestimmung des Ohm'schen Widerstands $R_X$ benutzt. Die Widerstände $R_3$ und $R_4$ können in diesem Fall durch ein Potentiometer ersetzt werden,
 da nur das Verhätnis der beiden Widerstände relevant zur Bestimmung von $R_X$ ist. \\
+Mit \autoref{eqn:Abgl} wird nun eine Formel für $R_X$ bestimmt:
+\begin{equation}
+    R_X = R_2 \frac{R_3}{R_4}
+\end{equation}
+Da diese Formel nur erfüllt ist, wenn die Brückenspannung Null ist, wird das Potentiometer [Verhätnis von $R_3$ und $R_4$] angepasst, bis die
+mit dem Spannungsmessgerät gemessene Spannung verschwindet.
 
+\subsection{Kapazitätsmessbrücke}
+
+\begin{figure}
+    \centering
+    \includegraphics{Kapazitätsmessbrücke.png}
+    \caption{Kapazitätsmessbrücke \cite{Blatt}}
+    \label{Abb:Kapazitaetsmessbruecke}
+\end{figure}
+
+
+Bei der Kapazitätsmessbrücke wird grundlegend derselbe Aufbau verwendet wie bei \autoref{Abb:Wheatstone}. Da Kondensatoren einen Teil der durchfließenden 
+elektrischen Energie in Wärme umwandeln, wird ein Ersatzschaltbild verwendet. Die dielektrischen Verluste werden durch einen mit dem Kondensator in Reihe geschalteten
+fiktiven Ohm'schen Widerstand dargestellt. Der reale Widerstand des Kondensators berechnet sich also aus:
+\begin{equation*}
+    Z_{C_{real}} = R - \frac{j}{\omega C}
+\end{equation*}
+In dem Aufbau \autoref{Abb:Kapazitaetsmessbruecke} der Brückenschaltung wird zudem ein zweiter Abstimmfreiheitsgrad ($R_2$) gewählt, um die durch $R_X$ 
+auftretende Phasenverschiebung zu kompensieren.
+Die beiden Unbekannten berechnen sich dann mit \autoref{eqn:Abgl} folgendermaßen:
+\begin{equation}
+    R_X = R_2 \frac{R_3}{R_4} \label{eqn:CRX}
+\end{equation}
+\begin{equation}
+    C_X = C_2 \frac{R_4}{R_3} \label{eqn:CCX}
+\end{equation}
+
+\subsection{Induktivitätsmessbrücke}
+
+\begin{figure}
+    \centering
+    \includegraphics{Induktivitätsmessbrücke.png}
+    \caption{Induktivitätsmessbrücke \cite{Blatt}}
+    \label{Abb:Induktivitaetsmessbruecke}
+\end{figure}
+
+Die Spule hat genau dasselbe Problem wie der Kondensator. Sie setzt einen Teil der magnetischen Feldenergie irreversibel in Wärme. Daher wird wie beim Kondensator
+ein Ersatzschaltbild mit einem Ohm'schen Widerstand verwendet. Der Aufbau \autoref{Abb:Induktivitaetsmessbruecke} bleibt derselbe wie bei \autoref{Abb:Kapazitaetsmessbruecke}.
+Der reale Widerstand der Spule setzt sich folgendermaßen zusammen:
+\begin{equation*}
+    Z_{L_{real}} = R + j \omega L
+\end{equation*}
+ 
+Analog zu \autoref{eqn:CRX} und \autoref{eqn:CCX} lassen sich die jeweils gesuchten Größen so formulieren:
+
+\begin{equation}
+    R_X = R_2 \frac{R_3}{R_4} \label{eqn:LRX}
+\end{equation}
+\begin{equation}
+    L_X = L_2 \frac{R_4}{R_3} \label{eqn:LLX}
+\end{equation}
+
+Wie auch bei der Kapazitätsmessbrücke wird hier der Widerstand $R_2$ variabel gewählt, um der durch $R_X$ verursachten Phasenverschiebung entgegen zu wirken.
+
+\subsection{Maxwell-Brücke}
+
+\begin{figure}
+    \centering
+    \includegraphics{Maxwell.png}
+    \caption{Maxwell-Brücke \cite{Blatt}}
+    \label{Abb:Maxwell}
+\end{figure}
+
+Eine weitere Möglichkeit eine unbekannte Induktivität zu bestimmen besteht durch die Maxwell-Brückenschaltung. Der Unterschied zu allen bisherigen Schaltungen liegt darin,
+dass bei keiner der Abgleichbedingungen die Frequenz der Speisespannung mit einging.\\
+Der Aufbau der Schaltung \autoref{Abb:Maxwell} ist wieder ähnlich zu \autoref{Abb:Induktivitaetsmessbruecke}. Allerdings werden anstelle des Potentiometer die Widerstände $R_3$ und $R_4$ variabel
+gewählt. Zudem wird parallel zu $R_4$ ein bekannter Kondensator geschaltet.\\
+Mit der Abgleichbedingung ergeben sich nun folgende Formeln für die gesuchten Größen:
+
+\begin{equation}
+    R_X = R_2 \frac{R_3}{R_4} \label{eqn:LCRX}
+\end{equation}
+\begin{equation}
+    L_X = R_2 R_3 C_4 \label{eqn:LLCX}
+\end{equation}
+
+\subsection{Wien-Robinson-Brücke}
+
+\begin{figure}
+    \centering
+    \includegraphics{Wien.png}
+    \caption{Wien-Robinson-Brücke \cite{Blatt}}
+    \label{Abb:Wien}
+\end{figure}
 
 \cite{sample}
