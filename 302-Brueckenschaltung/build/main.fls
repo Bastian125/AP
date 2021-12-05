@@ -461,9 +461,6 @@ INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
@@ -479,6 +476,9 @@ INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/sym
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT build/plot.pdf
 INPUT build/plot.pdf
 INPUT build/plot.pdf
