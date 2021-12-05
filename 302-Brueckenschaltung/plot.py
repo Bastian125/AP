@@ -1,12 +1,15 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0, 10, 1000)
-y = x ** np.sin(x)
+f, U_Br, U_s, U_br = np.genfromtxt('Me).txt', unpack=True)
+x = f/241
+y = U_br/U_s
 
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \:/\: \si{\ohm}$')
-plt.ylabel(r'$y \:/\: \si{\micro\joule}$')
+plt.plot(x, y, 'x', label='Messwerte')
+plt.xlabel(r'$\Omega = \frac{f}{f_0}$')
+plt.xscale('log')
+plt.ylabel(r'$\frac{U_{Br}}{U_s}$')
+plt.grid()
 plt.legend(loc='best')
 
 
