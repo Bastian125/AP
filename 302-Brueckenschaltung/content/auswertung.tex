@@ -43,7 +43,7 @@ bestimmen. Die Fehler aus der Standarabweichung sind wesentlich größer als die
 \subsection{Kapazitätsmessbrücke}
 Der relative Fehler für $R_2$ beträgt $3\,\%$ und der für $C_2$ ist mit $0,2 \,\%$ angegeben. Der relative Fehler des Potentiometers ist gleich geblieben.
 $C_2$ ist als $C_2 = 597 \cdot 10^{-9}\,\unit{\farad}$ angegeben. Die Werte für $C_8$ und $R_8$ lassen sich in Tabelle \ref{tab:C8,R8} finden.\\
-Mit Hilfe von () und () sind $C_8$ und $R_8$ bestimmt als
+Mit Hilfe von (\ref{eqn:CCX}) und (\ref{eqn:CRX}) sind $C_8$ und $R_8$ bestimmt als
 \begin{align*}
   C_8 &= (578 \pm 146)\cdot 10^{-9} \,\unit{\farad} \\
   R_8 &= (787 \pm 73)\,\unit{\ohm}
@@ -70,7 +70,7 @@ Auch hier sind die Fehler aus der Standarabweichung wesentlich größer als die 
 
 \subsection{Induktivitätsmessbrücke}
 Der relative Fehler für $R_2$ und das Potentiometer ist gleich geblieben. Der baubedingte Fehler für $L_2$ ist als $0,0\,\%$ angegeben.
-Die Werte für $L_{16}$ und $R_{16}$ sind in Tabelle \ref{tab:Cx,Rx} angegeben. Mit () und () ergibt sich
+Die Werte für $L_{16}$ und $R_{16}$ sind in Tabelle \ref{tab:Cx,Rx} angegeben. Mit (eqn:LLX) und (eqn:LRX) ergibt sich
 \begin{align*}
   L_{16} &= (12,4 \pm 2,7)\cdot 10^{-3} \,\unit{\henry} \\
   R_{16} &= (663 \pm 255)\,\unit{\ohm}.
@@ -97,7 +97,7 @@ Die Fehler der Mittelwerte sind erneut größer als die der relativen Fehler.
 
 \subsection{Maxwellbrücke}
 Die relativen Fehler von $R_3$ und $R_4$ sind mit $3\,\% $ angegeben. Die für $R_2$ und $C_2$ betragen $0,2\,\%$.
-Die Messwerte für $L_{16}$ und $R_{16}$ sind in Tabelle \ref{tab:Cx,Rx,Maxwell} zu finden. Mit () und () ergibt sich
+Die Messwerte für $L_{16}$ und $R_{16}$ sind in Tabelle \ref{tab:Cx,Rx,Maxwell} zu finden. Mit (\ref{eqn:LLCX}) und (\ref{eqn:LCRX}) ergibt sich
 \begin{align*}
   L_{16} &= (91,9 \pm 47,7)\cdot 10^{-3} \,\unit{\henry} \\
   R_{16} &= (239 \pm 150)\,\unit{\ohm}.
@@ -125,7 +125,7 @@ Auch hier sind die Fehler der Standardabweichung wieder wesentlich größer als 
 \subsection{Wien-Robinson-Brücke}
 Es soll die Frequenzabhängigkeit der Brückenspannung untersucht werden. Dazu wird der Quotient aus effektiver Brückenspannung $U_{Br,eff}$ und Speisespannung $U_s$
 gegen $\Omega = \frac{f}{f_0}$ aufgetragen und eine Theoriekurve eingezeichnet. Die Messwerte sind in Tabelle \ref{tab:Wien-Robinson} eingetragen.
-Die Theoriekurve bestimmt sich aus () und ist in Abbildung \ref{fig:plot} aufgezeichnet. Die effektive Brückenspannung ist gegeben durch
+Die Theoriekurve bestimmt sich aus (\ref{eqn:Ubr/Us}) und ist in Abbildung \ref{fig:plot} aufgezeichnet. Die effektive Brückenspannung ist gegeben durch
 \begin{align*}
   U_{Br,eff} = \frac{U_{Br}}{2\sqrt{2}}.
 \end{align*}
@@ -187,7 +187,7 @@ Weiterhin lässt sich die Abweichung um das Minimum herum durch einen relativ ho
 feststellbar.
 \\
 Der Klirrfaktor bestimmt sich durch (). Dabei wird die Näherung verwendet, dass die Summe der Oberwellen nur von der zweiten Oberwelle abhängt. Dementsprechen werden
-nur noch $U_1$ und $U_2$ benötigt. $U_1$ ist durch $2,75\,\unit{\volt}$ von $U_s$ bei $f_0$ gegeben. $U_2$ bestimmt sich aus() und $\Omega = 2$ zu
+nur noch $U_1$ und $U_2$ benötigt. $U_1$ ist durch $2,75\,\unit{\volt}$ von $U_s$ bei $f_0$ gegeben. $U_2$ bestimmt sich aus (\ref{eqn:Ubr/Us}) und $\Omega = 2$ zu
 \begin{align*}
   U_2 &= \frac{0,71\,\unit{\volt}}{\sqrt{\frac{(2^2 -1)^2}{9((1-2^2)^2 +9\cdot2^2)}}}\\
  &= 4,76\,\unit{\volt}.
