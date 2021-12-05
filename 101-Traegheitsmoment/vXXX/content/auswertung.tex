@@ -3,7 +3,7 @@
 
 \subsection{Winkelrichtgröße}
 \label{sec:Winkelrichtgroeße}
-Die Winkelrichtgröße wird durch (\ref{eqn:Drehmoment})
+Die Winkelrichtgröße wird durch (\ref{eqn:Winkelrichtgroesse})
 bestimmt, wobei $\varphi$ in Bogenmaß angegeben wird: $\alpha_{Rad} = \frac{\alpha_{Deg}}{180^{\circ}}\cdot \pi $. 
 Die verwendeten Werte sind in Tabelle \ref{tab:winkelrichtgr} angegeben.
 \begin{table}
@@ -30,7 +30,7 @@ Die verwendeten Werte sind in Tabelle \ref{tab:winkelrichtgr} angegeben.
 \\Sowohl der Mittelwert, als auch die Standardabweichung wurden mit Python bestimmt. Daraus ergibt sich der
 gemittelte Wert
 \begin{align*}
-    D = (0{,}0256871 \pm 0{,}000765)\,\mathrm{Nm} .
+    D = (25{,}69 \pm 0{,}77)\cdot 10^{-3}\,\mathrm{Nm} .
 \end{align*}
 
 \subsection{Eigenträgheitsmoment}
@@ -344,7 +344,7 @@ und wir die Formeln \ref{eqn:Izx} und \ref{eqn:Steiner} verwenden:
 Das Gesamtträgheitsmoment bestimmt sich nun aus der Addition aller einzelnen Trägheitsmomente:
 
 \begin{align}
-  I_{Ges} = 2 \cdot I_{Beine,2} + 2 \cdot I_{Arme,2} + I_{Kopf} + I_{Oberk\ddot{o}rper} = (130 \pm 24)\cdot 10^{-6} \, kg \cdot m^2
+  I_{Ges} = 2 \cdot I_{Beine,2} + 2 \cdot I_{Arme,2} + I_{Kopf} + I_{Oberk\ddot{o}rper} = (1,30 \pm 24)\cdot 10^{-4} \, kg \cdot m^2
 \end{align}
 
 \subsubsection{Experimentelle Werte}
@@ -380,7 +380,7 @@ erhält man
 \end{align*}
 Mit Hilfe von Formel \ref{eqn:I(T)} und Formel \ref{eqn:K_Gauss} lässt sich das Trägheitsmoment bestimmen als
 \begin{align*}
-  I_{K1} = (9{,}57 \pm 0{,}6) \cdot 10^{-6}\, \mathrm{mkg^2}.
+  I_{K1} = (5{,}39 \pm 0{,}73) \cdot 10^{-4}\, \mathrm{mkg^2}.
 \end{align*}
 
 \subsection{Trägheitsmoment der Puppe in Körperhaltung 2}
@@ -419,7 +419,7 @@ und wir die Formeln \ref{eqn:Izz} und \ref{eqn:Steiner} verwenden:
 Das Gesamtträgheitsmoment bestimmt sich nun aus der Addition aller einzelnen Trägheitsmomente:
 
 \begin{align}
-  I_{Ges} = 2 \cdot I_{Beine,2} + 2 \cdot I_{Arme,2} + I_{Kopf} + I_{Oberk\ddot{o}rper} = (288 \pm 24)\cdot 10^{-6} \, kg \cdot m^2
+  I_{Ges} = 2 \cdot I_{Beine,2} + 2 \cdot I_{Arme,2} + I_{Kopf} + I_{Oberk\ddot{o}rper} = (2,88 \pm 24)\cdot 10^{-4} \, kg \cdot m^2
 \end{align}
 
 \subsubsection{Experimentelle Werte}
@@ -454,6 +454,6 @@ Sowohl der Mittelwert, als auch die Standarabweichung wurde mit Python bestimmt.
 \end{align*}
 Mit Hilfe von Formel \ref{eqn:I(T)} lässt sich das Trägheitsmoment bestimmen als
 \begin{align*}
-  I_{K2} = (4{,}02 \pm 0{,}2) \cdot 10^{-6}\, \mathrm{kgm^2}.
+  I_{K2} = (2{,}26 \pm 0{,}24) \cdot 10^{-4}\, \mathrm{kgm^2}.
 \end{align*}
 \cite{sample}
