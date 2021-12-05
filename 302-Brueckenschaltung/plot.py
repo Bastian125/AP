@@ -6,6 +6,7 @@ x = f/241
 y = U_br/U_s
 
 plt.plot(x, y, 'x', label='Messwerte')
+plt.plot(x, (1)/(9) * ((x**2 -1)**2)/(((1-x**2)**2)+9*x**2), label='Theoriekurve')
 plt.xlabel(r'$\Omega = \frac{f}{f_0}$')
 plt.xscale('log')
 plt.ylabel(r'$\frac{U_{Br}}{U_s}$')
