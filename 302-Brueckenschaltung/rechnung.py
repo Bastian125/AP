@@ -38,3 +38,9 @@ R16 = R2*R3/R4
 L16 = R2*R3*C2
 print('R16: ', np.mean(R16), '+- ', np.std(R16))
 print('L16: ', np.mean(L16), '+- ', np.std(L16))
+
+# e)
+# U_eff
+f, UBr, Us, ubreff = np.genfromtxt('Me).txt', unpack=True)
+UBreff = UBr*2**(-3/2)
+print(UBreff)
