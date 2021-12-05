@@ -29,3 +29,12 @@ R16 = R2*R3/R4
 L16 = L2*R3/R4
 print('R16: ', np.mean(R16), '+- ', np.std(R16))
 print('L16: ', np.mean(L16), '+- ', np.std(L16))
+
+# d)
+# R16 und L16
+R2 = 1e3
+R3, R4, Rt2, Lt = np.genfromtxt('Md).txt', unpack=True)
+R16 = R2*R3/R4
+L16 = R2*R3*C2
+print('R16: ', np.mean(R16), '+- ', np.std(R16))
+print('L16: ', np.mean(L16), '+- ', np.std(L16))
