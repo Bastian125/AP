@@ -19,7 +19,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5}Wien-Robinson-Brücke}{4}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{5}{section.5}%
+\contentsline {section}{\numberline {5}Diskussion}{4}{section.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Messwerte}{5}{section.6}%
 \defcounter {refsection}{0}\relax 
