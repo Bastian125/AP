@@ -4,10 +4,10 @@
 \subsection{Wheatston'sche Messbrücke}
 Der relative Fehler für $\frac{R_3}{R_4}$ ist mit $0,5\,\%$ und der für $R_2$ ist mit $0,2\,\%$ angegeben. Die Werte für $R_{14}$ und $R_{13}$ sind in
 Tabelle \ref{tab:R14} und \ref{tab:R13} zu finden. Mit Hilfe von () lassen sich die Werte
-\begin{gather*}
-  R_{14} = (704 \pm 631)\,\unit{\ohm} \\
-  R_{13} = (1724 \pm 1440)\,\unit{\ohm}
-\end{gather*}
+\begin{align*}
+  R_{14} &= (704 \pm 631)\,\unit{\ohm} \\
+  R_{13} &= (1724 \pm 1440)\,\unit{\ohm}
+\end{align*}
 bestimmen. Die Fehler aus der Standarabweichung sind wesentlich größer als die angegeben relativen Fehler.
 
 \begin{table}
@@ -44,10 +44,10 @@ bestimmen. Die Fehler aus der Standarabweichung sind wesentlich größer als die
 Der relative Fehler für $R_2$ beträgt $3\,\%$ und der für $C_2$ ist mit $0,2 \,\%$ angegeben. Der relative Fehler des Potentiometers ist gleich geblieben.
 $C_2$ ist als $C_2 = 597 \cdot 10^{-9}\,\unit{\farad}$ angegeben. Die Werte für $C_8$ und $R_8$ lassen sich in Tabelle \ref{tab:C8,R8} finden.\\
 Mit Hilfe von () und () sind $C_8$ und $R_8$ bestimmt als
-\begin{gather*}
-  C_8 = (578 \pm 146)\cdot 10^{-9} \,\unit{\farad} \\
-  R_8 = (787 \pm 73)\,\unit{\ohm}
-\end{gather*}
+\begin{align*}
+  C_8 &= (578 \pm 146)\cdot 10^{-9} \,\unit{\farad} \\
+  R_8 &= (787 \pm 73)\,\unit{\ohm}
+\end{align*}
 Auch hier sind die Fehler aus der Standarabweichung wesentlich größer als die angegebenen relativen Fehler.
 
 \begin{table}
@@ -71,10 +71,10 @@ Auch hier sind die Fehler aus der Standarabweichung wesentlich größer als die 
 \subsection{Induktivitätsmessbrücke}
 Der relative Fehler für $R_2$ und das Potentiometer ist gleich geblieben. Der baubedingte Fehler für $L_2$ ist als $0,0\,\%$ angegeben.
 Die Werte für $L_{16}$ und $R_{16}$ sind in Tabelle \ref{tab:Cx,Rx} angegeben. Mit () und () ergibt sich
-\begin{gather*}
-  L_{16} = (12,4 \pm 2,7)\cdot 10^{-3} \,\unit{\henry} \\
-  R_{16} = (663 \pm 255)\,\unit{\ohm}.
-\end{gather*}
+\begin{align*}
+  L_{16} &= (12,4 \pm 2,7)\cdot 10^{-3} \,\unit{\henry} \\
+  R_{16} &= (663 \pm 255)\,\unit{\ohm}.
+\end{align*}
 Die Fehler der Mittelwerte sind erneut größer als die der relativen Fehler.
 
 \begin{table}
@@ -98,10 +98,10 @@ Die Fehler der Mittelwerte sind erneut größer als die der relativen Fehler.
 \subsection{Maxwellbrücke}
 Die relativen Fehler von $R_3$ und $R_4$ sind mit $3\,\% $ angegeben. Die für $R_2$ und $C_2$ betragen $0,2\,\%$.
 Die Messwerte für $L_{16}$ und $R_{16}$ sind in Tabelle \ref{tab:Cx,Rx,Maxwell} zu finden. Mit () und () ergibt sich
-\begin{gather*}
-  L_{16} = (91,9 \pm 47,7)\cdot 10^{-3} \,\unit{\henry} \\
-  R_{16} = (239 \pm 150)\,\unit{\ohm}.
-\end{gather*}
+\begin{align*}
+  L_{16} &= (91,9 \pm 47,7)\cdot 10^{-3} \,\unit{\henry} \\
+  R_{16} &= (239 \pm 150)\,\unit{\ohm}.
+\end{align*}
 Auch hier sind die Fehler der Standardabweichung wieder wesentlich größer als die angegebene relativen Fehler.
 
 \begin{table}
@@ -123,6 +123,30 @@ Auch hier sind die Fehler der Standardabweichung wieder wesentlich größer als 
 \end{table}
 
 \subsection{Wien-Robinson-Brücke}
+Es soll die Frequenzabhängigkeit der Brückenspannung untersucht werden. Dazu wird der Quotient aus effektiver Brückenspannung $U_{Br,eff}$ und Speisespannung $U_s$
+gegen $\Omega = \frac{f}{f_0}$ aufgetragen und eine Theoriekurve eingezeichnet. Die Messwerte sind in Tabelle \ref{tab:Wien-Robinson} eingetragen.
+Die Theoriekurve bestimmt sich aus () und ist in Abbildung \ref{fig:plot} aufgezeichnet. Die effektive Brückenspannung ist gegeben durch
+\begin{align*}
+  U_{Br,eff} = \frac{U_{Br}}{2\sqrt{2}}.
+\end{align*}
+Die Werte der verwendeten Bauteile lassen sich in Tabelle \ref{tab:Bauteile} finden. $\omega_0$ bestimmt sich durch
+\begin{align*}
+  \omega_0 &= \frac{1}{RC} = \frac{1}{1000\,\unit{\ohm}\cdot 660 \cdot 10^{-9} \,\unit{\farad}} = 1515\,\unit{\hertz} \\
+  \iff f_0 &= \frac{\omega_0}{2\pi} = 241\,\unit{\hertz}
+\end{align*}
+
+\begin{table}
+  \centering
+  \caption{Bauteile der Wien-Robinson-Brücke}
+  \label{tab:Bauteile}
+  \begin{tabular}{c c c c}
+    \toprule
+    $R/\unit{\ohm}$ & $R'/\unit{\ohm}$ & $2R'/\unit{\ohm}$ & $C/10^{-9}\unit{\farad}$ \\
+    \midrule
+    1000 & 332 & 664 & 660 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \begin{table}
   \centering
@@ -155,6 +179,12 @@ Auch hier sind die Fehler der Standardabweichung wieder wesentlich größer als 
 \begin{figure}
   \centering
   \includegraphics{plot.pdf}
-  \caption{Plot.}
+  \caption{Abgleich mit Theoriekurve}
   \label{fig:plot}
 \end{figure}
+Es fällt auf, dass die Messwerte immer mehr von der Theoriekurve abweichen, je weiter sie vom Minimum entfernt sind. Dies spricht für eine ungenaue Messung.
+Weiterhin lässt sich die Abweichung um das Minimum herum durch einen relativ hohen Klirrfaktor erklären. Nichts desto trotz ist eine Ähnlichkeit zur Theoriekurve
+feststellbar.
+\\
+Der Klirrfaktor bestimmt sich durch (). Dabei wird die Näherung verwendet, dass die Summe der Oberwellen nur von der zweiten Oberwelle abhängt.
+$U_1$ ist durch $2,75\,\unit{\volt}$ von $U_s$ bei $f_0$ gegeben. $U_2$ bestimmt sich aus(), so dass man
