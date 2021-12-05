@@ -155,6 +155,12 @@ Damit verkürzt sich \autoref{eqn:Ubr/Us} zu:
 \begin{equation}
     \biggl|\frac{U_{Br}}{U_S}\biggl|^2 = \frac{(\Omega ^2 - 1)^2}{9[(1-\Omega ^2)^2 + 9 \Omega ^2]} \label{eqn:Omega}
 \end{equation}
-Die Wien-Robinson-Brücke filtert aus einem kontinuierlichen Frequenzspektrum Schwingungen mit $\omega_0 = \frac{1}{RC}$ und schwächt die in nächster Nähe stark. Dadurch
-könnten ebenfalls Widerstände oder Kapazitäten bestimmt werden.
+Die Wien-Robinson-Brücke filtert aus einem kontinuierlichen Frequenzspektrum Schwingungen mit $\omega_0 = \frac{1}{RC}$ und schwächt die in nächster Nähe stark. Bei
+realen Messungen wird aber trotzdem ein Wert gemessen, der durch Oberwellen verursacht wird. Das Verhältnis dieser Oberwellen kann durch den Klirrfaktor ausgedrückt werden:
+\begin{equation}
+    k := \frac{\sqrt{\sum_{i=2}^N U_i^2}}{U_1} \label{eqn:Klirrfaktor}
+\end{equation} 
+Wenn der Klirrfaktor Null ist, handelt es sich um einen idealen Sinusspannungsgenegrator. Es werden also keine Oberwellen erzeugt.
+
+
 \newpage
