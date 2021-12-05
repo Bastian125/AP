@@ -1,14 +1,28 @@
 \section{Auswertung}
 \label{sec:Auswertung}
+\subsection{Fehlerrechnung}
+Da die baubedingten relativen Fehler bei den Bauteilen angegeben sind, lässt sich die Gaußsche Fehlerfortpflanzung zu
+\begin{align}
+  \Delta z &= \bar{z}\sqrt{(\Delta x)^2 + (\Delta y)^2}
+\end{align}
+für Größen der Form
+\begin{align*}
+  z = x \cdot y
+\end{align*}
+bestimmen. $\Delta x$ und $\Delta y$ sind dabei die relativen Fehler und $\bar{z}$ ist der Mittelwert.
 
 \subsection{Wheatston'sche Messbrücke}
 Der relative Fehler für $\frac{R_3}{R_4}$ ist mit $0,5\,\%$ und der für $R_2$ ist mit $0,2\,\%$ angegeben. Die Werte für $R_{14}$ und $R_{13}$ sind in
-Tabelle \ref{tab:R14} und \ref{tab:R13} zu finden. Mit Hilfe von () lassen sich die Werte
+Tabelle \ref{tab:R14} und \ref{tab:R13} zu finden. Mit Hilfe von (\ref{eqn: RXW}) lassen sich die Werte
 \begin{align*}
   R_{14} &= (704 \pm 631)\,\unit{\ohm} \\
   R_{13} &= (1724 \pm 1440)\,\unit{\ohm}
 \end{align*}
 bestimmen. Die Fehler aus der Standarabweichung sind wesentlich größer als die angegeben relativen Fehler.
+\begin{align*}
+  \Delta R_{14} &= 4\,\unit{\ohm} \\
+  \Delta R_{13} &= 9\,\unit{\ohm}
+\end{align*}
 
 \begin{table}
   \centering
@@ -49,6 +63,11 @@ Mit Hilfe von (\ref{eqn:CCX}) und (\ref{eqn:CRX}) sind $C_8$ und $R_8$ bestimmt 
   R_8 &= (787 \pm 73)\,\unit{\ohm}
 \end{align*}
 Auch hier sind die Fehler aus der Standarabweichung wesentlich größer als die angegebenen relativen Fehler.
+\begin{align*}
+  \Delta C_{8} &= 9\cdot 10^{-9}\,\unit{\farad} \\
+  \Delta R_{8} &= 24\,\unit{\ohm}
+\end{align*}
+
 
 \begin{table}
   \centering
@@ -69,13 +88,17 @@ Auch hier sind die Fehler aus der Standarabweichung wesentlich größer als die 
 \end{table}
 
 \subsection{Induktivitätsmessbrücke}
-Der relative Fehler für $R_2$ und das Potentiometer ist gleich geblieben. Der baubedingte Fehler für $L_2$ ist als $0,0\,\%$ angegeben.
-Die Werte für $L_{16}$ und $R_{16}$ sind in Tabelle \ref{tab:Cx,Rx} angegeben. Mit (eqn:LLX) und (eqn:LRX) ergibt sich
+Der relative Fehler für $R_2$ und das Potentiometer ist gleich geblieben. Der baubedingte Fehler für $L_2$ ist als $0,2\,\%$ angegeben.
+Die Werte für $L_{16}$ und $R_{16}$ sind in Tabelle \ref{tab:Cx,Rx} angegeben. Mit (\ref{eqn:LLX}) und (\ref{eqn:LRX}) ergibt sich
 \begin{align*}
   L_{16} &= (12,4 \pm 2,7)\cdot 10^{-3} \,\unit{\henry} \\
   R_{16} &= (663 \pm 255)\,\unit{\ohm}.
 \end{align*}
 Die Fehler der Mittelwerte sind erneut größer als die der relativen Fehler.
+\begin{align*}
+  \Delta L_{16} &= 0,1\cdot 10^{-3}\,\unit{\henry} \\
+  \Delta R_{16} &= 20\,\unit{\ohm}
+\end{align*}
 
 \begin{table}
   \centering
@@ -103,6 +126,10 @@ Die Messwerte für $L_{16}$ und $R_{16}$ sind in Tabelle \ref{tab:Cx,Rx,Maxwell}
   R_{16} &= (239 \pm 150)\,\unit{\ohm}.
 \end{align*}
 Auch hier sind die Fehler der Standardabweichung wieder wesentlich größer als die angegebene relativen Fehler.
+\begin{align*}
+  \Delta L_{16} &= 2,8\cdot 10^{-3}\,\unit{\henry} \\
+  \Delta R_{16} &= 1\,\unit{\ohm}
+\end{align*}
 
 \begin{table}
   \centering
@@ -186,7 +213,7 @@ Es fällt auf, dass die Messwerte immer mehr von der Theoriekurve abweichen, je 
 Weiterhin lässt sich die Abweichung um das Minimum herum durch einen relativ hohen Klirrfaktor erklären. Nichts desto trotz ist eine Ähnlichkeit zur Theoriekurve
 feststellbar.
 \\
-Der Klirrfaktor bestimmt sich durch (). Dabei wird die Näherung verwendet, dass die Summe der Oberwellen nur von der zweiten Oberwelle abhängt. Dementsprechen werden
+Der Klirrfaktor bestimmt sich durch (\ref{eqn:Klirrfaktor}). Dabei wird die Näherung verwendet, dass die Summe der Oberwellen nur von der zweiten Oberwelle abhängt. Dementsprechen werden
 nur noch $U_1$ und $U_2$ benötigt. $U_1$ ist durch $2,75\,\unit{\volt}$ von $U_s$ bei $f_0$ gegeben. $U_2$ bestimmt sich aus (\ref{eqn:Ubr/Us}) und $\Omega = 2$ zu
 \begin{align*}
   U_2 &= \frac{0,71\,\unit{\volt}}{\sqrt{\frac{(2^2 -1)^2}{9((1-2^2)^2 +9\cdot2^2)}}}\\

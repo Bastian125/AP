@@ -5,26 +5,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Wheatstonesche Brückenschaltung}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Wheatstonesche Brückenschaltung}{4}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Durchführung}{4}{section.3}%
+\contentsline {subsection}{\numberline {2.2}Kapazitätsmessbrücke}{4}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Auswertung}{4}{section.4}%
+\contentsline {subsection}{\numberline {2.3}Induktivitätsmessbrücke}{5}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Wheatston'sche Messbrücke}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {2.4}Maxwell-Brücke}{6}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Kapazitätsmessbrücke}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {2.5}Wien-Robinson-Brücke}{7}{subsection.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Induktivitätsmessbrücke}{5}{subsection.4.3}%
+\contentsline {section}{\numberline {3}Durchführung}{9}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Maxwellbrücke}{6}{subsection.4.4}%
+\contentsline {subsection}{\numberline {3.1}Wheatstonesche Brückenschaltung}{9}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Wien-Robinson-Brücke}{6}{subsection.4.5}%
+\contentsline {subsection}{\numberline {3.2}Kapazitätsmessbrücke}{9}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{6}{section.5}%
+\contentsline {subsection}{\numberline {3.3}Induktivitätsmessbrücke}{9}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Messwerte}{7}{section.6}%
+\contentsline {subsection}{\numberline {3.4}Maxwell-Brücke}{9}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{13}{section*.15}%
+\contentsline {subsection}{\numberline {3.5}Wien-Robinson-Brücke}{9}{subsection.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Auswertung}{10}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Fehlerrechnung}{10}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Wheatston'sche Messbrücke}{10}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Kapazitätsmessbrücke}{10}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Induktivitätsmessbrücke}{11}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}Maxwellbrücke}{11}{subsection.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6}Wien-Robinson-Brücke}{12}{subsection.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{14}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Messwerte}{14}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{20}{section*.21}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
