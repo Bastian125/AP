@@ -1,7 +1,7 @@
 \section{Zielsetzung}
 \label{sec:Zielsetzung}
 In diesem Versuch werden Brückenschaltungen dazu verwendet verschiedene unbekannte Ohm'sche Widerstände, Kapazitäten und Induktivitäten
-zu bestimmen. Zudem wird die Wien-Robinson-Brücke dazu verwendet um die Frequenzabhängigkeit dieser Schaltung zu untersuchen. \\
+zu bestimmen. Zudem wird die Wien-Robinson-Brücke dazu verwendet die Frequenzabhängigkeit der Brückenspannung und Speisespannung zu untersuchen. \\
 Dabei werden bisher nur in der Theorie benutze Konzepte angewendet, wie beispielsweise die Abgleichbedingung und die Kirchhoff'schen Gesetze.
 
 \section{Theorie}
@@ -10,6 +10,8 @@ Dabei werden bisher nur in der Theorie benutze Konzepte angewendet, wie beispiel
 Brückenschaltungen werden dazu benutzt, durch bereits bekannte Widerstände Unbekannte zu bestimmen. Zu diesen Widerständen zählen
 Ohm'sche Widerstände, induktive Widerstände und kapazitative Widerstände. Bei den letzteren Beiden handelt es sich um komplexe
 Widerstände. \\
+Zudem werden Brückenschaltungen oft in der Messtechnik dazu verwendet, die Auflösung einer Messung zu erhöhen, indem sie bestimmte Frequenzen
+filtern kann. \\
 Allgemein werden bei allen folgenden Schaltungen die Kirchhoffschen Gesetze verwendet. Das Erste besagt, dass die Summe aller eingehenden
 und ausgehenden Ströme an einem Knoten Null ist:
 \begin{equation}
@@ -87,8 +89,8 @@ Die beiden Unbekannten berechnen sich dann mit \autoref{eqn:Abgl} folgendermaße
     \label{Abb:Induktivitaetsmessbruecke}
 \end{figure}
 
-Die Spule hat genau dasselbe Problem wie der Kondensator. Sie setzt einen Teil der magnetischen Feldenergie irreversibel in Wärme. Daher wird wie beim Kondensator
-ein Ersatzschaltbild mit einem Ohm'schen Widerstand verwendet. Der Aufbau \autoref{Abb:Induktivitaetsmessbruecke} bleibt derselbe wie bei \autoref{Abb:Kapazitaetsmessbruecke}.
+Die Spule hat genau dasselbe Problem wie der Kondensator. Sie setzt einen Teil der magnetischen Feldenergie irreversibel in Wärme um. Daher wird wie beim Kondensator
+ein Ersatzschaltbild mit einem Ohm'schen Widerstand verwendet. Der Aufbau \autoref{Abb:Induktivitaetsmessbruecke} ist ähnlich wie bei \autoref{Abb:Kapazitaetsmessbruecke}.
 Der reale Widerstand der Spule setzt sich folgendermaßen zusammen:
 \begin{equation*}
     Z_{L_{real}} = R + j \omega L
@@ -161,6 +163,5 @@ realen Messungen wird aber trotzdem ein Wert gemessen, der durch Oberwellen veru
     k := \frac{\sqrt{\sum_{i=2}^N U_i^2}}{U_1} \label{eqn:Klirrfaktor}
 \end{equation} 
 Wenn der Klirrfaktor Null ist, handelt es sich um einen idealen Sinusspannungsgenegrator. Es werden also keine Oberwellen erzeugt.
-
 
 \newpage
