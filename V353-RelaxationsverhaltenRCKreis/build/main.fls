@@ -1,4 +1,4 @@
-PWD /mnt/c/Users/HP1/Desktop/AP-Praktikum/AP-Praktikum/V353-RelaxionsverhaltenRCKreis
+PWD /mnt/c/Users/HP1/Desktop/AP-Praktikum/AP-Praktikum/V353-RelaxationsverhaltenRCKreis
 INPUT /home/bastian/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT build/main.log
