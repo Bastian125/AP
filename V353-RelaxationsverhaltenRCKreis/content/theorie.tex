@@ -1,7 +1,43 @@
 \section{Zielsetzung}
 \label{sec:Zielsetzung}
+Es soll das Relaxationsverhalten des Entladevorgangs eines RC-Kreises bestimmt werden.
 
 \section{Theorie}
 \label{sec:Theorie}
+
+\subsection{Allgemeine Relaxationsgleichung}
+\label{sec:AllgemeineRelaxationsgleichung}
+Es handelt sich um Relaxationverhalten, wenn ein System aus einem Ausgangszustand ausgelenkt wird und ohne Oszillation in denselben
+Zustand zurückkehrt. Allgemein lässt sich eine Differentialgleichung der Form
+\begin{align}
+    \label{eqn:dA/dt}
+    \frac{\symup{d}A}{\symup{d}t} = c[A(t)-A(\infty)]
+\end{align}
+für die Änderungsgeschwindigkeit der Größe $A$ aufstellen. Diese lässt sich durch Umformung lösen zu
+\begin{align}
+    \label{eqn:AllgemeineRelaxationsgleichung}
+    A(t)=A(\infty)+[A(t)-A(\infty)]e^{ct}.
+\end{align}
+
+\subsection{Entladevorgang eines Kondensators}
+\label{sec:EntladekurveeinesKondensators}
+\begin{align}
+    \label{eqn:Entladung}
+    Q(t)=Q(0)e^{-\frac{1}{RC}}
+\end{align}
+
+\subsection{Relaxationsverhalten bei angelegter Wechselspannung}
+\label{sec:RelaxationsverhaltenbeiangelegterWechselspannung}
+\begin{align}
+    \label{eqn:Amplitude}
+    A(\omega)=\frac{U_0}{\sqrt{1+\omega^2 R^2 C^2}}
+\end{align}
+
+\subsection{Integrationsverhalten eines RC-Kreises}
+\label{sec:IntegrationsverhalteneinesRC-Kreises}
+\begin{align}
+    \label{eqn:Kondensatorspannung}
+    U_{C}(t)=\frac{1}{RC}\int_{0}^{t} U(t')\symup{d}t'
+\end{align}
 
 \cite{sample}
