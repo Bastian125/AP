@@ -1,0 +1,2 @@
+0.2 Volt    pro Kästchen
+5   ms      pro Kästchen
