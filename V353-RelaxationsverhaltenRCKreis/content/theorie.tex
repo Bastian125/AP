@@ -1,6 +1,6 @@
 \section{Zielsetzung}
 \label{sec:Zielsetzung}
-Es soll das Relaxationsverhalten des Entladevorgangs eines RC-Kreises bestimmt werden.
+Es soll das Relaxationsverhalten des Entladevorgangs eines RC-Kreises untersucht werden.
 
 \section{Theorie}
 \label{sec:Theorie}
@@ -58,7 +58,7 @@ Wechselspannung lässt sich im Allgemeinen durch die Funktion
 beschreiben. Da sich eine Phasenverschiebung zwischen der eingehenden Spannung des Sinusgenerators und der verzögerten Spannung des Kondensators bildet,
 ergibt sich für die ausgehende Spannung
 \begin{align*}
-    U_{C}(t)=A(\omega)\cdot cos(\omega t +\phi),
+    U_{C}(t)=A(\omega)\cdot cos(\omega t +\varphi),
 \end{align*}
 mit der Kondensatorspannungsamplitude $A$. Weiterhin gilt
 \begin{align}
@@ -75,6 +75,22 @@ Aus Formeln (\ref{eqn:dQ/dt}), (\ref{eqn:I(t)}) und (\ref{eqn:Kirchhoff}) und we
     \label{eqn:Amplitude}
     A(\omega)=\frac{U_0}{\sqrt{1+\omega^2 R^2 C^2}}.
 \end{align}
+
+\subsubsection{Phasenverschiebung}
+\label{sec:PhasenverschiebungTheorie}
+Die Phasenverschiebung $\varphi$ lässt sich aus dem Abstand der Nullstellen $a$der beiden Wellen 
+und der Wellenlänge $b$ in Bogenmaß durch
+\begin{align}
+    \label{eqn:phi}
+    \varphi = \frac{a}{b} \cdot 2\pi
+\end{align}
+ausdrücken.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{Phasenverschiebung.png}
+    \caption{Skizze zur Phasenverschiebung \cite{sample}.}
+    \label{fig:Phasenverschiebung}
+\end{figure}
 
 \subsection{Integrationsverhalten eines RC-Kreises}
 \label{sec:IntegrationsverhalteneinesRC-Kreises}
