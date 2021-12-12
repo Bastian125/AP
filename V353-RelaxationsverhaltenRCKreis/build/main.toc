@@ -31,8 +31,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Ampltitude der Kondensatorspannung in Abhängigkeit von der Frequenz}{8}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{9}{section.5}%
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{9}{section*.11}%
+\contentsline {section}{\nonumberline Literatur}{10}{section*.12}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

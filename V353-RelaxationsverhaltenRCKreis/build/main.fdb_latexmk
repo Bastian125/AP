@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/main"] 1639324486 "build/main.bcf" "build/main.bbl" "build/main" 1639324500
-  "build/main.bcf" 1639324499 107330 2499ae937b478ef91d7eea088362a6a0 "lualatex"
+["biber build/main"] 1639331171 "build/main.bcf" "build/main.bbl" "build/main" 1639331185
+  "build/main.bcf" 1639331185 107330 2499ae937b478ef91d7eea088362a6a0 "lualatex"
   "lit.bib" 1639168766 131 92476b01cf3809e5916f1527b45f5187 ""
   (generated)
-  "build/main.bbl"
   "build/main.blg"
-["lualatex"] 1639324495 "main.tex" "build/main.pdf" "main" 1639324500
+  "build/main.bbl"
+["lualatex"] 1639331181 "main.tex" "build/main.pdf" "main" 1639331185
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf" 1255129361 118828 4d461c73423fe2666dad2ff0dfc3ca68 ""
@@ -218,7 +218,7 @@
   "/home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc" 1637178807 123483 90b6f01166cc75b4e0372ced1a1fc84c ""
   "/home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-bold.luc" 1637178796 231561 02000e91a0787c77dfe1135c07db6446 ""
   "/home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-regular.luc" 1637178796 411896 062335832d02c17c7be701fd2ac6b582 ""
-  "/home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1638106837 11714 cf980f4ab2130df2ab46080c78af8216 ""
+  "/home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1639326397 12945 b260eea0733bde0c5fca02b03e3db6a8 ""
   "/home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc" 1637178795 1219076 172f3bbfb6fd091f324edcc71c09ef3b ""
   "/home/tabea/.local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1634075216 6672 f4533b13e70866407f19ec63a7e79059 ""
   "/home/tabea/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1634075293 3360182 678ea1093492d335e069255b9e827ef8 ""
@@ -227,12 +227,13 @@
   "Phasenverschiebung.png" 1639168766 14480 3a5ed00565636d74dae7ceaea873782d ""
   "Phasenverschiebung_Schaltkreis.png" 1639168766 22040 9c1d508811b8a321032481835d99e44a ""
   "Zeitkonstante.png" 1639168766 21033 2b63a53e1514edfa13e5146d25112444 ""
-  "build/main.aux" 1639324499 17747 c1ab5c090f6289dadedb3a451b33194a "lualatex"
-  "build/main.bbl" 1639324487 1452 8f9e42108050a4ebfe08446dc4d1f699 "biber build/main"
-  "build/main.run.xml" 1639324499 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
-  "build/main.toc" 1639324499 2397 8413d7757d0713204d34dd2d70c0f000 "lualatex"
-  "build/plot1.pdf" 1639324480 11661 d360c15bf1d0d1fe00eb08c44f62f969 ""
-  "content/auswertung.tex" 1639324472 3775 ba44261c8414e1b9ef518a5da710e5fd ""
+  "build/main.aux" 1639331185 18137 afdb32908e47775adb9afe784a75b5fc "lualatex"
+  "build/main.bbl" 1639331172 1452 8f9e42108050a4ebfe08446dc4d1f699 "biber build/main"
+  "build/main.run.xml" 1639331185 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
+  "build/main.toc" 1639331185 2399 01987fa5a46ff8d19714e322b76f7ef0 "lualatex"
+  "build/plot1.pdf" 1639331162 11661 12ca4b180960b129b6213b8365f6ccf8 ""
+  "build/plot2.pdf" 1639331165 13709 5a8f359f56604cb047c9fab027cecc28 ""
+  "content/auswertung.tex" 1639330812 4403 25f08bd68deb437ea141a71bcd8736e2 ""
   "content/diskussion.tex" 1639168766 44 402cc6c9751419c0f1a455b2d4ed1f51 ""
   "content/durchfuehrung.tex" 1639168766 2529 bf157bf2e4593a05aa444f9f0b9ae736 ""
   "content/theorie.tex" 1639168766 3874 c8cab188721196427143214808532c11 ""
@@ -241,7 +242,7 @@
   (generated)
   "build/main.run.xml"
   "build/main.bcf"
-  "build/main.toc"
   "build/main.pdf"
-  "build/main.aux"
+  "build/main.toc"
   "build/main.log"
+  "build/main.aux"
