@@ -35,8 +35,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}RC-Kreis als Integrator}{11}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{12}{section.5}%
+\contentsline {section}{\numberline {5}Diskussion}{13}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{12}{section*.17}%
+\contentsline {section}{\nonumberline Literatur}{13}{section*.17}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

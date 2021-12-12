@@ -196,13 +196,12 @@ ax.scatter(phi_fit(-1 * f[0:7], RC), A[0:7], marker='x', color='navy',
 
 f = np.linspace(10**-2, 10**4, 10**5)
 # plot fuer wert laut phase
-plt.polar(phi_fit(-1 * f, RC), AC(f, RC), label=rf'Ausgleichsfunktion für die Zeitkonstante aus 4c',
+plt.polar(phi_fit(-1 * f, RC), AC(f, RC), label='Ausgleichsfunktion für die Zeitkonstante aus 4c',
         linewidth=0.5, color='gold')
 
 ax.set_thetamin(120)
 ax.set_thetamax(-10)
-#ax.set_rlabel_position(0)
-#ax.legend(loc=l, bbox_to_anchor=(0.6,0.5))
+ax.set_rlabel_position(0)
 ax.grid(True)
 
 plt.title('Polarplot')
