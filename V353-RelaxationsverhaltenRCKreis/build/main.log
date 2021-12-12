@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.12)  12 DEC 2021 18:46
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.12)  12 DEC 2021 20:12
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1358,19 +1358,19 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
  [2
 
 ] (./content/theorie.tex [3]
-<Phasenverschiebung.png, id=72, 722.7pt x 344.28625pt>
+<Phasenverschiebung.png, id=76, 722.7pt x 344.28625pt>
 File: Phasenverschiebung.png Graphic file (type png)
 <use Phasenverschiebung.png>
 Package luatex.def Info: Phasenverschiebung.png  used on input line 90.
 (luatex.def)             Requested size: 292.7776pt x 139.47719pt.
  [4<./Phasenverschiebung.png>]) (./content/durchfuehrung.tex
-<Zeitkonstante.png, id=90, 996.72375pt x 337.26pt>
+<Zeitkonstante.png, id=94, 996.72375pt x 337.26pt>
 File: Zeitkonstante.png Graphic file (type png)
 <use Zeitkonstante.png>
 Package luatex.def Info: Zeitkonstante.png  used on input line 12.
 (luatex.def)             Requested size: 292.7776pt x 99.0637pt.
  [5<./Zeitkonstante.png>]
-<Phasenverschiebung_Schaltkreis.png, id=105, 882.29625pt x 313.17pt>
+<Phasenverschiebung_Schaltkreis.png, id=109, 882.29625pt x 313.17pt>
 File: Phasenverschiebung_Schaltkreis.png Graphic file (type png)
 <use Phasenverschiebung_Schaltkreis.png>
 Package luatex.def Info: Phasenverschiebung_Schaltkreis.png  used on input line 33.
@@ -1380,13 +1380,13 @@ Overfull \hbox (16.7234pt too wide) in paragraph at lines 41--44
 \TU/lmr/m/n/10.95 Nun wird die in Ab-bil-dung []4[] ge-zeig-te Schal-tung ver-wen-det. Auf dem Zweikanal-Oszillographen
  []
 
-<Integrator.png, id=109, 1047.915pt x 364.36125pt>
+<Integrator.png, id=113, 1047.915pt x 364.36125pt>
 File: Integrator.png Graphic file (type png)
 <use Integrator.png>
 Package luatex.def Info: Integrator.png  used on input line 47.
 (luatex.def)             Requested size: 292.7776pt x 101.79807pt.
 ) (./content/auswertung.tex [6<./Phasenverschiebung_Schaltkreis.png><./Integrator.png>]
-<AufgabeA.jpeg, id=120, 2055.68pt x 924.45375pt>
+<AufgabeA.jpeg, id=124, 2055.68pt x 924.45375pt>
 File: AufgabeA.jpeg Graphic file (type jpg)
 <use AufgabeA.jpeg>
 Package luatex.def Info: AufgabeA.jpeg  used on input line 13.
@@ -1396,40 +1396,82 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 23.
  [7<./AufgabeA.jpeg>]
-<build/plot1.pdf, id=131, 417.7206pt x 258.0049pt>
+<build/plot1.pdf, id=135, 417.7206pt x 258.0049pt>
 File: build/plot1.pdf Graphic file (type pdf)
 <use build/plot1.pdf>
 Package luatex.def Info: build/plot1.pdf  used on input line 58.
 (luatex.def)             Requested size: 208.85979pt x 129.00212pt.
-<build/plot2.pdf, id=135, 417.7206pt x 258.0049pt>
+<build/plot2.pdf, id=139, 417.7206pt x 258.0049pt>
 File: build/plot2.pdf Graphic file (type pdf)
 <use build/plot2.pdf>
 Package luatex.def Info: build/plot2.pdf  used on input line 107.
 (luatex.def)             Requested size: 208.85979pt x 129.00212pt.
-) (./content/diskussion.tex [8<./build/plot1.pdf>] [9<./build/plot2.pdf>]) [10] (./build/main.aux)
+ [8<./build/plot1.pdf>] [9<./build/plot2.pdf>]
+<build/plot3.pdf, id=203, 417.7206pt x 258.0049pt>
+File: build/plot3.pdf Graphic file (type pdf)
+<use build/plot3.pdf>
+Package luatex.def Info: build/plot3.pdf  used on input line 149.
+(luatex.def)             Requested size: 208.85979pt x 129.00212pt.
+ [10<./build/plot3.pdf>]
+<build/polarplot.pdf, id=236, 417.7206pt x 258.0049pt>
+File: build/polarplot.pdf Graphic file (type pdf)
+<use build/polarplot.pdf>
+Package luatex.def Info: build/polarplot.pdf  used on input line 187.
+(luatex.def)             Requested size: 208.85979pt x 129.00212pt.
+<build/integrator-rechteck.jpeg, id=238, 2055.68pt x 924.45375pt>
+File: build/integrator-rechteck.jpeg Graphic file (type jpg)
+<use build/integrator-rechteck.jpeg>
+Package luatex.def Info: build/integrator-rechteck.jpeg  used on input line 199.
+(luatex.def)             Requested size: 128.0374pt x 57.56662pt.
+
+Overfull \hbox (2.55946pt too wide) in paragraph at lines 199--200
+ [][] 
+ []
+
+<build/integrator-saegezahn.jpeg, id=239, 2055.68pt x 924.45375pt>
+File: build/integrator-saegezahn.jpeg Graphic file (type jpg)
+<use build/integrator-saegezahn.jpeg>
+Package luatex.def Info: build/integrator-saegezahn.jpeg  used on input line 205.
+(luatex.def)             Requested size: 128.0374pt x 57.56662pt.
+
+Overfull \hbox (2.55946pt too wide) in paragraph at lines 205--206
+ [][] 
+ []
+
+<build/integrator-sinus.jpeg, id=240, 2055.68pt x 924.45375pt>
+File: build/integrator-sinus.jpeg Graphic file (type jpg)
+<use build/integrator-sinus.jpeg>
+Package luatex.def Info: build/integrator-sinus.jpeg  used on input line 211.
+(luatex.def)             Requested size: 128.0374pt x 57.56662pt.
+
+Overfull \hbox (2.55946pt too wide) in paragraph at lines 211--212
+ [][] 
+ []
+
+[11<./build/polarplot.pdf>]) (./content/diskussion.tex) [12<./build/integrator-rechteck.jpeg><./build/integrator-saegezahn.jpeg><./build/integrator-sinus.jpeg>] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: AFDB32908E47775ADB9AFE784A75B5FC;18137.
+(rerunfilecheck)             Checksum: AB29808226EACDFF29B944A071946891;20858.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 01987FA5A46FF8D19714E322B76F7EF0;2399.
+(rerunfilecheck)             Checksum: 27FD68885EE9FD52E569CC3549D5B91E;2657.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36821 strings out of 478112
+ 36909 strings out of 478112
  100000,1977958 words of node,token memory allocated
- 635 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 78 glue_spec, 7 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1075,3:254,4:106,5:263,6:53,7:3645,8:40,9:587,10:7,11:357
- 55993 multiletter control sequences out of 65536+600000
- 104 fonts using 39144275 bytes
+ 647 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 78 glue_spec, 8 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:2,2:1154,3:282,4:114,5:309,6:58,7:4342,8:43,9:603,10:9,11:394
+ 56042 multiletter control sequences out of 65536+600000
+ 106 fonts using 39407815 bytes
  113i,13n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (10 pages, 282282 bytes).
+</home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (12 pages, 739089 bytes).
 
-PDF statistics: 316 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 131072)
- 137 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 410 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 58 named destinations out of 1000 (max. 131072)
+ 153 words of extra memory for PDF output out of 10000 (max. 100000000)
 

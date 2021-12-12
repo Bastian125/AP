@@ -105,12 +105,113 @@ Die Formel mit den Messergebnissen wird nun in \autoref{fig:plot2} geplottet.
 \begin{figure}
   \centering
   \includegraphics[width=100mm,scale=0.5]{build/plot2.pdf}
-  \caption{frequenzabhängiges Amplitudenverhätnis um die Zeitkonstante zu bestimmen}
+  \caption{Frequenzabhängiges Amplitudenverhätnis um die Zeitkonstante zu bestimmen}
   \label{fig:plot2}
 \end{figure}
 
 Eine lineare Ausgleichsrechnung ergibt nun $RC = (6,12 \pm 0,9) \, \cdot \, 10^{-5} \, \unit{\second}$. Die Messungenauigkeit wurde mittels
-Python bestimmt.
+Python ermittelt.
 
 \subsection{Phasenverschiebung des RC-Kreis}
+
+In diesem Versuchsteil wird die Phasenverschiebung einer externen Sinusspannung und Kondensatorspannung in Abhängigkeit von der Frequenz untersucht. 
+Um die Phasenverschiebung zu bestimmen, wird \autoref{eqn:phi} verwendet. Die Messwerte zu diesem Versuch lassen sich in \autoref{tab:ab} finden.
+
+\begin{table}
+  \centering
+  \caption{Messwerte von a und b in Abhängigkeit der Frequenz}
+  \label{tab:ab}
+  \begin{tabular}{c c c c}
+    \toprule
+    $f/\unit{\hertz}$ & $a/\unit{\second}$ & $b/\unit{\second}$ & $\varphi / rad$ \\
+    \midrule      
+      250 & 0.000025 & 0.001500 & 0.104720 \\
+      500  &0.000025 & 0.001500 & 0.104720\\
+      1000 & 0.000022&  0.000390 & 0.354436\\
+      2500 & 0.000019 & 0.000170&  0.702238\\
+      5000&  0.000012 & 0.000078&  0.966644\\
+      7500 & 0.000010 & 0.000052 & 1.208305\\
+      10000 & 0.000008 & 0.000039&  1.288859\\
+      15000 & 0.000006 & 0.000026 & 1.449966\\
+      20000 & 0.000005 & 0.000020 & 1.413717\\
+      30000 & 0.000003 & 0.000013 & 1.449966\\
+      40000 & 0.000002  &0.000010 & 1.507964\\
+      50000&  0.000002 & 0.000008 & 1.570796\\
+      60000 & 0.000002 & 0.000006 & 1.675516\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Mit den Messwerten, wurde mittels Python $\varphi$ gegen die Frequenz geplotted, woraus die Zeitkonstante $RC$ bestimmt wird: $RC = (5,37 \pm 0,00002) \, \cdot \, 10^{-5} \, \unit{\second}$.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=100mm,scale=0.5]{build/plot3.pdf}
+  \caption{Phasenverschiebung}
+  \label{fig:plot3}
+\end{figure}
+
+\subsection{RC-Kreis als Integrator}
+
+Mithilfe der Ergebnisse der Phasenverschiebung und unseren Messwerte aus dem Versuchsteil davor, lässt sich eine neue Tabelle aufstellen. In dieser Tabelle
+wird die Phasenverschiebung mit dem Amplitudenverhältnis verglichen.
+
+\begin{table}
+  \centering
+  \caption{Amplitudenverhältnis und Phasenverschiebung}
+  \label{tab:Uphi}
+  \begin{tabular}{c c}
+    \toprule
+    $U_C/\unit{\volt}$ & $\varphi / rad$ \\
+    \midrule      
+    2.44  & 0.104720 \\
+    2.44  & 0.104720\\
+    2.25  & 0.354436\\
+    1.81  &  0.702238\\
+    1.09  &  0.966644\\
+    0.78  & 1.208305\\
+    0.63  &  1.288859\\
+    0.40  & 1.449966\\
+    0.31  & 1.413717\\
+    0.21  & 1.449966\\
+    0.16  & 1.507964\\
+    0.13  & 1.570796\\
+    0.11  & 1.675516\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Zu diesen Wertepaaren ist nun eine alternative Darstellung mittels eines Polarplots möglich. Dieser ist in \autoref{Abb:Polar} zu sehen.
+\begin{figure}
+  \centering
+  \includegraphics[width=100mm,scale=0.5]{build/polarplot.pdf}
+  \caption{Polarplot}
+  \label{Abb:Polar}
+\end{figure}
+
+Radial ist das Amplitudenverhältnis abzulesen und in dem Polarwinkel die Phasenverschiebung. Da der Erwartungswert mit dem Realwert
+des Oszilloskops übereinstimmt, ist die Integrierbarkeit des RC-Kreises bewiesen. \\
+Zur weiteren Untersuchung der Integrator-Identität des RC-Kreises wurden in \autoref{Spannungen} drei verschiedene Wechselspannungen angelegt:
+\begin{figure}
+	\centering
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=4.5cm]{build/integrator-rechteck.jpeg}
+		\caption{Rechteckschwingung}
+	\end{subfigure}
+	~
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=4.5cm]{build/integrator-saegezahn.jpeg}
+		\caption{Dreieckschwingung}
+	\end{subfigure}
+	~
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=4.5cm]{build/integrator-sinus.jpeg}
+		\caption{Sinus-Schwingung}
+	\end{subfigure}
+  \caption{Drei verschiedene Spannungen}
+  \label{Spannungen}
+\end{figure}
 

@@ -31,8 +31,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Ampltitude der Kondensatorspannung in Abhängigkeit von der Frequenz}{8}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}%
+\contentsline {subsection}{\numberline {4.3}Phasenverschiebung des RC-Kreis}{10}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{10}{section*.12}%
+\contentsline {subsection}{\numberline {4.4}RC-Kreis als Integrator}{11}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{12}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{12}{section*.17}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
