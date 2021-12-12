@@ -1,12 +1,95 @@
+\newpage
+
 \section{Auswertung}
 \label{sec:Auswertung}
 
+\subsection{Zeitkonstante des RC-Gliedes beim Entladevorgang}
+
+Um die Zeitkonstante des Entladevorgangs des Tiefpasses zu bestimmen, wurde die Spannung $U_C(t)$ bei angelegter 
+Rechteckspannung $U_S(t)$ bei einer Frequenz von 5820 Hz beobachtet. Dazu wurde ein Foto aufgenommen:
+
 \begin{figure}
   \centering
-  \includegraphics{plot.pdf}
-  \caption{Plot.}
-  \label{fig:plot}
+  \includegraphics[width=100mm,scale=0.5]{AufgabeA.jpeg}
+  \caption{Entladenvorgang des RC-Gliedes bei angelegter Rechteckspannung}
+  \label{fig:AufgabeA}
 \end{figure}
 
+Der Momentaufnahme wurden fünfzehn Wertepaare entnommen, die sich in \autoref{tab:Uc,ln,T} finden lassen. Die Spannungsamplitude
+wurde zu $U_0 = 1{,}1446 \, \unit{\volt}$ abgelesen.
 
-Siehe \autoref{fig:plot}!
+\begin{table}
+  \centering
+  \caption{Ablesen von $U_{C}(t)$ zu bestimmten $t$}
+  \label{tab:Uc,ln,T}
+  \begin{tabular}{c c c}
+    \toprule
+    $U_C(t)/\unit{\volt}$ & $\ln{\left(\frac{U_C}{U_0}\right)}$ & $t/\mu \unit{\second}$ \\
+    \midrule
+    1.0974   &   -0.042111   &   1   \\
+    0.9912   &   -0.143894   &   2.5  \\
+    0.885    &   -0.257223   &   5   \\
+    0.767    &   -0.400324   &   7.5  \\
+    0.6608   &   -0.549359   &   10    \\
+    0.5546   &   -0.724563   &   12.5  \\
+    0.4838   &   -0.861139   &   15   \\
+    0.413    &   -1,01936    &   17.5  \\
+    0.354    &   -1.17351    &   20    \\
+    0.2832   &   -1.39666    &   22.5  \\
+    0.2242   &   -1.63027    &   25   \\
+    0.1888   &   -1.80212    &   27.5  \\
+    0.1416   &   -2.0898     &   30    \\
+    0.0944   &   -2.49527    &   32.5  \\
+    0.0708   &   -2.78295    &   34   \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Mit der \autoref{eqn:Entladung} lässt sich eine Ausgleichsrechnung für die Zeitkonstante $RC$ bestimmen:
+\begin{align*}
+  U_C(t)=U_0e^{-\frac{t}{RC}} + k \\
+  \Leftrightarrow \ln{\left(\frac{U_C}{U_0}\right)} = -\frac{1}{RC}\cdot t + \ln{\left(\frac{k}{U_0}\right)}
+\end{align*}
+
+Das wird nun in \autoref{fig:plot1} geplotted und mit Python die Parameter ausgerechnet.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=100mm,scale=0.5]{build/plot1.pdf}
+  \caption{Lineare Regression um die Zeitkonstante zu bestimmen}
+  \label{fig:plot1}
+\end{figure}
+
+Damit ergibt sich für den Parameter $\ln{\left(\frac{k}{U_0}\right)}=0{,}153 \pm 0{,}071$ und für unsere Zeitkonstante $RC = 1{,}3245 \pm 0{,}0063 \, \cdot \, 10^{-5} \, \unit{\second}$.
+
+\subsection{Ampltitude der Kondensatorspannung in Abhängigkeit von der Frequenz}
+
+Bei dem nächsten Versuchsteil wurde die Kondensatorspannungsampltitude $A_C$ und die Speisespannungsamplitude $A_S$ in Abhängigkeit von der 
+Frequenz gemessen. Es ist zu erwarten, dass die Speisespannungsamplitude nicht varriiert. Dies würde auf einen Fehler des Versuchsaufbaus hindeuten.
+Es wurden die Amplituden in einem Frequenzbereich von 250 Hz bis 60 kHz gemessen, verwendet wurde diesmal eine Sinusspannung. In der nachfolgenden 
+\autoref{tab:Amplitude} wurden die Versuchsergebnisse notiert.
+
+\begin{table}
+  \centering
+  \caption{Kondensatorspannungsampltituden in Abhängigkeit der Frequenz}
+  \label{tab:Amplitude}
+  \begin{tabular}{c c c}
+    \toprule
+    $f/\unit{\hertz}$ & $A_C/\unit{\volt}$ & $A_S/\unit{\volt}$ \\
+    \midrule      
+    250    &   3.90  &   1.60   \\      
+    500    &   3.90  &   1.60     \\    
+   1000    &   3.60  &   1.60      \\   
+   2500    &   2.90  &   1.60        \\ 
+   5000    &   1.75  &   1.60         \\
+   7500    &   1.25  &   1.60         \\
+  10000    &   1.00  &   1.60         \\
+  15000    &   0.64  &   1.60        \\
+  20000    &   0.50  &   1.60         \\
+  30000    &   0.34  &   1.60         \\
+  40000    &   0.25  &   1.60         \\
+  50000    &   0.20  &   1.60         \\
+  60000    &   0.17  &   1.60         \\
+    \bottomrule
+  \end{tabular}
+\end{table}

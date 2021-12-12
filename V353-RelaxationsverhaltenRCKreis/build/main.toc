@@ -25,10 +25,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Messung zur Bestätigung der Integratorfunktion}{6}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}%
+\contentsline {section}{\numberline {4}Auswertung}{7}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}%
+\contentsline {subsection}{\numberline {4.1}Zeitkonstante des RC-Gliedes beim Entladevorgang}{7}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{7}{section*.8}%
+\contentsline {subsection}{\numberline {4.2}Ampltitude der Kondensatorspannung in Abhängigkeit von der Frequenz}{8}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{9}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{9}{section*.11}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
