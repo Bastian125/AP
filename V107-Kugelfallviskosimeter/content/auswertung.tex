@@ -1,8 +1,9 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
-\subsection{Dichte der Kugeln}
-\label{sec:DichtederKugel}
+\subsection{Bestimmung der Apparatenkonstante}
+\label{sec:Apparatenkonstante}
+Um die Apparatenkonstante zu bestimmen, werden die Dichten der Kugeln benötigt.
 Die Messwerte der Massen und Radien der beiden Kugeln sind in Tabelle \ref{tab:MasseundDichte} zu finden.
 Die Radien und Massen bestimmen sich zu
 \begin{align*}
@@ -12,37 +13,65 @@ Die Radien und Massen bestimmen sich zu
   m_{\symup{Kl}} &= (4,44 \pm 0,02) \cdot 10^{-3} \,\si{\kilo\gram}.\\
 \end{align*}
 
-\begin{table}
-  \centering
-  \caption{Messdaten der Massen und Radien der beiden Kugeln.}
-  \label{tab:MasseundDichte}
-  \begin{tabular}{c c c c}
-    \toprule
-    $r_{\symup{Gr}}/\unit{\centi\meter}$ & $m_{\symup{Gr}}/\unit{\gram}$ & $r_{\symup{Kl}}/\unit{\centi\meter}$ & $m_{\symup{Kl}}/\unit{\gram}$ \\
-    \midrule
-    0,790 & 4,54 & 0,775 & 4,46 \\
-    0,780 & 4,56 & 0,755 & 4,46 \\
-    0,785 & 4,54 & 0,755 & 4,43 \\
-    0,790 & 4,54 & 0,780 & 4,42 \\
-    0,785 & 4,54 & 0,755 & 4,43 \\
-    \bottomrule
-  \end{tabular}
-\end{table}
-
 Aus () ergibt sich für die Dichten
 \begin{align*}
   \rho_{\symup{Gr}} &= (2232 \pm 34) \,\frac{\si{\kg}}{\si{m^3}}  \\
   \rho_{\symup{Kl}} &= (2380 \pm 10) \,\frac{\si{\kg}}{\si{m^3}}. \\
 \end{align*}
 
-\subsection{Viskositätsbestimmung mit Hilfe der großen Kugel}
-\label{ViskositaetGr}
+\begin{table}
+  \centering
+  \caption{Messdaten der Massen und Radien der beiden Kugeln.}
+  \label{tab:MasseundDichte}
+  \begin{tabular}{c c c c}
+    \toprule
+    $r_{\symup{Gr}}/10^{-3}\,\unit{\meter}$ & $m_{\symup{Gr}}/10^{-3}\,\unit{\kilo\gram}$ & $r_{\symup{Kl}}/10^{-3}\,\unit{\meter}$ & $m_{\symup{Kl}}/10^{-3}\,\unit{\kilo\gram}$ \\
+    \midrule
+    7,90 & 4,54 & 7,75 & 4,46 \\
+    7,80 & 4,56 & 7,55 & 4,46 \\
+    7,85 & 4,54 & 7,55 & 4,43 \\
+    7,90 & 4,54 & 7,80 & 4,42 \\
+    7,85 & 4,54 & 7,55 & 4,43 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+Die Fallzeiten der kleinen und der großen Kugel sind in Tabelle \ref{tab:Fallzeit} angegeben. Aus den Messwerten ergibt sich für die Fallzeiten
+\begin{align*}
+  t_{\symup{Kl}} &= (12,04 \pm 0,18)\,\unit{\second} \\
+  t_{\symup{Gr}} &= (39,7 \pm 0,39)\,\unit{\second}. \\
+\end{align*}
 
-\subsection{Viskositätsbestimmung mit Hilfe der kleinen Kugel}
-\label{ViskositaetKl}
-
-\subsection{Viskositäts}
-
+\begin{table}
+  \centering
+  \caption{Fallzeiten der Kugeln.}
+  \label{tab:Fallzeit}
+  \begin{tabular}{c c}
+    \toprule
+    $t_{\symup{Kl}}/\unit{\second} $ & $t_{\symup{Gr}}/\unit{\second}$ \\
+    \midrule
+    12,28 & 40,17 \\
+    12,06 & 40,17 \\
+    11,94 & 39,27 \\
+    11,97 & 39,67 \\
+    12,12 & 39,67 \\
+    12,12 & 39,55 \\
+    12,13 & 39,40 \\
+    11,87 & 39,57 \\
+    11,87 & 40,52 \\
+    11,59 & 39,85 \\
+    12,12 & 39,52 \\
+    12,13 & 39,60 \\
+    11,88 & 39,43 \\
+    11,97 & 39,49 \\
+    12,09 & 38,92 \\
+    12,47 & 39,09 \\
+    12,15 & 40,11 \\
+    12,06 & 40,17 \\
+    12,06 & 39,99 \\
+    11,84 & 39,88 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \begin{figure}
   \centering
@@ -50,6 +79,3 @@ Aus () ergibt sich für die Dichten
   \caption{Plot.}
   \label{fig:plot}
 \end{figure}
-
-
-Siehe \autoref{fig:plot}!
