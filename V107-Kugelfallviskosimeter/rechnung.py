@@ -33,3 +33,9 @@ print("t: ", np.round(np.mean(T_gr), 2), " +- ", np.round(np.std(T_gr), 2))
 T_kl = np.genfromtxt('FallzeitKl.txt', unpack=True)
 print("Kleine Kugel: ")
 print("t: ", np.round(np.mean(T_kl), 2), " +- ", np.round(np.std(T_kl), 2))
+
+# Viskosität bei Raumtemperatur
+rho_k = ufloat(2380, 10)
+t = ufloat(12.04, 0.18)
+v_rt = (7.64e-8)*(rho_k - 998.2)*t
+print("Viskosität bei Raumtemperatur: ", v_rt)

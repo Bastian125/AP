@@ -1,15 +1,20 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [1] Config.pm:314> INFO - Logfile is 'build/main.blg'
-[81] biber:340> INFO - === Fri Dec 17, 2021, 12:15:07
-[97] Biber.pm:415> INFO - Reading 'build/main.bcf'
-[186] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[199] Biber.pm:4340> INFO - Processing section 0
-[209] Biber.pm:4531> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[214] bibtex.pm:1689> INFO - LaTeX decoding ...
-[217] bibtex.pm:1494> INFO - Found BibTeX data source 'lit.bib'
-[251] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[252] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[252] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[253] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
-[254] bbl.pm:654> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[255] bbl.pm:757> INFO - Output to build/main.bbl
+[89] biber:340> INFO - === Fri Dec 17, 2021, 12:42:11
+[105] Biber.pm:415> INFO - Reading 'build/main.bcf'
+[163] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
+[175] Biber.pm:4340> INFO - Processing section 0
+[186] Biber.pm:4531> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[196] bibtex.pm:1689> INFO - LaTeX decoding ...
+[200] bibtex.pm:1494> INFO - Found BibTeX data source 'lit.bib'
+[228] Biber.pm:4531> INFO - Looking for bibtex format file 'programme.bib' for section 0
+[230] bibtex.pm:1689> INFO - LaTeX decoding ...
+[235] bibtex.pm:1494> INFO - Found BibTeX data source 'programme.bib'
+[237] Utils.pm:395> WARN - I didn't find a database entry for 'sample' (section 0)
+[247] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[248] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[248] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[248] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
+[262] bbl.pm:654> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[264] bbl.pm:757> INFO - Output to build/main.bbl
+[264] Biber.pm:128> INFO - WARNINGS: 1

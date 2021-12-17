@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{sample}{manual}{}
+    \entry{anleitung107}{manual}{}
       \name{author}{1}{}{%
         {{hash=2821a70f99517ac7757c95300d43e95c}{%
            family={Dortmund},
@@ -37,10 +37,37 @@
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Versuch zum Literaturverzeichnis}
+      \field{title}{Versuch V107: Das Kugelfall-Viskosimeter nach Höppler}
       \field{year}{2014}
     \endentry
+    \entry{waterdensity}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=e9b0adccfa45d863f8eafb1a942c1808}{%
+           family={University},
+           familyi={U\bibinitperiod},
+           given={Frostburg\bibnamedelima State},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9b0adccfa45d863f8eafb1a942c1808}
+      \strng{fullhash}{e9b0adccfa45d863f8eafb1a942c1808}
+      \strng{bibnamehash}{e9b0adccfa45d863f8eafb1a942c1808}
+      \strng{authorbibnamehash}{e9b0adccfa45d863f8eafb1a942c1808}
+      \strng{authornamehash}{e9b0adccfa45d863f8eafb1a942c1808}
+      \strng{authorfullhash}{e9b0adccfa45d863f8eafb1a942c1808}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Water Density Calculator}
+      \verb{urlraw}
+      \verb http://antoine.frostburg.edu/chem/senese/javascript/water-density.html
+      \endverb
+      \verb{url}
+      \verb http://antoine.frostburg.edu/chem/senese/javascript/water-density.html
+      \endverb
+    \endentry
   \enddatalist
+  \missing{sample}
 \endrefsection
 \endinput
 
