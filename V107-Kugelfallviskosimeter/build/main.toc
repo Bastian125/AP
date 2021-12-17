@@ -9,10 +9,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Bestimmung der Apparatenkonstante}{3}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Diskussion}{5}{section.4}%
+\contentsline {subsection}{\numberline {3.2}Temperaturabhängigkeit der Viskosität}{5}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Messwerte}{5}{section.5}%
+\contentsline {section}{\numberline {4}Diskussion}{7}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{6}{section*.7}%
+\contentsline {section}{\numberline {5}Messwerte}{7}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{7}{section*.7}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

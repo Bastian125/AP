@@ -39,3 +39,10 @@ rho_k = ufloat(2380, 10)
 t = ufloat(12.04, 0.18)
 v_rt = (7.64e-8)*(rho_k - 998.2)*t
 print("Viskosität bei Raumtemperatur: ", v_rt)
+
+# Apparatenkonstante der großen Kugel
+rho_g = ufloat(2232, 34)
+eta_rt = ufloat(1.27e-3, 0.02e-3)
+t_g = ufloat(39.7, 0.39)
+K = (eta_rt)/((rho_g-998.2)*t_g)
+print("Apparatenkonstante Große Kugel: ", K)

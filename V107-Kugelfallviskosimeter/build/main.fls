@@ -463,9 +463,6 @@ INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
 INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
-INPUT build/plot.pdf
-INPUT build/plot.pdf
-INPUT build/plot.pdf
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT ./GroßeKugel.jpeg

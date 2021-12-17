@@ -80,14 +80,71 @@ Nun wird mit Hilfe der Fallzeitwerte der kleinen Kugel die Viskosität von Wasse
   \rho_{\symup{Fl}} &= 998,2\,\frac{\unit{\kilo\gram}}{\unit{\meter^3}}
 \end{align*}
 verwendet. $K_{\symup{Kl}}$ ist die angegeben Appartenkonstante für die kleine Kugel \cite{anleitung107}  und $\rho_{\symup{Fl}}$
-die Dichte von Wasser bei Raumtemperatur \cite{waterdensity}. Daraus ergibt sich für die Viskosität des Wassers bei Raumtemperatur
+die Dichte von Wasser bei Raumtemperatur \cite{waterdensity}. Aus () ergibt sich für die Viskosität des Wassers bei Raumtemperatur
 \begin{align*}
   \eta_{\symup{RT}} = (1,27 \pm 0,02)\cdot 10^{-3} \,\unit{\pascal}\cdot\unit{\second}.
 \end{align*}
+Durch Umstellen von () und einsetzen der Werte ergibt sich nun
+\begin{align*}
+  K_{\symup{Gr}} = (2,59 \pm 0,09)\cdot 10^{-8}\,\frac{\unit{\pascal}\cdot\unit{\meter^3}}{\unit{\kilo\gram}}
+\end{align*}
+für die Apparatenkonstante der großen Kugel.
 
-\begin{figure}
+\subsection{Temperaturabhängigkeit der Viskosität}
+\label{sec:TempVisk}
+
+\begin{table}
   \centering
-  \includegraphics{plot.pdf}
-  \caption{Plot.}
-  \label{fig:plot}
-\end{figure}
+  \caption{Messdaten zur Bestimmung der Temperaturabhängigkeit der Viskosität.}
+  \label{tab:Temp}
+  \begin{tabular}{c c c}
+    \toprule
+    $T/\unit{\kelvin}$ & $t/\unit{\second}$ & $\rho_{\symup{Fl}}$ \\
+    \midrule
+    293,15 & 39,90 & 1 \\
+    293,15 & 39,27 & 1 \\
+    293,15 & 39,61 & 1 \\
+    293,15 & 38,93 & 1 \\
+    296,15 & 37,92 & 1 \\
+    296,15 & 36,39 & 1 \\
+    296,15 & 36,94 & 1 \\
+    296,15 & 36,61 & 1 \\
+    299,15 & 35,61 & 1 \\
+    299,15 & 34,52 & 1 \\
+    299,15 & 35,11 & 1 \\
+    299,15 & 34,49 & 1 \\
+    302,15 & 32,74 & 1 \\
+    302,15 & 31,61 & 1 \\
+    302,15 & 32,33 & 1 \\
+    302,15 & 31,83 & 1 \\
+    305,15 & 30,80 & 1 \\
+    305,15 & 30,27 & 1 \\
+    305,15 & 30,52 & 1 \\
+    305,15 & 30,22 & 1 \\
+    308,15 & 28,33 & 1 \\
+    308,15 & 28,80 & 1 \\
+    308,15 & 28,33 & 1 \\
+    308,15 & 28,22 & 1 \\
+    311,15 & 27,77 & 1 \\
+    311,15 & 27,43 & 1 \\
+    311,15 & 27,76 & 1 \\
+    311,15 & 27,35 & 1 \\
+    314,15 & 26,48 & 1 \\
+    314,15 & 25,02 & 1 \\
+    314,15 & 26,09 & 1 \\
+    314,15 & 25,36 & 1 \\
+    317,15 & 24,61 & 1 \\
+    317,15 & 24,40 & 1 \\
+    317,15 & 24,25 & 1 \\
+    317,15 & 24,38 & 1 \\
+    320,15 & 23,42 & 1 \\
+    320,15 & 22,80 & 1 \\
+    320,15 & 23,05 & 1 \\
+    320,15 & 22,95 & 1 \\
+    323,15 & 21,55 & 1 \\
+    323,15 & 21,71 & 1 \\
+    323,15 & 21,58 & 1 \\
+    323,15 & 22,08 & 1 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
