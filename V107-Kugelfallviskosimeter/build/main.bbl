@@ -40,7 +40,7 @@
       \field{title}{Versuch V107: Das Kugelfall-Viskosimeter nach Höppler}
       \field{year}{2014}
     \endentry
-    \entry{waterdensity}{manual}{}
+    \entry{waterdensity}{online}{}
       \name{author}{1}{}{%
         {{hash=e9b0adccfa45d863f8eafb1a942c1808}{%
            family={University},
@@ -66,8 +66,33 @@
       \verb http://antoine.frostburg.edu/chem/senese/javascript/water-density.html
       \endverb
     \endentry
+    \entry{kritreynold}{online}{}
+      \name{author}{1}{}{%
+        {{hash=39a372304943183d7c29c54aebc3a439}{%
+           family={Wissen},
+           familyi={W\bibinitperiod},
+           given={Wasser},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{39a372304943183d7c29c54aebc3a439}
+      \strng{fullhash}{39a372304943183d7c29c54aebc3a439}
+      \strng{bibnamehash}{39a372304943183d7c29c54aebc3a439}
+      \strng{authorbibnamehash}{39a372304943183d7c29c54aebc3a439}
+      \strng{authornamehash}{39a372304943183d7c29c54aebc3a439}
+      \strng{authorfullhash}{39a372304943183d7c29c54aebc3a439}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reynolds-Zahl}
+      \verb{urlraw}
+      \verb http://www.wasser-wissen.de/abwasserlexikon/r/reynoldszahl.htm
+      \endverb
+      \verb{url}
+      \verb http://www.wasser-wissen.de/abwasserlexikon/r/reynoldszahl.htm
+      \endverb
+    \endentry
   \enddatalist
-  \missing{sample}
 \endrefsection
 \endinput
 

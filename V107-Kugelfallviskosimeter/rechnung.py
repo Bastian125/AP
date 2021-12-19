@@ -46,3 +46,24 @@ eta_rt = ufloat(1.27e-3, 0.02e-3)
 t_g = ufloat(39.7, 0.39)
 K = (eta_rt)/((rho_g-998.2)*t_g)
 print("Apparatenkonstante Große Kugel: ", K)
+
+# Viskosität Temperaturabhängig
+T, t, rhoT, etaT= np.genfromtxt('temperatur.txt', unpack=True)
+rhoK = ufloat(2232, 34)
+eta_T = K*(rhoK-rhoT)*t*10**3
+print("Viskosität in Temperaturabhängigkeit: ")
+print(eta_T)
+
+# A bestimmen
+a = ufloat(-13.132, 0.230)
+A = np.e**(a)
+print("A: ", A)
+
+# Reynoldszahl
+rhofl = 998.2
+eta = ufloat(1.27e-3, 0.02e-3)
+x = 0.05
+r = ufloat(7.64e-3, 0.11e-3)
+t = ufloat(12.04, 0.18) 
+Re = (rhofl*x*2*r)/(eta*t)
+print("Re: ", Re)

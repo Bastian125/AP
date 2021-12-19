@@ -5,25 +5,23 @@
     mit einem Kugelfall-Viskosimeter nach Höppler durchgeführt. Zusätzlich wird die Reynoldzahl berechnet, um zu bestimmen wie turbulent die Strömung
     des Wassers verläuft.
 
-    \newpage
-
 \section{Theorie}
     \label{sec:Theorie}
-    Wenn sich ein Objekt durch ein anderes Material bewegt (gasförmig oder flüssig), wirkt eine Reibungskraft $\vec{F}_R$ entgegen der
+    Wenn sich ein Objekt durch ein anderes Material bewegt (gasförmig oder flüssig), wirkt eine Reibungskraft $\vec{F}_{\symup{R}}$ entgegen der
     Bewegungsrichtung auf diesen Körper. Die Stärke der Kraft hängt von der Berührungsfläche der Flüssigkeit/Gas mit dem Körper und der
     Geschwindigkeit $\vec{v}$ des Objekts ab. \\
-    Bei zähen Flüssigkeiten wirkt neben der Reibungskraft $\vec{F}_R$ beim Fall auch die Schwerkraft $\vec{F}_g$ und die Auftriebskraft $\vec{F}_A$. Dies 
+    Bei zähen Flüssigkeiten wirkt neben der Reibungskraft $\vec{F}_{\symup{R}}$ beim Fall auch die Schwerkraft $\vec{F}_g$ und die Auftriebskraft $\vec{F}_{\symup{A}}$. Dies 
     muss bei Rechnungen berücksichtigt werden.\\
     Bei sphärischen Objekten in Fluiden lässt sich das Gesetz von Stokes anwenden, welches die Reibungskraft von Kugeln in Abhängigkeit von dem Objektradius,
     der dynamischen Viskosität der Flüssigkeit und der Geschwindigkeit der Kugel beschreibt. Die Formel der Stokesschen Reibungskraft ist gegeben durch
     \begin{equation}
         \label{eqn:Stokes}
-        \vec{F}_R = 6 \, \pi \, \eta \, \vec{v} \, r \, .
+        \vec{F}_{\symup{R}} = 6 \, \pi \, \eta \, \vec{v} \, r \, .
     \end{equation}
     Das $\eta$ steht in der Formel für die dynamische Viskosität des Fluids, eine temperaturabhängige Materialeigenschaft. Sie lässt sich einmal durch die Formel
     \begin{equation}
         \label{eqn:etaK}
-        \eta = K \, (\rho_K - \rho_{Fl}) \cdot t
+        \eta = K \, (\rho_{\symup{K}} - \rho_{\symup{Fl}}) \cdot t
     \end{equation}
     und durch die Andradsche Gleichung
     \begin{equation}
@@ -32,7 +30,7 @@
     \end{equation}
     beschreiben.\\
     Bei \autoref{eqn:etaK} handelt es sich um eine Formel, die es ermöglicht die Viskosität beim Versuch mit dem Kugelfall-Viskosimeter nach Höppler zu errechnen.
-    Das $K$ ist eine Apparaturkonstante, die sich aus der Kugelgeometrie und der Fallhöhe zusammensetzt. $\rho_{Fl}$ ist die Dichte der Flüssigkeit und $\rho_K$ die Dichte
+    Das $K$ ist eine Apparaturkonstante, die sich aus der Kugelgeometrie und der Fallhöhe zusammensetzt. $\rho_{\symup{Fl}}$ ist die Dichte der Flüssigkeit und $\rho_{\symup{K}}$ die Dichte
     des Kugel. $t$ beschreibt die Fallzeit der Kugel in dem Viskosimeter.\\
     Die Andradsche Gleichung (\ref{eqn:Andrad}) beschreibt die Viskosität in Abhängigkeit der Temperatur. Die Konstanten $A$ und $B$ lassen sich durch \autoref{eqn:etaK}
     herleiten.\\
@@ -40,16 +38,16 @@
     Reynoldzahl der Strömung untersucht. Die Reynoldzahl gibt Aussage darüber, wie laminar eine Strömung ist. Sie berechnet sich zu
     \begin{equation}
         \label{eqn:Reynoldzahl}
-        Re := \frac{\rho_{Fl}\,\bar{v}\,d}{\eta}.
+        Re := \frac{\rho_{\symup{Fl}}\,\bar{v}\,d}{\eta}.
     \end{equation}
     Das $\eta$ ist hier wie zuvor die Viskosität der Flüssigkeit, $d$ der Durchmesser des Rohres des Fall-Viskosimeters, $\bar{v}$ die mittlere Geschwindigkeit der Kugel und
-    $\rho_{Fl}$ die Dichte der Flüssigkeit.\\
-    Um später die Dichte $\rho_K$ der Kugel zu berechnen benötigen wir die Formel
+    $\rho_{\symup{Fl}}$ die Dichte der Flüssigkeit.\\
+    Um später die Dichte $\rho_{\symup{K}}$ der Kugel zu berechnen benötigen wir die Formel
     \begin{equation}
         \label{eqn:KugelDichte}
-        \rho_K = \frac{M}{V} = \frac{4}{3 \,\pi \, r^3} \cdot M.
+        \rho_{\symup{K}} = \frac{M}{V} = \frac{4}{3 \,\pi \, r^3} \cdot M.
     \end{equation}
-\newpage
+
 \subsection{Kugelfall-Viskosimeter nach Höppler}
 
 \begin{wrapfigure}{r}{5.5cm}
@@ -84,5 +82,3 @@ $R$ und der Temperatur $T$ in Kelvin. Sie ist gegeben durch
     \label{eqn:tempDichte}
     \rho(T) = \frac{M}{V} = \frac{p \cdot M}{R \cdot T}.
 \end{equation}
-
-\newpage
