@@ -1,19 +1,29 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0, 10, 1000)
-y = x ** np.sin(x)
+#Daten laden
+T, eta = np.genfromtxt('eta.txt', unpack=True)
+x = 1/T
+y = np.log(eta)
 
-plt.subplot(1, 2, 1)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \:/\: \si{\ohm}$')
-plt.ylabel(r'$y \:/\: \si{\micro\joule}$')
-plt.legend(loc='best')
+# Lineare Regression
+params, covariance_matrix = np.polyfit(x, y, deg=1, cov=True)
+errors = np.sqrt(np.diag(covariance_matrix))
 
-plt.subplot(1, 2, 2)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \:/\: \si{\ohm}$')
-plt.ylabel(r'$y \:/\: \si{\micro\joule}$')
+for name, value, error in zip('ab', params, errors):
+    print(f'{name} = {value:.3f} ± {error:.3f}')
+
+x_plot = np.linspace(0.00309, 0.00342, 100000)
+plt.plot(x, y, 'x', label="Messwerte")
+plt.plot(
+    x_plot,
+    params[0] * x_plot + params[1],
+    label='Lineare Regression',
+    linewidth=1,
+)
+plt.grid()
+plt.xlabel(r'$\frac{1}{T}\,/\,\unit{\per\kelvin}$')
+plt.ylabel(r'$ln\left(\frac{\eta}{\unit{\pascal}\cdot \unit{\second}}\right)$')
 plt.legend(loc='best')
 
 # in matplotlibrc leider (noch) nicht möglich
