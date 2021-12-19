@@ -43,7 +43,12 @@
         Re := \frac{\rho_{Fl}\,\bar{v}\,d}{\eta}.
     \end{equation}
     Das $\eta$ ist hier wie zuvor die Viskosität der Flüssigkeit, $d$ der Durchmesser des Rohres des Fall-Viskosimeters, $\bar{v}$ die mittlere Geschwindigkeit der Kugel und
-    $\rho_{Fl}$ die Dichte der Flüssigkeit.
+    $\rho_{Fl}$ die Dichte der Flüssigkeit.\\
+    Um später die Dichte $\rho_K$ der Kugel zu berechnen benötigen wir die Formel
+    \begin{equation}
+        \label{eqn:KugelDichte}
+        \rho_K = \frac{M}{V} = \frac{4}{3 \,\pi \, r^3} \cdot M.
+    \end{equation}
 \newpage
 \subsection{Kugelfall-Viskosimeter nach Höppler}
 
@@ -62,5 +67,22 @@ leicht geneigt, um die Strömung des Wassers möglichst laminar zu halten und Wi
 Für die Messungen wird das Rohr mit Wasser gefüllt und eine geringfügig kleinere Kugel in das Rohr gegeben. Hierbei muss darauf geachtet werden, dass sich keine 
 Blasen bilden, da dies zu zusätzlicher Reibung führt. Damit die Kugel nicht nach jedem Fall wieder rausgenommen werden muss, lässt sich das Fallrohr seitlich um 
 $\mathrm{180^{\circ}}$ drehen.\\
+
+\subsection{Vorbereitungsaufgaben}
+
+\textbf{Wann wird eine Strömung als laminar bezeichnet?} \\
+Eine Strömung ist laminar, wenn keine sichbaren Turbulenzen bzw. Wirbel auftreten und die Flüssigkeit somit in Schichten strömt, die sich nicht durch die Wirbel
+miteinander vermischen.\\ \\
+\textbf{Wie lautet die dynamische Viskosität von destillierten Wasser als Funktion der Temperatur?}\\
+Nach intensiver Recherche lässt sich selbst in den Büchern des Literaturverzeichnis' keine temperaturabhängige Funktion der dynamischen Viskosität von destillierten Wasser 
+finden. Die allgemeine Funktion lässt sich in \autoref{eqn:Andrad} wiederfinden. In den vorgeschlagenen Büchern ist ein Wert für die dynamische Viskosität gegeben
+durch $\eta(20 \, ^{\circ}\unit{C}) = 1,005 \cdot \mathrm{10^{-3} \, Pa \, \, s}$.\\ \\
+\textbf{Wie lautet die temperaturabhängige Dichte von destillierten Wasser?}\\
+Die temperaturabhängige Dichte von Wasser lässt sich durch die ideale Gasgleichung herleiten und ist abhängig vom Umgebungsdruck $p$, der Gesamtmasse $M$, der Gaskonstante
+$R$ und der Temperatur $T$ in Kelvin. Sie ist gegeben durch
+\begin{equation}
+    \label{eqn:tempDichte}
+    \rho(T) = \frac{M}{V} = \frac{p \cdot M}{R \cdot T}.
+\end{equation}
 
 \newpage
