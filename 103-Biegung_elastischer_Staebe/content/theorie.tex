@@ -1,4 +1,45 @@
+\section{Zielsetzung}
+\label{sec:Zielsetzung}
+In diesem Versuch soll der Elastizitätsmodul durch Biegen von Stäben unterschiedlicher Metalle und Legierungen bestimmt werden.
+
 \section{Theorie}
 \label{sec:Theorie}
-
-\cite{sample}
+Der Elastizitätsmodul $E$ ist eine materialabhängige Konstante, die die Gestaltsänderung eines Körpers unter einer Normalpannung $\sigma$ beschreibt.
+Durch die aus der Normalpannung entstehende Längenänderung $\symup{\Delta} L$ lässt sich mit dem Hookschen Gesetz der Zusammenhang
+\begin{align}
+    \label{eqn:Elasitizitaetsmodul}
+    \sigma = E \cdot \frac{\symup{\Delta} L}{L}
+\end{align}
+aufstellen. Bei der Biegungen von Stäben wirkt ein äußeres Drehmoment, das die oberen Schichten des Stabs dehnt und die unteren Schichten staucht.
+In der Mitte des Stabs befindet sich die so genannte neutrale Faser, die aufgrund des Kräftegleichgewichts in ihrer Länge unverändert bleibt.
+Die Stab kann sich so weit biegen bis das innere und das äußere Drehmoment gleich ist. Die Drehmomente sind durch
+\begin{align*}
+    M_{\symup{F}} &= F(L-x)\\
+    M_{\symup{\sigma}} &= \int_{Q} y\sigma(y)\symup{dq}
+\end{align*}
+gegeben. $Q$ ist dabei der Querschnitt des Stabs und $y$ der Abstand des Flächenelements $\symup{dq}$ zur neutralen Faser.
+Durch längere mathematische Vorüberlegungen ergibt sich für einen einseitig eingespannten Stab für die Durchbiegung
+\begin{align}
+    \label{eqn:Durchbiegung}
+    D(x) = \frac{F}{2EI} \cdot\left(Lx^2 - \frac{x^3}{3}\right).
+\end{align}
+Dabei ist $x$ die Entfernung des Messpunktes zum Einspannpunkt, $I$ das Flächenträgheitsmoment und $L$ die Länge des Stabs.
+Wenn der Stab beidseitig eingespannt ist und die Kraft in der Mitte des Stabs wirkt, ergibt sich für $0 \leq x \leq L/2$
+\begin{align}
+    \label{eqn:DurchbiegungL/2}
+    D(x) = \frac{F}{48EI}\cdot \left(3L^2 x - 4x^3\right).
+\end{align}
+Für $L/2 \leq x \leq L$ ergibt sich
+\begin{align}
+    \label{eqn:DurchbiegungL}
+    D(x) = \frac{F}{48EI}\cdot \left(4x^3 -12Lx^2 +9L^2 x - L^3\right).
+\end{align}
+Das Flächenträgheitsmoment eines Stabs mit quadratischen Querschnitt und der Seitenlänge $a$ ist durch
+\begin{align}
+    I_{\symup{\square}} = \frac{a^4}{12}
+\end{align}
+gegeben \cite{flaechentreagheitsmomente}. Das Flächenträgheitsmoment eines Stabs mit quadratischen Querschnitt und Durchmesser $d$ ist durch
+\begin{align}
+    I_{\symup{\bigcirc}} = \frac{\symup{\pi}d^4}{64}
+\end{align}
+gegeben \cite{flaechentreagheitsmomente}.

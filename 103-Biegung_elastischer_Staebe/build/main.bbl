@@ -19,26 +19,33 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{sample}{manual}{}
+    \entry{flaechentreagheitsmomente}{online}{}
       \name{author}{1}{}{%
-        {{hash=2821a70f99517ac7757c95300d43e95c}{%
-           family={Dortmund},
-           familyi={D\bibinitperiod},
-           given={TU},
-           giveni={T\bibinitperiod}}}%
+        {{hash=9f8f8aa642d086da4473f5c2941abe06}{%
+           family={ingenieurkurse.de},
+           familyi={i\bibinitperiod}}}%
       }
-      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{bibnamehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authorbibnamehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \strng{namehash}{9f8f8aa642d086da4473f5c2941abe06}
+      \strng{fullhash}{9f8f8aa642d086da4473f5c2941abe06}
+      \strng{bibnamehash}{9f8f8aa642d086da4473f5c2941abe06}
+      \strng{authorbibnamehash}{9f8f8aa642d086da4473f5c2941abe06}
+      \strng{authornamehash}{9f8f8aa642d086da4473f5c2941abe06}
+      \strng{authorfullhash}{9f8f8aa642d086da4473f5c2941abe06}
+      \field{sortinit}{i}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Versuch zum Literaturverzeichnis}
-      \field{year}{2014}
+      \field{title}{Übersicht: Flächenträgheitsmomente für ausgewählte Querschnitte}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ingenieurkurse.de/technische-mechanik-elastostatik/balkenbiegung/flaechentraegheitsmomente/flaechentraegheitsmomente-in-abhaengigkeit-vom-koordinatensystem.html
+      \endverb
+      \verb{url}
+      \verb https://www.ingenieurkurse.de/technische-mechanik-elastostatik/balkenbiegung/flaechentraegheitsmomente/flaechentraegheitsmomente-in-abhaengigkeit-vom-koordinatensystem.html
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

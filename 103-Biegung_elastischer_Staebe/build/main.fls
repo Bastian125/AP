@@ -467,8 +467,11 @@ INPUT build/plot.pdf
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
+INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
+INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
 INPUT build/main.aux
 INPUT build/main.aux
 INPUT build/main.toc
 INPUT build/main.run.xml
 OUTPUT build/main.run.xml
+INPUT /home/bastian/.local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb
