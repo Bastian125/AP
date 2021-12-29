@@ -459,6 +459,9 @@ INPUT ./content/theorie.tex
 INPUT ./content/theorie.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
+INPUT ./aufbau.png
+INPUT ./aufbau.png
+INPUT ./aufbau.png
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
 INPUT build/plot.pdf
