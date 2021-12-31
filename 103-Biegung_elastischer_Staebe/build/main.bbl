@@ -68,6 +68,34 @@
       \verb https://www.ingenieurkurse.de/technische-mechanik-elastostatik/balkenbiegung/flaechentraegheitsmomente/flaechentraegheitsmomente-in-abhaengigkeit-vom-koordinatensystem.html
       \endverb
     \endentry
+    \entry{Kupfer}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ee0dcd517aece8667d41f41e352ec5d2}{%
+           family={web.archive.de},
+           familyi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee0dcd517aece8667d41f41e352ec5d2}
+      \strng{fullhash}{ee0dcd517aece8667d41f41e352ec5d2}
+      \strng{bibnamehash}{ee0dcd517aece8667d41f41e352ec5d2}
+      \strng{authorbibnamehash}{ee0dcd517aece8667d41f41e352ec5d2}
+      \strng{authornamehash}{ee0dcd517aece8667d41f41e352ec5d2}
+      \strng{authorfullhash}{ee0dcd517aece8667d41f41e352ec5d2}
+      \field{sortinit}{w}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elastizitätsmodul von Kupfer}
+      \field{urlday}{31}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://web.archive.org/web/20091115152133/http://www4.architektur.tu-darmstadt.de/buildingmaterials/db/251,id_17,s_GeneView.fb15
+      \endverb
+      \verb{url}
+      \verb https://web.archive.org/web/20091115152133/http://www4.architektur.tu-darmstadt.de/buildingmaterials/db/251,id_17,s_GeneView.fb15
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
