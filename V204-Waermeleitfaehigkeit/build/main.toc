@@ -1,0 +1,18 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Theorie}{3}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Durchführung}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Statische Methode}{3}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Dynamische Methode}{3}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Auswertung}{3}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Diskussion}{4}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{4}{section*.5}%
+\defcounter {refsection}{0}\relax 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
