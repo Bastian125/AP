@@ -1,20 +1,18 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0, 10, 1000)
-y = x ** np.sin(x)
+t, T7, T2, T1, T3, T4, T5, T6, T8 = np.genfromtxt('messdaten/statischeMethode.txt', encoding="UTF-16"  , unpack=True)
+x = 5*t
+y1 = T1 
+y2 = T4
 
-plt.subplot(1, 2, 1)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \:/\: \si{\ohm}$')
-plt.ylabel(r'$y \:/\: \si{\micro\joule}$')
+plt.plot(x, y1, label='Kurve')
+plt.plot(x, y2, label='Kurve')
+plt.xlabel(r'$t\,\mathbin{/}\,\si{\second}$')
+plt.ylabel(r'$\theta\,\mathbin{/}\,\si{\celsius}$')
 plt.legend(loc='best')
 
-plt.subplot(1, 2, 2)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \:/\: \si{\ohm}$')
-plt.ylabel(r'$y \:/\: \si{\micro\joule}$')
-plt.legend(loc='best')
+
 
 # in matplotlibrc leider (noch) nicht möglich
 plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
