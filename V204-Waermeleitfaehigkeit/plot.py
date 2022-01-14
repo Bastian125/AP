@@ -8,8 +8,8 @@ y1 = T1
 y2 = T4
 
 plt.figure()
-plt.plot(x, y1, '.', label=r'$T_{1}$')
-plt.plot(x, y2, '.', label=r'$T_{4}$')
+plt.plot(x, y1, '.', label=r'$T_{1}: \symup{Messing(breit)}$')
+plt.plot(x, y2, '.', label=r'$T_{4}: \symup{Messing(schmal)}$')
 plt.grid()
 plt.xlim(0, 730)
 plt.ylim(15, 50)
@@ -19,15 +19,15 @@ plt.legend(loc='best')
 
 
 plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
-plt.savefig('build/T1_T4.pdf')
+plt.savefig('build/plot.pdf')
 
 # T5 und T8 plotten
 y1 = T5
 y2 = T8
 
 plt.figure()
-plt.plot(x, y1, '.', label=r'$T_{5}$')
-plt.plot(x, y2, '.', label=r'$T_{8}$')
+plt.plot(x, y1, '.', label=r'$T_{5}: \symup{Aluminium}$')
+plt.plot(x, y2, '.', label=r'$T_{8}: \symup{Edelstahl}$')
 plt.grid()
 plt.xlim(0, 730)
 plt.ylim(15, 50)
