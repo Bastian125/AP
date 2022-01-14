@@ -1,4 +1,53 @@
+\section{Zielsetzung}
+\label{sec:Zielsetzung}
+
+In diesem Versuch soll die Wärmeleitfähigkeit von Aluminium, Messing und Edelstahl nach der Angström-Methode bestimmt werden. Desweiteren soll die
+Wellenlänge und Frequenz der Temperaturwelle der Stäbe nach periodischer Anregung der Temperatur untersucht werden.
+
 \section{Theorie}
 \label{sec:Theorie}
 
-\cite{sample}
+Wenn sich ein System nicht im Temperaturgleichgewicht befindet, führt dies zu einem Wärmetransport in Richtung des Temperaturgefälles. Dieser Wärmetransport
+erfolgt über Konvektion, Wärmestrahlung und Wärmeleitung. Letzteres wird bei diesem Versuch genauer untersucht. Bei Festkörpern erfolgt dieser Wärmetransport über
+Phononen und frei bewegliche Elektronen. Je mehr frei bewegliche Elektronen ein Körper besitzt, desto besser ist seine Wärmeleitfähigkeit. Daher haben Metalle
+eine sehr hohe Wärmeleitfähigkeit. \\
+Der Fluss der Wärmemenge durch die Fläche $A$ lässt sich durch die Gleichung
+\begin{equation}
+    \label{eqn:Waermefluss}
+    \mathrm{d}Q = - \kappa A \frac{\partial T}{\partial x} \mathrm{d} t
+\end{equation}
+beschreiben. Die Richtung des Wärmeflusses ist dabei in Richtung der niedrigeren Temperatur. d$t$ ist die Zeitspanne, $\kappa$ ist die materialabhängige
+Wärmeleitfähigkeit und $A$ ist die Querschnittsfläche, durch die die Wärme fließt. Das Material hat die Dichte $\rho$ und die spezifische Wärme $c$.\\
+Die Wärmestromdichte ist durch
+\begin{equation}
+    \label{eqn:Waermestromdichte}
+    j_w = - \kappa \frac{\partial T}{\partial x} \mathrm{ \, \,  gegeben.}
+\end{equation}
+Mit der Kontinuitätsgleichung kriegt man daraus die eindimensionale Wärmeleitungsgleichung:
+\begin{equation}
+    \label{eqn:Warmeleitungsgleichung}
+    \frac{\partial T}{\partial t} = \frac{\kappa}{\rho c} \frac{\partial^2 T}{\partial x^2} .
+\end{equation}
+Diese Gleichung beschreibt, wie man durch die partiellen Ableitungen erkennen kann, die (eindimensionale) räumliche und zeitliche Entwicklung der Temperaturverteilung
+des Körpers. Der Proportionalitätsfaktor $\frac{\kappa}{\rho c}$ ist die Wärmeleitfähigkeit $\sigma_T$ und gibt an, wie schnell sich die Temperatur im Material
+ausgleicht.\\
+Wenn ein langer Stab periodisch erhitzt und abgekühlt wird, pflanzt sich entlang des Temperaturgefälles eine Temperaturwelle fort. Der zeitliche und räumliche Verlauf
+ist gegeben durch
+\begin{equation}
+    \label{eqn:Temperaturwelle}
+    T(x,t) = T_{\mathrm{max}} e^{- \sqrt{\frac{\omega \rho c}{2 \kappa}}x} cos \left(\omega t - \sqrt{\frac{\omega \rho c}{2 \kappa}}x\right).
+\end{equation}
+die Phasengeschwindigkeit dieser Welle ist
+\begin{equation}
+    \label{eqn:Phasengeschwindigkeit}
+    v = \frac{\omega}{k} = \frac{\omega}{\sqrt{\frac{\omega \rho c}{2 \kappa}}} = \sqrt{\frac{2 \kappa \omega}{\rho c}}.
+\end{equation}
+Die Dämpfung dieser Welle wird dadurch verursacht, dass sich ein Wellenberg (Höchsttemperatur) in sowohl positive als auch negative x-Richtung ausbreitet, da sich die
+Wärme in Richtung des Temperaturgefälles bewegt. Den Wert der Dämpfung erhält man durch das Amplitudenverhältnis $A_{nah}$ und $A_{fern}$.\\
+Desweiteren ist die Wärmeleitfähigkeit gegeben mit
+\begin{equation}
+    \label{eqn:Wärmeleitfähigkeit}
+    \kappa = \frac{\rho c (\Delta x)^2}{2 \Delta t \ln{\left(A_{nah}/A_{fern}\right)}}.
+\end{equation}
+$\Delta x$ ist der Abstand der Temperaturmessstellen der Teststäbe und $\Delta t$ ist die Phasendifferenz der Temperaturwelle zwischen den Messstellen.
+\newpage
