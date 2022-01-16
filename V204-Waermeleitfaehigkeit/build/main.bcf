@@ -2345,8 +2345,11 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">programme.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">sample</bcf:citekey>
-    <bcf:citekey order="2">sample</bcf:citekey>
+    <bcf:citekey order="1">dichten</bcf:citekey>
+    <bcf:citekey order="2">spezifischeWaerme</bcf:citekey>
+    <bcf:citekey order="3">waermeleitfähigkeit</bcf:citekey>
+    <bcf:citekey order="4">sample</bcf:citekey>
+    <bcf:citekey order="5">sample</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

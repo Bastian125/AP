@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{spezifischeWaerme}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ba89aa54295b6d4b0338b92cf176169a}{%
+           family={chemie.de},
+           familyi={c\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{fullhash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{bibnamehash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{authorbibnamehash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{authornamehash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{authorfullhash}{ba89aa54295b6d4b0338b92cf176169a}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spezifische Wärmekapazität}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.chemie.de/lexikon/Spezifische_W%C3%A4rmekapazit%C3%A4t.html
+      \endverb
+      \verb{url}
+      \verb https://www.chemie.de/lexikon/Spezifische_W%C3%A4rmekapazit%C3%A4t.html
+      \endverb
+    \endentry
     \entry{sample}{manual}{}
       \name{author}{1}{}{%
         {{hash=2821a70f99517ac7757c95300d43e95c}{%
@@ -39,6 +67,62 @@
       \field{labeltitlesource}{title}
       \field{title}{Versuch 204: Wärmeleitung von Metallen}
       \field{year}{2014}
+    \endentry
+    \entry{waermeleitfähigkeit}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e7d549603b2931b84038e0adb74c4ecb}{%
+           family={schweizer-fn.de},
+           familyi={s\bibinithyphendelim f\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7d549603b2931b84038e0adb74c4ecb}
+      \strng{fullhash}{e7d549603b2931b84038e0adb74c4ecb}
+      \strng{bibnamehash}{e7d549603b2931b84038e0adb74c4ecb}
+      \strng{authorbibnamehash}{e7d549603b2931b84038e0adb74c4ecb}
+      \strng{authornamehash}{e7d549603b2931b84038e0adb74c4ecb}
+      \strng{authorfullhash}{e7d549603b2931b84038e0adb74c4ecb}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wärmeleitfähigkeit - Metalle}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.schweizer-fn.de/stoff/wleit_metall/wleit_metall.php
+      \endverb
+      \verb{url}
+      \verb https://www.schweizer-fn.de/stoff/wleit_metall/wleit_metall.php
+      \endverb
+    \endentry
+    \entry{dichten}{online}{}
+      \name{author}{1}{}{%
+        {{hash=18794827317403061f8941361fc7e929}{%
+           family={YaClass},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{18794827317403061f8941361fc7e929}
+      \strng{fullhash}{18794827317403061f8941361fc7e929}
+      \strng{bibnamehash}{18794827317403061f8941361fc7e929}
+      \strng{authorbibnamehash}{18794827317403061f8941361fc7e929}
+      \strng{authornamehash}{18794827317403061f8941361fc7e929}
+      \strng{authorfullhash}{18794827317403061f8941361fc7e929}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dichtetabellen von Stoffen}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.yaclass.at/p/physik/9-schulstufe/kinematik-20670/dichte-20598/re-1c28828a-3952-4508-8213-00d97ae06a65
+      \endverb
+      \verb{url}
+      \verb https://www.yaclass.at/p/physik/9-schulstufe/kinematik-20670/dichte-20598/re-1c28828a-3952-4508-8213-00d97ae06a65
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

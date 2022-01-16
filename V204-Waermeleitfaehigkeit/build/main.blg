@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [1] Config.pm:314> INFO - Logfile is 'build/main.blg'
-[79] biber:340> INFO - === Sun Jan 16, 2022, 10:42:42
-[95] Biber.pm:415> INFO - Reading 'build/main.bcf'
-[153] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[165] Biber.pm:4340> INFO - Processing section 0
-[176] Biber.pm:4531> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[186] bibtex.pm:1689> INFO - LaTeX decoding ...
-[190] bibtex.pm:1494> INFO - Found BibTeX data source 'lit.bib'
-[229] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[230] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[230] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[231] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
-[233] bbl.pm:654> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[234] bbl.pm:757> INFO - Output to build/main.bbl
+[99] biber:340> INFO - === Sun Jan 16, 2022, 12:02:11
+[115] Biber.pm:415> INFO - Reading 'build/main.bcf'
+[176] Biber.pm:952> INFO - Found 4 citekeys in bib section 0
+[191] Biber.pm:4340> INFO - Processing section 0
+[201] Biber.pm:4531> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[210] bibtex.pm:1689> INFO - LaTeX decoding ...
+[214] bibtex.pm:1494> INFO - Found BibTeX data source 'lit.bib'
+[254] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[254] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[255] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[255] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
+[262] bbl.pm:654> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[264] bbl.pm:757> INFO - Output to build/main.bbl

@@ -488,6 +488,8 @@ INPUT build/200sEdelstahl.pdf
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
+INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
+INPUT /home/bastian/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
 INPUT build/main.aux
 INPUT build/main.aux
 INPUT build/main.toc

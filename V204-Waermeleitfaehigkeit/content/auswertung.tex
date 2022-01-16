@@ -7,15 +7,21 @@ Sie können aber auf Anfrage online zugeschickt werden.\\
 Die Wärmeleitfähigkeit von vier unterschiedlichen Metallstäben wird einmal durch eine statische und
 eine dynamische Methode bestimmt.
 
-\subsection{Materialkonstanten}
-\label{sec:material}
-In \autoref{tab:lit} sind die Literaturwerte der Dichten, spezifischen Wärme und Wärmeleitfähigkeit von Messing, Aluminium, Edelstahl und Wasser angegeben.
+\subsection{Vorbereitungsaufgabe}
+\label{sec:Vorbereitung}
+In \autoref{tab:lit} sind die Literaturwerte der Dichten \cite{dichten}, spezifischen Wärme \cite{spezifischeWaerme} und Wärmeleitfähigkeit \cite{waermeleitfähigkeit}
+von Messing, Aluminium, Edelstahl und Wasser angegeben.
 \begin{table}
   \centering
-  \caption{Literaturwerte für Messing, Aluminium und Edelstahl.}
+  \caption{Literaturwerte für Messing, Aluminium, Edelstahl und Wasser.}
   \label{tab:lit}
-  \begin{tabular}{c c c c}
-    1 & 1 & 1 & 1 \\
+  \begin{tabular}{c| c c c c}
+    \toprule
+     & Messing & Aluminium & Edelstahl & Wasser \\
+    \midrule
+    $\rho \mathbin{/} \si{\gram\,\cm^{-3}}$                       & 8,5 & 2,7 & 7,8 & 1 \\
+    $c \mathbin{/} \si{\kilo\joule\,\kilogram^{-1}\kelvin^{-1}}$  & 0,377 & 0,888 & 0,444 & 4,138 \\
+    $\kappa \mathbin{/}\si{\watt\meter^{-1}\kelvin^{-1}}$         & 120 & 220 & 20 & 0,6 \\
   \end{tabular}
 \end{table} 
 
@@ -87,7 +93,22 @@ gegeben \cite{sample}. Die Querschnittsfläche des schmalen Messingstabs ist dur
                      &= 0,28\,\si{\centi\meter^2}
 \end{align*}
 gegeben \cite{sample}.
-Der Wärmestrom für die Messwerte wird durch \autoref{eqn:Waermefluss} bestimmt. Die Ergebnisse sind in zu finden.
+Der Wärmestrom für die Messwerte wird durch \autoref{eqn:Waermefluss} bestimmt. Die Ergebnisse sind in \autoref{tab:waermestrom} zu finden.
+\begin{table}
+  \centering
+  \caption{Wärmestrom für fünf Messwerte.}
+  \label{tab:waermestrom}
+  \begin{tabular}{c | c c c c c}
+    \toprule
+    Stoff & 30\,\si{\second} & 60\,\si{\second} & 120\,\si{\second} & 240\,\si{\second} & 480\,\si{\second} \\
+    \midrule
+    Messing(breit)  & 1 & 1 & 1 & 1 & 1 \\
+    Messing(schmal) & 1 & 1 & 1 & 1 & 1 \\
+    Aluminium       & 1 & 1 & 1 & 1 & 1 \\
+    Edelstahl       & 1 & 1 & 1 & 1 & 1 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 Anschließend werden die Temperaturdifferenzen des breiten Messingstabs $\symup{\Delta}T_{\symup{Messing}}$ und des Edelstahlstabs $\symup{\Delta}T_{\symup{Messing}}$
 verglichen. Die Graphen sind in \autoref{fig:Tempdiff} dargestellt.
