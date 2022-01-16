@@ -22,6 +22,7 @@ von Messing, Aluminium, Edelstahl und Wasser angegeben.
     $\rho \mathbin{/} \si{\gram\,\cm^{-3}}$                       & 8,5 & 2,7 & 7,8 & 1 \\
     $c \mathbin{/} \si{\kilo\joule\,\kilogram^{-1}\kelvin^{-1}}$  & 0,377 & 0,888 & 0,444 & 4,138 \\
     $\kappa \mathbin{/}\si{\watt\meter^{-1}\kelvin^{-1}}$         & 120 & 220 & 20 & 0,6 \\
+    \bottomrule
   \end{tabular}
 \end{table} 
 
@@ -102,15 +103,15 @@ Der Wärmestrom für die Messwerte wird durch \autoref{eqn:Waermefluss} bestimmt
     \toprule
     Stoff & 30\,\si{\second} & 60\,\si{\second} & 120\,\si{\second} & 240\,\si{\second} & 480\,\si{\second} \\
     \midrule
-    Messing(breit)  & 1 & 1 & 1 & 1 & 1 \\
-    Messing(schmal) & 1 & 1 & 1 & 1 & 1 \\
-    Aluminium       & 1 & 1 & 1 & 1 & 1 \\
-    Edelstahl       & 1 & 1 & 1 & 1 & 1 \\
+    Messing(breit)  & -1,091\,\si{\joule\per\second} & -1,338\,\si{\joule\per\second} & -1,002\,\si{\joule\per\second} & -0,618\,\si{\joule\per\second} & -0,438\,\si{\joule\per\second} \\
+    Messing(schmal) & -0,792\,\si{\joule\per\second} & -0,944\,\si{\joule\per\second} & -0,716\,\si{\joule\per\second} & -0,214\,\si{\joule\per\second} & -0,170\,\si{\joule\per\second} \\
+    Aluminium       & -2,003\,\si{\joule\per\second} & -1,816\,\si{\joule\per\second} & -1.151\,\si{\joule\per\second} & -0,672\,\si{\joule\per\second} & -0,535\,\si{\joule\per\second} \\
+    Edelstahl       & -0,075\,\si{\joule\per\second} & -0,277\,\si{\joule\per\second} & -0,384\,\si{\joule\per\second} & -0,366\,\si{\joule\per\second} & -0,328\,\si{\joule\per\second} \\
     \bottomrule
   \end{tabular}
 \end{table}
-
-Anschließend werden die Temperaturdifferenzen des breiten Messingstabs $\symup{\Delta}T_{\symup{Messing}}$ und des Edelstahlstabs $\symup{\Delta}T_{\symup{Messing}}$
+\\
+Anschließend werden die Temperaturdifferenzen des breiten Messingstabs $\symup{\Delta}T_{\symup{Messing}}$ und des Edelstahlstabs $\symup{\Delta}T_{\symup{Edelstahl}}$
 verglichen. Die Graphen sind in \autoref{fig:Tempdiff} dargestellt.
 \begin{figure}[h]
   \centering
@@ -126,6 +127,10 @@ erreicht.
 
 \subsection{Dynamische Methode}
 \label{dynam}
+Die Wärmeleitfähigkeit mit Hilfe der dynamischen Methode lässt sich aus \autoref{eqn:Waermeleitfaehigkeit} bestimmen. Dazu wird die Amplitude $A$ und die Phasendifferenz
+$\symup{\Delta} t$ aus \autoref{fig:80sMess} und \autoref{fig:80sAlu} für Messing und Aluminum abgelesen.
+
+\subsubsection{Messing}
 
 \begin{figure}[h]
   \centering
@@ -134,6 +139,28 @@ erreicht.
   \label{fig:80sMess}
 \end{figure}
 
+Die Messwerte und die Wärmeleitfähigkeit für Messing sind in \autoref{tab:Mess} angegeben.
+\begin{table}[h]
+  \centering
+  \caption{Abgelesene Werte und berechnete Wärmeleitfähigkeit für Messing.}
+  \label{tab:Mess}
+  \begin{tabular}{c c c c}
+    \toprule
+    $A_{\symup{nah}}\mathbin{/}\si{\kelvin}$ & $A_{\symup{fern}}\mathbin{/}\si{\kelvin}$ & $\symup{\Delta}t\mathbin{/}\si{\second}$ & $\kappa\mathbin{/}\frac{\si{\watt}}{\si{\meter \kelvin}}$ \\
+    \midrule
+    8 & 3 & 12 & 122,52\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Insgesamt ergibt sich eine Wärmeleitfähigkeit für Messing von
+\begin{align*}
+  \kappa_{Messing} = 122,25\,\frac{\si{\watt}}{\si{\meter \kelvin}}
+\end{align*}
+und eine Abweichung zum Literaturwert von $2,1\,\%$.
+
+\subsubsection{Aluminium}
+Die Messwerte und die Wärmeleitfähigkeit für Aluminium sind in \autoref{tab:alu} angegeben.
 \begin{figure}[h]
   \centering
   \includegraphics{80sAlu.pdf}
@@ -141,9 +168,49 @@ erreicht.
   \label{fig:80sAlu}
 \end{figure}
 
+\begin{table}[h]
+  \centering
+  \caption{Abgelesene Werte und berechnete Wärmeleitfähigkeit für Aluminium.}
+  \label{tab:alu}
+  \begin{tabular}{c c c c}
+    \toprule
+    $A_{\symup{nah}}\mathbin{/}\si{\kelvin}$ & $A_{\symup{fern}}\mathbin{/}\si{\kelvin}$ & $\symup{\Delta}t\mathbin{/}\si{\second}$ & $\kappa\mathbin{/}\frac{\si{\watt}}{\si{\meter \kelvin}}$ \\
+    \midrule
+    7,5 & 3,8 & 8 & 198,36\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Insgesamt ergibt sich eine Wärmeleitfähigkeit für Aluminium von
+\begin{align*}
+  \kappa_{Aluminium} = 198,36\,\frac{\si{\watt}}{\si{\meter \kelvin}}
+\end{align*}
+und eine Abweichung zum Literaturwert von $2,1\,\%$.
+
+\subsubsection{Edelstahl}
+Auf gleiche Art und Weise lässt sich die Wärmeleitfähigkeit von Edelstahl bestimmen. Die Messwerte und die Wärmeleitfähigkeit des Edelstahlstabs sind in \autoref{tab:edel} angegeben.
 \begin{figure}[h]
   \centering
   \includegraphics{200sEdelstahl.pdf}
   \caption{Temperaturverlauf des Edelstahlstabs.}
   \label{fig:200sEdelstahl}
 \end{figure}
+
+\begin{table}[h]
+  \centering
+  \caption{Abgelesene Werte und berechnete Wärmeleitfähigkeit für Edelstahl.}
+  \label{tab:edel}
+  \begin{tabular}{c c c c}
+    \toprule
+    $A_{\symup{nah}}\mathbin{/}\si{\kelvin}$ & $A_{\symup{fern}}\mathbin{/}\si{\kelvin}$ & $\symup{\Delta}t\mathbin{/}\si{\second}$ & $\kappa\mathbin{/}\frac{\si{\watt}}{\si{\meter \kelvin}}$ \\
+    \midrule
+    12,5 & 3 & 50 & 21,84\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Insgesamt ergibt sich eine Wärmeleitfähigkeit für Edelstahl von
+\begin{align*}
+  \kappa_{Edelstahl} = 21,84\,\frac{\si{\watt}}{\si{\meter \kelvin}}
+\end{align*}
+und eine Abweichung zum Literaturwert von $9,2\,\%$.
