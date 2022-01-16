@@ -31,8 +31,8 @@ y1 = T7- T8
 y2 = T2- T1
 
 plt.figure()
-plt.plot(x, y1, label=r'$\symup{\Delta}T_{\symup{Messing}}$')
-plt.plot(x, y2, label=r'$\symup{\Delta}T_{\symup{Edelstahl}}$')
+plt.plot(x, y1, label=r'$\symup{\Delta}T_{\symup{Edelstahl}}$')
+plt.plot(x, y2, label=r'$\symup{\Delta}T_{\symup{Messing}}$')
 plt.grid()
 plt.xlim(0, 730)
 plt.ylim(-2, 13)

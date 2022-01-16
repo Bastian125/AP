@@ -1,11 +1,23 @@
 \section{Auswertung}
 \label{sec:Auswertung}
-Aufgrund der Menge der Daten sind die Datensätze im Protokoll nicht mit angegeben und es wurde aus Gründen der Lesbarkeit jeder Graph mit einer durchgezogenen Linien
+Aufgrund der Menge der Daten sind die Datensätze im Protokoll nicht mit angegeben und es ist aus Gründen der Lesbarkeit jeder Graph mit einer durchgezogenen Linien
 und keinen einzelnen Punkten markiert.
 Sie können aber auf Anfrage online zugeschickt werden.\\
 \\
 Die Wärmeleitfähigkeit von vier unterschiedlichen Metallstäben wird einmal durch eine statische und
 eine dynamische Methode bestimmt.
+
+\subsection{Materialkonstanten}
+\label{sec:material}
+In \autoref{tab:lit} sind die Literaturwerte der Dichten, spezifischen Wärme und Wärmeleitfähigkeit von Messing, Aluminium, Edelstahl und Wasser angegeben.
+\begin{table}
+  \centering
+  \caption{Literaturwerte für Messing, Aluminium und Edelstahl.}
+  \label{tab:lit}
+  \begin{tabular}{c c c c}
+    1 & 1 & 1 & 1 \\
+  \end{tabular}
+\end{table} 
 
 \subsection{Statische Methode}
 \label{sec:stat}
@@ -22,11 +34,11 @@ entfernten Thermoelemente dar.
 Die Verläufe haben alle eine kurzen Startbereich bis ca. $10 \,\si{\second}$ bei dem die Verläufe nicht
 ansteigen. Danach stellt sich bei allen Verläufen eine Sättigungskurve ein.
 Dabei fällt auf, dass der Temperaturverlauf des Edelstahlstabs am langsamsten
-ansteigt und auch insgesamt die Form der Sättigungskurve abflacht.\\
+ansteigt und auch insgesamt die Form der Sättigungskurve abflacht. Weiterhin hat der Edelstahlstab einen längere Startbereich bis ca. $50\,\si{\second}$
+bei dem keine Temperaturänderung fest zu stellen ist.\\
 \\
 Nach $700\,\si{\second}$ hat der Aluminiumstab die höchste Temperatur erreicht. Darauf folgen in absteigender Reihenfolge der breite Messingstab, der schmale Messingstab
 und der Edelstahlstab. Demnach hat Aluminium die größe Wärmeleitfähigkeit von den vier Stäben.
-
 \begin{table}[h]
   \centering
   \caption{Äußere Temperatur nach $700\,\si{\second}$.}
@@ -39,14 +51,17 @@ und der Edelstahlstab. Demnach hat Aluminium die größe Wärmeleitfähigkeit vo
     \bottomrule
   \end{tabular}
 \end{table}
+
+\subsubsection{Wärmestrom}
+\label{sec:waermestrom}
 Nun wird der Wärmestrom für jeweils 5 Messwerte bestimmt. Dabei ist $\kappa$ der Literaturwert der Wärmeleitfähigkeit des jeweiligen
 Materials, $A$ die Querschnittsfläche und $\frac{\partial T}{\partial x}$ der Temperaturgradient, der als $\frac{\symup{\Delta} T}{\symup{\Delta} x}$
-mit $\symup{\Delta}x \approx 3,00\,\si{\centi\meter}$ geschrieben werden kann.
+mit $\symup{\Delta}x \approx 3,00\,\si{\centi\meter}$ geschrieben wird.
 
-Die verwendeten fünf Messungen für die Stäbe sind in \autoref{tab:5messungen} angegeben.
+Die verwendeten fünf Messungen für die Temperaturdifferenzen der jeweiligen Stäbe sind in \autoref{tab:5messungen} angegeben.
 \begin{table}[h]
   \centering
-  \caption{Temperaturen für fünf Messzeiten.}
+  \caption{Temperaturdifferenzen für fünf Messzeiten.}
   \label{tab:5messungen}
   \begin{tabular}{c c c c c}
     \toprule
@@ -61,13 +76,32 @@ Die verwendeten fünf Messungen für die Stäbe sind in \autoref{tab:5messungen}
   \end{tabular}
 \end{table}
 
+Die Querschnittsflächen sind für die breiten Messing-, Aluminium- und Edelstahlstäbe durch
+\begin{align*}
+  A_{\symup{breit}} &= 1,2\,\si{\centi\meter}\cdot 0,4\,\si{\centi\meter} \\
+                    &= 0,48\,\si{\centi\meter^2}
+\end{align*}
+gegeben \cite{sample}. Die Querschnittsfläche des schmalen Messingstabs ist durch
+\begin{align*}
+  A_{\symup{schmal}} &= 0,7\,\si{\centi\meter}\cdot 0,4\,\si{\centi\meter} \\
+                     &= 0,28\,\si{\centi\meter^2}
+\end{align*}
+gegeben \cite{sample}.
+Der Wärmestrom für die Messwerte wird durch \autoref{eqn:Waermefluss} bestimmt. Die Ergebnisse sind in zu finden.
 
+Anschließend werden die Temperaturdifferenzen des breiten Messingstabs $\symup{\Delta}T_{\symup{Messing}}$ und des Edelstahlstabs $\symup{\Delta}T_{\symup{Messing}}$
+verglichen. Die Graphen sind in \autoref{fig:Tempdiff} dargestellt.
 \begin{figure}[h]
   \centering
   \includegraphics{Tempdiff.pdf}
   \caption{Temperaturdifferenz des breiten Messingstabs und des Edelstahlstabs.}
   \label{fig:Tempdiff}
 \end{figure}
+Dabei ist fest zu halten, dass die Verläufe bis ca. $50\,\si{\second}$ fast gleich verlaufen.
+Durch die bessere Wärmeleitfähigkeit des Messings fällt die Temperaturdifferenz dann aber ab, da die Wärme bis zum äußeren Thermoelement vorgedrungen ist. Danach
+stellt sich ab ca. $500\,\si{\second}$ ein Gleichgewicht ein. Für Edelstahl dauert dieser Prozess länger an, da die Wärmeleitfähigkeit geringer ist, so dass sich
+das Gleichgewicht erst nach ca. $700\,\si{\second}$ einstellt. Die geringere Wärmeleitfähigkeit des Edelstahls sorgt auch dafür, dass der Verlauf einen höheren Peak
+erreicht.
 
 \subsection{Dynamische Methode}
 \label{dynam}
