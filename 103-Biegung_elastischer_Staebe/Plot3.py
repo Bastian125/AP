@@ -65,7 +65,7 @@ error = np.sqrt(np.diag(pcov))
 E = popt[0]
 e = error[0]
 
-print(f'E-Modul fuer runder bei beidseitiger Einspannung:\t{E:.4}')
+print(f'E-Modul fuer runder bei beidseitiger Auflage:\t{E:.4}')
 print(f'Abweichung: \t{error[0]:.4}')
 
 ### plot der Theoriekurve ###
@@ -88,7 +88,7 @@ plt.scatter(D_mit(x1, E), D1, c='b', marker='+', label='Messwerte')
 # visuals
 plt.xlabel(r'$\left(3L^2 x -4Lx^2\right) / \si{m}$')
 plt.ylabel(r'$D(x) / \si{m}$')
-plt.title(rf'Messdaten für den runden Stab bei beidseitiger Einspannung')
+plt.title(rf'Messdaten für den runden Stab bei beidseitiger Auflage')
 plt.legend()
 
 plt.savefig('build/plot4.pdf')
