@@ -23,8 +23,31 @@ Leiterschleifen zu bestimmen, wird das Biot-Savart-Gesetz verwendet, das durch
 bestimmt ist. $I$ ist in diesem Fall die Stromstärke und $\Gamma$ der Weg der Schleife. Für eine Spule mit
 $n$ Windungen ergibt sich dann
 \begin{equation}
-    \label{eqn:nspule}
+    \label{eqn:nSpule}
     \vec{B}(x) = \frac{n \mu_0 I}{2} \frac{R^2}{(R^2 + x^2)^{\frac{3}{2}}} \cdot \hat{x}.
 \end{equation}
-$R$ ist dabei der Radius der Spule und $x$ ist der Abstand zum Spulenzentrum.
-\cite{sample}
+$R$ ist dabei der Radius der Spule und $x$ ist der Abstand zum Spulenzentrum. Handelt es sich um eine
+langgestreckte Spule mit Länge $l$, die auch Solenoid gennannt wird, lässt sich die Flussdichte durch
+\begin{equation}
+    \label{eqn:langeSpule}
+    \vec{B}(x) = \mu_{\symup{r}}\mu_0 \frac{n}{l} I
+\end{equation}
+beschreiben, da die Feldlinien innerhalb der Spule parallel zur Spulenachse sind und das Feld homogen ist.
+\autoref{eqn:langeSpule} gilt nur, wenn die Länge der Spule $l$ wesentlich kleiner als der Durchmesser $d$
+der Spule ist. Für außerhalb der Spule lässt sich keine simple Formel bestimmen, da dort die Feldlinien
+auffächern. Wird ein Solenoid nun zu einer Ringspule mit Radius $r_{\symup{T}} << l$ gebogen, fallen die
+Randeffekte weg und die Flussdichte lässt sich nach \autoref{eqn:langeSpule} mit $l = 2\pi r_{\symup{T}}$
+\begin{equation}
+    \label{eqn:ringspule}
+    \vec{B}(r) = \mu_{\symup{r}}\mu_0 \frac{n}{2\pi r_{\symup{T}}} I
+\end{equation}
+bestimmen. Damit ein homogenes Magnetfeld erzeugt wird, werden Helmholtz-Spulenpaare verwendet. Dazu werden
+die zwei identische Spulen so positioniert, dass ihre Spulenachsen gleich sind und der Abstand der Zentren
+gleich dem Spulenradius $R$ ist. Eine schematische Darstellung dafür ist in \autoref{fig:helmholtz} zu finden.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{helmholtzspulenpaar.png}
+    \caption{Skizze eines Helmholtz-Spulenpaars \cite{sample}.}
+    \label{fig:helmholtz}
+\end{figure}
+
