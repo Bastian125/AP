@@ -1,4 +1,30 @@
+\section{Zielsetzung}
+\label{sec:Zielsetzung}
+Ziel des Versuchs ist es die Feldstärken unterschiedlicher Spulen in verschiedenen Anordnungen in
+Abhängigkeit der Ortes zu messen. Weiterhin wird mit einer Ringspule ein Eisenkern magnetisiert und eine
+Hystereskurve dazu aufgestellt.
+
 \section{Theorie}
 \label{sec:Theorie}
-
+Im Allgemeinen erzeugen bewegte Ladungen magnetische Felder. Die magnetische Feldstärke ist eine vektorielle Größe
+und ist durch
+\begin{equation}
+    \label{eqn:magFeldstaerke}
+    \vec{H} = \mu_{0}\cdot\mu_{\symup{r}}\cdot \vec{B}
+\end{equation}
+gegeben. Dabei ist $\mu_{0}$ die Vakuumpermeabilität, $\mu_{\symup{r}}$ die materialabhängige relative
+Permeabilität und $\vec{B}$ die magnetische Flussdichte. Die beiden Permeabilitäten lassen sich zu der gesamt
+Permeabilität $\mu = \mu_0 \cdot \mu_{\symup{r}}$ zusammenfassen. Um die Magnetfeldstärken beliebiger
+Leiterschleifen zu bestimmen, wird das Biot-Savart-Gesetz verwendet, das durch
+\begin{equation}
+    \label{eqn:biotsavart}
+    \vec{B}(r) = \frac{\mu_{0}I}{4\pi} \int_{\Gamma} \frac{\vec{ds}\times \vec{r}}{r^3}
+\end{equation}
+bestimmt ist. $I$ ist in diesem Fall die Stromstärke und $\Gamma$ der Weg der Schleife. Für eine Spule mit
+$n$ Windungen ergibt sich dann
+\begin{equation}
+    \label{eqn:nspule}
+    \vec{B}(x) = \frac{n \mu_0 I}{2} \frac{R^2}{(R^2 + x^2)^{\frac{3}{2}}} \cdot \hat{x}.
+\end{equation}
+$R$ ist dabei der Radius der Spule und $x$ ist der Abstand zum Spulenzentrum.
 \cite{sample}
