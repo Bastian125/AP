@@ -1,0 +1,8 @@
+# Einfallswinkel Brechungswinkel
+70  39
+60  35.5
+50  30.5
+40  25
+30  19
+20  13
+10  6.5

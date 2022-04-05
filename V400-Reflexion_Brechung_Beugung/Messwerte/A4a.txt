@@ -1,0 +1,6 @@
+# Einfallswinkel Ausfallswinkel gruen
+40  61.5
+45  55
+50  50
+55  45
+60  40

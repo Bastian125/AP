@@ -1,0 +1,8 @@
+# Einfallswinkel Reflektionswinkel
+80  80.5  
+70  70.5
+60  60.5
+50  50
+40  40
+30  30
+20  20

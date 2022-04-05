@@ -1,0 +1,29 @@
+# k phi 600 Lines/mm rot
+1   15
+
+# k phi 600 Lines/mm gruen
+1   12
+
+# k phi 300 Lines/mm rot
+1   12
+2   15
+3   19
+
+# k phi 300 Lines/mm gruen
+1   6
+2   12
+3   19
+
+# k phi 100 Lines/mm rot
+1   2.5
+2   5
+3   7.5
+4   10
+5   13
+
+# k phi 100 Lines/mm gruen
+1   2
+2   4
+3   6
+4   8
+5   10

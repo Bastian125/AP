@@ -1,0 +1,6 @@
+# Einfallswinkel Ausfallswinkel rot
+40  61
+45  54
+50  49
+55  44
+60  40
