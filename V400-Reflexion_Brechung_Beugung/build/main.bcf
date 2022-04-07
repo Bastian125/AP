@@ -2346,6 +2346,8 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">sample</bcf:citekey>
+    <bcf:citekey order="2">sample</bcf:citekey>
+    <bcf:citekey order="3">sample</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
