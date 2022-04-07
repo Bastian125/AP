@@ -13,7 +13,7 @@ Medium, durch den der Lichtstrahl läuft, können die Ausbreitungsgeschwindigkei
 Brechungsindizes $n_{\symup{1}}$ und $n_{\symup{2}}$ der Materialien und durch den Einfallswinkel $\alpha$ und den Brechungswinkel
 $\beta$ durch die Gleichung
 \begin{align*}
-    \frac{sin\,\alpha}{sin\,\beta} = \frac{v_{\symup{1}}}{v_{\symup{2}}} = \frac{n_{\symup{2}}}{\symup{1}}
+    \frac{\symup{sin}\,\alpha}{\symup{sin}\,\beta} = \frac{v_{\symup{1}}}{v_{\symup{2}}} = \frac{n_{\symup{2}}}{\symup{1}}
 \end{align*}
 beschrieben werden. In diesem Versuch ist das eine Medium Luft, das die Ausbreitungsgeschwindigkeit $v_{\symup{1}} = 22,9979 \cdot
 10^{8}\,\unit{\meter\per\second}$ und einen Brechungsindex von $n_{\symup{1}} = 1,000292$ hat \cite{sample}. Da der Lichtstrahl 
@@ -35,7 +35,7 @@ erfährt er eine Richtungsänderung. Dieser Umstand wird Brechung genannt und l�
 Brechungsgesetz
 \begin{align}
     \label{eqn:Snellius}
-    n_{\symup{1}}sin\,\alpha = n_{\symup{2}}sin\,\beta
+    n_{\symup{1}}\symup{sin}\,\alpha = n_{\symup{2}}\symup{sin}\,\beta
 \end{align}
 beschreiben. $\beta$ ist dabei der Ausfallswinkel.
 
@@ -67,11 +67,18 @@ In \autoref{fig:skizzen} sind die oben genannten Gesetze noch einmal graphisch d
         \caption{Transmission.}
         \label{fig:Transmission}
     \end{subfigure}
-    \caption{Skizzen von Reflexion, Brechung und Transmission.}
+    \caption{Skizzen von Reflexion, Brechung und Transmission \cite{sample}.}
     \label{fig:skizzen}
 \end{figure}
 
 \subsection{Wellenoptik}
 \label{sec:Wellenoptik}
 Sobald Licht auf Objekte trifft, die verhältnismäßig klein im Vergleich zur Wellenlänge sind, kommt die geometrische Optik an ihre
-Grenzen, da sich nun das Licht auch im Schattenraum ausbreitet.
+Grenzen, da sich nun das Licht auch im Schattenraum ausbreitet. Die charakteristischen Merkmale einer Welle sind die Frequenz
+$\nu$, die Wellenlänge $\lambda$ und die Ausbreitungsgeschwindigkeit $v$. Licht besteht dabei aus Wellenzügen, die meist nicht länger
+als $10^{-8}\,\unit{\second}$ dauern. Weiterhin können bei gleicher Frequenz und fester Phasenbeziehung durch Superposition
+der Wellen Interferenzbilder entstehen. Es wird zwischen konstruktiver und destruktiver Interferenz unterschieden. Wenn der
+Gangunterschied bei gleicher Intensität $\lambda/2$ beträgt, kommt es zur vollständigen Auslöschung der Welle.
+
+\subsubsection{Beugung am Gitter}
+\label{sec:Gitter}
