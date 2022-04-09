@@ -1,12 +1,54 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
-\begin{figure}
+\subsection{Vorbereitungsaufgaben}
+Im Rahmen der Vorbereitungsaufgaben wird im Folgenden der Brechungsindex verschiedener Materialien recherchiert und die Gitterkonstanten verschiedener Gitter ausgerechnet.
+\subsubsection{Brechungsindex verschiedener Materialien}
+\begin{table}
   \centering
-  \includegraphics{plot.pdf}
-  \caption{Plot.}
-  \label{fig:plot}
-\end{figure}
+  \caption{Brechungsindex verschiedener Materialien.}
+  \label{tab:Brechungsindex}
+  \begin{tabular}{c c}
+    \toprule
+    Material & Brechungsindex $n$ \\
+    \midrule
+    Luft      & 1,0003 \cite{Wien} \\
+    Wasser    & 1,333 \cite{Wien} \\
+    Kronglas  & 1,510 \cite{Spektrum} \\
+    Plexiglas & 1,492 \cite{Wiki} \\
+    Diamant   & 2,417 \cite{Wien} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+\subsubsection{Gitterkonstanten $d$}
+\begin{itemize}
+  \item 600 Linien/mm; $d=\frac{10}{6} $ \textmu m
+  \item 300 Linien/mm; $d=\frac{10}{3} $ \textmu m
+  \item 100 Linien/mm; $d=\frac{10}{1} $ \textmu m
+\end{itemize}
 
-
-Siehe \autoref{fig:plot}!
+\subsection{Reflexionsgesetz}
+Bei diesem Versuch wurde der grüne Laser, Vorlage A und ein Spiegel verwendet. Der genauere Aufbau ist bei dem Kapitel Durchführung zu finden.
+Um das Reflexionsgesetz zu beweisen, wurden insgesamt 7 Messwerte für Einfalls- und Ausfallswinkel genommen. Diese sind in folgender Tabelle
+aufgelistet.
+\begin{table}
+  \centering
+  \caption{Einfalls- und Ausfallswinkel.}
+  \label{tab:Aufgabe1}
+  \begin{tabular}{c c c}
+    \toprule
+    Einfallswinkel $\alpha_1$ / $^{\circ}$& Ausfallswinkel $\alpha_2$ / $^{\circ}$ & Differenz $x$ / $^{\circ}$\\
+    \midrule
+    80 & 80.5 & 0.5 \\
+    70 & 70.5 & 0.5\\
+    60  &60.5 & 0.5\\
+    50  &50 & 0\\
+    40 & 40 & 0\\
+    30 & 30 & 0\\
+    20 & 20 & 0\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+Die Winkel konnten mit einer Genauigkeit von bis zu $0,5^{\circ}$ gemessen werden. \\
+Mit dieser Messungenauigkeit ergibt sich eine durchschnittliche Differenz des Einfalls- und
+Ausfallswinkels von $x = 0,2143^{\circ} \pm 0,7071^{\circ}$. Die Meßunsicherheit wurde mithilfe der Gaußschen Fehlerfortpflanzung berechnet.

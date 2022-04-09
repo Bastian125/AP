@@ -40,6 +40,92 @@
       \field{title}{Versuch Reflexion, Beugung und Brechung}
       \field{year}{2014}
     \endentry
+    \entry{Spektrum}{online}{}
+      \name{author}{1}{}{%
+        {{hash=233aafb4d7e2b2e49f04fefb64108fcc}{%
+           family={Spektrum.de},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{233aafb4d7e2b2e49f04fefb64108fcc}
+      \strng{fullhash}{233aafb4d7e2b2e49f04fefb64108fcc}
+      \strng{bibnamehash}{233aafb4d7e2b2e49f04fefb64108fcc}
+      \strng{authorbibnamehash}{233aafb4d7e2b2e49f04fefb64108fcc}
+      \strng{authornamehash}{233aafb4d7e2b2e49f04fefb64108fcc}
+      \strng{authorfullhash}{233aafb4d7e2b2e49f04fefb64108fcc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Brechzahlen}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.spektrum.de/lexikon/physik/brechzahl/1958
+      \endverb
+      \verb{url}
+      \verb https://www.spektrum.de/lexikon/physik/brechzahl/1958
+      \endverb
+    \endentry
+    \entry{Wien}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7fe74a31513170fd6e98abfe34eda537}{%
+           family={Wien},
+           familyi={W\bibinitperiod},
+           given={Universität},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fe74a31513170fd6e98abfe34eda537}
+      \strng{fullhash}{7fe74a31513170fd6e98abfe34eda537}
+      \strng{bibnamehash}{7fe74a31513170fd6e98abfe34eda537}
+      \strng{authorbibnamehash}{7fe74a31513170fd6e98abfe34eda537}
+      \strng{authornamehash}{7fe74a31513170fd6e98abfe34eda537}
+      \strng{authorfullhash}{7fe74a31513170fd6e98abfe34eda537}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Brechungsindexe}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.univie.ac.at/mikroskopie/1_grundlagen/optik/strahlenoptik/2_lichtbrechung.htm#:~:text=Brechungsindex%20(n)%3A,Luft%3A%201%2C0003
+      \endverb
+      \verb{url}
+      \verb https://www.univie.ac.at/mikroskopie/1_grundlagen/optik/strahlenoptik/2_lichtbrechung.htm#:~:text=Brechungsindex%20(n)%3A,Luft%3A%201%2C0003
+      \endverb
+    \endentry
+    \entry{Wiki}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b0039f984a787d2c0544a688351d52df}{%
+           family={Wikipedia.de},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0039f984a787d2c0544a688351d52df}
+      \strng{fullhash}{b0039f984a787d2c0544a688351d52df}
+      \strng{bibnamehash}{b0039f984a787d2c0544a688351d52df}
+      \strng{authorbibnamehash}{b0039f984a787d2c0544a688351d52df}
+      \strng{authornamehash}{b0039f984a787d2c0544a688351d52df}
+      \strng{authorfullhash}{b0039f984a787d2c0544a688351d52df}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Brechungsindex}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wikiwand.com/de/Brechungsindex
+      \endverb
+      \verb{url}
+      \verb https://www.wikiwand.com/de/Brechungsindex
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -2348,6 +2348,11 @@
     <bcf:citekey order="1">sample</bcf:citekey>
     <bcf:citekey order="2">sample</bcf:citekey>
     <bcf:citekey order="3">sample</bcf:citekey>
+    <bcf:citekey order="4">Wien</bcf:citekey>
+    <bcf:citekey order="5">Wien</bcf:citekey>
+    <bcf:citekey order="6">Spektrum</bcf:citekey>
+    <bcf:citekey order="7">Wiki</bcf:citekey>
+    <bcf:citekey order="8">Wien</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
