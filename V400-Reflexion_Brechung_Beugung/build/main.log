@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.12)  10 APR 2022 18:34
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.12)  10 APR 2022 20:07
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1190,6 +1190,9 @@ Package csquotes Info: ... found 'babel' package.
 
 LaTeX Warning: Label `eqn:Geschw' multiply defined.
 
+
+LaTeX Warning: Label `eqn:Geschw' multiply defined.
+
 )
 \openout1 = main.aux
 
@@ -1355,14 +1358,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 {/home/tabea/.local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package tocbasic Info: character protrusion at toc deactivated on input line 15.
- (./build/main.toc)
+ (./build/main.toc [2
+
+])
 \tf@toc=\write4
 
 \openout4 = main.toc
- [2
-
-] (./content/theorie.tex
-<Bilder/Reflexion.png, id=91, 155.58125pt x 93.85063pt>
+ [3] (./content/theorie.tex
+<Bilder/Reflexion.png, id=110, 155.58125pt x 93.85063pt>
 File: Bilder/Reflexion.png Graphic file (type png)
 <use Bilder/Reflexion.png>
 Package luatex.def Info: Bilder/Reflexion.png  used on input line 52.
@@ -1372,7 +1375,7 @@ Overfull \hbox (30.10292pt too wide) in paragraph at lines 52--53
  [][] 
  []
 
-<Bilder/Brechung.png, id=92, 151.06438pt x 139.01938pt>
+<Bilder/Brechung.png, id=111, 151.06438pt x 139.01938pt>
 File: Bilder/Brechung.png Graphic file (type png)
 <use Bilder/Brechung.png>
 Package luatex.def Info: Bilder/Brechung.png  used on input line 59.
@@ -1382,7 +1385,7 @@ Overfull \hbox (25.58606pt too wide) in paragraph at lines 59--60
  [][] 
  []
 
-<Bilder/Transmission.png, id=93, 150.5625pt x 135.50626pt>
+<Bilder/Transmission.png, id=112, 150.5625pt x 135.50626pt>
 File: Bilder/Transmission.png Graphic file (type png)
 <use Bilder/Transmission.png>
 Package luatex.def Info: Bilder/Transmission.png  used on input line 66.
@@ -1397,7 +1400,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--73
 
  []
 
-[3]) (./content/durchfuehrung.tex [4<./Bilder/Reflexion.png><./Bilder/Brechung.png><./Bilder/Transmission.png>]) (./content/auswertung.tex [5]
+[4]) (./content/durchfuehrung.tex [5<./Bilder/Reflexion.png><./Bilder/Brechung.png><./Bilder/Transmission.png>]) (./content/auswertung.tex [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 23.
@@ -1406,7 +1409,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 23.
 
-[6]
+[7]
 
 LaTeX Warning: Command \= invalid in math mode on input line 87.
 
@@ -1465,7 +1468,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
@@ -1476,31 +1479,101 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
  []
 
 
-Overfull \hbox (53.7809pt too wide) in paragraph at lines 176--187
- [][] 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
-[8]
-Overfull \hbox (53.7809pt too wide) in paragraph at lines 223--234
- [][] 
  []
 
 [9]
-Overfull \hbox (64.57031pt too wide) in paragraph at lines 271--278
+Overfull \hbox (53.7809pt too wide) in paragraph at lines 190--201
  [][] 
  []
 
 [10]
-Overfull \hbox (64.57031pt too wide) in paragraph at lines 289--298
+Overfull \hbox (53.7809pt too wide) in paragraph at lines 237--248
+ [][] 
+ []
+
+[11]
+Overfull \hbox (64.57031pt too wide) in paragraph at lines 285--292
  [][] 
  []
 
 
-Overfull \hbox (70.33002pt too wide) in paragraph at lines 309--320
+Overfull \hbox (64.57031pt too wide) in paragraph at lines 303--312
  [][] 
  []
 
-) (./content/diskussion.tex)
+
+Overfull \hbox (70.33002pt too wide) in paragraph at lines 323--334
+ [][] 
+ []
+
+) (./content/diskussion.tex [12]
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+<Messwerte/Vorbereitungsaufgabe.jpeg, id=234, 709.90219pt x 1135.24126pt>
+File: Messwerte/Vorbereitungsaufgabe.jpeg Graphic file (type jpg)
+<use Messwerte/Vorbereitungsaufgabe.jpeg>
+Package luatex.def Info: Messwerte/Vorbereitungsaufgabe.jpeg  used on input line 55.
+(luatex.def)             Requested size: 292.7776pt x 468.20618pt.
+<Messwerte/Aufgabe1,2,3.jpeg, id=235, 1135.24126pt x 645.16031pt>
+File: Messwerte/Aufgabe1,2,3.jpeg Graphic file (type jpg)
+<use Messwerte/Aufgabe1,2,3.jpeg>
+Package luatex.def Info: Messwerte/Aufgabe1,2,3.jpeg  used on input line 62.
+(luatex.def)             Requested size: 292.7776pt x 166.38904pt.
+<Messwerte/Aufgabe4,5.jpeg, id=236, 980.91469pt x 621.07031pt>
+File: Messwerte/Aufgabe4,5.jpeg Graphic file (type jpg)
+<use Messwerte/Aufgabe4,5.jpeg>
+Package luatex.def Info: Messwerte/Aufgabe4,5.jpeg  used on input line 69.
+(luatex.def)             Requested size: 292.7776pt x 185.36537pt.
+) [14] [15<./Messwerte/Vorbereitungsaufgabe.jpeg>] [16<./Messwerte/Aufgabe1,2,3.jpeg><./Messwerte/Aufgabe4,5.jpeg>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1520,34 +1593,34 @@ Overfull \hbox (14.11734pt too wide) in paragraph at lines 23--23
 []\TU/lmr/m/n/10.95 Wi-ki-pe-dia.de. \TU/lmr/m/it/10.95 Bre-chungs-in-dex\TU/lmr/m/n/10.95 . \TU/lmr/m/sc/10.95 url\TU/lmr/m/n/10.95 : []$\TU/lmtt/m/n/10.95 https : / / www . wikiwand . com / de / Brechungsindex$[]
  []
 
-[11] [12] (./build/main.aux)
+[17] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 87E416F494C226A8A03D97D4F4E405E4;24739.
+(rerunfilecheck)             Checksum: 32ACCAE8DAD3CA3B995B9CEBA32AE8C2;29017.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 9987FF515280CFE0001416D4C05862F3;4192.
+(rerunfilecheck)             Checksum: A6AFE73F939D8B6235F7987C6EF25E4D;5005.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36852 strings out of 478112
+ 36916 strings out of 478112
  100000,1977958 words of node,token memory allocated
  659 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 78 glue_spec, 9 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:1838,3:462,4:170,5:434,6:105,7:5843,8:154,9:598,10:12,11:577
- 56009 multiletter control sequences out of 65536+600000
- 98 fonts using 35446927 bytes
+   avail lists: 1:2,2:2178,3:537,4:190,5:434,6:122,7:5843,8:147,9:557,10:12,11:577
+ 56038 multiletter control sequences out of 65536+600000
+ 98 fonts using 35446495 bytes
  113i,17n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (12 pages, 122058 bytes).
+Output written on main.pdf (17 pages, 712447 bytes).
 
-PDF statistics: 412 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 131072)
- 265 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 490 PDF objects out of 1000 (max. 8388607)
+ 411 compressed objects within 5 object streams
+ 91 named destinations out of 1000 (max. 131072)
+ 321 words of extra memory for PDF output out of 10000 (max. 100000000)
 

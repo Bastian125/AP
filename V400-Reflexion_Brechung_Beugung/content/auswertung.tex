@@ -107,7 +107,7 @@ Zunächst wird der Strahlversatz mithilfe der Messwerte und der Formel
   \label{eqn:Geschw}
   s = d \frac{\sin(\alpha - \beta)}{\cos(\beta)}
 \end{align}
-berechnet.
+berechnet. Wobei $d$ der Durchmesser der Platte, $\alpha$ der Einfallswinkel und $\beta$ der Ausfallswinkel ist.
 Dazu wird die Gaußsche Fehlerfortpflanzung
 \begin{align}
   \label{eqn:Gauss2}
@@ -157,12 +157,26 @@ der Strahlversatz berechnet. Es gilt $n = 1,515 \pm 0,035$.
 
 Der berechnete Strahlversatz lässt sich in der \autoref{tab:Aufgabe4b} finden.\\
 
+\subsection{Verifizierung der Formel}
+ 
+Die Formel lässt sich leicht verifizieren, indem man zunächst die Länge des Strahls $a$ in der Platte durch trigonometrische Formeln, die Dicke $d$ und Winkel $\beta$ ausrechnet.\\
+\begin{align}
+  \cos(\beta) = \frac{d}{a}
+\end{align}
+und anschließend ein neues rechtwinkliges Dreieck einzeichnet mit einem neuen Winkel $\gamma = \alpha - \beta$ und mithilfe der berechneten Größen den
+Strahlenversatz bestimmt.
+\begin{align}
+  \label{eqn:Geschw}
+  s = d \frac{\sin(\gamma)}{\cos(\beta)}
+\end{align}
+
 \subsection{Prisma}
 
 In diesem Versuch wird die Ablenkung $\delta$ untersucht, die ein Lichtstrahl beim Durchgang durch ein Prisma erfährt.
 Der Versuch wird wie beschrieben durchgeführt und jeweils fünf Einfallswinkel $\alpha_1$ und Ausfallswinkel $\alpha_2$ für einen 
 grünen und roten Laser gemessen.\\
-Die Ablenkung berechnet sich nach $\delta = (\alpha_1 + \alpha_2) - (\beta_1 + \beta_2)$.\\
+Die Ablenkung berechnet sich nach $\delta = (\alpha_1 + \alpha_2) - (\beta_1 + \beta_2)$. $\alpha_1$ ist der Einfallswinkel in das Prisma,
+$\beta_1$ der Brechungswinkel, $\beta_2$ der zweite Einfallswinkel und $\alpha_2$ der Ausfallswinkel.\\
 Zunächst wird der Brechungswinkel im Prisma mithilfe von \autoref{eqn:Snellius} und $n=1,510$ bestimmt.
 
 \subsubsection{Grüner Laser}
@@ -214,7 +228,7 @@ Hiermit ergibt sich nun eine Ablenkung $\delta$ von $\delta = 40,1 \pm 0,4 ^{\ci
 
 \subsubsection{Roter Laser}
 
-Die Rechnung zum roten Laser erfolgt analog zum grünen Laser. Die Messwerte und berechneten werden finden sich in \autoref{tab:Aufgabe5b1} und \autoref{tab:Aufgabe5b2}.
+Die Rechnung zum roten Laser erfolgt analog zum grünen Laser. Die Messwerte und berechneten Werte finden sich in \autoref{tab:Aufgabe5b1} und \autoref{tab:Aufgabe5b2}.
 
 \begin{table}
   \centering

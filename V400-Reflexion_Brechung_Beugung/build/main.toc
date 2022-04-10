@@ -1,70 +1,84 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Zielsetzung}{3}{section.1}%
+\contentsline {section}{\numberline {1}Zielsetzung}{4}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
+\contentsline {section}{\numberline {2}Theorie}{4}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Strahlenoptik}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Strahlenoptik}{4}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1}Reflexion}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Reflexion}{4}{subsubsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Brechung}{3}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2}Brechung}{4}{subsubsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Reflexion und Transmission}{3}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3}Reflexion und Transmission}{4}{subsubsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Wellenoptik}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Wellenoptik}{5}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Beugung am Gitter}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Beugung am Gitter}{5}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Durchführung}{5}{section.3}%
+\contentsline {section}{\numberline {3}Durchführung}{6}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Reflexionsgesetz}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Reflexionsgesetz}{6}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Brechungsgesetz}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Brechungsgesetz}{6}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Prisma}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Prisma}{6}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Gitter}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Gitter}{6}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}%
+\contentsline {section}{\numberline {4}Auswertung}{7}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Vorbereitungsaufgaben}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Vorbereitungsaufgaben}{7}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Brechungsindex verschiedener Materialien}{6}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Brechungsindex verschiedener Materialien}{7}{subsubsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Gitterkonstanten $d$}{6}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2}Gitterkonstanten $d$}{7}{subsubsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Reflexionsgesetz}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Reflexionsgesetz}{7}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Brechungsgesetz}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Brechungsgesetz}{8}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.1}Brechungsindex Plexiglas}{7}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1}Brechungsindex Plexiglas}{8}{subsubsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.2}Lichtgeschwindigkeit $v$ im Plexiglas}{7}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2}Lichtgeschwindigkeit $v$ im Plexiglas}{8}{subsubsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Planparallele Platten}{8}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}Planparallele Platten}{9}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.1}Berechnung mit Messwerten}{8}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1}Berechnung mit Messwerten}{9}{subsubsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.2}Berechnung mit Brechungsindex}{8}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2}Berechnung mit Brechungsindex}{9}{subsubsection.4.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Prisma}{8}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.5}Verifizierung der Formel}{9}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.5.1}Grüner Laser}{9}{subsubsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.6}Prisma}{10}{subsection.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.5.2}Roter Laser}{10}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.6.1}Grüner Laser}{10}{subsubsection.4.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}Beugung am Gitter}{10}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.2}Roter Laser}{11}{subsubsection.4.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.6.1}600 Linien / mm}{10}{subsubsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.7}Beugung am Gitter}{11}{subsection.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.6.2}300 Linien / mm}{11}{subsubsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.7.1}600 Linien / mm}{12}{subsubsection.4.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.6.3}100 Linien / mm}{11}{subsubsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.7.2}300 Linien / mm}{12}{subsubsection.4.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}%
+\contentsline {subsubsection}{\numberline {4.7.3}100 Linien / mm}{12}{subsubsection.4.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{11}{section*.16}%
+\contentsline {section}{\numberline {5}Diskussion}{13}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Reflexionsgesetz}{13}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Brechungsgesetz}{13}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Planparallele Platten}{13}{subsection.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Prisma}{14}{subsection.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5}Beugung am Gitter}{14}{subsection.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Messwerte}{14}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{17}{section*.19}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

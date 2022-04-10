@@ -476,6 +476,15 @@ INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
+INPUT ./Messwerte/Vorbereitungsaufgabe.jpeg
+INPUT ./Messwerte/Vorbereitungsaufgabe.jpeg
+INPUT ./Messwerte/Vorbereitungsaufgabe.jpeg
+INPUT ./Messwerte/Aufgabe1,2,3.jpeg
+INPUT ./Messwerte/Aufgabe1,2,3.jpeg
+INPUT ./Messwerte/Aufgabe1,2,3.jpeg
+INPUT ./Messwerte/Aufgabe4,5.jpeg
+INPUT ./Messwerte/Aufgabe4,5.jpeg
+INPUT ./Messwerte/Aufgabe4,5.jpeg
 INPUT /home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
 INPUT /home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
 INPUT /home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
