@@ -52,3 +52,107 @@ aufgelistet.
 Die Winkel konnten mit einer Genauigkeit von bis zu $0,5^{\circ}$ gemessen werden. \\
 Mit dieser Messungenauigkeit ergibt sich eine durchschnittliche Differenz des Einfalls- und
 Ausfallswinkels von $x = 0,2143^{\circ} \pm 0,7071^{\circ}$. Die Meßunsicherheit wurde mithilfe der Gaußschen Fehlerfortpflanzung berechnet.
+
+\subsection{Brechungsgesetz}
+Um das Brechungsgesetz zu beweisen, wird der in der Durchführung beschriebene Versuchsaufbau verwendet. Da der Lichtstrahl von einem optisch dünneren
+Medium (Luft, $n_1=1$) in ein dickeres übergeht, gilt das Snelliussche Brechungsgesetz \autoref{eqn:Snellius} mit $n_1=1$ und $n_2=n$.\\
+Um die Gesetzmäßigkeiten zu überprüfen, wurden jeweils 7 Einfalls- und Brechungswinkel gemessen, die sich in nachfolgender Tabelle finden lassen.
+
+\begin{table}
+  \centering
+  \caption{Einfalls- und Brechungswinkel.}
+  \label{tab:Aufgabe2}
+  \begin{tabular}{c c c}
+    \toprule
+    Einfallswinkel $\alpha$ / $^{\circ}$& Brechungswinkel $\beta$ / $^{\circ}$ & Brechungsindex $n$\\
+    \midrule
+    70 & 39 & 1,493\\
+    60 & 35,5& 1,491\\
+    50 & 30,5& 1,510\\
+    40 & 25& 1,521\\
+    30 & 19& 1,536\\
+    20 & 13& 1,520\\
+    10 & 6.5& 1,534\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsubsection{Brechungsindex Plexiglas}
+
+Die Messwerte ergeben mit \autoref{eqn:Snellius} und der Gaußschen Fehlerfortpflanzung den Brechungsindex $n = 1,515 \pm 0,035$.\\
+Für die Gaußsche Fehlerfortpflanzung wurde folgende Formel benutzt:
+\begin{align}
+  \label{eqn:Gauss}
+  \Delta n = \sqrt{\left(\frac{\cos(\={\alpha})}{\sin(\={\beta})}\right)^2 \cdot \Delta {\alpha}^2 + \left( - \frac{\sin(\={\alpha})\cos(\={\beta})}{\sin(\={\beta})^2}\right)^2 \cdot \Delta {\beta}^2}
+\end{align}
+
+\subsubsection{Lichtgeschwindigkeit $v$ im Plexiglas}
+
+Die Ausbreitungsgeschwindigkeit von Licht verhält sich antiproportional zum Brechungsindex und lässt sich nach
+\begin{align}
+  \label{eqn:Geschw}
+  v = \frac{c}{n}
+\end{align}
+bestimmen. Wobei $v$ die neue Ausbreitungsgeschwindigkeit, $c$ die Lichtgeschwindigkeit im Vakuum und $n$ der Brechungsindex ist.\\
+Die neue Ausbreitungsgeschwindigkeit ist demnach $197.882.810,6 \pm 4.571.559,1 \, \frac{\textrm{m}}{\textrm{s}}$.\\
+
+\subsection{Planparallele Platten}
+
+Für diesen Versuch wurden dieselben Messwerte genommen wie für den Brechungsindex. Die Messwerte lassen sich in \autoref{tab:Aufgabe2} wiederfinden.
+Es werden jeweils nur die ersten 5 Messwerte verwendet.\\
+
+\subsubsection{Berechnung mit Messwerten}
+Zunächst wird der Strahlversatz mithilfe der Messwerte und der Formel
+\begin{align}
+  \label{eqn:Geschw}
+  s = d \frac{\sin(\alpha - \beta)}{\cos(\beta)}
+\end{align}
+berechnet.
+Dazu wird die Gaußsche Fehlerfortpflanzung
+\begin{align}
+  \label{eqn:Gauss2}
+  \Delta s = \sqrt{\left(\frac{\cos(\alpha - \beta)}{\cos(\beta)}\right)^2 \Delta \alpha^2 + \left(-\frac{\sin(\beta)\sin(\beta - \alpha) + \cos(\beta)\cos(\beta - \alpha)}{\cos(\beta)^2}\right)^2 \Delta \beta^2}
+\end{align}
+verwendet.
+
+\begin{table}
+  \centering
+  \caption{Einfalls-, Brechungswinkel und Strahlversatz mit Messwerten.}
+  \label{tab:Aufgabe3}
+  \begin{tabular}{c c c}
+    \toprule
+    Einfallswinkel $\alpha$ / $^{\circ}$& Brechungswinkel $\beta$ / $^{\circ}$ & Strahlversatz $s$ / m\\
+    \midrule
+    70 & 39 & 0,0388 $\pm 0,0006$ \\
+    60 & 35,5& 0,0298 $\pm 0,0007$\\
+    50 & 30,5& 0,0227 $\pm 0,0007$\\
+    40 & 25& 0,0167 $\pm 0,0007$\\
+    30 & 19& 0,0118 $\pm 0,0007$\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Der berechnete Strahlversatz lässt sich in der Tabelle finden.\\
+
+\subsubsection{Berechnung mit Brechungsindex}
+
+Nun wird der Brechungswinkel mithilfe des Brechungsindex aus dem vorherigen Versuch berechnet und dann
+der Strahlversatz berechnet. Es gilt $n = 1,515 \pm 0,035$.
+\begin{table}
+  \centering
+  \caption{Einfalls-, Brechungswinkel und Strahlversatz mit Brechungsindex.}
+  \label{tab:Aufgabe3}
+  \begin{tabular}{c c c}
+    \toprule
+    Einfallswinkel $\alpha$ / $^{\circ}$& Brechungswinkel $\beta$ / $^{\circ}$ & Strahlversatz $s$ / m\\
+    \midrule
+    70 & 38,34 $\pm 0,018$ & 0,039 $\pm 0,0006$\\
+    60 & 34,86 $\pm 0,016$ & 0,030 $\pm 0,0007$\\
+    50 & 30,37 $\pm 0,014$ & 0,023 $\pm 0,0007$\\
+    40 & 25,11 $\pm 0,011$ & 0,017 $\pm 0,0006$\\
+    30 & 19,27 $\pm 0,008$ & 0,012 $\pm 0,0005$\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Prisma}

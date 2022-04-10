@@ -37,8 +37,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Reflexionsgesetz}{6}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}%
+\contentsline {subsection}{\numberline {4.3}Brechungsgesetz}{7}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{7}{section*.6}%
+\contentsline {subsubsection}{\numberline {4.3.1}Brechungsindex Plexiglas}{7}{subsubsection.4.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.2}Lichtgeschwindigkeit $v$ im Plexiglas}{7}{subsubsection.4.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Planparallele Platten}{8}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.1}Berechnung mit Messwerten}{8}{subsubsection.4.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.2}Berechnung mit Brechungsindex}{8}{subsubsection.4.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}Prisma}{8}{subsection.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{9}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{9}{section*.9}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/main"] 1649526040 "build/main.bcf" "build/main.bbl" "build/main" 1649527426
-  "build/main.bcf" 1649527426 107324 e9ce09f63c7f37592c1c62d7c85c10a1 "lualatex"
+["biber build/main"] 1649544417 "build/main.bcf" "build/main.bbl" "build/main" 1649549184
+  "build/main.bcf" 1649549184 107324 e9ce09f63c7f37592c1c62d7c85c10a1 "lualatex"
   "lit.bib" 1649500621 656 57c1dba7118dc47e91d977567a253816 ""
   (generated)
   "build/main.blg"
   "build/main.bbl"
-["lualatex"] 1649527422 "main.tex" "build/main.pdf" "main" 1649527426
+["lualatex"] 1649549179 "main.tex" "build/main.pdf" "main" 1649549184
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -13,6 +13,7 @@
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf" 1255129361 110496 b9c8767d4cc3bf3f4b21f676bf89aa78 ""
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf" 1255129361 110400 d844cffffa1af59f9d2bb1bfdb6f1a2c ""
+  "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf" 1255129361 111948 cee9e390fd6d23cfb4d6871ba2a9ee5b ""
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf" 1255129361 113040 97646768b80c4c82be4499ab1d090e1d ""
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf" 1255129361 112680 8bab1cbacdfe2fe22ce627aaf5174f5d ""
   "/home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf" 1255129361 108740 82741d58d9334b5242a3acb1d982bd05 ""
@@ -232,20 +233,20 @@
   "Bilder/Brechung.png" 1649490659 11299 b59e42e69f4bf5d88d4e2c7c4762ebc1 ""
   "Bilder/Reflexion.png" 1649490659 10329 d4ff78904711cee1067c05e34eb66429 ""
   "Bilder/Transmission.png" 1649490659 14503 c76a46caaebd43ab1276431a63a5f78d ""
-  "build/main.aux" 1649527426 14189 102b58d516149254e15a3f003fac54f3 "lualatex"
-  "build/main.bbl" 1649526041 4863 42dc7cf35542d408f25efc2162816f9c "biber build/main"
-  "build/main.run.xml" 1649527426 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
-  "build/main.toc" 1649527426 2538 95a0309e078e0e89b851001578123374 "lualatex"
-  "content/auswertung.tex" 1649527407 2031 373b6ec5c99e63651621cbebef4302ab ""
+  "build/main.aux" 1649549184 19472 a6c7f2dc1c9770c6cdd096ce190efc92 "lualatex"
+  "build/main.bbl" 1649544418 4863 42dc7cf35542d408f25efc2162816f9c "biber build/main"
+  "build/main.run.xml" 1649549184 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
+  "build/main.toc" 1649549184 3442 26a18127cbc67b7f67cd87dcc904fa7e "lualatex"
+  "content/auswertung.tex" 1649549170 6102 5634e2f85a112368bce7a28ab01ae2c2 ""
   "content/diskussion.tex" 1649490659 44 402cc6c9751419c0f1a455b2d4ed1f51 ""
   "content/durchfuehrung.tex" 1649490659 2205 70bad4ec7d4bc40abdf5c4220c873d1d ""
-  "content/theorie.tex" 1649499673 5387 6cf626d5a46ea746106439889acee96c ""
+  "content/theorie.tex" 1649542045 5387 6cf626d5a46ea746106439889acee96c ""
   "header.tex" 1649490659 3577 411a7480850a13a1f7837d81235cd801 ""
   "main.tex" 1649490659 396 5cff69258696a692439784b62ced88db ""
   (generated)
-  "build/main.log"
   "build/main.toc"
-  "build/main.pdf"
-  "build/main.aux"
+  "build/main.log"
   "build/main.bcf"
+  "build/main.aux"
   "build/main.run.xml"
+  "build/main.pdf"
