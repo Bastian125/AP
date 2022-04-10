@@ -55,8 +55,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.5.2}Roter Laser}{10}{subsubsection.4.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}%
+\contentsline {subsection}{\numberline {4.6}Beugung am Gitter}{10}{subsection.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{10}{section*.13}%
+\contentsline {subsubsection}{\numberline {4.6.1}600 Linien / mm}{10}{subsubsection.4.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.6.2}300 Linien / mm}{11}{subsubsection.4.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.6.3}100 Linien / mm}{11}{subsubsection.4.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{11}{section*.16}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
