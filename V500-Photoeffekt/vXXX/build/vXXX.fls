@@ -1,4 +1,4 @@
-PWD /mnt/c/Users/tabea/OneDrive/Desktop/Praktikum/AP-Praktikum/V500-Photoeffekt/vXXX
+PWD /mnt/c/Users/Tabea/Desktop/Praktikum/AP-Praktikum/V500-Photoeffekt/vXXX
 INPUT /home/tabea/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./vXXX.tex
 OUTPUT build/vXXX.log
@@ -179,6 +179,7 @@ INPUT /home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/l
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/generic/babel/luababel.def
 INPUT /home/tabea/.local/texlive/2021/texmf-var/tex/generic/config/language.dat
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/generic/babel/luababel.def
@@ -229,6 +230,13 @@ INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
@@ -246,8 +254,6 @@ INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
-INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
@@ -389,11 +395,6 @@ INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/ncctools/extdash.sty
 INPUT build/vXXX.aux
 INPUT build/vXXX.aux
 OUTPUT build/vXXX.aux
-INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -401,6 +402,9 @@ INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
@@ -464,6 +468,15 @@ INPUT /home/tabea/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbo
 INPUT /home/tabea/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
+INPUT ../Bilder/Versuchsaufbau.png
+INPUT ../Bilder/Versuchsaufbau.png
+INPUT ../Bilder/Versuchsaufbau.png
+INPUT ../Bilder/Hg_Spektrum.png
+INPUT ../Bilder/Hg_Spektrum.png
+INPUT ../Bilder/Hg_Spektrum.png
+INPUT ../Bilder/StromZeug.png
+INPUT ../Bilder/StromZeug.png
+INPUT ../Bilder/StromZeug.png
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
 INPUT ./content/diskussion.tex
