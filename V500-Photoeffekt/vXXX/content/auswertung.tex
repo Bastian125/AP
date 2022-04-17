@@ -1,2 +1,36 @@
 \section{Auswertung}
 \label{sec:Auswertung}
+Es werden die Bremsspannungen $U_{\symup{B}}$ gegen den Photostrom $I$ für die rote, gelbe, grüne
+und die beiden violetten Spektrallinien aufgetragen und mit Hilfe einer durch Python berechneten
+Ausgleichsgeraden die Grenzspannung $U_G$ bestimmt.
+
+\subsection{Rote Spektrallinie}
+\label{sec:rote_Spektrallinie}
+Die Messwerte sind in \autoref{tab:rot} und die Ausgleichsgerade in \autoref{fig:rot} zu finden.
+\begin{table}
+    \centering
+    \caption{Messwerte für die rote Spektrallinie.}
+    \label{tab:rot}
+    \begin{tabular}{c c}
+        \toprule
+        $U_{\symup{B}} / \unit{\milli\volt}$ & $I / \unit{\nano\ampere}$ \\
+        \midrule
+          0 & 0.040 \\
+         20 & 0.030 \\
+         40 & 0.025 \\
+         60 & 0.020 \\
+         80 & 0.020 \\
+        100 & 0.020 \\
+        120 & 0.020 \\
+        220 & 0.010 \\
+        380 & 0.000 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{figure}
+    \centering
+    \label{fig:rot}
+    \caption{Photostrom in Abhängigkeit der Bremsspannung und Ausgleichsgerade für die rote Spektrallinie.}
+    \includegraphics[width=\textwidth]{plot1.pdf}
+\end{figure}
