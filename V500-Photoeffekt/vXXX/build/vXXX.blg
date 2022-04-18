@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [1] Config.pm:314> INFO - Logfile is 'build/vXXX.blg'
-[71] biber:340> INFO - === Sat Apr 16, 2022, 14:11:58
-[85] Biber.pm:415> INFO - Reading 'build/vXXX.bcf'
-[141] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[156] Biber.pm:4340> INFO - Processing section 0
-[168] Biber.pm:4531> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[326] bibtex.pm:1689> INFO - LaTeX decoding ...
-[329] bibtex.pm:1494> INFO - Found BibTeX data source '../lit.bib'
-[366] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[367] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[367] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[367] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
-[369] bbl.pm:654> INFO - Writing 'build/vXXX.bbl' with encoding 'UTF-8'
-[371] bbl.pm:757> INFO - Output to build/vXXX.bbl
+[78] biber:340> INFO - === Mon Apr 18, 2022, 10:55:07
+[95] Biber.pm:415> INFO - Reading 'build/vXXX.bcf'
+[157] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[171] Biber.pm:4340> INFO - Processing section 0
+[196] Biber.pm:4531> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[386] bibtex.pm:1689> INFO - LaTeX decoding ...
+[395] bibtex.pm:1494> INFO - Found BibTeX data source '../lit.bib'
+[465] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[466] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[467] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[468] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
+[470] bbl.pm:654> INFO - Writing 'build/vXXX.bbl' with encoding 'UTF-8'
+[472] bbl.pm:757> INFO - Output to build/vXXX.bbl
