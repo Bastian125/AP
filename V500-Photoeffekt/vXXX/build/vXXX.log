@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  18 APR 2022 11:17
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  18 APR 2022 14:56
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1512,7 +1512,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
  []
 
 [4]
-<Bilder/PhotoStrom1.jpg, id=64, 283.55937pt x 123.96312pt>
+<Bilder/PhotoStrom1.jpg, id=68, 283.55937pt x 123.96312pt>
 File: Bilder/PhotoStrom1.jpg Graphic file (type jpg)
 <use Bilder/PhotoStrom1.jpg>
 Package luatex.def Info: Bilder/PhotoStrom1.jpg  used on input line 128.
@@ -1525,7 +1525,7 @@ LaTeX Warning: Command \~ invalid in math mode on input line 141.
 LaTeX Warning: Command \~ invalid in math mode on input line 141.
 
 [5<../Bilder/PhotoStrom1.jpg>]
-<Bilder/Potentialverhältnisse.jpg, id=78, 366.36874pt x 105.89563pt>
+<Bilder/Potentialverhältnisse.jpg, id=82, 366.36874pt x 105.89563pt>
 File: Bilder/Potentialverhältnisse.jpg Graphic file (type jpg)
 <use Bilder/Potentialverhältnisse.jpg>
 Package luatex.def Info: Bilder/Potentialverhältnisse.jpg  used on input line 162.
@@ -1535,7 +1535,7 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 164.
  [6<../Bilder/Potentialverhältnisse.jpg>]) (./content/durchfuehrung.tex
-<Bilder/Versuchsaufbau.png, id=88, 1284.29813pt x 350.05782pt>
+<Bilder/Versuchsaufbau.png, id=92, 1284.29813pt x 350.05782pt>
 File: Bilder/Versuchsaufbau.png Graphic file (type png)
 <use Bilder/Versuchsaufbau.png>
 Package luatex.def Info: Bilder/Versuchsaufbau.png  used on input line 10.
@@ -1545,7 +1545,7 @@ Overfull \hbox (8.53578pt too wide) in paragraph at lines 10--11
  [][] 
  []
 
-<Bilder/Hg_Spektrum.png, id=92, 516.42938pt x 210.03468pt>
+<Bilder/Hg_Spektrum.png, id=96, 516.42938pt x 210.03468pt>
 File: Bilder/Hg_Spektrum.png Graphic file (type png)
 <use Bilder/Hg_Spektrum.png>
 Package luatex.def Info: Bilder/Hg_Spektrum.png  used on input line 20.
@@ -1555,7 +1555,7 @@ Overfull \hbox (8.53578pt too wide) in paragraph at lines 20--21
  [][] 
  []
 
-<Bilder/StromZeug.png, id=96, 571.38469pt x 379.4175pt>
+<Bilder/StromZeug.png, id=100, 571.38469pt x 379.4175pt>
 File: Bilder/StromZeug.png Graphic file (type png)
 <use Bilder/StromZeug.png>
 Package luatex.def Info: Bilder/StromZeug.png  used on input line 38.
@@ -1570,56 +1570,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--31
 
  []
 
-<plot1.pdf, id=119, 417.7206pt x 258.0049pt>
+
+Package caption Warning: \label without proper reference on input line 132.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:rot' on page 9 undefined on input line 128.
+
+
+Package caption Warning: \label without proper reference on input line 139.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:gelb' on page 9 undefined on input line 129.
+
+
+Package caption Warning: \label without proper reference on input line 147.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:gruen' on page 9 undefined on input line 129.
+
+
+Package caption Warning: \label without proper reference on input line 154.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:violett1' on page 9 undefined on input line 129.
+
+<plot1.pdf, id=127, 417.7206pt x 258.0049pt>
 File: plot1.pdf Graphic file (type pdf)
 <use plot1.pdf>
-Package luatex.def Info: plot1.pdf  used on input line 133.
+Package luatex.def Info: plot1.pdf  used on input line 134.
 (luatex.def)             Requested size: 418.25555pt x 258.33495pt.
-<plot2.pdf, id=120, 417.7206pt x 258.0049pt>
+<plot2.pdf, id=128, 417.7206pt x 258.0049pt>
 File: plot2.pdf Graphic file (type pdf)
 <use plot2.pdf>
-Package luatex.def Info: plot2.pdf  used on input line 140.
+Package luatex.def Info: plot2.pdf  used on input line 141.
 (luatex.def)             Requested size: 418.25555pt x 258.33495pt.
-<plot3.pdf, id=121, 417.7206pt x 258.0049pt>
+<plot3.pdf, id=129, 417.7206pt x 258.0049pt>
 File: plot3.pdf Graphic file (type pdf)
 <use plot3.pdf>
-Package luatex.def Info: plot3.pdf  used on input line 148.
+Package luatex.def Info: plot3.pdf  used on input line 149.
 (luatex.def)             Requested size: 418.25555pt x 258.33495pt.
-<plot4.pdf, id=122, 417.7206pt x 258.0049pt>
+<plot4.pdf, id=130, 417.7206pt x 258.0049pt>
 File: plot4.pdf Graphic file (type pdf)
 <use plot4.pdf>
-Package luatex.def Info: plot4.pdf  used on input line 155.
+Package luatex.def Info: plot4.pdf  used on input line 156.
 (luatex.def)             Requested size: 418.25555pt x 258.33495pt.
-) (./content/diskussion.tex [9] [10] [11<build/plot1.pdf>] [12] [13<build/plot2.pdf><build/plot3.pdf>] [14<build/plot4.pdf>]) [15
+
+Package caption Warning: \label without proper reference on input line 166.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:UG' on page 9 undefined on input line 163.
+
+<plot5.pdf, id=133, 417.7206pt x 258.0049pt>
+File: plot5.pdf Graphic file (type pdf)
+<use plot5.pdf>
+Package luatex.def Info: plot5.pdf  used on input line 186.
+(luatex.def)             Requested size: 418.25555pt x 258.33495pt.
+[9]
+<plot6.pdf, id=153, 417.7206pt x 258.0049pt>
+File: plot6.pdf Graphic file (type pdf)
+<use plot6.pdf>
+Package luatex.def Info: plot6.pdf  used on input line 201.
+(luatex.def)             Requested size: 418.25555pt x 258.33495pt.
+) (./content/diskussion.tex [10] [11<build/plot1.pdf>] [12] [13<build/plot2.pdf><build/plot3.pdf>] [14<build/plot4.pdf><build/plot5.pdf>] [15<build/plot6.pdf>]) [16
 
 ] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: C6D2AA64673E203909064747A5C0A50E;16270.
+(rerunfilecheck)             Checksum: A9A0177BE86D4AC3D09BDAD8386F0BA7;18244.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: 20E773A1C7B62EFC6E6ACA23139C9EE3;1852.
+(rerunfilecheck)             Checksum: 95B86A105302F7430FED746BFE33C7CB;2094.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37769 strings out of 477893
+ 37800 strings out of 477893
  100000,1977958 words of node,token memory allocated
- 711 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 19 attribute, 76 glue_spec, 11 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:2272,3:264,4:89,5:456,6:41,7:5966,8:32,9:707,10:18,11:721,12:1
- 57158 multiletter control sequences out of 65536+600000
- 102 fonts using 38880835 bytes
+ 716 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 19 attribute, 77 glue_spec, 11 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:2,2:2661,3:349,4:98,5:455,6:56,7:6532,8:46,9:840,10:18,11:721,12:1
+ 57176 multiletter control sequences out of 65536+600000
+ 102 fonts using 38880999 bytes
  113i,11n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (15 pages, 227010 bytes).
+</home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on vXXX.pdf (16 pages, 252844 bytes).
 
-PDF statistics: 358 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 131072)
- 105 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 439 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 56 named destinations out of 1000 (max. 131072)
+ 121 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -125,7 +125,8 @@ beschädigt war.
     \end{tabular}
 \end{table}
 
-Die Plots mit den entsprechenden linearen Regressionen für rot, gelb, grün und violett sind in, , und zu finden.
+Die Plots mit den entsprechenden linearen Regressionen für rot, gelb, grün und violett sind in \autoref{fig:rot},
+\autoref{fig:gelb}, \autoref{fig:gruen} und \autoref{fig:violett1} zu finden.
 \begin{figure}[!hbt]
     \centering
     \label{fig:rot}
@@ -159,7 +160,7 @@ Die Plots mit den entsprechenden linearen Regressionen für rot, gelb, grün und
 \label{sec:Grenzspannung}
 Die Ausgleichsgerade hat die Form $\sqrt{I} = a \cdot U_{\symup{B}} + b$. Die Grenzspannung $U_{\symup{G}}$
 ergibt sich aus dem Verhältnis $\frac{-b}{a}$. Die für $a$ und $b$ bestimmten Werte und die Grenzspannung
-$U_{\symup{G}}$ sind in eingetragen.
+$U_{\symup{G}}$ sind in \autoref{tab:UG} eingetragen.
 \begin{table}[!hbt]
     \centering
     \label{tab:UG}
@@ -167,10 +168,35 @@ $U_{\symup{G}}$ sind in eingetragen.
         \toprule
         $\lambda/\unit{\nano\meter}$ & $a\cdot 10^{-5}$ & $b\cdot 10^{-5}$ & $U_{\symup{G}}/\unit{\volt}$\\
         \midrule
-        646 &  -1,47 $\pm$ 0,12 & 0,59 $\pm$ 0,02 & 1 $\pm$ \\
-        577 &  -7,06 $\pm$ 0,15 & 3,05 $\pm$ 0,04 & 1 $\pm$ \\
-        546 & -14,81 $\pm$ 0,26 & 7,26 $\pm$ 0,07 & 1 $\pm$ \\
-        435 &  -7,68 $\pm$ 0,14 & 7,05 $\pm$ 0,07 & 1 $\pm$ \\
+        646 &  -1,47 $\pm$ 0,12 & 0,59 $\pm$ 0,02 & 0,401 $\pm$ 0,035 \\
+        578 &  -7,06 $\pm$ 0,15 & 3,05 $\pm$ 0,04 & 0,432 $\pm$ 0,011 \\
+        546 & -14,81 $\pm$ 0,26 & 7,26 $\pm$ 0,07 & 0,490 $\pm$ 0,010 \\
+        435 &  -7,68 $\pm$ 0,14 & 7,05 $\pm$ 0,07 & 0,981 $\pm$ 0,019 \\
         \bottomrule
     \end{tabular}
 \end{table}
+
+\subsection{Plancksche Wirkungsquantum}
+\label{sec:Plancksche_Wirkungsquantum}
+Nun wird die Grenzspannung in \autoref{fig:Uf} gegen die Frequez des Lichts aufgetragen.
+\begin{figure}[!hbt]
+    \centering
+    \caption{Grenzspannung gegen die Frequenz aufgetragen mit linearer Regression.}
+    \label{fig:Uf}
+    \includegraphics[width=\textwidth]{plot5.pdf}
+\end{figure}
+Aus der linearen Regression und \autoref{eqn:1und2} ergibt sich $a=\frac{h}{e_{\symup{0}}}$ und
+$b=A_{\symup{k}}$. Die Werte ermitteln sich zu
+\begin{align*}
+    \frac{h}{e_{\symup{0}}}&= (2,4 \pm 0,4)\cdot 10^{-15}\unit{\volt\second}\\
+    A_{\symup{k}} &= (0,80 \pm 0,23) e\unit{\volt}.\\
+\end{align*}
+
+\subsection{Kurvenverlauf}
+\label{sec:Kurvenverlauf}
+\begin{figure}
+    \centering
+    \caption{Photostrom in Abhängigkeit der Spannung für die gelbe Spektrallinie.}
+    \label{fig:kurve}
+    \includegraphics[width=\textwidth]{plot6.pdf}
+\end{figure}
