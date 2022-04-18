@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 
 # Rote Spektrallinie
 # Daten laden
-U, I = np.genfromtxt('a1.txt' , unpack=True)
+U, I_a = np.genfromtxt('a1.txt' , unpack=True)
+I = np.sqrt(I_a)
 
 # Lineare Regression
 params, covariance_matrix = np.polyfit(U, I, deg=1, cov=True)
@@ -24,7 +25,7 @@ plt.plot(
 )
 # Label
 plt.xlabel(r'$\frac{U_B}{V}$')
-plt.ylabel(r'$\frac{I}{A}$')
+plt.ylabel(r'$\frac{I}{\sqrt{A}}$')
 plt.grid()
 plt.legend()
 plt.savefig('build/plot1.pdf')
@@ -32,7 +33,8 @@ plt.close()
 
 # Gelbe Spektrallinie
 # Daten laden
-U, I = np.genfromtxt('a2.txt' , unpack=True)
+U, I_a = np.genfromtxt('a2.txt' , unpack=True)
+I = np.sqrt(I_a)
 
 # Lineare Regression
 params, covariance_matrix = np.polyfit(U, I, deg=1, cov=True)
@@ -53,7 +55,7 @@ plt.plot(
 )
 # Label
 plt.xlabel(r'$\frac{U_B}{V}$')
-plt.ylabel(r'$\frac{I}{A}$')
+plt.ylabel(r'$\frac{I}{\sqrt{A}}$')
 plt.grid()
 plt.legend()
 plt.savefig('build/plot2.pdf')
@@ -61,7 +63,8 @@ plt.close()
 
 # Gruene Spektrallinie
 # Daten laden
-U, I = np.genfromtxt('a3.txt' , unpack=True)
+U, I_a = np.genfromtxt('a3.txt' , unpack=True)
+I = np.sqrt(I_a)
 
 # Lineare Regression
 params, covariance_matrix = np.polyfit(U, I, deg=1, cov=True)
@@ -82,15 +85,16 @@ plt.plot(
 )
 # Label
 plt.xlabel(r'$\frac{U_B}{V}$')
-plt.ylabel(r'$\frac{I}{A}$')
+plt.ylabel(r'$\frac{I}{\sqrt{A}}$')
 plt.grid()
 plt.legend()
 plt.savefig('build/plot3.pdf')
 plt.close()
 
-# Gelbe Spektrallinie
+# Violette Spektrallinie 1
 # Daten laden
-U, I = np.genfromtxt('a4.txt' , unpack=True)
+U, I_a = np.genfromtxt('a4.txt' , unpack=True)
+I = np.sqrt(I_a)
 
 # Lineare Regression
 params, covariance_matrix = np.polyfit(U, I, deg=1, cov=True)
@@ -111,7 +115,7 @@ plt.plot(
 )
 # Label
 plt.xlabel(r'$\frac{U_B}{V}$')
-plt.ylabel(r'$\frac{I}{A}$')
+plt.ylabel(r'$\frac{I}{\sqrt{A}}$')
 plt.grid()
 plt.legend()
 plt.savefig('build/plot4.pdf')
