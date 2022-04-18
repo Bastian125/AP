@@ -21,14 +21,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Auswertung}{9}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Grenzspannung}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Grenzspannung}{16}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Plancksche Wirkungsquantum}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Plancksche Wirkungsquantum}{16}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Kurvenverlauf}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Kurvenverlauf}{17}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{16}{section.5}%
+\contentsline {section}{\numberline {5}Diskussion}{18}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{16}{section*.19}%
+\contentsline {section}{\nonumberline Literatur}{19}{section*.19}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
