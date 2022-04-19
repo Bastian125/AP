@@ -1,0 +1,6 @@
+# # t/s Anzahl/counts
+# Material: Caesium 137
+# Nullmessung
+# 900   567
+# Bllei Dicke t/s count
+3.79e-3     300
