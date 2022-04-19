@@ -1,2 +1,0 @@
-# Nullmessung t/s Anzahl/counts
-900 567
