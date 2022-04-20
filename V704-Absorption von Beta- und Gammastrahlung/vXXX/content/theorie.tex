@@ -1,4 +1,110 @@
+\section{Zielsetzung}
+\label{sec:Zielsetzung}
+In diesem Versuch soll die Wechselwirkung von $\gamma$- und $\beta^{-}$-Strahlung mit Materie untersucht werden.
+
 \section{Theorie}
 \label{sec:Theorie}
+So bald $\beta$- oder $\gamma$-Strahlen auf Materie, die hier als Absorber bezeichnet werden, treffen, finden
+Wechselwirkungen statt, die zu einer Abnahme der Intensität führen. Ein Maß für die Wahrscheinlichkeit, dass
+ein Teilchen mit einem Absorber wechselwirkt ist der Wirkungsquerschnitt $\sigma$. Der Wirkungsquerschnitt lässt
+sich als Fläche der Zielscheibe, auf die eine Teilchen trifft, vorstellen. Dadurch kann die Anzahl der
+Wechselwirkungen durch
+\begin{align*}
+    N = N_{\symup{0}} n D \sigma
+\end{align*}
+bestimmt werden. Dabei ist $D$ die Dicke des Absorbers $n$ die Anzahl der Teilchen pro Volumeneinheit und
+$N_{\symup{0}}$ die Anzahl der Teilchen, die pro Zeiteinheit auf das Material treffen. Durch Betrachtung eines
+infitisemalen dicken Absorbers und Umstellen ergibt sich eine negative Exponentialfunktion für die Anzahl der
+Wechselwirkungen
+\begin{align}
+    \label{eqn:Anzahl}
+    N(D) = N_{\symup{0}} e^{-n \sigma D}.
+\end{align}
+$n \sigma$ wird meist durch den Absorbtionskoeffizienten
+\begin{align}
+    \label{eqn:Absorbtionskoeffizient}
+    \mu = n\sigma
+\end{align}
+ausgedrückt. $n$ bestimmt sich in \autoref{eqn:Anzahl} durch
+\begin{align*}
+    n = \frac{zN_{\symup{L}}}{V_{\symup{Mol}}} = \frac{zN_{\symup{L}}\rho}{M}
+\end{align*}
+ausdrücken. Dabei ist $z$ die Ordnungszahl, $N_{\symup{L}}$ die Loschmidtsche Zahl, $V_{\symup{Mol}}$ das
+Molvolumen, $M$ das Molekulargewicht und $\rho$ die Dichte.
 
-\cite{sample}
+\subsection{Gammastrahlung}
+\label{sec:Gammastrahlung}
+Gammastrahlung wird emmitiert, wenn Elektronen durch Quantensprünge aus energetisch angeregten Zuständen
+in energetisch niedrigere Zustände fallen. Die Energiedifferenz wird dann als $\gamma$-Strahlung durch Photon
+mit der Energie
+\begin{align*}
+    E = hf
+\end{align*}
+emmitiert. Trifft die Strahlung nun auf Materie sind die in Abbildung 1 dargestellten
+Wechselwirkungsprozesse möglich.
+\begin{figure}
+    \centering
+    \label{fig:WWProzesse}
+    \includegraphics[width=\textwidth]{Bilder/Wechselwirkung.png}
+    \caption{Wechselwirkungsprozesse der $\gamma$-Strahlung mit Materie \cite{sample}.}
+\end{figure}
+Die drei dominierenden Effekte sind hier Photo- und Compton-Effekt und die Paarbildung.
+
+\subsubsection{Photoeffekt}
+\label{sec:Photoeffekt}
+Trifft das $\gamma$-Quant auf einen Hüllenelektron, so wird das Elektron herausgelöst und das Photon vernichtet.
+Es erhält dabei die Energie
+\begin{align*}
+    E_{\symup{e}} = hf - E_{\symup{B}}.
+\end{align*}
+Dabei ist $E_{\symup{B}}$ die Bindungsenergie des Elektrons. Damit der Photoeffekt auftritt, muss das Photon
+mindestens die Bindungsenergie des Elektrons haben.
+
+\subsubsection{Compton-Effekt}
+\label{sec:Compton-Effekt}
+Beim Compton-Effekt trifft das Photon auf ein freies Elektron, wie es zum Beispiel bei den leitenden Elektronen
+von Metallen zu finden ist. Dabei wird das Photon inelastisch gestreut und gibt einen Teil seiner Energie an das
+Elektron ab. Dieser Prozess ist in Abbildung 2 dargestellt.
+\begin{figure}
+    \centering
+    \label{fig:compton}
+    \includegraphics[width=\textwidth]{Bilder/Compton.png}
+    \caption{Schematische Darstellung des Comptoneffekts \cite{sample}.}
+\end{figure}
+
+\subsubsection{Paarerzeugung}
+\label{sec:Paarerzeugung}
+Wenn die Energie des $\gamma$-Quants größer als die doppelte Ruhemasse ist, also
+\begin{align*}
+    E_{\symup{\gamma}} > 2m_{\symup{0}}c^2 = 1,02\,\unit{\mega\eV}
+\end{align*}
+gilt, dann kann das Photon durch Erzeugung eines Elektrons und eines Positrons annihiliert werden.\\
+\\
+In Abbildung 3 ist der Extinsionskoeffizient gegen die Energie aufgetragen und die Anteile von Photo- und
+Compton-Effekt und der Paarerzeugung aufgeschlüsselt.
+\begin{figure}
+    \centering
+    \label{fig:Extinsionskoeffizient}
+    \includegraphics[scale=0.75]{Bilder/Energieabhaengigkeit.png}
+    \caption{Energieabhängigkeit des Extinsionskoeffizienten \cite{sample}.}
+\end{figure}
+Der Photoeffekt ist vorallem bei niedrigen Energien von Relevanz, da er mit der Energie linear abfällt.
+Bei mittleren Energien dominiert hauptsächlich der Compton-Effekt bis bei ca. $1\,\unit{\mega\eV}$ die
+Paarbildung beginnt und ansteigt.
+
+\subsection{Betastrahlung}
+\label{sec:Betastrahlung}
+Bei der $\beta$-Strahlung handelt es sich hauptsächlich um Elektronen bei $\beta^{-}$- und Positronen bei
+$\beta^{+}$-Strahlung. Diese entsteht, wenn ein Neutron in ein Proton oder ein Proton in ein Neutron umgewandelt
+wird. Weiterhin wird dabei noch ein Antineutrino oder eine Neutrino aufgrund der Leptonenerhaltung emmitiert.
+\begin{align*}
+    n &\rightarrow p + e^{-} + \bar{\nu_{\symup{e}}}\\
+    p &\rightarrow n + e^{+} + \nu_{\symup{e}}
+\end{align*}
+Da die Wechselwirkung eines Neutrinos mit Materie verschwinden gering ist, wird es hier vernachlässigt.\\
+\\
+Obwohl eine Vielzahl von Prozessen auftreten, wird die Wechselwirkung hauptsächlich nur von den folgenden
+drei Prozessen bestimmt.
+
+\subsubsection{Elastische Streuung am Atomkern}
+\label{sec:elastischeStreuung}
