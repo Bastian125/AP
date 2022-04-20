@@ -17,7 +17,7 @@ $N_{\symup{0}}$ die Anzahl der Teilchen, die pro Zeiteinheit auf das Material tr
 infitisemalen dicken Absorbers und Umstellen ergibt sich eine negative Exponentialfunktion für die Anzahl der
 Wechselwirkungen
 \begin{align}
-    \label{eqn:Anzahl}
+    \label{eqn:Absorptionsgesetz}
     N(D) = N_{\symup{0}} e^{-n \sigma D}.
 \end{align}
 $n \sigma$ wird meist durch den Absorbtionskoeffizienten
@@ -25,7 +25,7 @@ $n \sigma$ wird meist durch den Absorbtionskoeffizienten
     \label{eqn:Absorbtionskoeffizient}
     \mu = n\sigma
 \end{align}
-ausgedrückt. $n$ bestimmt sich in \autoref{eqn:Anzahl} durch
+ausgedrückt. $n$ bestimmt sich in \autoref{eqn:Absorptionsgesetz} durch
 \begin{align*}
     n = \frac{zN_{\symup{L}}}{V_{\symup{Mol}}} = \frac{zN_{\symup{L}}\rho}{M}
 \end{align*}
@@ -108,3 +108,41 @@ drei Prozessen bestimmt.
 
 \subsubsection{Elastische Streuung am Atomkern}
 \label{sec:elastischeStreuung}
+Die Elektronen werden am Coulomb-Feld des Kerns abgelenkt, so dass ein Intensitätsverlust durch Auffächerung des Strahls
+auftritt. Außerdem sorgt das Ablenken dafür, dass die Elektronen länger im Material verweilen und somit eine
+höhere Wechselwirkungswahrscheinlichkeit haben. Diese Art von Streuung wird Rutherfordstreuung genannt.
+
+\subsubsection{Inelastische Streuung}
+\label{sec:inelastischeStreuung}
+Die Elektronen werden im Coulomb-Feld der Kerne beschleunigt und geben somit Bremsstrahlung ab, so dass insgesamt
+auch ein Intensitätsverlust festzustellen ist.
+
+\subsubsection{Inelastische Streuung an den Elektronen des Absorbermaterial}
+\label{sec:inelastischeStreuungAbsorber}
+Die $\beta$-Teilchen treffen auf die Elektronen des Materials und sorgen dort für eine Ionisation bei
+der sie Energie abgeben. Da nur ein geringer Teil der Energie abgegeben wird, sind die $\beta$-Teilchen
+in der Lage eine Vielzahl dieser Prozesse durchzuführen.\\
+\\
+Durch die unterschiedlichsten Prozesse, die bei der Absorption von $\beta$-Strahlung auftreten, lässt sich
+die Absorptionskurve nicht leicht herleiten. Für geringe Schichtdicken gilt ein Absorptionsgesetz wie in
+\autoref{eqn:Absorptionsgesetz}. Nähert sich die Schichtdicke der maximalen Reichweite kommt es nur noch
+zur Untergrundstrahlung. In Abbildung 4 ist dieser Zusammnehang dargestellt.
+\begin{figure}
+    \centering
+    \label{fig:Absorptionskurveb}
+    \includegraphics{Bilder/Absorptionskurve.png}
+    \caption{Absorptionskurve für einen natürlichen $\beta$-Strahler \cite{sample}.}
+\end{figure}
+Hierbei ist nicht die Schichtdicke sondern die Massenbelegung $R$ aufgetragen, die durch
+\begin{align}
+    \label{eqn:Massenbelegung}
+    R = \rho D
+\end{align}
+bestimmt ist, aufgetragen. Durch Ziehen einer geraden durch den abfallenden Teil in Abbildung 4 lässt sich
+dadurch $R_max$ bestimmen. Da $R_max$ hauptsächlich von den energiereichsten Elektronen abhängt, lässt sich
+empirisch auf $E_{\symup{max}}$ schließen, so dass sich
+\begin{align}
+    \label{eqn:emax}
+    E_{\symup{max}} = 1,92 \sqrt{R_{\symup{max}}^2 + 0,22\cdot R_{\symup{max}}} \,\, [\unit{\mega\eV}]
+\end{align}
+ergibt.
