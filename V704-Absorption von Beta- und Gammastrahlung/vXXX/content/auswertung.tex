@@ -5,9 +5,9 @@ Im Folgenden werden die aufgenommenen Messwerte ausgewertet.
 
 \subsection{Die $γ$-Absorption}
 
-In diesen Versuchsteil wird mit den Messwerten die Absorptionskoeffizienten von Eisen (Fe) und Blei (Pb)
-und die Größe N(0) bestimmt. Es wird als $\gamma$-Strahler $^{137}$Cs verwendet.\\
-Die Ungenauigeit der gemessenen Zerfälle bestimmt sich zu $\delta Z = \sqrt{Z}$, da die Anzahl der Zerfälle
+In diesen Versuchsteil werden mithilfe der Messdaten die Absorptionskoeffizienten von Eisen (Fe) und Blei (Pb)
+und die Größen N(0) bestimmt. Als $\gamma$-Strahler wird $^{137}$Cs verwendet.\\
+Die Ungenauigeit der gemessenen Zerfälle bestimmt sich zu $\Delta Z = \sqrt{Z}$, da die Anzahl der Zerfälle
 statistisch nach der Poissonverteilung verteilt sind.\\
 Bei einer Nullmessung über 900s werden $Z_u = 567 \pm 24$ Zerfälle vom Zählrohr gemessen. Das entspricht einer
 Impulsrate von 
@@ -16,13 +16,13 @@ Impulsrate von
 \end{align*}
 Die Ungenauigeit wurde mit der Gaußschen Fehlerfortpflanzung bestimmt.\\
 Es werden nun verschieden dicke Eisen- und Bleiplatten zwischen Zählrohr und Strahler geschoben und Messungen 
-durchgeführt. Die Ergebnisse lassen sich in \autoref{tab:1aFe} für Eisen und in \autoref{tab:1aPb} finden.\\
+durchgeführt. Die Ergebnisse lassen sich in \autoref{tab:1aFe} für Eisen und in \autoref{tab:1aPb} für Blei finden.\\
 \begin{table}
   \centering
   \caption{Messergebnisse mit unterschiedlichen Eisenplatten.}
   \label{tab:1aFe}
   \begin{tabular}{c c c c}
-    $d$ in \si{\milli\meter} & Zeit $\delta t$ in $\si{\second}$ & Anzahl Zerfälle $Z$  &  Impulsrate $N-N_u$ in $\si{\per\second}$\\
+    $d$ in \si{\milli\meter} & Messdauer $t$ in $\si{\second}$ & Anzahl Zerfälle $Z$  &  Impulsrate $N-N_u$ in $\si{\per\second}$\\
        \midrule
         $1,58 \pm 0,02$   &  300   &  $33377 \pm 183$ & $110,63 \pm 3,37$ \\
         $4,11 \pm 0,02$   &  300   &  $30768 \pm 175$ & $101,93 \pm 3,11$\\
@@ -43,7 +43,7 @@ durchgeführt. Die Ergebnisse lassen sich in \autoref{tab:1aFe} für Eisen und i
   \caption{Messergebnisse mit unterschiedlichen Bleiplatten.}
   \label{tab:1aPb}
   \begin{tabular}{c c c c}
-    $d$ in \si{\milli\meter} & Zeit $\delta t$ in $\si{\second}$ & Anzahl Zerfälle $Z$  &  Impulsrate $N-N_u$ in $\si{\per\second}$\\
+    $d$ in \si{\milli\meter} & Messdauer $t$ in $\si{\second}$ & Anzahl Zerfälle $Z$  &  korrigierte Impulsrate $N-N_u$ in $\si{\per\second}$\\
        \midrule
         $3,79 \pm 0,02$   &  300   &  $24245 \pm 156$ & $80,19 \pm 2,47$ \\
         $5,20 \pm 0,02$   &  300   &  $22575 \pm 150$ & $74,52 \pm 2,29$\\
@@ -56,4 +56,117 @@ durchgeführt. Die Ergebnisse lassen sich in \autoref{tab:1aFe} für Eisen und i
     \end{tabular}
 \end{table}
 
-Es wird für Eisen zehn verschiedene Dicken an Platten verwendet, bei Blei sieben.\\
+Es werden für Eisen zehn verschiedene Dicken an Platten verwendet, bei Blei sieben. Es werden zudem 
+die um den Nulleffekt korrigierten Impulsraten $N-N_u$ berechnet und eingetragen.\\
+Nachfolgend werden die Absorptionskoeffizienten $ \mu $ bestimmt. Dazu wird die \autoref{eqn:Absorptionsgesetz}
+verwendet. Der Logarithmus der korrigierten Impulsraten wird gegen die Schichtdicke $d$ aufgetragen, wodurch sich
+ein linearer Zusammnehang ergibt. Die lineare Regression ergibt für die Geraden folgende Geradengleichungen:
+\begin{align*}
+  f_{Fe}(d) = (-42,7 \pm 2,0)d + (4,7 \pm 0,1)\\
+  f_{Pb}(d) = (-85,6 \pm 3,5)d + (4,7 \pm 0,1)
+\end{align*}
+
+Die Fehlerfortpflanzung wurde mittels Python bestimmt.
+
+\begin{figure}
+  \centering
+  \includegraphics{Bilder/Eisen.pdf}
+  \caption{Logarithmus der korrigierten Impulsrate bei Eisen aufgetragen gegen die Schichtdicke $d$}
+  \label{fig:Eisen}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics{Bilder/Blei.pdf}
+  \caption{Logarithmus der korrigierten Impulsrate bei Blei aufgetragen gegen die Schichtdicke $d$}
+  \label{fig:Blei}
+\end{figure}
+
+Durch die Geradensteigungen und y-Achsenabschnitte der Geraden in \autoref{fig:Eisen} und \autoref{fig:Blei} 
+lassen sich nun nach \autoref{eqn:Absorptionsgesetz} die Absorptionskoeffizienten $\mu_{Fe}$ und $\mu_{Pb}$ 
+bestimmen, sowie $N_0$ der beiden Materialien:\\
+\begin{align*}
+  \mu_{Fe} &= (-42,7 \pm 2,0) \, \si{\per\meter} \\
+  N_{0,Fe} &= (110 \pm 1) \, \si{\per\second} \\
+  \mu_{Pb} &= (-85,6 \pm 3,5) \, \si{\per\meter} \\
+  N_{0,Pb} &= (110 \pm 1) \, \si{\per\second} \\
+\end{align*}
+Dadurch lassen sich nun die Absorptionsgesetze bestimmen:
+\begin{align*}
+  N_{Fe}(d) = (110 \pm 1) \, \si{\per\second} \cdot e^{(-42,7 \pm 2,0) \, (\si{\per\meter}) d} \\
+  N_{Pb}(d) = (110 \pm 1) \, \si{\per\second} \cdot e^{(-85,6 \pm 3,5) \, (\si{\per\meter}) d} \\
+\end{align*}
+
+Die Fehlerfortpflanzungen der Gleichungen wurden allesamt mittels Python bestimmt.
+
+\subsection{Vergleich mit den aus der Theorie berechneten Absorptionskoeffizienten}
+
+Um Schlüsse über die vorliegenden Absorbtionsmechanismen zu ziehen, werden die gemessenen Absorptionskoeffizienten
+mit gerechneten Werten verglichen. Die Absorptionskoeffizienten $\mu_{Com}$ werden durch \autoref{eq:sigma_c} und
+\autoref{eq:mu_c} berechnet.
+Für diese Gleichungen werden einige Materialkonstanten benötigt, diese werden in \autoref{tab:Material} notiert.
+\begin{table}
+  \centering
+  \begin{tabular}{S S[table-format=2.0] S[table-format=3.1] S[table-format=2.3]}
+    \toprule
+    {Material} & {Ordnungszahl $Z$} & {Masse $m\:$ in $\frac{\si\gram}{\si\mol}$} & {Dichte $\rho\:$ in $\frac{\si\gram}{\si{\centi\meter}^3}$}\\
+    \midrule
+    \text{Blei} & 82 & 207.2 & 11.342\\
+    \text{Eisen} &26 & 55.8  & 7.874\\
+    \bottomrule
+  \end{tabular}
+  \caption{Materialkonstanten.}
+  \label{tab:Material}
+\end{table}
+Es wird zudem die charakteristische Größe $\epsilon = 1,295$ für Caesium verwendet.
+Einsetzen ergibt nun:
+\begin{equation*}
+  \sigma_{Com} = 2,57 \cdot 10^{-29} \, \mathrm{m}^2
+\end{equation*}
+und dadurch die Absorbtionskoeffizienten
+\begin{align*}
+  \mu_{Com,Fe} = 56,76 \, \si{\per\meter} \, \mathrm{und} \\
+  \mu_{Com,Pb} = 69,43 \, \si{\per\meter}. \\
+\end{align*}
+
+\subsection{\texorpdfstring{$\beta^-$}{Beta}-Absorption}
+
+Um die Maximalenergie von $^{99}$Tc zu bestimmen, wird mithilfe der aufgenommenen Messwerte eine
+$\beta$-Absorptionskurve erstellt.\\
+In \autoref{tab:Aluminium} sind die Messwerte zu verschiedenen Dicken der Aluminiumplatten eingetragen,
+sowie die berechneten korrigierten Impulsraten $N - N_u$.
+\begin{table}
+  \centering
+  \caption{Messergebnisse mit unterschiedlichen Aluminiumplatten.}
+  \label{tab:Alluminium}
+  \begin{tabular}{c c c c}
+    $d$ in \si{\micro\meter} & Messdauer $t$ in $\si{\second}$ & Anzahl Zerfälle $Z$  &  korrigierte Impulsrate $N-N_u$ in $\si{\per\second}$\\
+       \midrule
+       $100 \pm 0,5$ &    500  &   $14164 \pm 119$  & $27,70 \pm 0,86$ \\
+       $125 \pm 1$ &   500   &   $3514 \pm 59$  &     $6,40 \pm 0,22$\\
+       $153 \pm 1$  & 600   &   $4317 \pm 66$ &       $6,57 \pm 0,23$\\
+       $160 \pm 1$  &  600  &    $2595 \pm 51$  &     $3,70 \pm 0,14$\\
+       $200 \pm 1$  & 700    &  $1199 \pm 35$ &       $1,08 \pm 0,06$\\
+       $253 \pm 1$  &  700   &    $523 \pm 23$  &     $0,12 \pm 0,03$\\
+       $302 \pm 1$  & 700    &  $ 506 \pm 22$ &       $0,09 \pm 0,03$\\
+       $400 \pm 1$  & 700   &    $466 \pm 22$ &       $0,04 \pm 0,03$\\
+       $482 \pm 1$  &  700  &    $ 495 \pm 20$  &     $0,08 \pm 0,03$\\
+      \bottomrule
+    \end{tabular}
+\end{table}
+Die korrigierte Impulsrate wird nun logarithmisch gegen die Schichtdicke $d$ aufgetragen, wodurch die
+Massenbelegung $R_{max}$ und die Gesamtenergie $E_{max}$ berechnet werden können. Die maximale Reichweite
+ist der Schnittpunkt zwischen der Ausgleichsgeraden des vorderen Bereichs der Messwerte und der Ausgleichsgeraden
+des hinteren Bereichs der Messwerte.\\
+Die Geradengleichungen der beiden Geraden lauten
+\begin{align*}
+  g(d) = (-29710 \pm 5011)d + (6.1 \pm 0.8) \, \mathrm{und}
+  f(d) = (-2.6 \pm 0.3).
+\end{align*}
+Dadurch ergibt sich die maximale Reichweite $D = 0,000292 \pm 0,000056$ m. Mit der Massenbelegung $R_{max} = \rho D$ lässt
+sich dann mit \autoref{eqn:emax} die Gesamtenergie bestimmen zu $E_{max} = (0,295 \pm 0,115)$ MeV.
+\begin{figure}
+  \centering
+  \includegraphics{Bilder/beta.pdf}
+  \caption{Logarithmus der korrigierten Impulsrate bei Alluminium aufgetragen gegen die Schichtdicke $d$}
+  \label{fig:Beta}
+\end{figure}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.12)  24 APR 2022 19:40
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.12)  24 APR 2022 23:18
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1358,7 +1358,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
  [2
 
 ] (./content/theorie.tex
-<Bilder/Wechselwirkung.png, id=54, 467.24562pt x 120.95187pt>
+<Bilder/Wechselwirkung.png, id=63, 467.24562pt x 120.95187pt>
 File: Bilder/Wechselwirkung.png Graphic file (type png)
 <use Bilder/Wechselwirkung.png>
 Package luatex.def Info: Bilder/Wechselwirkung.png  used on input line 48.
@@ -1368,44 +1368,44 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 49.
  [3]
-<Bilder/Compton.png, id=65, 447.17062pt x 155.07938pt>
+<Bilder/Compton.png, id=73, 447.17062pt x 155.07938pt>
 File: Bilder/Compton.png Graphic file (type png)
 <use Bilder/Compton.png>
 Package luatex.def Info: Bilder/Compton.png  used on input line 71.
 (luatex.def)             Requested size: 418.25555pt x 145.05525pt.
-<Bilder/Energieabhaengigkeit.png, id=68, 292.59312pt x 420.57124pt>
+ [4<./Bilder/Wechselwirkung.png><./Bilder/Compton.png>]
+<Bilder/Energieabhaengigkeit.png, id=89, 292.59312pt x 420.57124pt>
 File: Bilder/Energieabhaengigkeit.png Graphic file (type png)
 <use Bilder/Energieabhaengigkeit.png>
-Package luatex.def Info: Bilder/Energieabhaengigkeit.png  used on input line 88.
+Package luatex.def Info: Bilder/Energieabhaengigkeit.png  used on input line 99.
 (luatex.def)             Requested size: 219.44429pt x 315.42766pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--94
-
- []
-
-[4<./Bilder/Wechselwirkung.png><./Bilder/Compton.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
+Underfull \hbox (badness 10000) in paragraph at lines 91--105
 
  []
 
 [5<./Bilder/Energieabhaengigkeit.png>]
-<Bilder/Absorptionskurve.png, id=90, 221.32687pt x 154.07562pt>
-File: Bilder/Absorptionskurve.png Graphic file (type png)
-<use Bilder/Absorptionskurve.png>
-Package luatex.def Info: Bilder/Absorptionskurve.png  used on input line 133.
-(luatex.def)             Requested size: 221.32631pt x 154.07524pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--137
+Underfull \hbox (badness 10000) in paragraph at lines 114--119
 
  []
 
-[6<./Bilder/Absorptionskurve.png>]) (./content/durchfuehrung.tex
-<Bilder/Aufbau.png, id=100, 352.31625pt x 152.06813pt>
+<Bilder/Absorptionskurve.png, id=102, 221.32687pt x 154.07562pt>
+File: Bilder/Absorptionskurve.png Graphic file (type png)
+<use Bilder/Absorptionskurve.png>
+Package luatex.def Info: Bilder/Absorptionskurve.png  used on input line 144.
+(luatex.def)             Requested size: 221.32631pt x 154.07524pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--148
+
+ []
+
+[6]) (./content/durchfuehrung.tex
+<Bilder/Aufbau.png, id=111, 352.31625pt x 152.06813pt>
 File: Bilder/Aufbau.png Graphic file (type png)
 <use Bilder/Aufbau.png>
 Package luatex.def Info: Bilder/Aufbau.png  used on input line 9.
 (luatex.def)             Requested size: 352.31538pt x 152.06775pt.
-) (./content/auswertung.tex
+) (./content/auswertung.tex [7<./Bilder/Absorptionskurve.png><./Bilder/Aufbau.png>]
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 12.00128pt on input line 6.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
@@ -1427,35 +1427,90 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 6.
 
-[7<./Bilder/Aufbau.png>]) (./content/diskussion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 59--1
+
+Overfull \hbox (31.6391pt too wide) in paragraph at lines 45--57
+ [][] 
+ []
+
+[8]
+<Bilder/Eisen.pdf, id=134, 462.528pt x 346.896pt>
+File: Bilder/Eisen.pdf Graphic file (type pdf)
+<use Bilder/Eisen.pdf>
+Package luatex.def Info: Bilder/Eisen.pdf  used on input line 73.
+(luatex.def)             Requested size: 462.52686pt x 346.89514pt.
+
+Overfull \hbox (44.2713pt too wide) in paragraph at lines 73--74
+ [][] 
+ []
+
+<Bilder/Blei.pdf, id=135, 462.528pt x 346.896pt>
+File: Bilder/Blei.pdf Graphic file (type pdf)
+<use Bilder/Blei.pdf>
+Package luatex.def Info: Bilder/Blei.pdf  used on input line 79.
+(luatex.def)             Requested size: 462.52686pt x 346.89514pt.
+
+Overfull \hbox (44.2713pt too wide) in paragraph at lines 79--80
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
-) [8] [9] (./build/vXXX.aux)
+[9] [10<./Bilder/Eisen.pdf>] [11<./Bilder/Blei.pdf>]
+
+LaTeX Warning: Reference `tab:Aluminium' on page 12 undefined on input line 135.
+
+
+Overfull \hbox (15.82002pt too wide) in paragraph at lines 141--155
+ [][] 
+ []
+
+[12]
+<Bilder/beta.pdf, id=259, 462.528pt x 346.896pt>
+File: Bilder/beta.pdf Graphic file (type pdf)
+<use Bilder/beta.pdf>
+Package luatex.def Info: Bilder/beta.pdf  used on input line 169.
+(luatex.def)             Requested size: 462.52686pt x 346.89514pt.
+
+Overfull \hbox (44.2713pt too wide) in paragraph at lines 169--170
+ [][] 
+ []
+
+) (./content/diskussion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+
+ []
+
+[13<./Bilder/beta.pdf>]) [14] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: 27417F5C3679DB27FA00295AB8D6A8CC;13685.
+(rerunfilecheck)             Checksum: 4C87373EA161F2B5C42F7585AA851B72;19137.
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: 5D9043AC5A4C4DE91BB017763BE80C93;2017.
+(rerunfilecheck)             Checksum: D0B2E9D12C0D0FA39398046002F38720;2624.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36836 strings out of 478112
+ 36901 strings out of 478112
  100000,1977958 words of node,token memory allocated
- 630 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 77 glue_spec, 7 attribute_list, 1 write nodes
-   avail lists: 1:3,2:1065,3:228,4:98,5:299,6:47,7:5532,8:35,9:448,10:12,11:452
- 56020 multiletter control sequences out of 65536+600000
- 131 fonts using 51403079 bytes
+ 665 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 21 attribute, 78 glue_spec, 12 attribute_list, 1 write nodes
+   avail lists: 1:3,2:1450,3:282,4:114,5:386,6:59,7:6111,8:94,9:724,10:12,11:569
+ 56051 multiletter control sequences out of 65536+600000
+ 131 fonts using 51402855 bytes
  113i,14n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (9 pages, 223141 bytes).
+</home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on vXXX.pdf (14 pages, 274969 bytes).
 
-PDF statistics: 228 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 131072)
- 121 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 442 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 131072)
+ 153 words of extra memory for PDF output out of 10000 (max. 100000000)
 

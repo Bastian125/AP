@@ -11,9 +11,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.2}Compton-Effekt}{4}{subsubsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Paarerzeugung}{4}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3}Paarerzeugung}{5}{subsubsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Betastrahlung}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Betastrahlung}{6}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.1}Elastische Streuung am Atomkern}{6}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
@@ -23,12 +23,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Aufbau und Durchführung}{7}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Auswertung}{7}{section.4}%
+\contentsline {section}{\numberline {4}Auswertung}{8}{section.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}Die $γ$-Absorption}{8}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{9}{section.5}%
+\contentsline {subsection}{\numberline {4.2}Vergleich mit den aus der Theorie berechneten Absorptionskoeffizienten}{9}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{9}{section*.10}%
+\contentsline {subsection}{\numberline {4.3}$\mitbeta ^-$-Absorption}{12}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{13}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Vergleich der berechneten und gemessenen Werte von $\mitmu $}{13}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Maximale Energie der $\mitbeta ^-$-Strahlung}{14}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{14}{section*.15}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -71,6 +71,17 @@ Elektron ab. Dieser Prozess ist in Abbildung 2 dargestellt.
     \includegraphics[width=\textwidth]{Bilder/Compton.png}
     \caption{Schematische Darstellung des Comptoneffekts \cite{sample}.}
 \end{figure}
+Der Wirkungsquerschnitt $\sigma_\text{C}$ wird durch
+\begin{equation}
+	\sigma_\text{C}=2\pi  r_e^2\left(\frac{1+\epsilon}{\epsilon²}\left(\frac{2(1+\epsilon)}{1+2\epsilon}-\frac{1}{\epsilon}\ln(1+2\epsilon)\right)+\frac{1}{2\epsilon}\ln(1+2\epsilon)-\frac{1+3\epsilon}{(1+2\epsilon)²}\right)
+\label{eq:sigma_c}
+\end{equation}
+mit $\epsilon=\frac{E_{\gamma}}{m_0c²}$ und dem kleinsten Elektronenradius $r_e=\SI{2.82e-15}{\meter}$ beschrieben. 
+Daraus folgt dann für den Absorptionskoeffizienten:
+\begin{equation}
+	\mu_\text{C}=n\sigma_\text{C}(\epsilon)=\frac{Z N_L \rho}{M}\sigma_\text{C}(\epsilon).
+\label{eq:mu_c}
+\end{equation}
 
 \subsubsection{Paarerzeugung}
 \label{sec:Paarerzeugung}
@@ -139,7 +150,7 @@ Hierbei ist nicht die Schichtdicke sondern die Massenbelegung $R$ aufgetragen, d
     R = \rho D
 \end{align}
 bestimmt ist, aufgetragen. Durch Ziehen einer geraden durch den abfallenden Teil in Abbildung 4 lässt sich
-dadurch $R_max$ bestimmen. Da $R_max$ hauptsächlich von den energiereichsten Elektronen abhängt, lässt sich
+dadurch $R_{max}$ bestimmen. Da $R_{max}$ hauptsächlich von den energiereichsten Elektronen abhängt, lässt sich
 empirisch auf $E_{\symup{max}}$ schließen, so dass sich
 \begin{align}
     \label{eqn:emax}
