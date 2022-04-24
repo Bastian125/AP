@@ -1,12 +1,59 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
-\begin{figure}
+Im Folgenden werden die aufgenommenen Messwerte ausgewertet.
+
+\subsection{Die $γ$-Absorption}
+
+In diesen Versuchsteil wird mit den Messwerten die Absorptionskoeffizienten von Eisen (Fe) und Blei (Pb)
+und die Größe N(0) bestimmt. Es wird als $\gamma$-Strahler $^{137}$Cs verwendet.\\
+Die Ungenauigeit der gemessenen Zerfälle bestimmt sich zu $\delta Z = \sqrt{Z}$, da die Anzahl der Zerfälle
+statistisch nach der Poissonverteilung verteilt sind.\\
+Bei einer Nullmessung über 900s werden $Z_u = 567 \pm 24$ Zerfälle vom Zählrohr gemessen. Das entspricht einer
+Impulsrate von 
+\begin{align*}
+  N_u = 0,63 \pm 0,03 \si{\per\second}.
+\end{align*}
+Die Ungenauigeit wurde mit der Gaußschen Fehlerfortpflanzung bestimmt.\\
+Es werden nun verschieden dicke Eisen- und Bleiplatten zwischen Zählrohr und Strahler geschoben und Messungen 
+durchgeführt. Die Ergebnisse lassen sich in \autoref{tab:1aFe} für Eisen und in \autoref{tab:1aPb} finden.\\
+\begin{table}
   \centering
-  \includegraphics{plot.pdf}
-  \caption{Plot.}
-  \label{fig:plot}
-\end{figure}
+  \caption{Messergebnisse mit unterschiedlichen Eisenplatten.}
+  \label{tab:1aFe}
+  \begin{tabular}{c c c c}
+    $d$ in \si{\milli\meter} & Zeit $\delta t$ in $\si{\second}$ & Anzahl Zerfälle $Z$  &  Impulsrate $N-N_u$ in $\si{\per\second}$\\
+       \midrule
+        $1,58 \pm 0,02$   &  300   &  $33377 \pm 183$ & $110,63 \pm 3,37$ \\
+        $4,11 \pm 0,02$   &  300   &  $30768 \pm 175$ & $101,93 \pm 3,11$\\
+        $6,50 \pm 0,02$   &  300   &  $27037 \pm 164$ & $89,49 \pm 2,74$\\
+        $8,20 \pm 0,02$   &  300   &  $24383 \pm 156$ & $80,65 \pm 2,48$\\
+        $10,92 \pm 0,02$  &  300   &  $21985 \pm 148$ & $72,65 \pm 2,24$\\
+        $15,90 \pm 0,02$  &  300   &  $18337 \pm 135$ & $60,49 \pm 1,88$\\
+        $18,20 \pm 0,02$  &  300   &  $15931 \pm 126$ & $52,47 \pm 1,64$\\
+        $22,56 \pm 0,02$  &  300   &  $10510 \pm 103$ & $34,40 \pm 1,11$\\
+        $39,81 \pm 0,02$  &  300   &  $ 6657 \pm 82$ & $21,56 \pm 0,74$\\
+        $50,00 \pm 0,02$  &  300   &  $ 4557 \pm 68$ & $14,56 \pm 0,54$\\
+      \bottomrule
+    \end{tabular}
+\end{table}
 
+\begin{table}
+  \centering
+  \caption{Messergebnisse mit unterschiedlichen Bleiplatten.}
+  \label{tab:1aPb}
+  \begin{tabular}{c c c c}
+    $d$ in \si{\milli\meter} & Zeit $\delta t$ in $\si{\second}$ & Anzahl Zerfälle $Z$  &  Impulsrate $N-N_u$ in $\si{\per\second}$\\
+       \midrule
+        $3,79 \pm 0,02$   &  300   &  $24245 \pm 156$ & $80,19 \pm 2,47$ \\
+        $5,20 \pm 0,02$   &  300   &  $22575 \pm 150$ & $74,52 \pm 2,29$\\
+        $9,40 \pm 0,02$   &  200   &  $11221 \pm 106$ & $55,48 \pm 1,74$\\
+        $14,30 \pm 0,02$  &  200   &  $5936  \pm 77$ & $29,05 \pm 0,97$\\
+        $20,00 \pm 0,02$  &  200   &  $3926  \pm 63$ & $19,00 \pm 0,69$\\
+        $26,18 \pm 0,02$  &  200   &  $2067  \pm 45$ & $9,71 \pm 0,43$\\
+        $46,10 \pm 0,02$  &  200   &  $602   \pm 25$ & $0,37 \pm 0,24$\\
+      \bottomrule
+    \end{tabular}
+\end{table}
 
-Siehe \autoref{fig:plot}!
+Es wird für Eisen zehn verschiedene Dicken an Platten verwendet, bei Blei sieben.\\
