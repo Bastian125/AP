@@ -1,4 +1,121 @@
+\section{Zielsetzung}
+In diesem Versuch soll die Halbwertszeit $T$ verschiedener instabiler Isotope und Isotopengemische 
+untersucht werden.
+
 \section{Theorie}
 \label{sec:Theorie}
 
-\cite{sample}
+Atomkerne sind instabil, wenn das Verhältnis der Neutronen- und Protonenanzahl außerhalb eines atomspezifischen
+Stabilitätsbereichs liegt. Dieser Akzeptanzrahmen liegt meistens zwischen 20 und 50\% mehr
+Neutronen als Ordnungszahl Z.\\
+Ein instabiler Atomkern kann mit von Atom zu Atom unterschiedlicher Wahrscheinlichkeit zu verschiedenen
+Zerfallsprodukten zerfallen. Diese Zerfallsprodukte können Atome und/oder Teilchen sein.\\
+Da nicht genau vorhergesagt werden kann, ob und wann ein instabiler Kern zerfällt, wird eine andere Größe verwendet, 
+um die Wahrscheinlichkeit eines Zerfalls abschätzen zu können. Der Zeitraum, in dem die Hälfte der 
+vorhandenen instabilen Kerne zerfallen ist, nennt sich Halbwertszeit $T$.\\
+
+\subsection{Aktivierung mittels Neutronenbeschuss}
+
+In diesem Versuch werden Atomkerne mit Neutronen beschossen, um diese in einen angeregten Zustand zu überführen
+und anschließend deren Zerfälle zu beobachten. Diese angeregten Kerne heißen auch Zwischenkern oder Compoundkern.\\
+Die Neutronen werden von den stabilen Atomkernen mit einer gewissen Wahrscheinlichkeit eingefangen, welche vom 
+Wirkungsquerschnitt abhängt. Der Wirkungsquerschnitt $\sigma$ ist hierbei die Fläche, die ein Kern besitzen müsste, 
+wenn jedes diese Fläche treffende Neutron eingefangen werden würde.\\
+Der Wirkungsquerschnitt wird in $10^{-24} \, \si{\centi\metre\squared} \coloneqq 1 \, \mathrm{barn}$ angegeben und
+lässt sich durch die Formel
+\begin{equation}
+    \label{eqn:Sigma}
+    \sigma = \frac{u}{nKd}
+\end{equation}
+beschreiben.\\
+Der Wirkungsquerschnitt für den Neutroneneinfang ist zudem stark abhängig von der Geschwindigkeit der Neutronen und
+somit dessen kinetischen Energie. \\
+Die Wellenlänge $\lambda$ des Neutrons ist antiproportional zu dessen Geschwindigkeit $v$ $ \left(\lambda \propto \frac{1}{v}\right)$.
+Wenn die Geschwindigkeit hoch genug und die Wellenlänge somit klein gegen den Kernradius R $\left(\approx 10^{-12} \si{\centi\metre}\right)$ ist,
+können geometrische Überlegungen auf die Wechselwirkung angewendet werden. Bei langsamen Neutronen $\left(R \leq \lambda\right)$ sind solche
+Überlegungen durch Interferenzeffekte nicht möglich.\\
+Breit und Wigner haben eine Formel aufgestellt, die den Zusammenhang zwischen Wirkungsquerschnitt und Neutronenenergie
+darstellt:
+\begin{equation}
+    \label{eqn:SigmaE}
+    \sigma (E) = \sigma_0 \sqrt{\frac{E_{r_i}}{E}} \frac{\tilde{c}}{(E - E_{r_i})^2 + \tilde{c}} .
+\end{equation}
+$E$ ist hier die Neutronenenergie, $E_{r_i}$ die Energieniveaus der Zwischenkerne und $\tilde{c}$ und $\sigma_0$ sind charakteristische Konstanten.\\
+In der Formel lässt sich ablesen, dass der Wirkungsquerschnitt maximal ist, wenn die Neutronenenergie gleich der Höhe des Energieniveaus
+des Zwischenkerns ist.\\
+Wenn $E \ll E_r$, dann kann der quadrierte Term in der Formel als konstant angenommen werden und es ergibt sich die Proportionalität
+\begin{equation*}
+    \sigma \propto \frac{1}{v}.
+\end{equation*}
+Somit ist die Einfangswahrscheinlichkeit größer, je kleiner die Energie des Neutrons ist. Daher werden für den Versuch vorzugsweise
+langsame Neutronen verwendet.\\
+
+\subsection{Erzeugung niederenergetischer freier Neutronen}
+Neutronen sind als freies Teilchen instabil und zerfallen nach etwa einer Viertelstunde. Daher kommen sie nicht in der Natur vor und müssen
+während des Versuchs erzeugt werden.\\
+Wenn $^9 \mathrm{Be}$-Kerne mit Heliumkernen ($\alpha$-Teilchen) beschossen werden, wird dieser Kern zu einem Kohlenstoffkern und es wird
+ein Neutron emittiert:
+\begin{equation*}
+    \isotope[9][4]{Be} + \isotope[4][2]{} \alpha \to \isotope[12][6]{C} + \isotope[1][0]{n}.
+\end{equation*}
+Die Heliumkerne stammen von dem $\alpha$-Zerfall von $\isotope[226][]{Ra}$-Kernen.\\
+Um nun niederenergetische Neutronen zu erhalten, werden diese dazu gezwungen durch dicke Materieschichten aus leichten Atomen hindurch zu diffundieren. 
+Hierbei verlieren die Neutronen durch die elastischen Stöße mit den anderen Teilchen an Energie. Nach dem Gesetz des elastischen
+Stoßes ist die Energieübertragung umso größer, je kleiner die Massendifferenz der Teilchen ist. Also bietet sich das masseärmste
+Atom - Wasserstoff - an.\\
+Die Neutronenenergie nähert sich somit der mittleren kinetischen Energie der Moleküle der Umgebung an. Alle Neutronen mit dieser
+spezifischen Energie und Geschwindigkeit werden als thermische Neutronen bezeichnet.\\
+
+\subsection{\texorpdfstring{$\beta^-$}{Beta}-Zerfall und \texorpdfstring{$\gamma$}{Gamma}-Zerfall}
+
+Wenn ein stabiler Kern mit einem Neutron beschossen und dieses absorbiert wird, ist die Energie des Compoundkerns um die kinetische
+Energie und Bindungsenergie des Neutrons höher als die des Ursprungskerns. Diese Energie verteilt sich dann auf alle Nukleonen, welche
+dadurch angeregt werden.\\
+Wenn die Energie des einfallenden Neutrons klein genug ist, bewirkt die Verteilung der Energie im Kern, dass der Compoundkern das eingefallene
+Neutron oder ein anderes Nukleon nicht abstoßen kann. \\
+Stattdessen geht der Kern durch emittieren eines $\gamma$-Quants ($\gamma$-Zerfall) nach kurzer Zeit $(10^{-16}\si{s})$ wieder in einen stabileren
+Zustand über:
+\begin{equation*}
+    \isotope[m][z]{A} + \isotope[1][0]{n} \to \isotope[m+1][z]{A*} \to \isotope[m+1][z]{A} + \gamma.
+\end{equation*}
+Der Compoundkern ist allerdings durch die erhöhte Neutronenanzahl immernoch nicht stabil. Unter Emission eines Elektrons ($\beta ^-$-Zerfall)
+geht der instabile Compoundkern in einen stabilen Kern über:
+\begin{equation*}
+    \isotope[m+1][z]{A} \to \isotope[m+1][z+1]{C} + \beta ^- + \mathrm{E_{kin}} + \overline{\nu_e}.
+\end{equation*}
+Die entstehende überschüssige Masse wird in kinetische Energie des Elektrons und Antineutrinos umgewandelt.
+
+\subsection{Halbwertszeit}
+Die Zahl $N(t)$ der zum Zeitpunkt $t$ noch nicht zerfallenen Kerne ist durch
+\begin{equation}
+    \label{eqn:Zerfallsgesetz}
+    N(t) = N_0 e^{- \lambda t}
+\end{equation}
+gegeben. $N_0$ ist hier die zum Beginn vorhandenen instabilen Kerne und $\lambda$ die Zerfallskonstante, welche die Wahrscheinlichkeit
+eines bestimmten Zerfalls beschreibt.\\
+Wie bereits in der Einleitung beschrieben gibt die Halbwertszeit $T$ an, nach welcher Zeit die Hälfte aller instabiler Kerne
+zerfallen ist. Mit diesem Wissen und der \autoref{eqn:Zerfallsgesetz}, lässt sich folgende Formel formulieren:
+\begin{equation*}
+    \frac{1}{2}N_0 = N_0 e^{- \lambda T}.
+\end{equation*}
+Durch Umformen ergibt sich dann schließlich
+\begin{equation}
+    \label{eqn:T}
+    T = \frac{\ln{2}}{\lambda} .
+\end{equation}
+Durch Messen von $N(t)$ in Abhängigkeit der Zeit könnte $\lambda$ oder $T$ ermittelt werden. Allerdings ist es sehr schwierig $N(t)$ zuverlässig 
+zu messen.\\
+Daher wird die Anzahl der zerfallenen Kerne $N_{\Delta t}(t)$ in einem Zeitintervall $\Delta t$ gemessen. Die Größe $N_{\Delta t}(t)$ wird
+durch die Formel
+\begin{equation*}
+    N_{\Delta t}(t) = N(t) - N(t + \Delta t)
+\end{equation*}
+beschrieben.
+Dieser Ausdruck kann wieder umgeschrieben werden zu
+\begin{equation}
+    \label{eqn:lnDelta}
+    \ln{N_{\Delta t}(t)} = \ln{N_0 (1-e^{- \lambda \Delta t})} - \lambda t
+\end{equation}
+Durch eine lineare Ausgleichsrechnung, kann mithilfe von \autoref{eqn:lnDelta} $\lambda$ bestimmt werden.\\
+Hierbei ist die Wahl des Zeitintervalls wichtig. Bei kleinem $\Delta t$ wird der statistische Fehler für $N_{\Delta t}(t)$
+sehr groß und bei zu großem $\Delta t$ der statistische Fehler für $\lambda$.
