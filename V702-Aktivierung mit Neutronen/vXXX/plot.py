@@ -1,21 +1,18 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0, 10, 1000)
-y = x ** np.sin(x)
+t_in, N_in = np.genfromtxt('messwerte/vanadium.txt', unpack=True)
+t = 30*t_in
+N = N_in - 9
 
-plt.subplot(1, 2, 1)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \mathbin{/} \unit{\ohm}$')
-plt.ylabel(r'$y \mathbin{/} \unit{\micro\joule}$')
-plt.legend(loc='best')
-
-plt.subplot(1, 2, 2)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \mathbin{/} \unit{\ohm}$')
-plt.ylabel(r'$y \mathbin{/} \unit{\micro\joule}$')
+plt.semilogy(t, N, 'x', label='Messwerte')
+plt.xlabel(r'$t/\unit{\second}$')
+plt.ylabel(r'$N$')
+plt.xlim(0, 950)
+plt.grid()
 plt.legend(loc='best')
 
 # in matplotlibrc leider (noch) nicht möglich
 plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
-plt.savefig('build/plot.pdf')
+plt.savefig('build/plot1.pdf')
+plt.close()
