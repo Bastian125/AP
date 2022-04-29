@@ -10,8 +10,8 @@ $N_{\symup{u}}=9$ pro $30\,\unit{\second}$. Im Folgenden wird die Nullrate immer
 \section{Halbwertszeit von Vanadium}
 \label{sec:Vanadium}
 Um die Halbwertszeit von Vanadium zu bestimmen, wird die mittlere Zählrate halblogarithmisch gegen die Zeit
-in \autoref{fig:vanadium} aufgetragen. Die gemessen Werte und die errechneten mittleren Zählraten samt
-$\sqrt{N}$-Fehler sind in \autoref{tab:vanadium} zu finden.
+in \autoref{fig:vanadium} aufgetragen. Die gemessen Werte samt des $\sqrt{N}$-Fehlers sind in \autoref{tab:vanadium}
+zu finden.
 \begin{table}
   \centering
   \begin{tabular}{c c}
@@ -56,9 +56,28 @@ $\sqrt{N}$-Fehler sind in \autoref{tab:vanadium} zu finden.
     900 &   5 $\pm$ 2 \\
     \bottomrule
   \end{tabular}
-  \caption{Zählrate für Vanadium.}
+  \caption{Messwerte der Zählrate für Vanadium.}
   \label{tab:vanadium}
 \end{table}
+Der Fehler für die gemittelte Zählrate ergibt sich durch die Gaußsche Fehlerforpflanzung, die durch
+\begin{align*}
+  \Delta\bar{N} = \frac{1}{t}\cdot\Delta N
+\end{align*}
+gegeben ist. Mit Hilfe von \autoref{eqn:Zerfallsgesetz} lässt sich in halblogarithmischer Darstellung die
+Gleichung
+\begin{align*}
+  N(t) = -\lambda t + \ln{N_{\symup{0}}}
+\end{align*}
+aufstellen. Mit Scipy lässt sich nun eine lineare Regression mit den Ergebnissen
+\begin{align*}
+  \lambda_{\symup{Vanadium}} &= (6,40 \pm 0,28)*10^{-3} \frac{1}{\unit{\second}} \\
+  \ln{N_{\symup{0, Vanadium}}} &= 0,49 \pm 0,15 \\
+  \Rightarrow N_{\symup{0, Vanadium}} &= 1,63 \pm 0,24 \\
+\end{align*}
+durchführen. Aus \autoref{eqn:T} ergibt sich dann für die Halbwertszeit von Vanadium
+\begin{align*}
+  T_{\symup{Vanadium}} = (108 \pm 5)\,\unit{\second}
+\end{align*}
 
 \begin{figure}
   \centering
