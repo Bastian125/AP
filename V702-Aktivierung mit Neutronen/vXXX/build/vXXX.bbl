@@ -19,6 +19,22 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{periodensystem}{online}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{title}{Online Periodensystem}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.periodensystem-online.de/
+      \endverb
+      \verb{url}
+      \verb https://www.periodensystem-online.de/
+      \endverb
+    \endentry
     \entry{sample}{manual}{}
       \list{organization}{1}{%
         {TU Dortmund, Fakultät Physik}%
