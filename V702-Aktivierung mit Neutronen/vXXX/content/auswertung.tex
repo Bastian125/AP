@@ -71,8 +71,7 @@ Gleichung
 aufstellen. Mit Scipy lässt sich nun eine lineare Regression mit den Ergebnissen
 \begin{align*}
   \lambda_{\symup{Vanadium}} &= (6,40 \pm 0,28)*10^{-3} \frac{1}{\unit{\second}} \\
-  \ln{N_{\symup{0, Vanadium}}} &= 0,49 \pm 0,15 \\
-  \Rightarrow N_{\symup{0, Vanadium}} &= 1,63 \pm 0,24 \\
+  ln(N_{\symup{0, Vanadium}}) &= 0,49 \pm 0,15 \\
 \end{align*}
 durchführen. Aus \autoref{eqn:T} ergibt sich dann für die Halbwertszeit von Vanadium
 \begin{align*}
@@ -149,11 +148,40 @@ Es wurde über einen Zeitraum von $420\,\unit{s}$ in $10\,\unit{\second}$ Interv
   \caption{Messwerte der Zählrate für Silber}
   \label{tab:silber}
 \end{table}
-Um die Halbwertszeiten von 108-Ag und 110-Ag zu bestimmen, wird in \autoref{fig:silber} die gemittelte Zählrate
-halblogarithmisch gegen die Zeit aufgetragen.
+Um die Halbwertszeiten von $\ce{^108 Ag}$ und $\ce{^110 Ag}$ zu bestimmen, wird in \autoref{fig:silber} die gemittelte Zählrate
+halblogarithmisch gegen die Zeit aufgetragen. Um die beiden Zerfälle der Isotope $\ce{^108 Ag}$ und $\ce{^110 Ag}$
+zu trennen wird die Messung an einer Stelle $t^{*} = 120 \,\unit{\second}$ in zwei Bereiche aufgeteilt. Links von
+$t^{*}$ sind noch beide Zerfälle vorhanden. Rechts davon nur noch der langlebige Zerfall des Isotops $\ce{^108 Ag}$.
 \begin{figure}
   \centering
   \includegraphics{plot2.pdf}
   \caption{Messwerte und zweifache lineare Regression für Silber.}
   \label{fig:silber}
 \end{figure}
+
+\subsubsection{Halbwertszeit von $\ce{^108 Ag}$}
+\label{sec:108Ag}
+Aus der linearen Regression ergeben sich für den rechten Bereich
+\begin{align*}
+  \lambda_{\symup{\ce{^108 Ag}}}  &= (80,95 \pm 13,46)\cdot 10^{-4}\,\frac{1}{\unit{\second}} \\
+  ln(N_{\symup{0, \ce{^108 Ag}}}) &= 2,54 \pm 0,23. \\
+\end{align*}
+Aus \autoref{eqn:T} ergibt sich für die Halbwertszeit von $\ce{^108 Ag}$
+\begin{align*}
+  T_{\symup{\ce{^108 Ag}}} = (86 \pm 14)\,\unit{\second} 
+\end{align*}
+
+\subsubsection{Halbwertszeit von $\ce{^110 Ag}$}
+\label{sec:110Ag}
+Da $\ce{^110 Ag}$ schneller zerfällt, muss die Zählrate von $\ce{^108 Ag}$ von den Messwerten abgezogen werden.
+Die abzuziehende Zählrate lässt sich durch \autoref{eqn:lnDelta} bestimmen. Für die lineare Regression ergeben
+sich die Werte
+\begin{align*}
+  \lambda_{\symup{\ce{^110 Ag}}}  &= (89,67 \pm 18,04)\cdot 10^{-3}\,\frac{1}{\unit{\second}} \\
+  ln(N_{\symup{0, \ce{^110 Ag}}}) &= 3,59 \pm 0,81. \\
+\end{align*}
+wobei diesmal nur $t$ von $0\,\unit{\second}$ bis $80\,\unit{\second}$ betrachtet wird. Daraus ergibt sich eine
+Halbwertszeit von
+\begin{align*}
+  T_{\symup{\ce{^110 Ag}}} = (7,7 \pm 1,6)\,\unit{\second}.
+\end{align*}
