@@ -1,4 +1,52 @@
+\section{Zielsetzung}
+\label{sec:Zielsetzung}
+In diesem Versuch soll die Funktionsweise der Ultraschalltechnik untersucht werden, da sie vorallem in der
+medizinischen und materialwissenschaftlichen Technik ihre Anwendung findet und deshalb für die
+Experimentalphysik von Relevanz ist.
+
 \section{Theorie}
 \label{sec:Theorie}
+Den Frequqenzbereich des Schalls lässt sich in folgende Teilbereiche aufteilen. Einmal den für das menschliche
+Ohr hörbaren Bereich von ca. $16\,\unit{\hertz}$ bis ca. $20\,\unit{\kilo\hertz}$, den Teilbereich darüber
+von ca. $20\,\unit{\kilo\hertz}$ bis ca. $1\,\unit{\giga\hertz}$, der auch Ultraschall genannt wird und den
+Teilbereich darüber ab $1\,\unit{\giga\hertz}$, der auch Hyperschall genannt wird. Der Teilbereich unter dem
+hörbaren Bereich wird auch Infraschall genannt.
 
+\subsection{Ausbreitung von Schallwellen}
+\label{sec:Schallwellen}
+Bei Schallwellen handelt es sich um longitudinale Wellen, die sich aufgrund von Druckschwankungen fortbewegt.
+Eine Schallwelle mit Ausbreitung in x-Richtung lässt sich Druckschwankungen
+\begin{equation}
+    p(x, t) = p_{\symup{0}} + v_{\symup{0}} Z cos(\omega t - kx).
+\end{equation}
+Dabei ist $p_{\symup{0}}$ der Normaldruck, $v_{\symup{0}}$ die Schallschnelle, und $Z=\rho c$ die Akustische
+Impedanz mit der Schallgeschwindigkeit $c$ und der Dichte $\rho$ des durchstrahlten Materials.
+Die Schallgeschwindigkeit in Flüssigkeiten lässt sich in Abhängigkeit ihrer Kompressibilität $\kappa$ und ihrer
+Dichte $\rho$ durch
+\begin{equation}
+    c_{Fl} = \sqrt{\frac{1}{\kappa \cdot \rho}}
+\end{equation}
+ausdrücken. Da in Festkörpern auch die transversalen Wellen aufgrund der Schubspannung mit berücksichtigt werden
+müssen, wird $\kappa$ durch den Zusammenhang zum Elastizitätsmodul $E$ ersetzt. Es ergibt sich
+\begin{equation}
+    c_{Fe} = \sqrt{\frac{E}{\rho}}.
+\end{equation}
+Im Normalfall geht immer eine Teil der Energie bei der Schallausbreitung durch Absorption verloren. Daraus bestimmt
+sich die Intensität zu
+\begin{equation}
+    I(x) = I_{\symup{0}}\cdot e^{-\alpha x}.
+\end{equation}
+Dabei ist $\alpha$ der Absorptionskoeffizient der Schallamplitude. Um den Absorptionskoeffizienten möglichst
+gering zu halten, wird aufgrund des hohen Absorptionskoeffizienten der Luft ein Kontaktmittel zwischen Schallgeber
+und Material verwendet.\\
+\\
+Außerdem können Schallwellen reflektiert werden. Der Reflexionskoeffizient ergibt sich in Abhänngigkeit der
+akustischen Impedanzen $Z_{\symup{1}}$ und $Z_{\symup{2}}$ der Materialien durch
+\begin{equation}
+    R = \left(\frac{Z_{\symup{1}}- Z_{\symup{2}}}{Z_{\symup{1}}+Z_{\symup{2}}}\right)^2 .
+\end{equation}
+Für den Transmissionskoeffizienten ergibt sich
+\begin{equation}
+    T = 1 - R
+\end{equation}
 \cite{sample}
