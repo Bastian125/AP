@@ -19,15 +19,91 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{sample}{manual}{}
-      \list{organization}{1}{%
-        {TU Dortmund, Fakultät Physik}%
+    \entry{medizinphysik}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7cc337eaf70fee0f9a33ef2c413b2486}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={Medizinphysik\bibnamedelima TU},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \strng{namehash}{7cc337eaf70fee0f9a33ef2c413b2486}
+      \strng{fullhash}{7cc337eaf70fee0f9a33ef2c413b2486}
+      \strng{bibnamehash}{7cc337eaf70fee0f9a33ef2c413b2486}
+      \strng{authorbibnamehash}{7cc337eaf70fee0f9a33ef2c413b2486}
+      \strng{authornamehash}{7cc337eaf70fee0f9a33ef2c413b2486}
+      \strng{authorfullhash}{7cc337eaf70fee0f9a33ef2c413b2486}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{US 1: Grundlagen der Ultraschalltechnik}
-      \field{year}{2014}
+      \field{title}{verschiedene Dichten}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://qnap.e3.physik.tu-dortmund.de/suter/Vorlesung/MedizinphysikII_15/14_Ultraschall.pdf.
+      \endverb
+      \verb{url}
+      \verb https://qnap.e3.physik.tu-dortmund.de/suter/Vorlesung/MedizinphysikII_15/14_Ultraschall.pdf.
+      \endverb
+    \endentry
+    \entry{imeter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c56269843af70efc3ad93e2489bc2d77}{%
+           family={imeter.de},
+           familyi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{c56269843af70efc3ad93e2489bc2d77}
+      \strng{fullhash}{c56269843af70efc3ad93e2489bc2d77}
+      \strng{bibnamehash}{c56269843af70efc3ad93e2489bc2d77}
+      \strng{authorbibnamehash}{c56269843af70efc3ad93e2489bc2d77}
+      \strng{authornamehash}{c56269843af70efc3ad93e2489bc2d77}
+      \strng{authorfullhash}{c56269843af70efc3ad93e2489bc2d77}
+      \field{sortinit}{i}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dichte Acryl}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.imeter.de/images/ART/M9/imeter_Dichtemessung_PMMA_Ausdehnung.pdf.
+      \endverb
+      \verb{url}
+      \verb https://www.imeter.de/images/ART/M9/imeter_Dichtemessung_PMMA_Ausdehnung.pdf.
+      \endverb
+    \endentry
+    \entry{thiemann}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9dcdbb68a8a63caa29379592f4d2017f}{%
+           family={Olympus},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dcdbb68a8a63caa29379592f4d2017f}
+      \strng{fullhash}{9dcdbb68a8a63caa29379592f4d2017f}
+      \strng{bibnamehash}{9dcdbb68a8a63caa29379592f4d2017f}
+      \strng{authorbibnamehash}{9dcdbb68a8a63caa29379592f4d2017f}
+      \strng{authornamehash}{9dcdbb68a8a63caa29379592f4d2017f}
+      \strng{authorfullhash}{9dcdbb68a8a63caa29379592f4d2017f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Schallgeschwindigkeit Acryl}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.olympus-ims.com/de/ndt-tutorials/thickness-gauge/appendices-velocities/.
+      \endverb
+      \verb{url}
+      \verb https://www.olympus-ims.com/de/ndt-tutorials/thickness-gauge/appendices-velocities/.
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

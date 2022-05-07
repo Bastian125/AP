@@ -1,14 +1,38 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Theorie}{3}{section.1}%
+\contentsline {section}{\numberline {1}Zielsetzung}{3}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Durchführung}{3}{section.2}%
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Auswertung}{3}{section.3}%
+\contentsline {subsection}{\numberline {2.1}Ausbreitung von Schallwellen}{3}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Diskussion}{3}{section.4}%
+\contentsline {subsection}{\numberline {2.2}Erzeugung von Ultraschall}{4}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{3}{section*.4}%
+\contentsline {subsection}{\numberline {2.3}Ultraschallverfahren}{4}{subsection.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Durchführung}{4}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Auswertung}{4}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Vorbereitung}{4}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Vorbereitungsaufgaben}{4}{subsubsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}Kennenlernen und Einstellen des Programms}{5}{subsubsection.4.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Ausmessen der verwendeten Acrylzylinder}{7}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Schallgeschwindigkeitsbestimmung mit dem Impuls-Echo-Verfahren}{8}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Schallgeschwindigkeitsbestimmung mit Durchschallungs-Verfahren}{8}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}Bestimmung der Dämpfung mit dem Impuls-Echo-Verfahren}{10}{subsection.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6}Biometrische Untersuchung eines Augenmodells}{10}{subsection.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{11}{section*.12}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
