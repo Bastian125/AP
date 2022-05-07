@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
-[1] Config.pm:314> INFO - Logfile is 'build/vXXX.blg'
-[74] biber:340> INFO - === Sat May  7, 2022, 11:42:33
-[88] Biber.pm:415> INFO - Reading 'build/vXXX.bcf'
-[146] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
-[158] Biber.pm:4340> INFO - Processing section 0
-[171] Biber.pm:4531> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[329] bibtex.pm:1689> INFO - LaTeX decoding ...
-[334] bibtex.pm:1494> INFO - Found BibTeX data source '../lit.bib'
-[378] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[379] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[379] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[379] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
-[389] bbl.pm:654> INFO - Writing 'build/vXXX.bbl' with encoding 'UTF-8'
-[390] bbl.pm:757> INFO - Output to build/vXXX.bbl
+[0] Config.pm:314> INFO - Logfile is 'build/vXXX.blg'
+[74] biber:340> INFO - === Sun May  8, 2022, 01:17:47
+[90] Biber.pm:415> INFO - Reading 'build/vXXX.bcf'
+[145] Biber.pm:952> INFO - Found 4 citekeys in bib section 0
+[156] Biber.pm:4340> INFO - Processing section 0
+[166] Biber.pm:4531> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[316] bibtex.pm:1689> INFO - LaTeX decoding ...
+[320] bibtex.pm:1494> INFO - Found BibTeX data source '../lit.bib'
+[360] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[360] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[360] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[360] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
+[368] bbl.pm:654> INFO - Writing 'build/vXXX.bbl' with encoding 'UTF-8'
+[370] bbl.pm:757> INFO - Output to build/vXXX.bbl

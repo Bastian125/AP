@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.12)  7 MAY 2022 11:43
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.10.12)  8 MAY 2022 01:24
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1358,7 +1358,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
  [2
 
 ] (./content/theorie.tex
-Underfull \hbox (badness 10000) in paragraph at lines 38--45
+Underfull \hbox (badness 10000) in paragraph at lines 39--46
 
  []
 
@@ -1368,7 +1368,7 @@ Overfull \hbox (46.92197pt too wide) in paragraph at lines 14--24
  []
 
 [4]
-<messwerte/Vorbereitung/AScan_Vorbereitung.png, id=87, 1128.46594pt x 600.74437pt>
+<messwerte/Vorbereitung/AScan_Vorbereitung.png, id=82, 1128.46594pt x 600.74437pt>
 File: messwerte/Vorbereitung/AScan_Vorbereitung.png Graphic file (type png)
 <use messwerte/Vorbereitung/AScan_Vorbereitung.png>
 Package luatex.def Info: messwerte/Vorbereitung/AScan_Vorbereitung.png  used on input line 39.
@@ -1379,7 +1379,7 @@ Overfull \hbox (8.53578pt too wide) in paragraph at lines 39--40
  []
 
 [5<./messwerte/Vorbereitung/AScan_Vorbereitung.png>]
-<messwerte/Vorbereitung/Amp.png, id=107, 579.66562pt x 309.40594pt>
+<messwerte/Vorbereitung/Amp.png, id=102, 579.66562pt x 309.40594pt>
 File: messwerte/Vorbereitung/Amp.png Graphic file (type png)
 <use messwerte/Vorbereitung/Amp.png>
 Package luatex.def Info: messwerte/Vorbereitung/Amp.png  used on input line 75.
@@ -1401,7 +1401,7 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 76.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 76.
-<messwerte/Vorbereitung/HF.png, id=108, 579.66562pt x 309.40594pt>
+<messwerte/Vorbereitung/HF.png, id=103, 579.66562pt x 309.40594pt>
 File: messwerte/Vorbereitung/HF.png Graphic file (type png)
 <use messwerte/Vorbereitung/HF.png>
 Package luatex.def Info: messwerte/Vorbereitung/HF.png  used on input line 81.
@@ -1411,7 +1411,7 @@ Overfull \hbox (2.55946pt too wide) in paragraph at lines 81--82
  [][] 
  []
 
-<messwerte/Vorbereitung/HF+Amp.png, id=109, 581.17125pt x 309.40594pt>
+<messwerte/Vorbereitung/HF+Amp.png, id=104, 581.17125pt x 309.40594pt>
 File: messwerte/Vorbereitung/HF+Amp.png Graphic file (type png)
 <use messwerte/Vorbereitung/HF+Amp.png>
 Package luatex.def Info: messwerte/Vorbereitung/HF+Amp.png  used on input line 87.
@@ -1421,7 +1421,7 @@ Overfull \hbox (2.55946pt too wide) in paragraph at lines 87--88
  [][] 
  []
 
-<messwerte/Vorbereitung/T.png, id=111, 1164.60094pt x 657.95813pt>
+<messwerte/Vorbereitung/T.png, id=106, 1164.60094pt x 657.95813pt>
 File: messwerte/Vorbereitung/T.png Graphic file (type png)
 <use messwerte/Vorbereitung/T.png>
 Package luatex.def Info: messwerte/Vorbereitung/T.png  used on input line 103.
@@ -1436,27 +1436,43 @@ Overfull \hbox (68.25272pt too wide) in paragraph at lines 146--156
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--167
-
- []
-
-<messwerte/ImpulsEcho.pdf, id=135, 417.7206pt x 258.0049pt>
+<messwerte/ImpulsEcho.pdf, id=129, 417.7206pt x 258.0049pt>
 File: messwerte/ImpulsEcho.pdf Graphic file (type pdf)
 <use messwerte/ImpulsEcho.pdf>
-Package luatex.def Info: messwerte/ImpulsEcho.pdf  used on input line 174.
+Package luatex.def Info: messwerte/ImpulsEcho.pdf  used on input line 167.
 (luatex.def)             Requested size: 426.79134pt x 263.60637pt.
 
-Overfull \hbox (8.53578pt too wide) in paragraph at lines 174--175
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 167--168
  [][] 
  []
 
 
-Overfull \hbox (43.63948pt too wide) in paragraph at lines 192--201
+Underfull \hbox (badness 10000) in paragraph at lines 162--173
+
+ []
+
+<messwerte/Durchschallung.pdf, id=132, 417.7206pt x 258.0049pt>
+File: messwerte/Durchschallung.pdf Graphic file (type pdf)
+<use messwerte/Durchschallung.pdf>
+Package luatex.def Info: messwerte/Durchschallung.pdf  used on input line 206.
+(luatex.def)             Requested size: 426.79134pt x 263.60637pt.
+
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 206--207
  [][] 
  []
 
-) (./content/diskussion.tex [8] [9<./messwerte/ImpulsEcho.pdf>] [10])
+[8] [9<./messwerte/ImpulsEcho.pdf>] [10<./messwerte/Durchschallung.pdf>]
+<messwerte/Daempfung.pdf, id=190, 417.7206pt x 258.0049pt>
+File: messwerte/Daempfung.pdf Graphic file (type pdf)
+<use messwerte/Daempfung.pdf>
+Package luatex.def Info: messwerte/Daempfung.pdf  used on input line 235.
+(luatex.def)             Requested size: 426.79134pt x 263.60637pt.
+
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 235--236
+ [][] 
+ []
+
+[11<./messwerte/Daempfung.pdf>]) (./content/diskussion.tex)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1466,30 +1482,30 @@ Overfull \hbox (14.13794pt too wide) in paragraph at lines 23--23
 \TU/lmtt/m/n/10.95 physik . tu - dortmund . de / suter / Vorlesung / MedizinphysikII _ 15 / 14 _ Ultraschall .
  []
 
-[11] (./build/vXXX.aux)
+[12] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: 199F52D1FEF27B1686A51F83FA55E932;16908.
+(rerunfilecheck)             Checksum: 1154E5D844E7D926A4325036C1528CDD;18397.
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: 98DB339FA205B1A35F5449537B661E1B;2384.
+(rerunfilecheck)             Checksum: A39F3ED3330FC966515160BB6ABDD14E;2384.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36879 strings out of 478112
+ 36909 strings out of 478112
  100000,1977958 words of node,token memory allocated
- 779 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 53 attribute, 78 glue_spec, 28 attribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 1:2,2:1149,3:250,4:106,5:431,6:56,7:5355,8:97,9:543,10:9,11:505
- 56036 multiletter control sequences out of 65536+600000
- 125 fonts using 47705563 bytes
+ 755 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 43 attribute, 78 glue_spec, 23 attribute_list, 1 write, 4 pdf_action nodes
+   avail lists: 1:2,2:1291,3:251,4:106,5:411,6:55,7:5836,8:98,9:568,10:9,11:505
+ 56056 multiletter control sequences out of 65536+600000
+ 125 fonts using 47705155 bytes
  113i,14n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/tabea/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (11 pages, 583441 bytes).
+Output written on vXXX.pdf (12 pages, 608199 bytes).
 
-PDF statistics: 333 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 131072)
+PDF statistics: 389 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 131072)
  137 words of extra memory for PDF output out of 10000 (max. 100000000)
 

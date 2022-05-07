@@ -105,6 +105,16 @@
       \verb https://www.olympus-ims.com/de/ndt-tutorials/thickness-gauge/appendices-velocities/.
       \endverb
     \endentry
+    \entry{sample}{manual}{}
+      \list{organization}{1}{%
+        {TU Dortmund, Fakultät Physik}%
+      }
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{title}{US 1: Grundlagen der Ultraschalltechnik}
+      \field{year}{2014}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

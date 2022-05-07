@@ -494,6 +494,12 @@ INPUT /home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/l
 INPUT ./messwerte/ImpulsEcho.pdf
 INPUT ./messwerte/ImpulsEcho.pdf
 INPUT ./messwerte/ImpulsEcho.pdf
+INPUT ./messwerte/Durchschallung.pdf
+INPUT ./messwerte/Durchschallung.pdf
+INPUT ./messwerte/Durchschallung.pdf
+INPUT ./messwerte/Daempfung.pdf
+INPUT ./messwerte/Daempfung.pdf
+INPUT ./messwerte/Daempfung.pdf
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT /home/tabea/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc

@@ -2355,6 +2355,8 @@
     <bcf:citekey order="8">medizinphysik</bcf:citekey>
     <bcf:citekey order="9">thiemann</bcf:citekey>
     <bcf:citekey order="10">imeter</bcf:citekey>
+    <bcf:citekey order="11">medizinphysik</bcf:citekey>
+    <bcf:citekey order="12">sample</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

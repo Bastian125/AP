@@ -29,10 +29,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5}Bestimmung der Dämpfung mit dem Impuls-Echo-Verfahren}{10}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}Biometrische Untersuchung eines Augenmodells}{10}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.6}Biometrische Untersuchung eines Augenmodells}{11}{subsection.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}%
+\contentsline {section}{\numberline {5}Diskussion}{12}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{11}{section*.12}%
+\contentsline {section}{\nonumberline Literatur}{12}{section*.15}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
