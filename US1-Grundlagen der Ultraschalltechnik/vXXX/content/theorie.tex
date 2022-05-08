@@ -6,57 +6,59 @@ Experimentalphysik von Relevanz ist.
 
 \section{Theorie}
 \label{sec:Theorie}
-Den Frequqenzbereich des Schalls lässt sich in folgende Teilbereiche aufteilen. Einmal den für das menschliche
-Ohr hörbaren Bereich von ca. $16\,\unit{\hertz}$ bis ca. $20\,\unit{\kilo\hertz}$, den Teilbereich darüber
-von ca. $20\,\unit{\kilo\hertz}$ bis ca. $1\,\unit{\giga\hertz}$, der auch Ultraschall genannt wird und den
-Teilbereich darüber ab $1\,\unit{\giga\hertz}$, der auch Hyperschall genannt wird. Der Teilbereich unter dem
+Den Frequqenzbereich des Schalls lässt sich in vier Teilbereiche aufteilen. Einmal in den für das menschliche
+Ohr hörbare Bereich von ca. $16\,\unit{\hertz}$ bis ca. $20\,\unit{\kilo\hertz}$, in den Teilbereich 
+von ca. $20\,\unit{\kilo\hertz}$ bis ca. $1\,\unit{\giga\hertz}$, der auch Ultraschall genannt wird und in den
+Teilbereich ab $1\,\unit{\giga\hertz}$, der auch Hyperschall genannt wird. Der Teilbereich unter dem
 hörbaren Bereich wird auch Infraschall genannt.
 
 \subsection{Ausbreitung von Schallwellen}
 \label{sec:Schallwellen}
 Bei Schallwellen handelt es sich um longitudinale Wellen, die sich aufgrund von Druckschwankungen fortbewegt.
-Eine Schallwelle mit Ausbreitung in x-Richtung lässt sich Druckschwankungen
+Eine Schallwelle mit Ausbreitung in x-Richtung lässt sich mit
 \begin{equation*}
-    p(x, t) = p_{\symup{0}} + v_{\symup{0}} Z cos(\omega t - kx).
+    p(x, t) = p_0 + v_0 Z \cos{(\omega t - kx)}
 \end{equation*}
-Dabei ist $p_{\symup{0}}$ der Normaldruck, $v_{\symup{0}}$ die Schallschnelle, und $Z=\rho c$ die Akustische
-Impedanz mit der Schallgeschwindigkeit $c$ und der Dichte $\rho$ des durchstrahlten Materials.
+darstellen.\\
+Dabei ist $p_0$ der Normaldruck, $v_0$ die Schallschnelle, und $Z=\rho c$ die Akustische
+Impedanz mit der Schallgeschwindigkeit $c$ und der Dichte $\rho$ des durchschallten Materials.\\
 Die Schallgeschwindigkeit in Flüssigkeiten lässt sich in Abhängigkeit ihrer Kompressibilität $\kappa$ und ihrer
 Dichte $\rho$ durch
 \begin{equation*}
-    c_{Fl} = \sqrt{\frac{1}{\kappa \cdot \rho}}
+    c_{\mathrm{Fl}} = \sqrt{\frac{1}{\kappa \cdot \rho}}
 \end{equation*}
 ausdrücken. Da in Festkörpern auch die transversalen Wellen aufgrund der Schubspannung mit berücksichtigt werden
 müssen, wird $\kappa$ durch den Zusammenhang zum Elastizitätsmodul $E$ ersetzt. Es ergibt sich
 \begin{equation*}
-    c_{Fe} = \sqrt{\frac{E}{\rho}}.
+    c_{\mathrm{Fe}} = \sqrt{\frac{E}{\rho}}.
 \end{equation*}
 Im Normalfall geht immer eine Teil der Energie bei der Schallausbreitung durch Absorption verloren. Daraus bestimmt
 sich die Intensität zu
 \begin{equation}
     \label{eqn:Dämpfung}
-    U(x) = U_{\symup{0}}\cdot e^{-\alpha x}.
+    I(x) = I_0 \cdot e^{-\alpha x}.
 \end{equation}
-Dabei ist $\alpha$ der Absorptionskoeffizient der Schallamplitude. Um den Absorptionskoeffizienten möglichst
+Dabei ist $\alpha$ der Absorptionskoeffizient der Schallamplitude und $I_0$ die Intensität des ausgehenden 
+Schallimpulses. Um den Absorptionskoeffizienten möglichst
 gering zu halten, wird aufgrund des hohen Absorptionskoeffizienten der Luft ein Kontaktmittel zwischen Schallgeber
 und Material verwendet.\\
 \\
-Außerdem können Schallwellen reflektiert werden. Der Reflexionskoeffizient ergibt sich in Abhänngigkeit der
+Eine für den Versuch wichtige Eigenschaft von Schallwellen ist, dass diese reflektiert werden können. Der Reflexionskoeffizient ergibt sich in Abhänngigkeit der
 akustischen Impedanzen $Z_{\symup{1}}$ und $Z_{\symup{2}}$ der Materialien durch
 \begin{equation*}
     R = \left(\frac{Z_{\symup{1}}- Z_{\symup{2}}}{Z_{\symup{1}}+Z_{\symup{2}}}\right)^2 .
 \end{equation*}
 Für den Transmissionskoeffizienten ergibt sich
 \begin{equation*}
-    T = 1 - R
+    T = 1 - R.
 \end{equation*}
 
 \subsection{Erzeugung von Ultraschall}
 \label{sec:Ultraschall}
 Ultraschallwellen können durch den piezo-elektrischen Effekt erzeugt werden. Dazu wird ein piezo-elektrischer
-Kristall, z.B. Quarz, in ein elektrisches Wechselfeld gebracht. Der Kristall beginnt nun an zu schwingen und
-emittiert Ultraschallwellen. Bei Resonanz werden so große Ultraschallamplituden erreicht.
-Umgekehrt kann bei angeregten Schwingungen ein elektrisches Wechselfeld gemessen werden, so dass die Quelle
+Kristall, z.B. Quarz, in ein elektrisches Wechselfeld gebracht. Der Kristall gerät dadurch in Schwingung und
+erzeugt Ultraschallwellen. Bei Resonanz werden große Ultraschallamplituden erreicht.\\
+Umgekehrt kann bei angeregten Schwingungen ein elektrisches Wechselfeld gemessen werden, sodass die Quelle
 der Ultraschallwellen auch als Empfänger dienen kann.
 
 \subsection{Ultraschallverfahren}
@@ -68,7 +70,7 @@ Es werden in der Ultraschalltechnik zwei Verfahren verwand.
     dieser durch die Probe und verliert an Intensität. Weiterhin kann durch Störstellen die Intensität auch
     verringert werden bevor der Impuls zum Zeitpunkt $t$ auf den Empfänger trifft.
     \item $Impuls$-$Echo$-$Verfahren$ - Beim Impuls-Echo-Verfahren wird der Sender gleichzeitig als Empfänger verwendet. Nach der Laufzeit
-    $t$ wird die Intensitt des Schallimpulses gemessen. Aus der Schallgeschwindigkeit $c$ und der Laufzeit $t$
+    $t$ wird die Intensität des Schallimpulses gemessen. Aus der Schallgeschwindigkeit $c$ und der Laufzeit $t$
     lässt sich der Abstand zur Störstelle in der Probe durch
     \begin{equation}
         \label{eqn:Strecke}
@@ -79,7 +81,7 @@ Es werden in der Ultraschalltechnik zwei Verfahren verwand.
 
 \subsection{Scan-Methoden}
 \label{sec:Scan}
-Um die mit dem Impuls-Echo-Verfahren Messungen aus zu werten, gibt es drei unterschiedliche Verfahren.
+Um die Messungen mit den zwei Ultraschalltechniken auszuwerten, gibt es drei unterschiedliche Verfahren.
 \begin{enumerate}
     \item $A$-$Scan$ - Dabei wird nur die Amplitude angezeigt, so dass auch Abschwächungen messbar sind.
     \item $B$-$Scan$ - Durch ein zweidimensionales Graubild lässt sich die Intensität der zurücklaufenden

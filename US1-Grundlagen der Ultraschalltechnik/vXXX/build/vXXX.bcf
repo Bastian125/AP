@@ -2345,7 +2345,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">programme.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">medizinphysik</bcf:citekey>
+    <bcf:citekey order="1">sample</bcf:citekey>
     <bcf:citekey order="2">medizinphysik</bcf:citekey>
     <bcf:citekey order="3">medizinphysik</bcf:citekey>
     <bcf:citekey order="4">medizinphysik</bcf:citekey>
@@ -2353,10 +2353,11 @@
     <bcf:citekey order="6">medizinphysik</bcf:citekey>
     <bcf:citekey order="7">medizinphysik</bcf:citekey>
     <bcf:citekey order="8">medizinphysik</bcf:citekey>
-    <bcf:citekey order="9">thiemann</bcf:citekey>
-    <bcf:citekey order="10">imeter</bcf:citekey>
-    <bcf:citekey order="11">medizinphysik</bcf:citekey>
-    <bcf:citekey order="12">sample</bcf:citekey>
+    <bcf:citekey order="9">medizinphysik</bcf:citekey>
+    <bcf:citekey order="10">thiemann</bcf:citekey>
+    <bcf:citekey order="11">imeter</bcf:citekey>
+    <bcf:citekey order="12">medizinphysik</bcf:citekey>
+    <bcf:citekey order="13">sample</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

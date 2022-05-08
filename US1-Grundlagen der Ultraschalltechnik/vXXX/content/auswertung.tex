@@ -1,3 +1,4 @@
+\newpage
 \section{Auswertung}
 \label{sec:Auswertung}
 
@@ -23,16 +24,14 @@
       \end{tabular}
   \end{table}
   Anschließend wird die Wellenlänge und die Periode einer 2 MHz Schwingung in Acryl ausgerechnet.
-  \begin{align}
-    \label{eqn:lambdaacry}
+  \begin{align*}
     \lambda = \frac{c}{f} = 1,365 \cdot 10^{-3} \, \mathrm{m} \\
-    \label{eqn:Tacry}
     T = \frac{1}{f} = 0,5 \cdot 10^{-6} \, \mathrm{s}
-  \end{align}
+  \end{align*}
 
 \subsubsection{Kennenlernen und Einstellen des Programms}
 
-  Mit der Schieblehre wird die Dicke der ausgewählten Acrylplatte gemessen. Diese beträgt $d=(9,95 \pm 0,05) \, \cdot 10^{-3} \, \mathrm{m}$.\\
+  Mit der Schieblehre wird die Dicke einer gegebenen Acrylplatte gemessen. Diese beträgt $d=(9,95 \pm 0,05) \, \cdot 10^{-3} \, \mathrm{m}$.\\
   Anschließend wird ein A-Scan durchgeführt, welcher die Graphik in \autoref{fig:1cmAcrylplatt} erzeugt.\\
   \begin{figure}
     \centering
@@ -50,19 +49,20 @@
       Schwingung & Laufzeit $t$ / $\si{\micro\second}$ & Amplitude $A$ / $\si{\volt}$ \\
         \midrule
           1 & 7,12  & 1,316 \\
-          2 & 7,28  & 1,366 \\
-          3 & 7,40  & 1,340 \\
-          4 & 7,64  & 1,297 \\
-          5 & 7,22  & 0,880 \\
+          2 & 14,40  & 1,366 \\
+          3 & 21,80  & 1,340 \\
+          4 & 29,44  & 1,297 \\
+          5 & 36,66  & 0,880 \\
         \bottomrule
       \end{tabular}
   \end{table}
-  Aus den gemessenen Daten wird der Mittelwert der Laufzeit und anschließend die Schallgeschwindigkeit mittels \autoref{eqn:Strecke} bestimmt.\\
+  Aus den gemessenen Daten wird der Mittelwert der Laufzeiten der einzelnen Impulsreflexionen (Zeitdifferenz zum vorherigen Impuls)
+  und anschließend die Schallgeschwindigkeit mittels \autoref{eqn:Strecke} bestimmt.\\
   Mittelwert der Laufzeit:
   \begin{align*}
     t &= (7,33 \pm 0,09) \, \si{\micro\second} \\
     c &= \frac{2s}{t} \\
-    c &= (2714,87 \pm 13,64) \, \si{\meter\per\second}
+      &= (2714,87 \pm 13,64) \, \si{\meter\per\second}
   \end{align*}
   Die Unsicherheit wurde mittels Gaußscher Fehlerfortpflanzung bestimmt. Die Schallgeschwindigkeit in Acryl lautet somit
   $c_{\mathrm{Acryl}} = (2714,87 \pm 13,64) \, \si{\meter\per\second}$.\\
@@ -95,7 +95,7 @@
   im $AM$-Modus jeweils nur die positiven Amplituden jener Schwingungen angezeigt werden. Im $AM + HF$-Modus
   werden jene zwei Modi kombiniert ausgegeben.\\
   Je nach Versuchsteil wird ein anderer Modus verwendet.\\
-  Als nächstes wird der $AM + HF$-Modus eingeschaltet und bei einer 2 MHz Schwingung die Periode einer Schwingung
+  Als nächstes wird der $AM + HF$-Modus eingeschaltet und bei einer $2 \, \si{\mega\hertz}$ Schwingung die Periode einer Schwingung
   ausgerechnet. Dafür wird über fünf Perioden hinweg gemittelt. Der verwendete Bereich ist mittels grünen Balken 
   in \autoref{fig:T} eingezeichnet.
   \begin{figure}
@@ -137,14 +137,15 @@
 \subsection{Schallgeschwindigkeitsbestimmung mit dem Impuls-Echo-Verfahren}
 
   In dieser Versuchsreihe werden die vier Zylinder mittels Impuls-Echo-Verfahren beschallt. Zudem wird noch
-  ein 10 cm großer Zylinder aus den einzelnen Zylindern gebaut und beschallt.
+  ein 10 cm großer Zylinder aus den einzelnen Zylindern gebaut und beschallt. Die Messwerte lassen sich in 
+  \autoref{tab:EchoImpuls} finden.
 
   \begin{table}
     \centering
     \caption{Zur Bestimmung der Schallgeschwindigkeit mit Impuls-Echo-Verfahren aufgenommene Messwerte.}
     \label{tab:EchoImpuls}
     \begin{tabular}{c | c c c c}
-      Höhe $h$ / $\si{\milli\meter}$ & Ausges. Imp. $U_A$ / $\si{\volt}$ &  Startzeit $t_0$ / $\si{\micro\second}$ & Refklekt. Imp. $U_R$ / $\si{\volt}$ & Endzeit $t_R$ / $\si{\micro\second}$ \\
+      Höhe $l$ / $\si{\milli\meter}$ & Ausges. Imp. $U_{\mathrm{A}}$ / $\si{\volt}$ &  Startzeit $t_0$ / $\si{\micro\second}$ & Refklekt. Imp. $U_{\mathrm{R}}$ / $\si{\volt}$ & Endzeit $t_{\mathrm{R}}$ / $\si{\micro\second}$ \\
         \midrule
           40,45 & 1,318 & 1,260 & 1,250 & 30,26 \\
           61,55 & 1,318 & 1,280 & 0,619 & 46,04 \\
@@ -155,13 +156,15 @@
       \end{tabular}
   \end{table}
 
+  $U_{\mathrm{A}}$ ist die Amplitude des ausgesendeten Impulses, $t_0$ der Zeitpunkt, wo die Amplitude des ausgesendeten Impulses
+  gemessen wird, $U_{\mathrm{R}}$ die Amplitude des reflektierten Impulses und $t_{\mathrm{R}}$ der Zeitpunkt, wo die Amplitude des reflektierten
+  Impulses gemessen wird.\\
   Mittels dieser Messwerte wird eine lineare Ausgleichsrechnung mit Python durchgeführt. Die Theoriekurve ergibt sich aus
   \autoref{eqn:Strecke} und einer Anpassungsschicht $d$ für die Sonde. Die Geradengleichung lautet also
   \begin{equation*}
     2l = c \cdot t + d.
   \end{equation*}
-  $l$ ist die jeweilige Länge des Zylinders und $t = t_R - t_0$ die Laufzeit der Schwingung. $t_0$ ist der Zeitpunkt
-  des Peaks des ausgesendeten Impulses und $t_r$ der Zeitpunkt des Peaks des reflektierten Impulses.\\
+  $l$ ist die jeweilige Länge des Zylinders und $t = t_{\mathrm{R}} - t_0$ die Laufzeit der Schwingung.\\
   \begin{figure}
     \centering
     \includegraphics[width=15cm]{messwerte/ImpulsEcho.pdf}
@@ -190,7 +193,7 @@
     \caption{Zur Bestimmung der Schallgeschwindigkeit mit Impuls-Echo-Verfahren aufgenommene Messwerte.}
     \label{tab:Durchschallung}
     \begin{tabular}{c | c c}
-      Höhe $h$ / $\si{\milli\meter}$ & Startzeit $t_0$ / $\si{\micro\second}$ & Endzeit $t_R$ / $\si{\micro\second}$ \\
+      Höhe $l$ / $\si{\milli\meter}$ & Startzeit $t_0$ / $\si{\micro\second}$ & Endzeit $t_{\mathrm{R}}$ / $\si{\micro\second}$ \\
         \midrule
         40   & 0,2 & 15,48\\
         60   & 0,2 & 23,78\\
@@ -200,7 +203,7 @@
       \end{tabular}
   \end{table}
 
-  Es wird mit der obigen Gleichung eine Ausgleichsrechnung in Python durchgeführt.\\
+  Es wird mit der obigen Gleichung eine Ausgleichsrechnung in Python durchgeführt.
   \begin{figure}
     \centering
     \includegraphics[width=15cm]{messwerte/Durchschallung.pdf}
@@ -239,36 +242,36 @@
 
 \subsection{Biometrische Untersuchung eines Augenmodells}
 
-In dieser Versuchsreihe wird ein Augenmodell mittels Impuls-Echo-Verfahren durchschallt.\\ 
-Im Programm zur Visualisierung des Schalls lassen sich vier deutliche Haupt-Peaks erkennen.
-Diese sind der Iris, Ein- und Austreten der Linse und der Retina zuzuordnen.\\
-Bei der Auswertung muss darauf geachtet werden, dass in dem Glaskörper, der Augenkammer und der 
-Linse jeweils unterschiedliche Schallgeschwindigkeiten herrschen.\\
-Das Kammerwasser der Augenkammer kann mit Wasser angenähert werden $c_{\mathrm{Wasser}} = 1492 \, \si{\meter\per\second}$  \cite{medizinphysik}.
-Die Schallgeschwindigkeit in der Linse beträgt $c_{\mathrm{L}} = 2500 \, \si{\meter\per\second}$ und in der
-Glaskörperflüssigkeit $c_{\mathrm{GK}} = 1410 \, \si{\meter\per\second}$ \cite{sample}.\\
-Die Messwerte sind in \autoref{tab:Auge} aufgelistet.
+  In dieser Versuchsreihe wird ein Augenmodell mittels Impuls-Echo-Verfahren durchschallt.\\ 
+  Im Programm zur Visualisierung des Schalls lassen sich vier deutliche Haupt-Peaks erkennen.
+  Diese sind der Iris, Ein- und Austreten der Linse und der Retina zuzuordnen.\\
+  Bei der Auswertung muss darauf geachtet werden, dass in dem Glaskörper, der Augenkammer und der 
+  Linse jeweils unterschiedliche Schallgeschwindigkeiten herrschen.\\
+  Das Kammerwasser der Augenkammer kann mit Wasser angenähert werden $c_{\mathrm{Wasser}} = 1492 \, \si{\meter\per\second}$  \cite{medizinphysik}.
+  Die Schallgeschwindigkeit in der Linse beträgt $c_{\mathrm{L}} = 2500 \, \si{\meter\per\second}$ und in der
+  Glaskörperflüssigkeit $c_{\mathrm{GK}} = 1410 \, \si{\meter\per\second}$ \cite{sample}, wie bereits in der Durchführung erwähnt.\\
+  Die Messwerte sind in \autoref{tab:Auge} aufgelistet.
 
-\begin{table}
-  \centering
-  \caption{Beim Untersuchen des Augenmodells aufgenommene Daten.}
-  \label{tab:Auge}
-  \begin{tabular}{c | c c}
-    Peak & Laufzeit $t$ / $\si{\micro\second}$ & Amplitude $U$ / $\si{\volt}$ \\
-      \midrule
-      1   & 10,38 & 0,7614\\
-      2   & 15,74 & 0,7179\\
-      3   & 22,50 & 0,1633\\
-      4   & 72,04 & 0,1088\\
-      \bottomrule
-    \end{tabular}
-\end{table}
+  \begin{table}
+    \centering
+    \caption{Beim Untersuchen des Augenmodells aufgenommene Daten.}
+    \label{tab:Auge}
+    \begin{tabular}{c | c c}
+      Peak & Laufzeit $t$ / $\si{\micro\second}$ & Amplitude $U$ / $\si{\volt}$ \\
+        \midrule
+        1   & 10,38 & 0,7614\\
+        2   & 15,74 & 0,7179\\
+        3   & 22,50 & 0,1633\\
+        4   & 72,04 & 0,1088\\
+        \bottomrule
+      \end{tabular}
+  \end{table}
 
-Mittels der \autoref{eqn:Strecke} und Python werden nachfolgende Distanzen bestimmt.
+  Mittels der \autoref{eqn:Strecke} und Python werden nachfolgende Distanzen bestimmt.
 
-\begin{align*}
-  \mathrm{Hornhaut \, zu  \, Iris} &= 0,77 \, \si{\centi\meter}\\
-  \mathrm{Iris \, zu \, Anfang \, Linse} &= 0,39 \, \si{\centi\meter}\\
-  \mathrm{Dicke \, Linse} &= 1,65 \, \si{\centi\meter}\\
-  \mathrm{Ende \, Linse \, bis \, Retina} &= 2,27 \, \si{\centi\meter}\\
-\end{align*}
+  \begin{align*}
+    \mathrm{Hornhaut \,\, zu  \,\, Iris} &= 0,77 \, \si{\centi\meter}\\
+    \mathrm{Iris \,\, zu \,\, Anfang \,\, Linse} &= 0,39 \, \si{\centi\meter}\\
+    \mathrm{Dicke \,\, Linse} &= 1,65 \, \si{\centi\meter}\\
+    \mathrm{Ende \,\, Linse \,\, bis \,\, Retina} &= 2,27 \, \si{\centi\meter}\\
+  \end{align*}

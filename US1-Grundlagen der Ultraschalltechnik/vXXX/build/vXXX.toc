@@ -11,28 +11,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Ultraschallverfahren}{4}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Durchführung}{4}{section.3}%
+\contentsline {subsection}{\numberline {2.4}Scan-Methoden}{4}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Auswertung}{4}{section.4}%
+\contentsline {section}{\numberline {3}Durchführung}{6}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Vorbereitung}{4}{subsection.4.1}%
+\contentsline {section}{\numberline {4}Auswertung}{7}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Vorbereitungsaufgaben}{4}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1}Vorbereitung}{7}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Kennenlernen und Einstellen des Programms}{5}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1}Vorbereitungsaufgaben}{7}{subsubsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Ausmessen der verwendeten Acrylzylinder}{7}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.1.2}Kennenlernen und Einstellen des Programms}{7}{subsubsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Schallgeschwindigkeitsbestimmung mit dem Impuls-Echo-Verfahren}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.2}Ausmessen der verwendeten Acrylzylinder}{9}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Schallgeschwindigkeitsbestimmung mit Durchschallungs-Verfahren}{8}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.3}Schallgeschwindigkeitsbestimmung mit dem Impuls-Echo-Verfahren}{9}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Bestimmung der Dämpfung mit dem Impuls-Echo-Verfahren}{10}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.4}Schallgeschwindigkeitsbestimmung mit Durchschallungs-Verfahren}{10}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}Biometrische Untersuchung eines Augenmodells}{11}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.5}Bestimmung der Dämpfung mit dem Impuls-Echo-Verfahren}{12}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{12}{section.5}%
+\contentsline {subsection}{\numberline {4.6}Biometrische Untersuchung eines Augenmodells}{13}{subsection.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{12}{section*.15}%
+\contentsline {section}{\numberline {5}Diskussion}{15}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Wellenlänge und Frequenz einer $2 \, \si {\mega \hertz }$ Schwingung}{15}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Messungen der Schallgeschwindigkeit in Acryl}{15}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Messungen der Dämpfung in Acryl}{15}{subsection.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{16}{section*.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Messwerte}{17}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Schallgeschwindigkeitsbestimmung mit dem Impuls-Echo-Verfahren}{17}{subsection.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Schallgeschwindigkeitsbestimmung mit Durchschallungs-Verfahren}{17}{subsection.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}Biometrische Untersuchung eines Augenmodells}{17}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
