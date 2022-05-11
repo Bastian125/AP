@@ -66,7 +66,7 @@ Der Fehler für die gemittelte Zählrate ergibt sich durch die Gaußsche Fehlerf
 gegeben ist. Mit Hilfe von \autoref{eqn:Zerfallsgesetz} lässt sich in halblogarithmischer Darstellung die
 Gleichung
 \begin{align*}
-  N(t) = -\lambda t + \ln{N_{\symup{0}}}
+  ln(N(t)) = -\lambda t + \ln{N_{\symup{0}}}
 \end{align*}
 aufstellen. Mit Scipy lässt sich nun eine lineare Regression mit den Ergebnissen
 \begin{align*}
@@ -173,15 +173,24 @@ Aus \autoref{eqn:T} ergibt sich für die Halbwertszeit von $\ce{^108 Ag}$
 
 \subsubsection{Halbwertszeit von $\ce{^110 Ag}$}
 \label{sec:110Ag}
-Da $\ce{^110 Ag}$ schneller zerfällt, muss die Zählrate von $\ce{^108 Ag}$ von den Messwerten abgezogen werden.
-Die abzuziehende Zählrate lässt sich durch \autoref{eqn:lnDelta} bestimmen. Für die lineare Regression ergeben
-sich die Werte
+Da $\ce{^110 Ag}$ schneller zerfällt, muss die theoretisch ermittelte Zählrate von $\ce{^108 Ag}$ von den Messwerten
+abgezogen werden. Die abzuziehende Zählrate lässt sich durch \autoref{eqn:lnDelta} bestimmen. Die korrigierten Werte
+für die lineare Regression ergeben sich aus
+\begin{align*}
+  N_{\symup{kurz}}(t) &= N_{\symup{Ges}}(t) - N_{\symup{lang}}(t) \\
+                      &= N_{\symup{Ges}}(t) - e^{-mt + b}
+\end{align*}
+Für die lineare Regression ergeben sich die Werte
 \begin{align*}
   \lambda_{\symup{\ce{^110 Ag}}}  &= (89,67 \pm 18,04)\cdot 10^{-3}\,\frac{1}{\unit{\second}} \\
   ln(N_{\symup{0, \ce{^110 Ag}}}) &= 3,59 \pm 0,81. \\
 \end{align*}
-wobei diesmal nur $t$ von $0\,\unit{\second}$ bis $80\,\unit{\second}$ betrachtet wird. Daraus ergibt sich eine
-Halbwertszeit von
+wobei diesmal nur $t$ von $0\,\unit{\second}$ bis $80\,\unit{\second}$ betrachtet wird.
+Daraus ergibt sich eine Halbwertszeit von
 \begin{align*}
   T_{\symup{\ce{^110 Ag}}} = (7,7 \pm 1,6)\,\unit{\second}.
 \end{align*}
+Der Fehler bestimmt sich durch die Gaußsche Fehlerforpflanzung durch
+\begin{equation*}
+  \Delta T = \frac{\sqrt{ln(2)}}{\lambda} \cdot \Delta \lambda\,. 
+\end{equation*}

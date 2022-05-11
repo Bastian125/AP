@@ -31,10 +31,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.1.2}Halbwertszeit von $\ce {^110 Ag}$}{11}{subsubsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion}{11}{section.6}%
+\contentsline {section}{\numberline {6}Diskussion}{12}{section.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7}Anhang}{12}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{16}{section*.13}%
+\contentsline {section}{\nonumberline Literatur}{17}{section*.13}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

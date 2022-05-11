@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  30 APR 2022 19:49
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  11 MAY 2022 14:20
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1515,27 +1515,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--16
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--68
+Underfull \hbox (badness 10000) in paragraph at lines 61--69
 
  []
 
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 69.
+(Font)              scaled to size 12.00128pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 69.
+(Font)              scaled to size 8.00085pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 69.
+(Font)              scaled to size 6.00064pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 69.
+(Font)              scaled to size 11.99872pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 69.
+(Font)              scaled to size 7.99915pt on input line 70.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 69.
+(Font)              scaled to size 5.99936pt on input line 70.
 [4]) (./content/durchfuehrung.tex
 <Bilder/Versuchsaufbau.png, id=75, 618.81187pt x 355.3275pt>
 File: Bilder/Versuchsaufbau.png Graphic file (type png)
@@ -1608,59 +1608,59 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 174.
 
 [9<build/plot1.pdf>] [10]) (./content/diskussion.tex [11<build/plot2.pdf>]
-<Bilder/1.jpeg, id=193, 615.80063pt x 928.21782pt>
+<Bilder/1.jpeg, id=192, 615.80063pt x 928.21782pt>
 File: Bilder/1.jpeg Graphic file (type jpg)
 <use Bilder/1.jpeg>
-Package luatex.def Info: Bilder/1.jpeg  used on input line 17.
+Package luatex.def Info: Bilder/1.jpeg  used on input line 18.
 (luatex.def)             Requested size: 292.7776pt x 441.31879pt.
-<Bilder/2.jpeg, id=194, 638.385pt x 992.95969pt>
+<Bilder/2.jpeg, id=193, 638.385pt x 992.95969pt>
 File: Bilder/2.jpeg Graphic file (type jpg)
 <use Bilder/2.jpeg>
-Package luatex.def Info: Bilder/2.jpeg  used on input line 24.
+Package luatex.def Info: Bilder/2.jpeg  used on input line 25.
 (luatex.def)             Requested size: 292.7776pt x 455.38823pt.
-<Bilder/3.jpeg, id=195, 627.09282pt x 1019.30812pt>
+<Bilder/3.jpeg, id=194, 627.09282pt x 1019.30812pt>
 File: Bilder/3.jpeg Graphic file (type jpg)
 <use Bilder/3.jpeg>
-Package luatex.def Info: Bilder/3.jpeg  used on input line 31.
+Package luatex.def Info: Bilder/3.jpeg  used on input line 32.
 (luatex.def)             Requested size: 292.7776pt x 475.902pt.
-<Bilder/4.jpeg, id=196, 612.03656pt x 726.46407pt>
+<Bilder/4.jpeg, id=195, 612.03656pt x 726.46407pt>
 File: Bilder/4.jpeg Graphic file (type jpg)
 <use Bilder/4.jpeg>
-Package luatex.def Info: Bilder/4.jpeg  used on input line 38.
+Package luatex.def Info: Bilder/4.jpeg  used on input line 39.
 (luatex.def)             Requested size: 292.7776pt x 347.5127pt.
-) [12<../Bilder/1.jpeg>] [13<../Bilder/2.jpeg>] [14<../Bilder/3.jpeg>] [15<../Bilder/4.jpeg>]
+) [12] [13<../Bilder/1.jpeg>] [14<../Bilder/2.jpeg>] [15<../Bilder/3.jpeg>] [16<../Bilder/4.jpeg>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [16] (./build/vXXX.aux)
+ [17] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: B9A32A4493658B26EC0350F233DB11E1;16689.
+(rerunfilecheck)             Checksum: 8AC1A36CD2012E2771CBC2160F9B015B;16689.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: 7D01F20F3CCD85837E124896567464AB;2464.
+(rerunfilecheck)             Checksum: 911EF5C597C6F0E5CC1CCB0F3518A0DE;2464.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37889 strings out of 477893
+ 37890 strings out of 477893
  100000,1977958 words of node,token memory allocated
- 793 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 47 attribute, 78 glue_spec, 25 attribute_list, 1 write nodes
-   avail lists: 1:3,2:2283,3:262,4:117,5:407,6:58,7:5949,8:46,9:887,10:12,11:669,12:1
+ 799 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 49 attribute, 78 glue_spec, 26 attribute_list, 1 write nodes
+   avail lists: 1:3,2:2280,3:262,4:117,5:404,6:58,7:5957,8:46,9:887,10:12,11:631,12:1
  57264 multiletter control sequences out of 65536+600000
- 125 fonts using 47705563 bytes
+ 125 fonts using 47704951 bytes
  113i,21n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (16 pages, 752418 bytes).
+Output written on vXXX.pdf (17 pages, 754659 bytes).
 
-PDF statistics: 369 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 131072)
+PDF statistics: 373 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 131072)
  145 words of extra memory for PDF output out of 10000 (max. 100000000)
 
