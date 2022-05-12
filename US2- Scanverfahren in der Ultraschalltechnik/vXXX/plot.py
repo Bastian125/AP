@@ -49,4 +49,5 @@ d = h- s_u - s_o
 
 print('Abstand zur Stoerstelle unten: ', np.round(s_u*10**2, 3))
 print('Abstand zur Stoerstelle oben: ', np.round(s_o*10**2, 3))
-print('Dicke: ', d)
+print('Dicke: ', np.round(d*10**3, 2))
+print('lul')
