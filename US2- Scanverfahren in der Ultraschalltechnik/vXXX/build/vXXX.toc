@@ -1,16 +1,42 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Zielsetzung}{3}{section.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Ausbreitung von Schallwellen}{3}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Erzeugung von Ultraschall}{4}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Ultraschallverfahren}{4}{subsection.2.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4}Scan-Methoden}{4}{subsection.2.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Versuchsaufbau}{5}{section.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Durchführung}{5}{section.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}Untersuchung eines Acrylblocks mit dem A-Scan}{5}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Untersuchung des Auflösungsvermögens}{6}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3}Untersuchung eines Acrylblocks mit dem B-Scan}{6}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Untersuchung eines Brustmodells mit einem B-Scan}{6}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Auswertung}{7}{section.5}%
-\contentsline {section}{\numberline {6}Diskussion}{7}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Maße des Acrylbocks}{7}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Messung der Schallgeschwindigkeit in Acryl}{7}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Tiefe der der Störstellen}{9}{subsection.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Diskussion}{10}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Anhang}{10}{section*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{14}{section*.15}%
+\defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

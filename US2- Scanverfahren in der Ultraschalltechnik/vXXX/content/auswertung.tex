@@ -20,17 +20,17 @@ Die Messwerte für die Lage und Größe der Löcher sind in \autoref{tab:Abstand
     \toprule
     Störstelle & $\symup{s}/\unit{\centi\meter}$ & $\symup{d}/\unit{\centi\meter}$\\
     \midrule
-    $\symup{c}_{\symup{1}}$ & $6,180$ & $0,145$ \\
-    $\symup{c}_{\symup{2}}$ & $6,060$ & $0,145$ \\
-    $\symup{a}_{\symup{1}}$ & $1,505$ & $0,565$ \\
-    $\symup{a}_{\symup{2}}$ & $2,385$ & $0,490$ \\
-    $\symup{a}_{\symup{3}}$ & $3,220$ & $0,400$ \\
-    $\symup{a}_{\symup{4}}$ & $3,980$ & $0,385$ \\
-    $\symup{a}_{\symup{5}}$ & $4,880$ & $0,300$ \\
-    $\symup{a}_{\symup{6}}$ & $5,595$ & $0,260$ \\
-    $\symup{a}_{\symup{7}}$ & $6,390$ & $0,290$ \\
-    $\symup{a}_{\symup{8}}$ & $7,210$ & $0,270$ \\
-    $\symup{b}            $ & $1,945$ & $0,975$ \\
+    $\symup{1}  $ & $6,180$ & $0,145$ \\
+    $\symup{2}  $ & $6,060$ & $0,145$ \\
+    $\symup{3}  $ & $1,505$ & $0,565$ \\
+    $\symup{4}  $ & $2,385$ & $0,490$ \\
+    $\symup{5}  $ & $3,220$ & $0,400$ \\
+    $\symup{6}  $ & $3,980$ & $0,385$ \\
+    $\symup{7}  $ & $4,880$ & $0,300$ \\
+    $\symup{8}  $ & $5,595$ & $0,260$ \\
+    $\symup{9}  $ & $6,390$ & $0,290$ \\
+    $\symup{10} $ & $7,210$ & $0,270$ \\
+    $\symup{11} $ & $1,945$ & $0,975$ \\
     \bottomrule
   \end{tabular}
   \caption{Abstand und Durchmesser der Löcher von der unteren Kante aus gemessen.}
@@ -38,12 +38,94 @@ Die Messwerte für die Lage und Größe der Löcher sind in \autoref{tab:Abstand
 \end{table}
 Die Messwerte können zum Abgleich mit den Ergebnissen der Ultraschallmessung verwendet werden.
 
-\subsection{}
+\subsection{Messung der Schallgeschwindigkeit in Acryl}
+\label{sec:SchallgeschwindigkeitAcryl}
+Die Laufzeiten $\symup{t}_{\symup{A}}$, die mit dem A-Scan bestimmt worden sind, sind für die Störstellen in
+\autoref{tab:Laufzeiten} zu finden.
+\begin{table}
+  \centering
+  \begin{tabular}{c c}
+    \toprule
+    Störstelle & $\symup{t}_{\symup{A}}/\unit{\micro\second}$ \\
+    \midrule
+    11 & 41,6 \\
+     4 & 40,5 \\
+     5 & 34,9 \\
+     6 & 29,4 \\
+     7 & 24,1 \\
+     8 & 18,2 \\
+     9 & 12,0 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Laufzeiten der Störstellen.}
+  \label{tab:Laufzeiten}
+\end{table}
+In \autoref{fig:Laufzeiten} werden die Laufzeiten gegen die Höhe des Acrylblocks abzüglich der Abstände zu den
+Störstellen aufgetragen. \autoref{eqn:Strecke} lässt sich zu einer linearen Regressionsformel umformen bei der
+die Anpassungsschichtdicke $d$ als Ordinate bestimmt wird.
+\begin{equation*}
+  2h = c\cdot t + d
+\end{equation*} 
+Aus der linearen Regression ergeben sich die Werte
+\begin{align*}
+  c &= (2944 \pm 99)\,\unit{\meter\per\second} \\
+  b &= (-3 \pm 3)\cdot 10^{-3}\,\unit{\meter}\,. \\
+\end{align*}
 
 \begin{figure}
   \centering
   \includegraphics{plot.pdf}
   \caption{Plot.}
-  \label{fig:plot}
+  \label{fig:Laufzeiten}
 \end{figure}
 
+\subsection{Tiefe der der Störstellen}
+\label{sec:Tiefe}
+Die Laufzeiten bis zu den Störstellen sind in \autoref{tab:Laufzeit_oben_unten} zu finden.
+\begin{table}
+  \centering
+  \begin{tabular}{c c c }
+    \toprule
+    Störstelle & $\symup{t}_{\symup{Unten}}/\unit{\micro\second}$ & $\symup{s}_{\symup{Oben}}/\unit{\micro\second}$\\
+    \midrule
+     1 & 14,1 & 48,8 \\
+     2 & 15,3 & 44,6 \\
+     3 & 49,9 & 10,8 \\
+     4 & 40,5 & 17,2 \\
+     5 & 34,9 & 23,3 \\
+     6 & 29,4 & 29,5 \\
+     7 & 24,1 & 35,4 \\
+     8 & 18,2 & 41,1 \\
+     9 & 12,0 & 46,9 \\
+    10 &  6,2 & 53,0 \\
+    11 & 41,6 & 12,6 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Laufzeiten bis zu den Störstellen von beiden Seiten gemessen.}
+  \label{tab:Laufzeit_oben_unten}
+\end{table}
+Es wurde eine Laufzeitkorrektur von $\symup{t}_{\symup{Korrektur}} = 1,6\,\unit{\micro\second}$ bestimmt.
+Aus \autoref{eqn:Strecke} kann die Strecke bis zur Störstelle berechnet werden. Aus den bestimmten Werte lassen sich
+die Dicken der Störstellen bestimmen. Die Abstände und Dicken der Störstellen sind in \autoref{tab:Abstand} zu finden.
+\begin{table}
+  \centering
+  \begin{tabular}{c c c c}
+    \toprule
+    Störstellen & $\symup{s}_{\symup{Unten}}/\unit{\centi\meter}$ & $\symup{t}_{\symup{Oben}}/\unit{\centi\meter}$ & $\symup{d}/\unit{\centi\meter}$ \\
+    \midrule
+     1 & 1 & 1 & 1 \\
+     2 & 1 & 1 & 1 \\
+     3 & 1 & 1 & 1 \\
+     4 & 1 & 1 & 1 \\
+     5 & 1 & 1 & 1 \\
+     6 & 1 & 1 & 1 \\
+     7 & 1 & 1 & 1 \\
+     8 & 1 & 1 & 1 \\
+     9 & 1 & 1 & 1 \\
+    10 & 1 & 1 & 1 \\
+    11 & 1 & 1 & 1 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Abstände zu den Störstellen und Dicke der Störstellen.}
+  \label{tab:Abstand}
+\end{table}
