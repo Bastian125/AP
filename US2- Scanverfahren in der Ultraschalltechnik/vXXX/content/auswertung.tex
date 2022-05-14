@@ -111,21 +111,64 @@ die Dicken der Störstellen bestimmen. Die Abstände und Dicken der Störstellen
   \centering
   \begin{tabular}{c c c c}
     \toprule
-    Störstellen & $\symup{s}_{\symup{Unten}}/\unit{\centi\meter}$ & $\symup{t}_{\symup{Oben}}/\unit{\centi\meter}$ & $\symup{d}/\unit{\milli\meter}$ \\
+    Störstellen & $\symup{s}_{\symup{Unten}}/\unit{\centi\meter}$ & $\symup{t}_{\symup{Oben}}/\unit{\centi\meter}$ & $\symup{d}/\unit{\centi\meter}$ \\
     \midrule
-     1 & 1,706 & 6,443 &  1,24 \\
-     2 & 1,870 & 5,869 &  2,85 \\
-     3 & 6,593 & 1,256 &  1,76 \\
-     4 & 5,310 & 2,129 &  5,86 \\
-     5 & 4,545 & 2,962 &  5,18 \\
-     6 & 3,795 & 3,808 &  4,22 \\
-     7 & 3,071 & 4,614 &  3,40 \\
-     8 & 2,266 & 5,392 &  3,67 \\
-     9 & 1,420 & 6,183 &  4,22 \\
-    10 & 0,628 & 7,016 &  3,81 \\
-    11 & 5,460 & 1,501 & 10,64 \\
+     1 & 1,706 & 6,443 & 0,124 \\
+     2 & 1,870 & 5,869 & 0,285 \\
+     3 & 6,593 & 1,256 & 0,176 \\
+     4 & 5,310 & 2,129 & 0,586 \\
+     5 & 4,545 & 2,962 & 0,518 \\
+     6 & 3,795 & 3,808 & 0,422 \\
+     7 & 3,071 & 4,614 & 0,340 \\
+     8 & 2,266 & 5,392 & 0,367 \\
+     9 & 1,420 & 6,183 & 0,422 \\
+    10 & 0,628 & 7,016 & 0,381 \\
+    11 & 5,460 & 1,501 & 1,064 \\
     \bottomrule
   \end{tabular}
   \caption{Abstände zu den Störstellen und Dicke der Störstellen.}
   \label{tab:Abstand}
 \end{table}
+
+\subsection{Auflösungsvermögen}
+\label{sec:Aufloesungvermoegen}
+Das Auflösungsvermogen wurden an den Störstellen 1 und 2 mit einer $1\,\unit{\mega\hertz}$- und einer
+$2\,\unit{\mega\hertz}$-Sonde überprüft. Die Ergebnisse sind in \autoref{fig:aufloesung1}  und in
+\autoref{fig:aufloesung2} zu sehen.
+\begin{figure}
+    \centering
+    \includegraphics{messwerte/UntersuchungAufloesungsvermoegen/1MhzNo1.jpg}
+    \caption{A-Scan der Störstellen mit einer $1\,\unit{\mega\hertz}$-Sonde.}
+    \label{fig:aufloesung1}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{messwerte/UntersuchungAufloesungsvermoegen/2MhzNo1.jpg}
+  \caption{A-Scan der Störstellen mit einer $2\,\unit{\mega\hertz}$-Sonde.}
+  \label{fig:aufloesung2}
+\end{figure}
+Insgesamt fällt auf, dass die $2\,\unit{\mega\hertz}$-Sonde ein höheres Auflösungsvermögen
+als die $1\,\unit{\mega\hertz}$-Sonde hat, im Gegenzug dazu aber die Ampltude schneller abfällt.
+
+\subsection{B-Scan eines Acrylblocks}
+Die B-Scans der Acrylblocks mit einer $2\,\unit{\mega\hertz}$-Sonde sind in \autoref{fig:Acryl1} und
+\autoref{fig:Acryl2} abgebildet.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{messwerte/BScanAcrylBlock/2Mhz.jpg}
+  \caption{B-Scan des Acrylblocks.}
+  \label{fig:Acryl1}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{messwerte/BScanAcrylBlock/umgedreht.jpg}
+  \caption{B-Scan des Acrylblocks anders herum gemessen.}
+  \label{fig:Acryl2}
+\end{figure}
+Insgesamt konnte durch den B-Scan ein gutes Bild des Acrylblocks erfasst werden. Dennoch sind Störstellen
+zu erkennen an Stellen wo keine im Acrylblock sind. Diese treten zwischen nah beieinander liegenden Störstellen
+auf, so dass das Bild an manchen Stellen verschmiert ist.
+
+\subsection{B-Scan eines Brustmodels}
