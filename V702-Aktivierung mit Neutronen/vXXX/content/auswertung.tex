@@ -180,6 +180,18 @@ für die lineare Regression ergeben sich aus
   N_{\symup{kurz}}(t) &= N_{\symup{Ges}}(t) - N_{\symup{lang}}(t) \\
                       &= N_{\symup{Ges}}(t) - e^{-mt + b}
 \end{align*}
+Aus der Gaußschen Fehlerforpflanzung ergibt sich
+\begin{align*}
+  \Delta N_{\symup{kurz}}(t) &= \sqrt{
+    \left(\frac{\partial N_{\symup{kurz}}}{\partial N_{\symup{Ges}}}\right)^2 (\Delta N_{\symup{Ges}})^2 +
+    \left(\frac{\partial N_{\symup{kurz}}}{\partial m}\right)^2 (\Delta m)^2 + 
+    \left(\frac{\partial N_{\symup{kurz}}}{\partial b}\right)^2 (\Delta b)^2} \\
+  \Delta N_{\symup{kurz}}(t) &= \sqrt{
+    (\Delta N_{\symup{Ges}})^2 +
+    \left(te^{-mt+b}\right)^2 (\Delta m)^2 +
+    \left(e^{-mt+b}\right)^2 (\Delta b)^2
+  }\,. \\
+\end{align*}
 Für die lineare Regression ergeben sich die Werte
 \begin{align*}
   \lambda_{\symup{\ce{^110 Ag}}}  &= (89,67 \pm 18,04)\cdot 10^{-3}\,\frac{1}{\unit{\second}} \\
@@ -192,5 +204,5 @@ Daraus ergibt sich eine Halbwertszeit von
 \end{align*}
 Der Fehler bestimmt sich durch die Gaußsche Fehlerforpflanzung durch
 \begin{equation*}
-  \Delta T = \frac{\sqrt{ln(2)}}{\lambda} \cdot \Delta \lambda\,. 
+  \Delta T = \frac{ln(2)}{\lambda^2} \cdot \Delta \lambda. 
 \end{equation*}
