@@ -16,5 +16,66 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{lit}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ba89aa54295b6d4b0338b92cf176169a}{%
+           family={chemie.de},
+           familyi={c\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{fullhash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{bibnamehash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{authorbibnamehash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{authornamehash}{ba89aa54295b6d4b0338b92cf176169a}
+      \strng{authorfullhash}{ba89aa54295b6d4b0338b92cf176169a}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Literaturwerte Anregungsenergie und Wellenlänge}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.chemie.de/lexikon/Franck-Hertz-Versuch.html
+      \endverb
+      \verb{url}
+      \verb https://www.chemie.de/lexikon/Franck-Hertz-Versuch.html
+      \endverb
+    \endentry
+    \entry{python}{online}{}
+      \name{author}{1}{}{%
+        {{hash=57c2e62fd755a0b42d984851fae51373}{%
+           family={pythonhosted.org},
+           familyi={p\bibinitperiod}}}%
+      }
+      \strng{namehash}{57c2e62fd755a0b42d984851fae51373}
+      \strng{fullhash}{57c2e62fd755a0b42d984851fae51373}
+      \strng{bibnamehash}{57c2e62fd755a0b42d984851fae51373}
+      \strng{authorbibnamehash}{57c2e62fd755a0b42d984851fae51373}
+      \strng{authornamehash}{57c2e62fd755a0b42d984851fae51373}
+      \strng{authorfullhash}{57c2e62fd755a0b42d984851fae51373}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Uncertainties package}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pythonhosted.org/uncertainties/
+      \endverb
+      \verb{url}
+      \verb https://pythonhosted.org/uncertainties/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
