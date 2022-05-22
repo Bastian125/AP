@@ -19,7 +19,7 @@ Für die Energiedifferenz gilt dann
 \end{equation}
 Die Energien lassen sich mit der Gegenfeldmethode bestimmen.
 
-\section{Aufbau und Ablauf}
+\subsection{Aufbau und Ablauf}
 \label{sec:AufbauAblauf}
 In einem evakuierten Gefäß ist ein Tropfen Quecksilber, der nach der Dampfdruckkurve verdampft. Dadurch
 hängt der Gleichgewichtsdampfdruck $p_{\symup{sät}}$ von der Temperatur $T$ ab. Im Gefäß wird ein Draht aus einem
@@ -89,9 +89,46 @@ in bei der Theoriekurve berücksichtigt werden müssen.
 
 \subsubsection{Kontaktpotential}
 \label{Kontaktpotential}
-Das Beschleunigungspotential ziwschen Glühdraht und Beschleunigungselektrode ist aufgrund der unterschiedlichen
+Das Beschleunigungspotential zwischen Glühdraht und Beschleunigungselektrode ist aufgrund der unterschiedlichen
 verwendeten Materialien und deren Austrittsarbeiten verschieden.
 \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{Bilder/Kontaktpotential.png}
 \end{figure}
+Die effektive Beschleunigungsspannung kann dann aus dem Potentialgefälle zu
+\begin{equation}
+    \label{eqn:Ueff}
+    U_{\symup{eff}} = U_{\symup{B}} - \frac{1}{\symup{e}_{\symup{0}}}\left(\Phi_{\symup{B}}-\Phi_{\symup{G}}\right)
+\end{equation}
+bestimmt werden. Wobei $K$ als Kontaktpotential definiert durch
+\begin{equation}
+    \label{eqn:Kontaktpotential}
+    K = \frac{1}{\symup{e}_{\symup{0}}}\left(\Phi_{\symup{B}}-\Phi_{\symup{G}}\right)
+\end{equation}
+definiert wird.
+
+\subsection{Einfluss durch die Energieverteilung der Elektronen}
+\label{sec:Energieverteilung}
+Die durch den glühelektrischen Effekt losgelösten Elektronen haben unterschiedliche Anfangsgeschwindigkeiten,
+die der Fermi-Dirac-Statistik gehorchen, so dass dadurch die Kurve so bald sie sich einem Maximum annähert,
+immer geringer steigt. Weiterhin sorgt dieser Effekt dafür, dass anstatt eines abrupten Abfalls auf 0 Minima
+in der Frank-Hertz Kurve zu beobachten sind.
+
+\subsection{Dampfdruckkurve}
+\label{sec:Dampfdruckkurve}
+Damit die für das Experiment benötigten Zusammenstöße vorkommen, muss die freie Weglänge $\bar{w}$ für
+eine hohe Trefferwahrscheinlichkeit kleiner als der Abstand $a$ zwischen der Kathode und der Beschleunigungskathode
+sein. Nach der kinetischen Gastheorie bestimmt sich $\bar{w}$ in Abhängigkeit des Sättigungsdampfdrucks
+$p_{\symup{sät}}$ zu
+\begin{equation}
+    \label{eqn:w}
+    \bar{w} = \frac{0,0029}{p_{\symup{saet}}}.
+\end{equation}
+Dabei wird $\bar{w}$ in $\unit{\centi\meter}$ und $p_{\symup{saet}}$ in $\unit{\milli\bar}$ angegeben.
+Der Sättigungsdampfdruck ergbit sich aus der Dampfdruckkurve durch
+\begin{equation}
+    \label{eqn:Dampfdruck}
+    p_{\symup{saet}}(T) = 5,5\cdot e^{\frac{-6876}{T}}.
+\end{equation}
+Dabei ist $p$ wieder in $\unit{\milli\bar}$ und $T$ in $\unit{\kelvin}$ angegeben. Insgesamt muss $\bar{w}$
+$1000$ bis $4000$ mal kleiner als $a$ sein, damit die Apparatur otpimal arbeitet.
