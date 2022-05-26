@@ -35,7 +35,7 @@ plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
 plt.savefig('build/plot.pdf')
 plt.close()
 
-# Abstände und Dicken der Störstellen
+# Abstände und Dicken der Störstellen A-Scan
 t_unten = np.array([14.1, 15.3, 49.9, 40.5, 34.9, 29.4, 24.1, 18.2, 12.0, 6.2, 41.6])
 t_u = (t_unten - 1.6)*10**(-6)
 t_oben = np.array([48.8, 44.6, 10.8, 17.2, 23.3, 29.5, 35.4, 41.1, 46.9, 53.0, 12.6])
@@ -50,4 +50,19 @@ d = h- s_u - s_o
 print('Abstand zur Stoerstelle unten: ', np.round(s_u*10**2, 3))
 print('Abstand zur Stoerstelle oben: ', np.round(s_o*10**2, 3))
 print('Dicke: ', np.round(d*10**3, 2))
-print('lul')
+
+# Abstände und Dicken der Störstellen B-Scan
+t_unten = np.array([12, 14, 45, 40, 32, 25, 20, 16, 12, 5, 40])
+t_u = (t_unten - 1.6)*10**(-6)
+t_oben = np.array([42, 43, 8, 16, 20, 27, 38, 40, 42, 55, 7])
+t_o = (t_oben - 1.6)*10**(-6)
+c_Acryl = 2730
+h = 8.025e-2
+
+s_u = 0.5 * c_Acryl * t_u
+s_o = 0.5 * c_Acryl * t_o
+d = h- s_u - s_o
+
+print('Abstand zur Stoerstelle unten: ', np.round(s_u*10**2, 1))
+print('Abstand zur Stoerstelle oben: ', np.round(s_o*10**2, 1))
+print('Dicke: ', np.round(d*10**3, 1))

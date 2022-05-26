@@ -3,7 +3,7 @@
 Die Schallgeschwindigkeiten in Wasser und Acryl sind durch
 \begin{align*}
   c_{\symup{Acryl}} &= 2730\,\unit{\meter\per\second}\\
-  c_{\symup{Luft}}  &= 1480\,\unit{\meter\per\second}
+  c_{\symup{Wasser}}  &= 1480\,\unit{\meter\per\second}
 \end{align*}
 gegeben \cite{schallgeschwindigkeit}.
 
@@ -61,7 +61,7 @@ Die Laufzeiten $\symup{t}_{\symup{A}}$, die mit dem A-Scan bestimmt worden sind,
   \label{tab:Laufzeiten}
 \end{table}
 In \autoref{fig:Laufzeiten} werden die Laufzeiten gegen die Höhe des Acrylblocks abzüglich der Abstände zu den
-Störstellen aufgetragen. \autoref{eqn:Strecke} lässt sich zu einer linearen Regressionsformel umformen bei der
+Störstellen aufgetragen. \autoref{eqn:Strecke} lässt sich zu einer linearen Regressionsformel umformen. Bei der
 die Anpassungsschichtdicke $d$ als Ordinate bestimmt wird.
 \begin{equation*}
   2h = c\cdot t + d
@@ -75,7 +75,8 @@ Aus der linearen Regression ergeben sich die Werte
 \begin{figure}
   \centering
   \includegraphics{plot.pdf}
-  \caption{Plot.}
+  \caption{Laufzeiten in Abhängigkeit der Höhe des Acrylblocks abzüglich der Abstände zu den Störstellen und
+  lineare Regression.}
   \label{fig:Laufzeiten}
 \end{figure}
 
@@ -86,7 +87,7 @@ Die Laufzeiten bis zu den Störstellen sind in \autoref{tab:Laufzeit_oben_unten}
   \centering
   \begin{tabular}{c c c }
     \toprule
-    Störstelle & $\symup{t}_{\symup{Unten}}/\unit{\micro\second}$ & $\symup{s}_{\symup{Oben}}/\unit{\micro\second}$\\
+    Störstelle & $\symup{t}_{\symup{Unten}}/\unit{\micro\second}$ & $\symup{t}_{\symup{Oben}}/\unit{\micro\second}$\\
     \midrule
      1 & 14,1 & 48,8 \\
      2 & 15,3 & 44,6 \\
@@ -111,7 +112,7 @@ die Dicken der Störstellen bestimmen. Die Abstände und Dicken der Störstellen
   \centering
   \begin{tabular}{c c c c}
     \toprule
-    Störstellen & $\symup{s}_{\symup{Unten}}/\unit{\centi\meter}$ & $\symup{t}_{\symup{Oben}}/\unit{\centi\meter}$ & $\symup{d}/\unit{\centi\meter}$ \\
+    Störstellen & $\symup{s}_{\symup{Unten}}/\unit{\centi\meter}$ & $\symup{s}_{\symup{Oben}}/\unit{\centi\meter}$ & $\symup{d}/\unit{\centi\meter}$ \\
     \midrule
      1 & 1,706 & 6,443 & 0,124 \\
      2 & 1,870 & 5,869 & 0,285 \\
@@ -132,7 +133,7 @@ die Dicken der Störstellen bestimmen. Die Abstände und Dicken der Störstellen
 
 \subsection{Auflösungsvermögen}
 \label{sec:Aufloesungvermoegen}
-Das Auflösungsvermogen wurden an den Störstellen 1 und 2 mit einer $1\,\unit{\mega\hertz}$- und einer
+Das Auflösungsvermögen wurden an den Störstellen 1 und 2 mit einer $1\,\unit{\mega\hertz}$- und einer
 $2\,\unit{\mega\hertz}$-Sonde überprüft. Die Ergebnisse sind in \autoref{fig:aufloesung1}  und in
 \autoref{fig:aufloesung2} zu sehen.
 \begin{figure}
@@ -149,7 +150,8 @@ $2\,\unit{\mega\hertz}$-Sonde überprüft. Die Ergebnisse sind in \autoref{fig:a
   \label{fig:aufloesung2}
 \end{figure}
 Insgesamt fällt auf, dass die $2\,\unit{\mega\hertz}$-Sonde ein höheres Auflösungsvermögen
-als die $1\,\unit{\mega\hertz}$-Sonde hat, im Gegenzug dazu aber die Ampltude schneller abfällt.
+als die $1\,\unit{\mega\hertz}$-Sonde hat. Im Gegensatz dazu fällt die Amplitude der $2\,\unit{\mega\hertz}$
+Messung schneller ab.
 
 \subsection{B-Scan eines Acrylblocks}
 Die B-Scans der Acrylblocks mit einer $2\,\unit{\mega\hertz}$-Sonde sind in \autoref{fig:Acryl1} und
@@ -167,8 +169,31 @@ Die B-Scans der Acrylblocks mit einer $2\,\unit{\mega\hertz}$-Sonde sind in \aut
   \caption{B-Scan des Acrylblocks anders herum gemessen.}
   \label{fig:Acryl2}
 \end{figure}
-Insgesamt konnte durch den B-Scan ein gutes Bild des Acrylblocks erfasst werden. Dennoch sind einige Störstellen
-verschmiert dargestellt. Dieser Effekt ist besonders stark, wo die Störstellen nah beinander sind.
+Die Laufzeiten der Störstellen lassen sich aus den B-Scans bestimmen. Mit Hilfe von \autoref{eqn:Strecke} lassen
+sich die Störstellen und anschließend die Dicken bestimmen. Die ermittelten Werte sind in \autoref{tab:BScanDicke}
+dargestellt.
+\begin{table}
+  \centering
+  \begin{tabular}{c c c c c c}
+    \toprule
+    Störstellen & $t_{\symup{unten}}/\unit{\micro\second}$ & $t_{\symup{oben}}/\unit{\micro\second}$ & $s_{\symup{unten}}/\unit{\centi\meter}$ & $s_{\symup{oben}}/\unit{\centi\meter}$ & $d/\unit{\centi\meter}$ \\
+    \midrule
+     1 & 12 & 42 & 1,4 & 5,5 & 0,109 \\
+     2 & 14 & 43 & 1,7 & 5,7 & 0,068 \\
+     3 & 45 &  8 & 5,9 & 0,9 & 0,123 \\
+     4 & 40 & 16 & 5,2 & 2,0 & 0,082 \\
+     5 & 32 & 20 & 4,1 & 2,5 & 0,136 \\
+     6 & 25 & 27 & 3,2 & 3,5 & 0,136 \\
+     7 & 20 & 38 & 2,5 & 5,0 & 0,054 \\
+     8 & 16 & 40 & 2,0 & 5,2 & 0,082 \\
+     9 & 12 & 42 & 1,4 & 5,5 & 0,109 \\
+    10 &  5 & 55 & 0,5 & 7,3 & 0,027 \\
+    11 & 40 &  7 & 5,2 & 0,7 & 0,205 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Laufzeiten, Abstände und Dicken der Störstellen mit dem B-Scan ermittelt.}
+  \label{tab:BScanDicke}
+\end{table}
 
 \subsection{B-Scan eines Brustmodels}
 Durch Ertasten lassen sich zwei Tumore feststellen. Ein kleiner direkt über der Brustwarze und ein größerer rechts
