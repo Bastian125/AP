@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  29 MAY 2022 20:09
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  29 MAY 2022 20:22
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1550,35 +1550,40 @@ File: bragg.pdf Graphic file (type pdf)
 <use bragg.pdf>
 Package luatex.def Info: bragg.pdf  used on input line 47.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<cu.pdf, id=96, 417.7206pt x 258.0049pt>
+
+
+LaTeX Warning: Float too large for page by 214.60947pt on input line 122.
+
+[7]
+<cu.pdf, id=103, 417.7206pt x 258.0049pt>
 File: cu.pdf Graphic file (type pdf)
 <use cu.pdf>
-Package luatex.def Info: cu.pdf  used on input line 57.
+Package luatex.def Info: cu.pdf  used on input line 126.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
- [7]) (./content/diskussion.tex [8<build/bragg.pdf>]) [9<build/cu.pdf>] (./build/vXXX.aux)
+) (./content/diskussion.tex [8<build/bragg.pdf>] [9]) [10<build/cu.pdf>] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: 503BFFEAF60561E8AE877513BA0B1C8A;12472.
+(rerunfilecheck)             Checksum: 9E179F054094483A7B8BE260FA29C70E;12691.
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: F5D093073671A84E6D74A88A5E4C39D6;2085.
+(rerunfilecheck)             Checksum: FBB9EF3D969D621E30A6021634976219;2088.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37688 strings out of 477893
+ 37690 strings out of 477893
  100000,1977958 words of node,token memory allocated
  758 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 28 attribute, 78 glue_spec, 16 attribute_list, 1 write nodes
-   avail lists: 1:1,2:1114,3:236,4:109,5:387,6:50,7:6468,8:37,9:480,10:10,11:763,12:1
+   avail lists: 1:1,2:2503,3:236,4:109,5:387,6:50,7:6468,8:37,9:893,10:10,11:763,12:1
  57116 multiletter control sequences out of 65536+600000
  94 fonts using 34926255 bytes
  113i,10n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (9 pages, 291679 bytes).
+Output written on vXXX.pdf (10 pages, 293921 bytes).
 
-PDF statistics: 275 PDF objects out of 1000 (max. 8388607)
- 208 compressed objects within 3 object streams
- 38 named destinations out of 1000 (max. 131072)
+PDF statistics: 280 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 131072)
  129 words of extra memory for PDF output out of 10000 (max. 100000000)
 

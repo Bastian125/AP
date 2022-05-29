@@ -1,6 +1,5 @@
 # Kristallwinkel	Rate bei 35kV
 # theta/�	R(35kV)/Imp/s
-
 4.0	40.0
 4.2	42.0
 4.4	38.0
