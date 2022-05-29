@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  29 MAY 2022 20:22
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  29 MAY 2022 21:15
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1310,7 +1310,27 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count454
 )) (/home/bastian/.local/texlive/2021/texmf-dist/tex/latex/ncctools/extdash.sty
 Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
-))
+) (/home/bastian/.local/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip108
+\LTright=\skip109
+\LTpre=\skip110
+\LTpost=\skip111
+\LTchunksize=\count455
+\LTcapwidth=\dimen264
+\LT@head=\box70
+\LT@firsthead=\box71
+\LT@foot=\box72
+\LT@lastfoot=\box73
+\LT@gbox=\box74
+\LT@cols=\count456
+\LT@rows=\count457
+\c@LT@tables=\count458
+\c@LT@chunks=\count459
+\LT@p@ftn=\toks28
+)
+Class scrartcl Info: longtable captions redefined on input line 131.
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./build/vXXX.aux)
@@ -1374,17 +1394,17 @@ Package chemgreek Info: Activating mapping `fontspec' on line 11.
 
  (/home/bastian/.local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count455
-\scratchdimen=\dimen264
-\scratchbox=\box70
-\nofMPsegments=\count456
-\nofMParguments=\count457
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count458
-\MPscratchDim=\dimen265
-\MPnumerator=\count459
-\makeMPintoPDFobject=\count460
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count460
+\scratchdimen=\dimen265
+\scratchbox=\box75
+\nofMPsegments=\count461
+\nofMParguments=\count462
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count463
+\MPscratchDim=\dimen266
+\MPnumerator=\count464
+\makeMPintoPDFobject=\count465
+\everyMPtoPDFconversion=\toks30
 ) (/home/bastian/.local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1393,6 +1413,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (/home/bastian/.local/texlive/2021/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
 LaTeX Info: Redefining \microtypecontext on input line 11.
 Package microtype Info: Applying patch `item' on input line 11.
@@ -1453,7 +1477,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/home/bastian/.local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count461
+\c@section@level=\count466
 )
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
@@ -1550,40 +1574,36 @@ File: bragg.pdf Graphic file (type pdf)
 <use bragg.pdf>
 Package luatex.def Info: bragg.pdf  used on input line 47.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-
-
-LaTeX Warning: Float too large for page by 214.60947pt on input line 122.
-
-[7]
-<cu.pdf, id=103, 417.7206pt x 258.0049pt>
+ [7]
+<cu.pdf, id=104, 417.7206pt x 258.0049pt>
 File: cu.pdf Graphic file (type pdf)
 <use cu.pdf>
-Package luatex.def Info: cu.pdf  used on input line 126.
+Package luatex.def Info: cu.pdf  used on input line 144.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-) (./content/diskussion.tex [8<build/bragg.pdf>] [9]) [10<build/cu.pdf>] (./build/vXXX.aux)
+) (./content/diskussion.tex [8<build/bragg.pdf>] [9] [10]) [11<build/cu.pdf>] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: 9E179F054094483A7B8BE260FA29C70E;12691.
+(rerunfilecheck)             Checksum: C995334C21064A493A9419BD22811798;12991.
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: FBB9EF3D969D621E30A6021634976219;2088.
+(rerunfilecheck)             Checksum: 8663FE8D8864486341D6A54FAAC66FB9;2089.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37690 strings out of 477893
+ 37851 strings out of 477893
  100000,1977958 words of node,token memory allocated
- 758 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 28 attribute, 78 glue_spec, 16 attribute_list, 1 write nodes
-   avail lists: 1:1,2:2503,3:236,4:109,5:387,6:50,7:6468,8:37,9:893,10:10,11:763,12:1
- 57116 multiletter control sequences out of 65536+600000
- 94 fonts using 34926255 bytes
+ 778 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 28 attribute, 82 glue_spec, 16 attribute_list, 1 write nodes
+   avail lists: 1:1,2:2554,3:236,4:109,5:387,6:50,7:6596,8:37,9:1073,10:10,11:763,12:1
+ 57257 multiletter control sequences out of 65536+600000
+ 94 fonts using 34926111 bytes
  113i,10n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (10 pages, 293921 bytes).
+Output written on vXXX.pdf (11 pages, 296906 bytes).
 
-PDF statistics: 280 PDF objects out of 1000 (max. 8388607)
- 212 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 131072)
+PDF statistics: 290 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 131072)
  129 words of extra memory for PDF output out of 10000 (max. 100000000)
 
