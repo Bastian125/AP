@@ -1,5 +1,31 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from uncertainties import ufloat
+
+# Rechnung
+d = 201.4e-12
+h = 6.626e-34
+c = 2.998e8
+e = 1.602e-19
+
+def l(theta):
+    return 2*d*np.sin(0.5*theta)
+
+def E(theta):
+    return (h*c)/(l(theta)*e)
+
+
+# Ausgabe
+print('Abweichung Bragg: ', (28.0/27.6 -1)*100)
+print('lambda_alpha: ', l(22.4))
+print('lambda_beta: ', l(20.2))
+print('lambda_alpha_fwhm: ', l(0.5))
+print('lambda_alpha_fwhm: ', l(0.45))
+print('Ea: ', E(22.2))
+print('Eb: ', E(20.2))
+print('Efwhma: ', E(0.5))
+print('Efwhmb: ', E(0.45))
+
 
 # Bragg-Bedingung
 a, I = np.genfromtxt('Messwerte/Bragg/Bragg.txt', unpack=True)
@@ -17,9 +43,6 @@ plt.grid()
 plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
 plt.savefig('build/bragg.pdf')
 plt.close()
-
-# Ausgabe
-print('Abweichung Bragg: ', (28.0/27.6 -1)*100)#
 
 # Emissionspektrum Cu-Röhre
 a, I = np.genfromtxt('Messwerte/Emissionsspektrum/1.txt', unpack=True)

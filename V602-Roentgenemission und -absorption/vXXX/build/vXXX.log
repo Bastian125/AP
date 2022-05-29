@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  29 MAY 2022 21:15
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  29 MAY 2022 22:15
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1542,13 +1542,8 @@ File: Bilder/Absorption.png Graphic file (type png)
 <use Bilder/Absorption.png>
 Package luatex.def Info: Bilder/Absorption.png  used on input line 86.
 (luatex.def)             Requested size: 125.47794pt x 162.18823pt.
-) (./content/durchfuehrung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 101--1
-
- []
-
-[4] [5<./Bilder/Absorption.png>]
-<Bilder/Röntgengerät.png, id=83, 886.31125pt x 479.7925pt>
+) (./content/durchfuehrung.tex [4]
+<Bilder/Röntgengerät.png, id=75, 886.31125pt x 479.7925pt>
 File: Bilder/Röntgengerät.png Graphic file (type png)
 <use Bilder/Röntgengerät.png>
 Package luatex.def Info: Bilder/Röntgengerät.png  used on input line 11.
@@ -1563,47 +1558,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--33
 
  []
 
-
+[5<./Bilder/Absorption.png><./Bilder/Röntgengerät.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 36--42
 
  []
 
-) (./content/auswertung.tex [6<./Bilder/Röntgengerät.png>]
-<bragg.pdf, id=95, 417.7206pt x 258.0049pt>
+) (./content/auswertung.tex
+<bragg.pdf, id=90, 417.7206pt x 258.0049pt>
 File: bragg.pdf Graphic file (type pdf)
 <use bragg.pdf>
 Package luatex.def Info: bragg.pdf  used on input line 47.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
- [7]
-<cu.pdf, id=104, 417.7206pt x 258.0049pt>
+<cu.pdf, id=93, 417.7206pt x 258.0049pt>
 File: cu.pdf Graphic file (type pdf)
 <use cu.pdf>
-Package luatex.def Info: cu.pdf  used on input line 144.
+Package luatex.def Info: cu.pdf  used on input line 145.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-) (./content/diskussion.tex [8<build/bragg.pdf>] [9] [10]) [11<build/cu.pdf>] (./build/vXXX.aux)
+ [6] [7] [8<build/bragg.pdf><build/cu.pdf>] [9] [10]) (./content/diskussion.tex) [11] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: C995334C21064A493A9419BD22811798;12991.
+(rerunfilecheck)             Checksum: 84466D226807E9B166CB6205B799DE65;13164.
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: 8663FE8D8864486341D6A54FAAC66FB9;2089.
+(rerunfilecheck)             Checksum: C043D28F684BAC54672176BB3680C28B;2089.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37851 strings out of 477893
+ 37853 strings out of 477893
  100000,1977958 words of node,token memory allocated
- 778 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 28 attribute, 82 glue_spec, 16 attribute_list, 1 write nodes
-   avail lists: 1:1,2:2554,3:236,4:109,5:387,6:50,7:6596,8:37,9:1073,10:10,11:763,12:1
- 57257 multiletter control sequences out of 65536+600000
+ 758 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 27 attribute, 83 glue_spec, 15 attribute_list, 1 write nodes
+   avail lists: 1:1,2:3729,3:291,4:111,5:387,6:50,7:9782,8:39,9:1097,10:10,11:763,12:1
+ 57259 multiletter control sequences out of 65536+600000
  94 fonts using 34926111 bytes
  113i,10n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (11 pages, 296906 bytes).
+Output written on vXXX.pdf (11 pages, 300383 bytes).
 
-PDF statistics: 290 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
+PDF statistics: 291 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
  42 named destinations out of 1000 (max. 131072)
  129 words of extra memory for PDF output out of 10000 (max. 100000000)
 
