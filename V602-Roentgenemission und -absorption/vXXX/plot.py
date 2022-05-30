@@ -14,17 +14,19 @@ def l(theta):
 def E(theta):
     return (h*c)/(l(theta)*e)
 
+Ea = E(22.2)
+Eb = E(20.2)
+Efwhma = E(20.45)-E(19.9)
+Efwhmb = E(22.75)-E(22.2)
 
 # Ausgabe
 print('Abweichung Bragg: ', (28.0/27.6 -1)*100)
-print('lambda_alpha: ', l(22.4))
-print('lambda_beta: ', l(20.2))
-print('lambda_alpha_fwhm: ', l(0.5))
-print('lambda_alpha_fwhm: ', l(0.45))
-print('Ea: ', E(22.2))
-print('Eb: ', E(20.2))
-print('Efwhma: ', E(0.5))
-print('Efwhmb: ', E(0.45))
+print('Ea: ', Ea)
+print('Eb: ', Eb)
+print('Efwhma: ', Efwhma)
+print('Efwhmb: ', Efwhmb)
+print('Aa: ', Ea/Efwhma)
+print('Ab: ', Eb/Efwhmb)
 
 
 # Bragg-Bedingung
