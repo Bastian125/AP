@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  30 MAY 2022 17:45
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  30 MAY 2022 19:51
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1537,13 +1537,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--63
  []
 
 [3]
-<Bilder/Absorption.png, id=66, 312.16624pt x 403.5075pt>
+<Bilder/Absorption.png, id=68, 312.16624pt x 403.5075pt>
 File: Bilder/Absorption.png Graphic file (type png)
 <use Bilder/Absorption.png>
 Package luatex.def Info: Bilder/Absorption.png  used on input line 95.
 (luatex.def)             Requested size: 125.47794pt x 162.18823pt.
  [4]) (./content/durchfuehrung.tex
-<Bilder/Röntgengerät.png, id=81, 886.31125pt x 479.7925pt>
+<Bilder/Röntgengerät.png, id=83, 886.31125pt x 479.7925pt>
 File: Bilder/Röntgengerät.png Graphic file (type png)
 <use Bilder/Röntgengerät.png>
 Package luatex.def Info: Bilder/Röntgengerät.png  used on input line 11.
@@ -1564,78 +1564,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--42
  []
 
 ) (./content/auswertung.tex [6<./Bilder/Röntgengerät.png>]
-<bragg.pdf, id=102, 417.7206pt x 258.0049pt>
+<bragg.pdf, id=105, 417.7206pt x 258.0049pt>
 File: bragg.pdf Graphic file (type pdf)
 <use bragg.pdf>
-Package luatex.def Info: bragg.pdf  used on input line 47.
+Package luatex.def Info: bragg.pdf  used on input line 76.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<cu.pdf, id=105, 417.7206pt x 258.0049pt>
+<cu.pdf, id=108, 417.7206pt x 258.0049pt>
 File: cu.pdf Graphic file (type pdf)
 <use cu.pdf>
-Package luatex.def Info: cu.pdf  used on input line 145.
+Package luatex.def Info: cu.pdf  used on input line 174.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
- [7] [8<build/bragg.pdf><build/cu.pdf>] [9] [10]
-
-LaTeX Warning: Reference `fig:bromGallium' on page 11 undefined on input line 193.
-
-<build/brom.pdf, id=187, 417.7206pt x 258.0049pt>
+ [7] [8] [9<build/bragg.pdf><build/cu.pdf>] [10] [11]
+<build/brom.pdf, id=199, 417.7206pt x 258.0049pt>
 File: build/brom.pdf Graphic file (type pdf)
 <use build/brom.pdf>
-Package luatex.def Info: build/brom.pdf  used on input line 231.
+Package luatex.def Info: build/brom.pdf  used on input line 328.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<build/gallium.pdf, id=188, 417.7206pt x 258.0049pt>
+<build/gallium.pdf, id=200, 417.7206pt x 258.0049pt>
 File: build/gallium.pdf Graphic file (type pdf)
 <use build/gallium.pdf>
-Package luatex.def Info: build/gallium.pdf  used on input line 238.
+Package luatex.def Info: build/gallium.pdf  used on input line 335.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<build/strontium.pdf, id=189, 417.7206pt x 258.0049pt>
+<build/strontium.pdf, id=201, 417.7206pt x 258.0049pt>
 File: build/strontium.pdf Graphic file (type pdf)
 <use build/strontium.pdf>
-Package luatex.def Info: build/strontium.pdf  used on input line 245.
+Package luatex.def Info: build/strontium.pdf  used on input line 342.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<build/zink.pdf, id=190, 417.7206pt x 258.0049pt>
+<build/zink.pdf, id=202, 417.7206pt x 258.0049pt>
 File: build/zink.pdf Graphic file (type pdf)
 <use build/zink.pdf>
-Package luatex.def Info: build/zink.pdf  used on input line 252.
+Package luatex.def Info: build/zink.pdf  used on input line 349.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<build/zinkonium.pdf, id=191, 417.7206pt x 258.0049pt>
+<build/zinkonium.pdf, id=203, 417.7206pt x 258.0049pt>
 File: build/zinkonium.pdf Graphic file (type pdf)
 <use build/zinkonium.pdf>
-Package luatex.def Info: build/zinkonium.pdf  used on input line 259.
+Package luatex.def Info: build/zinkonium.pdf  used on input line 356.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-) (./content/diskussion.tex [11] [12] [13<./build/brom.pdf><./build/gallium.pdf>] [14<./build/strontium.pdf><./build/zink.pdf>])
+) (./content/diskussion.tex [12] [13] [14] [15] [16<./build/brom.pdf><./build/gallium.pdf>] [17<./build/strontium.pdf><./build/zink.pdf>])
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [15<./build/zinkonium.pdf>] (./build/vXXX.aux)
+ [18<./build/zinkonium.pdf>] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: F3AA5C85044D6B56BB3B823AFC517697;15882.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 2AD72B6FD51D577719FC4EF4D5FAC0DD;17364.
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: 64353B5E215FD79B345B95ED845B6BB9;2212.
+(rerunfilecheck)             Checksum: D18042C847B9A4EE5CC10DFA37B202FA;2333.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37963 strings out of 477893
- 100000,1977958 words of node,token memory allocated
+ 37974 strings out of 477893
+ 125007,1977958 words of node,token memory allocated
  782 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 31 attribute, 83 glue_spec, 17 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:3393,3:251,4:113,5:389,6:53,7:8331,8:137,9:1125,10:10,11:763,12:1
- 57320 multiletter control sequences out of 65536+600000
- 96 fonts using 35183407 bytes
+   avail lists: 1:5,2:4224,3:271,4:121,5:390,6:57,7:9449,8:137,9:1410,10:10,11:763,12:1
+ 57324 multiletter control sequences out of 65536+600000
+ 96 fonts using 35183551 bytes
  113i,11n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (15 pages, 367712 bytes).
+Output written on vXXX.pdf (18 pages, 373066 bytes).
 
-PDF statistics: 484 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 57 named destinations out of 1000 (max. 131072)
- 137 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 508 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 64 named destinations out of 1000 (max. 131072)
+ 145 words of extra memory for PDF output out of 10000 (max. 100000000)
 

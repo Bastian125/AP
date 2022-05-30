@@ -1,6 +1,35 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
+\subsection{Vorbereitungsaufgabe}
+\label{sec:Vorbereitungsaufgabe}
+Die benötigten Literaturwerte der Absorbermaterialien sind in \autoref{tab:literatur} zu finden.
+\begin{table}
+  \centering
+  \caption{Literaturwerte.}
+  \label{tab:literatur}
+  \begin{tabular}{c | c c c c}
+    \toprule
+    & $Z$ & $E_{\symup{K}}^{\symup{Lit}}/\unit{\kilo\electronvolt}$ & $\theta_{\symup{K}}^{\symup{Lit}}$ & $\sigma_{\symup{K}}^{\symup{Lit}}$ \\
+    \midrule
+    $\symup{Zn}$  & 30 &  9,65 & 18,60 & 3,56 \\
+    $\symup{Ge}$  & 32 & 11,10 & 16,12 & 3,68 \\
+    $\symup{Br}$  & 35 & 13,47 & 13,23 & 3,85 \\
+    $\symup{Rb}$  & 37 & 15,20 & 11,70 & 3,94 \\
+    $\symup{Sr}$  & 38 & 16,10 & 11,04 & 4,00 \\
+    $\symup{Zr}$  & 40 & 17,99 &  9,86 & 4,10 \\
+    $\symup{Ga}$  & 31 & 10,37 & 17,29 & 3,61 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+Die Literaturwerte für die Kupferröntgenröhre sind
+\begin{align*}
+  E_{\symup{K}, \alpha} &= 8\,\unit{\kilo\eV}\;, \\
+  E_{\symup{K}, \beta}  &= 8,95\,\unit{\kilo\eV}\;, \\
+  \theta_{\symup{K}, \alpha} &= 22,66^{\circ}\; \symup{und} \\
+  \theta_{\symup{K}, \beta} &= 20,14^{\circ}.
+\end{align*}
+
 \subsection{Bragg-Bedingung}
 \label{sec:Bragg}
 
@@ -190,7 +219,7 @@ Positionen der K-Kanten bestimmt. Die Abschirmkonstante kann durch
 \end{align*}
 berechnet werden. Dabei ist $Z$ die Kernladungszahl und $\alpha$ die Feinstrukturkonstante und beträgt $7,297\cdot
 10^{-3}$.
-Die Messwerte der Absorber sind in \autoref{fig:bromGallium} und zu finden.
+Die Messwerte der Absorber sind in \autoref{tab:bromGallium}, \autoref{tab:strontiumZink} und \autoref{tab:zinkonium} zu finden.
 Die Werte sind in \autoref{fig:brom}, \autoref{fig:gallium}, \autoref{fig:strontium}, \autoref{fig:zink} und
 \autoref{fig:zinkonium} dargestellt.
 \begin{table}
@@ -222,6 +251,74 @@ Die Werte sind in \autoref{fig:brom}, \autoref{fig:gallium}, \autoref{fig:stront
     14,3 & 30 &       &    \\
     14,4 & 28 &       &    \\
     14,5 & 28 &       &    \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}
+  \centering
+  \caption{Messwerte für Strontium und Zink.}
+  \label{tab:strontiumZink}
+  \begin{tabular}{c c | c c}
+    \toprule
+    $\theta_{\symup{Strontium}}^{\circ}$ & $N_{\symup{Strontium}}/Imp/s$ & $\theta_{\symup{Zink}}^{\circ}$ & $N_{\symup{Zink}}/Imp/s$ \\
+    \midrule
+    10,0 &  46 & 18,0 &  61 \\
+    10,1 &  46 & 18,1 &  59 \\
+    10,2 &  41 & 18,2 &  59 \\
+    10,3 &  46 & 18,3 &  69 \\
+    10,4 &  43 & 18,4 &  81 \\
+    10,5 &  43 & 18,5 &  86 \\
+    10,6 &  46 & 18,6 & 101 \\
+    10,7 &  63 & 18,7 & 103 \\
+    10,8 &  92 & 18,8 & 113 \\
+    10,9 & 117 & 18,9 & 104 \\
+    11,0 & 158 & 19,0 & 102 \\
+    11,1 & 178 & 19,1 & 106 \\
+    11,2 & 194 & 19,2 & 100 \\
+    11,3 & 194 &      &     \\
+    11,4 & 195 &      &     \\
+    11,5 & 184 &      &     \\
+    11,6 & 185 &      &     \\
+    11,7 & 170 &      &     \\
+    11,8 & 170 &      &     \\
+    11,9 & 164 &      &     \\
+    12,0 & 160 &      &     \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}
+  \centering
+  \caption{Messwerte für Zinkonium}
+  \label{tab:zinkonium}
+  \begin{tabular}{c c}
+    \toprule
+    $\theta_{\symup{Zinkonium}}^{\circ}$ & $N_{\symup{Zinkonium}}/Imp/s$ \\
+    \midrule
+     8,8 & 119 \\
+     8,9 & 117 \\
+     9,0 & 114 \\
+     9,1 & 113 \\
+     9,2 & 109 \\
+     9,3 & 113 \\
+     9,4 & 107 \\
+     9,5 & 104 \\
+     9,6 & 110 \\
+     9,7 & 132 \\
+     9,8 & 175 \\
+     9,9 & 198 \\
+    10,0 & 247 \\
+    10,1 & 271 \\
+    10,2 & 273 \\
+    10,3 & 278 \\
+    10,4 & 280 \\
+    10,5 & 270 \\
+    10,6 & 279 \\
+    10,7 & 279 \\
+    10,8 & 276 \\
+    10,9 & 273 \\
+    11,0 & 273 \\
     \bottomrule
   \end{tabular}
 \end{table}
