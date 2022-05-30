@@ -33,28 +33,10 @@ sigma3 = z - 3*np.sqrt((Ekabs - Eb)/Ryd)
 # Brom
 a, I = np.genfromtxt('Messwerte/Absorptionsspektren/Brom.txt', unpack=True)
 
-# Interpolation
-Imin = np.amin(I)
-Imax = np.amax(I)
-Ik = Imin + (Imax-Imin)/(2)
-thetamin = a[np.where(I == Imin)]
-thetamax = a[np.where(I == Imax)]
-thetak = thetamin + (thetamax-thetamin)/(2)
-
-# Ausgabe
-print('Brom     :')
-print('Imin     : ', Imin)
-print('Imax     : ', Imax)
-print('Ik       : ', Ik )
-print('thetamin : ', thetamin)
-print('thetamax : ', thetamax)
-print('thetak   : ', thetak)
-
 # Plot
 plt.plot(a, I, 'x', label='Messwerte des Bromabsorbers')
-plt.plot(thetamin, Imin, 'gx', label=r'$I_{\symup{min}}$')
-plt.plot(thetamax, Imax, 'rx', label=r'$I_{\symup{max}}$')
-plt.plot(thetak, Ik, 'yx', label=r'$I_{\symup{K}}$')
+plt.vlines(13.4, 0, 42, colors='r', label='Position der K-Kante')
+plt.ylim(0, 42)
 plt.xlabel(r'$2\theta\mathbin{^{\circ}}')
 plt.ylabel('N/Imp/s')
 plt.grid()
@@ -68,28 +50,10 @@ plt.close()
 # Gallium
 a, I = np.genfromtxt('Messwerte/Absorptionsspektren/Gallium.txt', unpack=True)
 
-# Interpolation
-Imin = np.amin(I)
-Imax = np.amax(I)
-Ik = Imin + (Imax-Imin)/(2)
-thetamin = a[np.where(I == Imin)]
-thetamax = a[np.where(I == Imax)]
-thetak = thetamin + (thetamax-thetamin)/(2)
-
-# Ausgabe
-print('Gallium  :')
-print('Imin     : ', Imin)
-print('Imax     : ', Imax)
-print('Ik       : ', Ik )
-print('thetamin : ', thetamin)
-print('thetamax : ', thetamax)
-print('thetak   : ', thetak)
-
 # Plot
 plt.plot(a, I, 'x', label='Messwerte des Galliumabsorbers')
-plt.plot(thetamin, Imin, 'gx', label=r'$I_{\symup{min}}$')
-plt.plot(thetamax, Imax, 'rx', label=r'$I_{\symup{max}}$')
-plt.plot(thetak, Ik, 'yx', label=r'$I_{\symup{K}}$')
+plt.vlines(17.6, 0, 76, colors='r', label='Position der K-Kante')
+plt.ylim(0, 76)
 plt.xlabel(r'$2\theta\mathbin{^{\circ}}')
 plt.ylabel('N/Imp/s')
 plt.grid()
@@ -103,28 +67,10 @@ plt.close()
 # Strontium
 a, I = np.genfromtxt('Messwerte/Absorptionsspektren/Strontium.txt', unpack=True)
 
-# Interpolation
-Imin = np.amin(I)
-Imax = np.amax(I)
-Ik = Imin + (Imax-Imin)/(2)
-thetamin = a[np.where(I == Imin)]
-thetamax = a[np.where(I == Imax)]
-thetak = thetamin + (thetamax-thetamin)/(2)
-
-# Ausgabe
-print('Strontium:')
-print('Imin     : ', Imin)
-print('Imax     : ', Imax)
-print('Ik       : ', Ik )
-print('thetamin : ', thetamin)
-print('thetamax : ', thetamax)
-print('thetak   : ', thetak)
-
 # Plot
-plt.plot(a, I, 'x', label='Messwerte des Bromabsorbers')
-plt.plot(thetamin, Imin, 'gx', label=r'$I_{\symup{min}}$')
-plt.plot(thetamax, Imax, 'rx', label=r'$I_{\symup{max}}$')
-plt.plot(thetak, Ik, 'yx', label=r'$I_{\symup{K}}$')
+plt.plot(a, I, 'x', label='Messwerte des Strontiumabsorbers')
+plt.vlines(11.2, 0, 205, colors='r', label='Position der K-Kante')
+plt.ylim(0, 205)
 plt.xlabel(r'$2\theta\mathbin{^{\circ}}')
 plt.ylabel('N/Imp/s')
 plt.grid()
@@ -138,28 +84,10 @@ plt.close()
 # Zink
 a, I = np.genfromtxt('Messwerte/Absorptionsspektren/Zink.txt', unpack=True)
 
-# Interpolation
-Imin = np.amin(I)
-Imax = np.amax(I)
-Ik = Imin + (Imax-Imin)/(2)
-thetamin = 18.1
-thetamax = a[np.where(I == Imax)]
-thetak = thetamin + (thetamax-thetamin)/(2)
-
-# Ausgabe
-print('Zink     :')
-print('Imin     : ', Imin)
-print('Imax     : ', Imax)
-print('Ik       : ', Ik )
-print('thetamin : ', thetamin)
-print('thetamax : ', thetamax)
-print('thetak   : ', thetak)
-
 # Plot
 plt.plot(a, I, 'x', label='Messwerte des Zinkabsorbers')
-plt.plot(thetamin, Imin, 'gx', label=r'$I_{\symup{min}}$')
-plt.plot(thetamax, Imax, 'rx', label=r'$I_{\symup{max}}$')
-plt.plot(thetak, Ik, 'yx', label=r'$I_{\symup{K}}$')
+plt.vlines(18.6, 0, 120, colors='r', label='Position der K-Kante')
+plt.ylim(0, 120)
 plt.xlabel(r'$2\theta\mathbin{^{\circ}}')
 plt.ylabel('N/Imp/s')
 plt.grid()
@@ -173,28 +101,10 @@ plt.close()
 # Zinkonium
 a, I = np.genfromtxt('Messwerte/Absorptionsspektren/Zinkonium.txt', unpack=True)
 
-# Interpolation
-Imin = np.amin(I)
-Imax = np.amax(I)
-Ik = Imin + (Imax-Imin)/(2)
-thetamin = a[np.where(I == Imin)]
-thetamax = a[np.where(I == Imax)]
-thetak = thetamin + (thetamax-thetamin)/(2)
-
-# Ausgabe
-print('Zinkonium:')
-print('Imin     : ', Imin)
-print('Imax     : ', Imax)
-print('Ik       : ', Ik )
-print('thetamin : ', thetamin)
-print('thetamax : ', thetamax)
-print('thetak   : ', thetak)
-
 # Plot
-plt.plot(a, I, 'x', label='Messwerte des Bromabsorbers')
-plt.plot(thetamin, Imin, 'gx', label=r'$I_{\symup{min}}$')
-plt.plot(thetamax, Imax, 'rx', label=r'$I_{\symup{max}}$')
-plt.plot(thetak, Ik, 'yx', label=r'$I_{\symup{K}}$')
+plt.plot(a, I, 'x', label='Messwerte des Zinkoniumabsorbers')
+plt.vlines(10.1, 0, 290, colors='r', label='Position der K-Kante')
+plt.ylim(0, 290)
 plt.xlabel(r'$2\theta\mathbin{^{\circ}}')
 plt.ylabel('N/Imp/s')
 plt.grid()

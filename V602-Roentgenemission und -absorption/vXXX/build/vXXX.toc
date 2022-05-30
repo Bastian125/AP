@@ -29,20 +29,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3}Absorptionsspektren}{11}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Bromabsorber}{12}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Diskussion}{14}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5}Galliumabsorber}{12}{subsection.5.5}%
+\contentsline {section}{\nonumberline Anhang}{14}{section*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6}Strontiumabsorber}{12}{subsection.5.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.7}Zinkabsorber}{12}{subsection.5.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.8}Zinkoniumabsorber}{12}{subsection.5.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion}{12}{section.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Anhang}{12}{section*.10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{12}{section*.12}%
+\contentsline {section}{\nonumberline Literatur}{14}{section*.17}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
