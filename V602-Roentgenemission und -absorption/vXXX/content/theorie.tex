@@ -18,7 +18,7 @@ Um Stöße und somit Energieverluste zu vermeiden, befinden sich sowohl Kathode
 als auch Anode in einer evakuierten Röhre.\\
 Beim Auftreffen auf die Anode entsteht dann schließlich Röntgenstrahlung.\\
 
-\subsubsection{Rötgenspektren}
+\subsubsection{Röntgenspektren}
 
 Röntgenstrahlung besteht aus zwei verschiedenen Spektren. Das 
 eine ist das kontinuierliche Bremsspektrum und das andere ist die
@@ -59,7 +59,7 @@ enden und die griechischen Buchstaben definieren woher das äußere Elektron kam
 In einem Mehrelektronenatom (, also jedes außer Wasserstoff) schirmen die äußeren
 Elektronen und die Wechselwirkung der Elektronen untereinander die Kerladung ab. Dadurch
 wird die elektrische Anziehung des Kerns auf die äußeren Elektronen gemindert und die Bindungsenergie
-gedämpft. Für diese gilt dann in der n-ten Schale:
+gedämpft. Für diese gilt dann in der n-ten Schale
 \begin{equation}
     \label{eqn:Bindungsenergie}
     E_n = -R_{\infty} z_{\mathrm{eff}}^2 \cdot \frac{1}{n^2}.
@@ -69,9 +69,18 @@ Abschirmkonstante $\sigma$ und der Rydbergenergie $R_{\infty} = 13.6 \si{\electr
 Durch die effektive Kerladung wird somit auch der Abschirmeffekt berücksichtig.\\
 Bei dem Versuch wird eine Kupferanode verwendet, wo eine $\mathrm{Cu-K}_\alpha$- und eine
 $\mathrm{Cu-K}_\beta$-Linie zu erkennen ist, die mit dem kontinuierlichen Spektrum der
-Bremsstrahlung überlagert ist.
+Bremsstrahlung überlagert ist. Für die Energie der $K_{\alpha}$- und $K_{\beta}$-Linie eribt sich dann
+\begin{align}
+    \label{eqn:Ekabs}
+    E_{\symup{K, abs}} &= R_{\infty}\left(z - \sigma_{\symup{1}}\right)^2 ,\\
+    \label{eqn:EKa}
+    E_{\symup{K, \alpha}} &= R_{\infty}\left(\frac{1}{n}\right)^2 \left(z-\sigma_{\symup{1}}\right)^2 -R_{\infty}\left(\frac{1}{m}\right)^2 \left(z-\sigma_{\symup{1}}\right)^2 ,\\
+    \label{eqn:EKb}
+    E_{\symup{K, \beta}} &= R_{\infty}\left(\frac{1}{n}\right)^2 \left(z-\sigma_{\symup{1}}\right)^2 -R_{\infty}\left(\frac{1}{l}\right)^2 \left(z-\sigma_{\symup{3}}\right)^2 .
+\end{align}
+Dabei ist $z = 29$, $n=1$, $m=2$, $l=3$ und $E_{\symup{K, abs}} = 8,98\,\unit{\kilo\electronvolt}$ \cite{ekabs}.
 
-\subsubsection{Absorption der Rötgenstrahlung}
+\subsubsection{Absorption der Röntgenstrahlung}
 
 Bei dem Prozess der Absorption der Rötgenstrahlung bei Energien unter
 1 MeV ist der Comptoneffekt und der Photoeffekt die überwiegend dominanten

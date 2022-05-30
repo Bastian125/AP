@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{ekabs}{online}{}
+      \name{author}{1}{}{%
+        {{hash=830d6db7f7fd87b664aa12f69e753c46}{%
+           family={science-and-fun.de},
+           familyi={s\bibinithyphendelim a\bibinithyphendelim f\bibinitperiod}}}%
+      }
+      \strng{namehash}{830d6db7f7fd87b664aa12f69e753c46}
+      \strng{fullhash}{830d6db7f7fd87b664aa12f69e753c46}
+      \strng{bibnamehash}{830d6db7f7fd87b664aa12f69e753c46}
+      \strng{authorbibnamehash}{830d6db7f7fd87b664aa12f69e753c46}
+      \strng{authornamehash}{830d6db7f7fd87b664aa12f69e753c46}
+      \strng{authorfullhash}{830d6db7f7fd87b664aa12f69e753c46}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wellenlängen und Anregungsenergien von K- und L- Absorptionskanten}
+      \field{urlday}{30}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://wissen.science-and-fun.de/tabellen-fur-spektroskopiker/wellenlaengen-und-anregungsenergien-von-k-und-l-absorptionskanten/
+      \endverb
+      \verb{url}
+      \verb https://wissen.science-and-fun.de/tabellen-fur-spektroskopiker/wellenlaengen-und-anregungsenergien-von-k-und-l-absorptionskanten/
+      \endverb
+    \endentry
     \entry{sample}{manual}{}
       \list{organization}{1}{%
         {TU Dortmund, Fakultät Physik}%
