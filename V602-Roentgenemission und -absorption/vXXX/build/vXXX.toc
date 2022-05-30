@@ -31,10 +31,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4}Absorptionsspektren}{12}{subsection.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Diskussion}{18}{section.6}%
+\contentsline {subsection}{\numberline {5.5}Moseleysches Gesetz}{19}{subsection.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Anhang}{18}{section*.19}%
+\contentsline {section}{\numberline {6}Diskussion}{19}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{18}{section*.21}%
+\contentsline {section}{\nonumberline Literatur}{19}{section*.21}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

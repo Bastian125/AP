@@ -193,6 +193,8 @@ die maximale Energie $E = \frac{hc}{\lambda}$ bestimmen zu
   \Delta E_{FWHM,\alpha} &= 0,233\,\unit{\kilo\eV} \; \symup{und}\\
   \Delta E_{FWHM,\beta}  &= 0,187\,\unit{\kilo\eV}.
 \end{align*}
+Die Abweichung von $E_{K,\alpha}$ zum Theoriewert beträgt $1,84\%$ und die für $E_{K, \beta}$ beträgt
+$0,39\%$.
 Das Auflösungsvermögen bestimmt sich durch
 \begin{align*}
   A = \frac{E_{\symup{K}}}{\Delta E_{\symup{FWHM}}}.
@@ -212,16 +214,16 @@ Die Absorptionskoeffizienten bestimmen sich durch \autoref{eqn:Ekabs}, \autoref{
 
 \subsection{Absorptionsspektren}
 \label{sec:Absorptionsspektren}
-Es werden die Absorptionsspektren von Brom, Gallium, Strontium, Zink und Zinkonium ausgewertet. Dazu werden die
+Es werden die Absorptionsspektren von Brom, Gallium, Strontium, Zink und Zirkonium ausgewertet. Dazu werden die
 Positionen der K-Kanten bestimmt. Die Abschirmkonstante kann durch
 \begin{align*}
   \sigma_{\symup{K}} = z - \sqrt{\frac{E_{\symup{K}}}{R_{\infty}}-\frac{\alpha^2 \cdot Z^4}{4}}
 \end{align*}
 berechnet werden. Dabei ist $Z$ die Kernladungszahl und $\alpha$ die Feinstrukturkonstante und beträgt $7,297\cdot
 10^{-3}$.
-Die Messwerte der Absorber sind in \autoref{tab:bromGallium}, \autoref{tab:strontiumZink} und \autoref{tab:zinkonium} zu finden.
+Die Messwerte der Absorber sind in \autoref{tab:bromGallium}, \autoref{tab:strontiumZink} und \autoref{tab:zirkonium} zu finden.
 Die Werte sind in \autoref{fig:brom}, \autoref{fig:gallium}, \autoref{fig:strontium}, \autoref{fig:zink} und
-\autoref{fig:zinkonium} dargestellt.
+\autoref{fig:zirkonium} dargestellt.
 \begin{table}
   \centering
   \caption{Messwerte für Brom und Gallium}
@@ -290,11 +292,11 @@ Die Werte sind in \autoref{fig:brom}, \autoref{fig:gallium}, \autoref{fig:stront
 
 \begin{table}
   \centering
-  \caption{Messwerte für Zinkonium}
-  \label{tab:zinkonium}
+  \caption{Messwerte für Zirkonium}
+  \label{tab:zirkonium}
   \begin{tabular}{c c}
     \toprule
-    $\theta_{\symup{Zinkonium}}^{\circ}$ & $N_{\symup{Zinkonium}}/Imp/s$ \\
+    $\theta_{\symup{Zirkonium}}^{\circ}$ & $N_{\symup{Zirkonium}}/Imp/s$ \\
     \midrule
      8,8 & 119 \\
      8,9 & 117 \\
@@ -353,7 +355,48 @@ Die Werte sind in \autoref{fig:brom}, \autoref{fig:gallium}, \autoref{fig:stront
 
 \begin{figure}
   \centering
-  \includegraphics{build/zinkonium.pdf}
-  \caption{Messung des Zinkoniumabsorbers.}
-  \label{fig:zinkonium}
+  \includegraphics{build/zirkonium.pdf}
+  \caption{Messung des Zirkoniumabsorbers.}
+  \label{fig:zirkonium}
 \end{figure}
+
+Die Ergebniss für die Energien und Abschirmkonstanten und deren Abweichung vom Theoriewert sind in \autoref{tab:E}
+zu finden.
+\begin{table}
+  \caption{Energien und Abschirmkonstanten.}
+  \label{tab:E}
+  \begin{tabular}{c | c c c c}
+    \toprule
+    Element & $E/\unit{\kilo\eV}$ & Abweichung Theorie & $\sigma$ & Abweichung Theorie \\
+    \midrule
+    Br & 13,283 & $1,41\%$ & 4,07 & $5,71\%$ \\
+    Ga & 10,181 & $1,86\%$ & 3,87 & $7,20\%$ \\
+    Sr & 15,849 & $1,58\%$ & 4,27 & $6,75\%$ \\
+    Zn &  9,651 & $0,01\%$ & 3,56 & $0\%$ \\
+    Zr & 17,554 & $2,48\%$ & 4,55 & $10,98\%$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Moseleysches Gesetz}
+\label{sec:MoseleyschesGesetz}
+Nachdem Moseleyschen Gesetz ist $E_{\symup{K}}$ proportional zu $Z^2$. Durch eine lineare Regression kann so
+die Rydbergenergie bestimmt wird. Dazu wird die $\sqrt{E_{\symup{K}}}$ gegen $Z$ in \autoref{fig:Rydberg} 
+aufgetragen.
+\begin{figure}
+  \centering
+  \includegraphics{build/rydberg.pdf}
+  \caption{Lineare Regression um die Rydbergenergie zu bestimmen.}
+  \label{fig:Rydberg}
+\end{figure}
+Die Parameter der linearen Regression ergeben sich zu
+\begin{align*}
+  a &= (0,300 \pm 0,011)\,\frac{1}{\sqrt{\unit{\eV}}} \\
+  b &= (0,233 \pm 1,283).
+\end{align*}
+Für die Rydbergenergie folgt dann
+\begin{align*}
+  R_{\infty}\cdot h &= \frac{1}{a^2} \\
+  R_{\infty} &= (9,01 \pm 0.07)\,\unit{\eV}
+\end{align*}
+Dadurch ergibt sich eine Abweichung zum Theoriewert von $33,75\,\unit{\eV}$.

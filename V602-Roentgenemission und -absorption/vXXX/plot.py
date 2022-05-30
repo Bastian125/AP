@@ -5,11 +5,13 @@ from uncertainties import ufloat
 # Rechnung
 d = 201.4e-12
 h = 6.626e-34
+heV = 4.135e-15
 c = 2.998e8
 e = 1.602e-19
 Ekabs = 8.98e3
 Ryd = 13.6
 z = 29
+a = 7.297e-3
 
 def l(theta):
     return 2*d*np.sin(theta*np.pi/180)
@@ -17,6 +19,11 @@ def l(theta):
 def E(theta):
     return (h*c)/(l(theta)*e)
 
+def s(Z, E):
+    w = np.sqrt(E/Ryd -a**2 * Z**4 /4)
+    return Z-w
+
+print('Rydbergenergie: ', ufloat(0.300, 0.011)**2)
 # Energien
 Ea = E(22.2)
 Eb = E(20.2)
@@ -29,6 +36,26 @@ sigma2 = z - 2*np.sqrt((Ekabs - Ea)/Ryd)
 sigma3 = z - 3*np.sqrt((Ekabs - Eb)/Ryd)
 
 # Abschirmkonstanten
+# Energie
+E_Br = E(13.4)
+E_Ga = E(17.6)
+E_Sr = E(11.2)
+E_Zn = E(18.6)
+E_Zr = E(10.1)
+
+print('E_Br: ',E_Br)
+print('E_Ga: ',E_Ga)
+print('E_Sr: ',E_Sr)
+print('E_Zn: ',E_Zn)
+print('E_Zr: ',E_Zr)
+print('sig_Br: ', s(35, E_Br))
+print('sig_Ga: ', s(31, E_Ga))
+print('sig_Sr: ', s(38, E_Sr))
+print('sig_Zn: ', s(30, E_Zn))
+print('sig_Zr: ', s(40, E_Zr))
+
+# Absorptionskoeffizienten
+
 
 # Brom
 a, I = np.genfromtxt('Messwerte/Absorptionsspektren/Brom.txt', unpack=True)
@@ -98,11 +125,11 @@ plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
 plt.savefig('build/zink.pdf')
 plt.close()
 
-# Zinkonium
-a, I = np.genfromtxt('Messwerte/Absorptionsspektren/Zinkonium.txt', unpack=True)
+# Zirkonium
+a, I = np.genfromtxt('Messwerte/Absorptionsspektren/Zirkonium.txt', unpack=True)
 
 # Plot
-plt.plot(a, I, 'x', label='Messwerte des Zinkoniumabsorbers')
+plt.plot(a, I, 'x', label='Messwerte des Zirkoniumabsorbers')
 plt.vlines(10.1, 0, 290, colors='r', label='Position der K-Kante')
 plt.ylim(0, 290)
 plt.xlabel(r'$2\theta\mathbin{^{\circ}}')
@@ -112,7 +139,7 @@ plt.legend()
 
 # Speichern
 plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
-plt.savefig('build/zinkonium.pdf')
+plt.savefig('build/zirkonium.pdf')
 plt.close()
 
 # Ausgabe
@@ -160,4 +187,41 @@ plt.legend()
 # Speichern
 plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
 plt.savefig('build/cu.pdf')
+plt.close()
+
+#Rydberg
+E = [13283, 10811, 15849, 9651, 17554]
+e = np.sqrt(E)
+Z = [35, 31, 38, 30, 40]
+
+# Lineare Regression
+params, covariance_matrix = np.polyfit(e, Z, deg=1, cov=True)
+
+errors = np.sqrt(np.diag(covariance_matrix))
+
+for name, value, error in zip('ab', params, errors):
+    print(f'{name} = {value:.3f} ± {error:.3f}')
+
+
+
+x_plot = np.linspace(8000, 18000)
+
+plt.plot(E, Z, 'x', label='Errechnete Punkte')
+x_plot = np.linspace(9000, 18000)
+plt.plot(
+    x_plot,
+    params[0] * x_plot + params[1],
+    label='Lineare Regression',
+    linewidth=3,
+)
+plt.xlim(9000, 18000)
+plt.ylim(29, 41)
+plt.xlabel(r'$\sqrt(E)/\sqrt(\unit{\eV})$')
+plt.ylabel(r'$Z$')
+plt.grid()
+plt.legend()
+
+# Speichern
+plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
+plt.savefig('build/rydberg.pdf')
 plt.close()

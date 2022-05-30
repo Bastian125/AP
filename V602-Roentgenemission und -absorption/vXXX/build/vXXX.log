@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  30 MAY 2022 19:51
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.11.21)  30 MAY 2022 22:14
  restricted system commands enabled.
 **vXXX.tex
 (./vXXX.tex
@@ -1578,57 +1578,62 @@ Package luatex.def Info: cu.pdf  used on input line 174.
 <build/brom.pdf, id=199, 417.7206pt x 258.0049pt>
 File: build/brom.pdf Graphic file (type pdf)
 <use build/brom.pdf>
-Package luatex.def Info: build/brom.pdf  used on input line 328.
+Package luatex.def Info: build/brom.pdf  used on input line 330.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
 <build/gallium.pdf, id=200, 417.7206pt x 258.0049pt>
 File: build/gallium.pdf Graphic file (type pdf)
 <use build/gallium.pdf>
-Package luatex.def Info: build/gallium.pdf  used on input line 335.
+Package luatex.def Info: build/gallium.pdf  used on input line 337.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
 <build/strontium.pdf, id=201, 417.7206pt x 258.0049pt>
 File: build/strontium.pdf Graphic file (type pdf)
 <use build/strontium.pdf>
-Package luatex.def Info: build/strontium.pdf  used on input line 342.
+Package luatex.def Info: build/strontium.pdf  used on input line 344.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
 <build/zink.pdf, id=202, 417.7206pt x 258.0049pt>
 File: build/zink.pdf Graphic file (type pdf)
 <use build/zink.pdf>
-Package luatex.def Info: build/zink.pdf  used on input line 349.
+Package luatex.def Info: build/zink.pdf  used on input line 351.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<build/zinkonium.pdf, id=203, 417.7206pt x 258.0049pt>
-File: build/zinkonium.pdf Graphic file (type pdf)
-<use build/zinkonium.pdf>
-Package luatex.def Info: build/zinkonium.pdf  used on input line 356.
+<build/zirkonium.pdf, id=203, 417.7206pt x 258.0049pt>
+File: build/zirkonium.pdf Graphic file (type pdf)
+<use build/zirkonium.pdf>
+Package luatex.def Info: build/zirkonium.pdf  used on input line 358.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-) (./content/diskussion.tex [12] [13] [14] [15] [16<./build/brom.pdf><./build/gallium.pdf>] [17<./build/strontium.pdf><./build/zink.pdf>])
+<build/rydberg.pdf, id=206, 417.7206pt x 258.0049pt>
+File: build/rydberg.pdf Graphic file (type pdf)
+<use build/rydberg.pdf>
+Package luatex.def Info: build/rydberg.pdf  used on input line 388.
+(luatex.def)             Requested size: 417.71957pt x 258.00426pt.
+ [12] [13] [14] [15] [16<./build/brom.pdf><./build/gallium.pdf>] [17<./build/strontium.pdf><./build/zink.pdf>] [18<./build/zirkonium.pdf><./build/rydberg.pdf>]) (./content/diskussion.tex)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [18<./build/zinkonium.pdf>] (./build/vXXX.aux)
+ [19] (./build/vXXX.aux)
 Package rerunfilecheck Info: File `vXXX.aux' has not changed.
-(rerunfilecheck)             Checksum: 2AD72B6FD51D577719FC4EF4D5FAC0DD;17364.
+(rerunfilecheck)             Checksum: 76B2D97D58783F88AD832BCC72C746A4;18209.
 Package rerunfilecheck Info: File `vXXX.toc' has not changed.
-(rerunfilecheck)             Checksum: D18042C847B9A4EE5CC10DFA37B202FA;2333.
+(rerunfilecheck)             Checksum: 850913EB97F08634FEA68080E4394921;2355.
 Package logreq Info: Writing requests to 'vXXX.run.xml'.
 
 \openout1 = vXXX.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37974 strings out of 477893
+ 37990 strings out of 477893
  125007,1977958 words of node,token memory allocated
- 782 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 31 attribute, 83 glue_spec, 17 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:5,2:4224,3:271,4:121,5:390,6:57,7:9449,8:137,9:1410,10:10,11:763,12:1
- 57324 multiletter control sequences out of 65536+600000
- 96 fonts using 35183551 bytes
+ 777 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 31 attribute, 82 glue_spec, 17 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:3,2:4227,3:329,4:116,5:396,6:63,7:9449,8:136,9:1410,10:10,11:763,12:1
+ 57332 multiletter control sequences out of 65536+600000
+ 96 fonts using 35182975 bytes
  113i,11n,117p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bastian/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on vXXX.pdf (18 pages, 373066 bytes).
+Output written on vXXX.pdf (19 pages, 385751 bytes).
 
-PDF statistics: 508 PDF objects out of 1000 (max. 8388607)
- 372 compressed objects within 4 object streams
- 64 named destinations out of 1000 (max. 131072)
+PDF statistics: 534 PDF objects out of 1000 (max. 8388607)
+ 390 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 131072)
  145 words of extra memory for PDF output out of 10000 (max. 100000000)
 
