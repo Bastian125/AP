@@ -3,14 +3,19 @@
 
 \subsection{Strömungsgeschwindigkeit in Abhängigkeit des Dopplerwinkels}
 
-Die Strömungsgeschwindigkeit in Abhängigkeit des Dopplerwinkels, lässt sich durch \autoref{eqn:fdiff}
+Bei diesem Versuchsteil werden bei unterschiedlichen Pumpengeschwindigkeiten und Einstrahlwinkeln die
+Frequenzverschiebungen des ausgehenden und eingehenden Schalls untersucht um daraus die Strömungsgeschwindigkeit
+zu berechnen.\\
+Die Strömungsgeschwindigkeit in Abhängigkeit des Dopplerwinkels lässt sich durch \autoref{eqn:fdiff}
 berechnen. Da nicht die Frequenzverschiebung, sondern die Geschwindigkeit gesucht ist, wird die Formel
 nach $v$ umgestellt. In die resultierende Formel
 \begin{equation*}
   v_{\mathrm{Str}} = \frac{\symup{\Delta}\nu\cdot c}{\nu_0\,\symup{cos}\,\alpha} 
 \end{equation*}
-werden dann alle aufgenommenen Messwerte eingesetzt und die Strömungsgeschwindigkeit eingesetzt.\\
-Die Messwerte lassen sich in \autoref{tab:Teil1} finden.\\
+werden dann alle aufgenommenen Messwerte eingesetzt und die Strömungsgeschwindigkeiten ausgerechnet.\\
+Die Messwerte lassen sich in \autoref{tab:Teil1} finden. Die Frequenzverschiebungen wurden jeweils
+bei Einstrahlwinkeln von $\theta= 15 ^{\circ}$, $\theta= 30 ^{\circ}$ und $\theta= 45 ^{\circ}$ untersucht.
+Aus diesen Einstrahlwinkeln lässt sich mithilfe von \autoref{eqn:alpha} der Dopplerwinkel berechnen.\\
 \begin{table}
   \centering
   \begin{tabular}{c | c | c | c}
@@ -26,18 +31,28 @@ Die Messwerte lassen sich in \autoref{tab:Teil1} finden.\\
     9300     &       326    &     503    &    1167\\
     \bottomrule
   \end{tabular}
-  \caption{Aufgenommenen Messwerte zur Untersuchung der Strömungsgeschwindigkeit in Abhängigkeit des Dopplerwinkels.}
+  \caption{Aufgenommene Messwerte zur Untersuchung der Strömungsgeschwindigkeit in Abhängigkeit des Dopplerwinkels.}
   \label{tab:Teil1}
 \end{table}
 
+Mithilfe der obigen Formel werden dann die Strömungsgeschwindigkeiten ausgerechnet und ein Plot erstellt,
+wo $\frac{\Delta f}{\cos{\alpha}}$ gegen die Strömungsgeschwindigkeit aufgetragen wird. Das Ergebnis ist in 
+\autoref{plt:Teil1} zu sehen.
 
+\begin{figure}
+  \centering
+  \includegraphics{build/plot1_2.pdf}
+  \caption{Die Frequenzverschiebungen geteilt durch den Cosinus des Dopplerwinkels aufgetragen gegen 
+  die Strömungsgeschwindigkeit.}
+  \label{plt:Teil1}
+\end{figure}
 
 
 \subsection{Strömungsprofil der Dopplerflüssigkeit}
 
 Für diesen Versuchsteil werden für unterschiedliche Strömungsgeschwindigkeiten und Messtiefen jeweils die
-Frequenzverschiebungen und Intensitäten des Ultraschalls und die Geschwindigkeit der Flüssigkeit
-bei einem Dopplerwinkel von $\theta = 15^{\circ}$ aufgenommen.\\
+Frequenzverschiebungen, die Streuintensitäten des Ultraschalls und die Momentangeschwindigkeit der Flüssigkeit
+bei einem Einstrahlwinkel von $\theta = 15^{\circ}$ aufgenommen.\\
 Als Strömungsgeschwindigkeiten werden 4200 rpm (ca. 45\% der Gesamtleistung) und 6400 rpm (ca. 70\% der
 Gesamtleistung) gewählt. Die aufgezeichneten Messwerte sind jeweils in \autoref{tab:Teil2_45} und 
 \autoref{tab:Teil2_70} zu finden.\\
@@ -88,3 +103,22 @@ Gesamtleistung) gewählt. Die aufgezeichneten Messwerte sind jeweils in \autoref
   \caption{Aufgenommenen Messwerte bei einer Durchlaufgeschwindigkeit des Wassers von 6400 rounds per minute.}
   \label{tab:Teil2_70}
 \end{table}
+
+Für die zwei Strömungsgeschwindigkeit werden jeweils Diagramme erstellt, wo die Streuintensität
+und die Momentangeschwindigkeit gegen die Messtiefe aufgetragen werden.\\
+
+\begin{figure}
+  \centering
+  \includegraphics{build/plot2_1.pdf}
+  \caption{Die Streuintensität und Momentangeschwindigkeit audgetragen gegen die Messtiefe bei
+  einer Strömungsgeschwindigkeit von 4200 rpm.}
+  \label{fig:stroemung}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{build/plot2_2.pdf}
+  \caption{Die Streuintensität und Momentangeschwindigkeit audgetragen gegen die Messtiefe bei
+  einer Strömungsgeschwindigkeit von 6400 rpm.}
+  \label{fig:stroemung}
+\end{figure}
