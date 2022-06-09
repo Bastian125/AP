@@ -1,7 +1,79 @@
 \section{Zielsetzung}
 \label{sec:Zielsetzung}
 
+In diesem Versuch soll unter Ausnutzung eines elektrischen Feldes und der Gravitation
+die Elementarladung $e_0$ bestimmt werden.
+
 \section{Theorie}
 \label{sec:Theorie}
+
+Beim Zerstäuben von Öltröpchen werden diese durch die gegenseitige Reibung aneinander
+elektrisch geladen. Wenn diese geladenen Tröpchen nun in ein elektrisches Feld $\vec{E}$ gebracht
+werden, wirkt eine elektrische Kraft entlang des Feldes auf das Tröpchen.\\
+Um ein möglichst homogenes Feld zu erzeugen, kann man einen Plattenkondensator verwenden.
+Je nach Ladung $q$ des Tröpchens, verspürt dieses zu der positiv oder negativ geladenen Platte 
+eine Kraft. Ein positiv geladenes Tröpchen wird zu der negativ geladenen Platte hin
+beschleunigt und ein negativ geladenes zu der positiv geladenen Platte.\\
+Da das Tröpchen eine Masse $m$ besitzt, wirkt neben einer elektrischen Kraft 
+$\vec{F}_{\mathrm{el}} = q \cdot \vec{E}$ auch die Gravitationskraft $\vec{F}_{\mathrm{g}} = m \vec{g}$
+auf dieses. Dadurch wird das Teilchen nach unten beschleunigt. Durch diese Fallbewegung
+entstehen Stöße mit den Luftmolekülen und das Tröpchen wird durch die Stokesche
+Reibungskraft 
+\begin{equation}
+    \label{eqn:Stokes}
+    \vec{F}_{\mathrm{R}} = - 6 \pi r \mu_{\mathrm{L}} \vec{v}
+\end{equation}
+entgegen der Gravitationskraft beschleunigt und somit abgebremst. $r$ ist hier der 
+Radius des Tröpchens und $\mu_{\mathrm{L}}$ die Viskosität der Luft.\\
+Nach einer Zeit ist die Reibung genauso stark wie die Beschleunigung nach unten und es 
+stellt sich eine Gleichgewichtsgeschwindigkeit $\vec{v}_0$ ein. Die Kräftegleichung
+ohne elektrisches Feld ergibt sich zu 
+\begin{equation*}
+    \frac{4 \pi}{3} r^3 (\rho_{\mathrm{Öl}} - \rho_{\mathrm{L}}) g = 6 \pi \mu_{\mathrm{L}} r v_0.
+\end{equation*}
+Nach Umstellen ergibt sich somit der Radius des Öltröpchens zu 
+\begin{equation*}
+    r = \sqrt{\frac{9 \mu_{\mathrm{L}} v_0}{2 g (\rho_{\mathrm{Öl}} - \rho_{\mathrm{L}})}}.
+\end{equation*}
+Wenn man die geladenen Tröpchen nun in das E-Feld bringt, wirkt eine elektrische Kraft auf diese,
+wodurch das Teilchen entweder nach oben oder unten beschleunigt wird und dieses sich dadurch
+nicht mehr mit einer Geschwindigkeit $v_0$ bewegt.\\
+Für die neue Kräftegleichung folgt dann:
+\begin{equation}
+    \label{eqn:ab}
+    \frac{4 \pi}{3} r^3 (\rho_{\mathrm{Öl}} - \rho_{\mathrm{L}}) g - 6 \pi \mu_{\mathrm{L}} r v_{\mathrm{ab}} = -qE.
+\end{equation}
+$v_{\mathrm{ab}}$ ist die resultierende Sinkgeschwindigkeit des Tröpchens.\\
+Wenn das elektrische Feld nun umgepolt wird, erfährt das Tröpchen eine Auftriebskraft und es folgt
+\begin{equation}
+    \label{eqn:auf}
+    \frac{4 \pi}{3} r^3 (\rho_{\mathrm{Öl}} + \rho_{\mathrm{L}}) g + 6 \pi \mu_{\mathrm{L}} r v_{\mathrm{auf}} = +qE.
+\end{equation}
+
+Aus \autoref{eqn:ab} und \autoref{eqn:auf} kann dann die Ladung $q$ und der Radius $r$ des Tröpchens
+bestimmt werden. Die besagten Größen können durch die Gleichungen
+\begin{equation}
+    \label{eqn:q}
+    q = 3 \pi \mu_{\mathrm{L}} \sqrt{\frac{9}{4}\frac{\mu_{\mathrm{L}}}{g}\frac{(v_{\mathrm{ab}}-v_{\mathrm{auf}})}{(\rho_{\mathrm{Öl}} - \rho_{\mathrm{L}})}}\frac{(v_{\mathrm{ab}}+v_{\mathrm{auf}})}{E}
+\end{equation}
+und
+\begin{equation}
+    \label{eqn:r}
+    r = \sqrt{\frac{9}{2}\frac{\mu_{\mathrm{L}}}{g}\frac{(v_{\mathrm{ab}}-v_{\mathrm{auf}})}{(\rho_{\mathrm{Öl}} - \rho_{\mathrm{L}})}}
+\end{equation}
+bestimmt werden.\\
+Da die Öltröpchen kleiner sind als die mittlere freie Weglänge der Luft $\bar{l}$, lässt sich das
+Gesetz von Stokes nicht anwenden. Stattdessen muss bei der Ladung $q$ für die Viskosität der Luft $\mu_{\mathrm{L}}$
+ein Korrekturterm verwendet werden:
+\begin{equation}
+    \label{eqn:Korrekturterm}
+    \mu_{\mathrm{eff}} = \mu_{\mathrm{L}} \left(\frac{1}{1 + A \frac{1}{r}}\right) = \mu_{\mathrm{L}} \left(\frac{1}{1 + B \frac{1}{pr}}\right)
+\end{equation}
+$B$ ist eine Konstante mit dem Wert $B = 6,17 \cdot 10^{-3} \, \mathrm{Torr \cdot cm}$. Für die korrigierte
+Ladung $q$ gilt dann
+\begin{equation}
+    \label{eqn:qKorr}
+    q^{2/3} = q_0^{2/3} (1 + B / (p \cdot r)).
+\end{equation}
 
 \cite{sample}
