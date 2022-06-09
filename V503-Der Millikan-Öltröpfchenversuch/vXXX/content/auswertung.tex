@@ -4,9 +4,11 @@
 Die Messwerte für die Spannungen von $\SI{150}{\volt}$, $\SI{170}{\volt}$, $\SI{190}{\volt}$, $\SI{210}{\volt}$
 und $\SI{240}{\volt}$ sind \autoref{tab:t12}, \autoref{tab:t34} und \autoref{tab:t5} zu finden. Die gemessenen  
 Thermistorwiderstände sind im Bereich von $\SI{1,895}{\mega\ohm}$ bis $\SI{1,922}{\mega\ohm}$, so dass nach ... die
-Temperatur zu $T\approx \SI{27}{\celsius} = \SI{301,5}{\mega\ohm}$ ablesbar ist. Es wurden nur Tröpfchen untersucht,
+Temperatur zu $T\approx \SI{27}{\celsius} = \SI{301,5}{\kelvin}$ ablesbar ist. Es wurden nur Tröpfchen untersucht,
 die keine Geschwindigkeit ohne angelegtes E-Feld haben, so dass die Messung von $t_{\symup{0}}$ nicht notwendig
-ist.
+ist. Die einzige Bewegung die die Tröpfchen aufgewiesen haben lässt sich durch die Brownsche Molekülbewegung
+erklären und ist für $v_{\symup{0}}$ nicht von Relevanz, so dass sich für alle Tröpfchen
+$v_{\symup{0}} = \SI{0}{\centi\meter\per\second}$ ergibt.
 \begin{table}
   \centering
   \caption{Messwerte für $U=\SI{150}{\volt}$ und
@@ -144,7 +146,45 @@ gilt. Mit $v_{\symup{0}}$ ergibt sich
 \begin{align*}
   0 \approx v_{\symup{ab}} - v_{\symup{auf}}
 \end{align*}
-Die ermittelten Werte sind in ... zu finden. Dabei sind die Tröpfchen von $1$ bis $25$ nummeriert.
+Die ermittelten Werte sind in \autoref{tab:Geschwindigkeit} zu finden.
+
+\begin{table}
+  \centering
+  \caption{Geschwindigkeiten der Tröpfchen.}
+  \label{tab:Geschwindigkeit}
+  \begin{tabular}{c | c c c}
+    \toprule
+    Tröpfchen & $v_{\symup{ab}}/\frac{\si{\centi\meter}}{\si{\second}}$ & $v_{\symup{au}}/\frac{\si{\centi\meter}}{\si{\second}}$ &
+    $\left(v_{\symup{ab}} - v_{\symup{auf}}/\right)\frac{\si{\centi\meter}}{\si{\second}}$ \\
+    \midrule
+    $  1 $ & $ 0,089 \pm 0,003 $ & $ 0,075 \pm 0,008 $ & \\
+    $  2 $ & $ 0,138 \pm 0,013 $ & $ 0,117 \pm 0,019 $ & \\
+    $  3 $ & $ 0,196 \pm 0,024 $ & $ 0,200 \pm 0,040 $ & \\
+    $  4 $ & $ 0,122 \pm 0,008 $ & $ 0,098 \pm 0,002 $ & \\
+    $  5 $ & $ 0,090 \pm 0,002 $ & $ 0,084 \pm 0,003 $ & \\
+    $  6 $ & $ 0,148 \pm 0,011 $ & $ 0,138 \pm 0,002 $ & \\
+    $  7 $ & $ 0,194 \pm 0,024 $ & $ 0,178 \pm 0,024 $ & \\
+    $  8 $ & $ 0,125 \pm 0,009 $ & $ 0,047 \pm 0,003 $ & \\
+    $  9 $ & $ 0,134 \pm 0,003 $ & $ 0,085 \pm 0,001 $ & \\
+    $ 10 $ & $ 0,118 \pm 0,002 $ & $ 0,103 \pm 0,001 $ & \\
+    $ 11 $ & $ 0,238 \pm 0,022 $ & $ 0,260 \pm 0,040 $ & \\
+    $ 12 $ & $ 0,222 \pm 0,005 $ & $ 0,220 \pm 0,040 $ & \\
+    $ 13 $ & $ 0,117 \pm 0,009 $ & $ 0,108 \pm 0,004 $ & \\
+    $ 14 $ & $ 0,187 \pm 0,011 $ & $ 0,179 \pm 0,010 $ & \\
+    $ 15 $ & $ 0,073 \pm 0,018 $ & $ 0,056 \pm 0,018 $ & \\
+    $ 16 $ & $ 0,159 \pm 0,013 $ & $ 0,147 \pm 0,004 $ & \\
+    $ 17 $ & $ 0,231 \pm 0,009 $ & $ 0,226 \pm 0,014 $ & \\
+    $ 18 $ & $ 0,140 \pm 0,003 $ & $ 0,010 \pm 0,003 $ & \\
+    $ 19 $ & $ 0,123 \pm 0,016 $ & $ 0,138 \pm 0,008 $ & \\
+    $ 20 $ & $ 0,300 \pm 0,060 $ & $ 0,340 \pm 0,080 $ & \\
+    $ 21 $ & $ 0,237 \pm 0,029 $ & $ 0,227 \pm 0,024 $ & \\
+    $ 22 $ & $ 0,163 \pm 0,029 $ & $ 0,084 \pm 0,004 $ & \\
+    $ 23 $ & $ 0,300 \pm 0,040 $ & $ 0,340 \pm 0,040 $ & \\
+    $ 24 $ & $ 0,260 \pm 0,025 $ & $ 0,229 \pm 0,019 $ & \\
+    $ 25 $ & $ 0,212 \pm 0,008 $ & $ 0,181 \pm 0,001 $ & \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 
 %\begin{figure}
