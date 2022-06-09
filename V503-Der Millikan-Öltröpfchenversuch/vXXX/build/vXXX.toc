@@ -1,0 +1,18 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Zielsetzung}{3}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Durchführung}{3}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Auswertung}{3}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{3}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Anhang}{3}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{3}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
