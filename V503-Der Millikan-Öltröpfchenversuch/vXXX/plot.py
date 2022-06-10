@@ -1,10 +1,24 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import scipy.constants as const
 from uncertainties import ufloat
 from uncertainties import unumpy as unp
 
 # Konstanten
 s = 0.005
+nL = 1.8575e-5
+dL = 1.204
+dO = 886
+d = unp.uarray([7.6250e-3], [0,0051e-3])
+B = 6.17e-3
+g = const.g
+e = const.e
+
+# Funktionen zur Berechnung
+# Geschwindigkeit v
+def v(t):
+    t = ufloat(np.mean(t), np.std(t))
+    return (s/t)*10**(2)
 
 # Geschwindikeiten
 # Daten einlesen
@@ -37,10 +51,6 @@ t521, t522 = np.genfromtxt('messwerte/5/52.txt', unpack=True)
 t531, t532 = np.genfromtxt('messwerte/5/53.txt', unpack=True)
 t541, t542 = np.genfromtxt('messwerte/5/54.txt', unpack=True)
 t551, t552 = np.genfromtxt('messwerte/5/55.txt', unpack=True)
-
-def v(t):
-    t = ufloat(np.mean(t), np.std(t))
-    return (s/t)*10**(2)
 
 v111 = v(t111)
 v112 = v(t112)
@@ -97,6 +107,36 @@ v542 = v(t542)
 v551 = v(t551)
 v552 = v(t552)
 
+v1  = v111 - v112
+v2  = v121 - v122
+v3  = v131 - v132
+v4  = v141 - v142
+v5  = v151 - v152
+
+v6  = v211 - v212
+v7  = v221 - v222
+v8  = v231 - v232
+v9  = v241 - v242
+v10 = v251 - v252
+
+v11 = v311 - v312
+v12 = v321 - v322
+v13 = v331 - v332
+v14 = v341 - v342
+v15 = v351 - v352
+
+v16 = v411 - v412
+v17 = v421 - v422
+v18 = v431 - v432
+v19 = v441 - v442
+v20 = v451 - v452
+
+v21 = v511 - v512
+v22 = v521 - v522
+v23 = v531 - v532
+v24 = v541 - v542
+v25 = v551 - v552
+
 print('v111: ', v111, ', v112: ', v112)
 print('v121: ', v121, ', v122: ', v122)
 print('v131: ', v131, ', v132: ', v132)
@@ -126,6 +166,32 @@ print('v521: ', v521, ', v522: ', v522)
 print('v531: ', v531, ', v532: ', v532)
 print('v541: ', v541, ', v542: ', v542)
 print('v551: ', v551, ', v552: ', v552)
+
+print('v1 : ', v1)
+print('v2 : ', v2)
+print('v3 : ', v3)
+print('v4 : ', v4)
+print('v5 : ', v5)
+print('v6 : ', v6)
+print('v7 : ', v7)
+print('v8 : ', v8)
+print('v9 : ', v9)
+print('v10: ', v10)
+print('v11: ', v11)
+print('v12: ', v12)
+print('v13: ', v13)
+print('v14: ', v14)
+print('v15: ', v15)
+print('v16: ', v16)
+print('v17: ', v17)
+print('v18: ', v18)
+print('v19: ', v19)
+print('v20: ', v20)
+print('v21: ', v21)
+print('v22: ', v22)
+print('v23: ', v23)
+print('v24: ', v24)
+print('v25: ', v25)
 
 x=1
 y=2

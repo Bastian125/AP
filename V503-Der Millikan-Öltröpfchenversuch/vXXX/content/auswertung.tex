@@ -1,14 +1,17 @@
 \section{Auswertung}
 \label{sec:Auswertung}  
 
+\subsection{Überprüfung der Aussagekraft der Messwerte}
+\label{sec:Überprüfung}
 Die Messwerte für die Spannungen von $\SI{150}{\volt}$, $\SI{170}{\volt}$, $\SI{190}{\volt}$, $\SI{210}{\volt}$
 und $\SI{240}{\volt}$ sind \autoref{tab:t12}, \autoref{tab:t34} und \autoref{tab:t5} zu finden. Die gemessenen  
-Thermistorwiderstände sind im Bereich von $\SI{1,895}{\mega\ohm}$ bis $\SI{1,922}{\mega\ohm}$, so dass nach ... die
+Thermistorwiderstände sind im Bereich von $\SI{1,895}{\mega\ohm}$ bis $\SI{1,922}{\mega\ohm}$, so dass nach der
+im Anhang angegeben \autoref{fig:thermistor} für Thermistorwiderstände die
 Temperatur zu $T\approx \SI{27}{\celsius} = \SI{301,5}{\kelvin}$ ablesbar ist. Es wurden nur Tröpfchen untersucht,
 die keine Geschwindigkeit ohne angelegtes E-Feld haben, so dass die Messung von $t_{\symup{0}}$ nicht notwendig
 ist. Die einzige Bewegung die die Tröpfchen aufgewiesen haben lässt sich durch die Brownsche Molekülbewegung
 erklären und ist für $v_{\symup{0}}$ nicht von Relevanz, so dass sich für alle Tröpfchen
-$v_{\symup{0}} = \SI{0}{\centi\meter\per\second}$ ergibt.
+$v_{\symup{0}} = \SI{0}{\milli\meter\per\second}$ ergibt.
 \begin{table}
   \centering
   \caption{Messwerte für $U=\SI{150}{\volt}$ und
@@ -146,46 +149,58 @@ gilt. Mit $v_{\symup{0}}$ ergibt sich
 \begin{align*}
   0 \approx v_{\symup{ab}} - v_{\symup{auf}}
 \end{align*}
-Die ermittelten Werte sind in \autoref{tab:Geschwindigkeit} zu finden.
-
+Die ermittelten Werte sind in \autoref{tab:Geschwindigkeit} zu finden. Insgesamt lässt sich fest stellen, dass
+für die meisten Geschwindigkeitsdifferenzen der Tröpfchen in einem Intervall liegen. Die Tröpfchen für deren
+Geschwindigkeitsdifferenzen das nicht gilt sind dennoch klein genug, um zu bestätigen, dass sie ungefähr Null sind.
 \begin{table}
   \centering
   \caption{Geschwindigkeiten der Tröpfchen.}
   \label{tab:Geschwindigkeit}
   \begin{tabular}{c | c c c}
     \toprule
-    Tröpfchen & $v_{\symup{ab}}/\frac{\si{\centi\meter}}{\si{\second}}$ & $v_{\symup{au}}/\frac{\si{\centi\meter}}{\si{\second}}$ &
-    $\left(v_{\symup{ab}} - v_{\symup{auf}}/\right)\frac{\si{\centi\meter}}{\si{\second}}$ \\
+    Tröpfchen & $v_{\symup{ab}}/\frac{\si{\milli\meter}}{\si{\second}}$ & $v_{\symup{auf}}/\frac{\si{\milli\meter}}{\si{\second}}$ &
+    $\left(v_{\symup{ab}} - v_{\symup{auf}}/\right)\frac{\si{\milli\meter}}{\si{\second}}$ \\
     \midrule
-    $  1 $ & $ 0,089 \pm 0,003 $ & $ 0,075 \pm 0,008 $ & \\
-    $  2 $ & $ 0,138 \pm 0,013 $ & $ 0,117 \pm 0,019 $ & \\
-    $  3 $ & $ 0,196 \pm 0,024 $ & $ 0,200 \pm 0,040 $ & \\
-    $  4 $ & $ 0,122 \pm 0,008 $ & $ 0,098 \pm 0,002 $ & \\
-    $  5 $ & $ 0,090 \pm 0,002 $ & $ 0,084 \pm 0,003 $ & \\
-    $  6 $ & $ 0,148 \pm 0,011 $ & $ 0,138 \pm 0,002 $ & \\
-    $  7 $ & $ 0,194 \pm 0,024 $ & $ 0,178 \pm 0,024 $ & \\
-    $  8 $ & $ 0,125 \pm 0,009 $ & $ 0,047 \pm 0,003 $ & \\
-    $  9 $ & $ 0,134 \pm 0,003 $ & $ 0,085 \pm 0,001 $ & \\
-    $ 10 $ & $ 0,118 \pm 0,002 $ & $ 0,103 \pm 0,001 $ & \\
-    $ 11 $ & $ 0,238 \pm 0,022 $ & $ 0,260 \pm 0,040 $ & \\
-    $ 12 $ & $ 0,222 \pm 0,005 $ & $ 0,220 \pm 0,040 $ & \\
-    $ 13 $ & $ 0,117 \pm 0,009 $ & $ 0,108 \pm 0,004 $ & \\
-    $ 14 $ & $ 0,187 \pm 0,011 $ & $ 0,179 \pm 0,010 $ & \\
-    $ 15 $ & $ 0,073 \pm 0,018 $ & $ 0,056 \pm 0,018 $ & \\
-    $ 16 $ & $ 0,159 \pm 0,013 $ & $ 0,147 \pm 0,004 $ & \\
-    $ 17 $ & $ 0,231 \pm 0,009 $ & $ 0,226 \pm 0,014 $ & \\
-    $ 18 $ & $ 0,140 \pm 0,003 $ & $ 0,010 \pm 0,003 $ & \\
-    $ 19 $ & $ 0,123 \pm 0,016 $ & $ 0,138 \pm 0,008 $ & \\
-    $ 20 $ & $ 0,300 \pm 0,060 $ & $ 0,340 \pm 0,080 $ & \\
-    $ 21 $ & $ 0,237 \pm 0,029 $ & $ 0,227 \pm 0,024 $ & \\
-    $ 22 $ & $ 0,163 \pm 0,029 $ & $ 0,084 \pm 0,004 $ & \\
-    $ 23 $ & $ 0,300 \pm 0,040 $ & $ 0,340 \pm 0,040 $ & \\
-    $ 24 $ & $ 0,260 \pm 0,025 $ & $ 0,229 \pm 0,019 $ & \\
-    $ 25 $ & $ 0,212 \pm 0,008 $ & $ 0,181 \pm 0,001 $ & \\
+    $  1 $ & $ 0,89 \pm 0,03 $ & $ 0,75 \pm 0,08 $ & $ 0,13 \pm 0,08 $ \\
+    $  2 $ & $ 1,38 \pm 0,13 $ & $ 1,17 \pm 0,19 $ & $ 0,21 \pm 0,23 $ \\
+    $  3 $ & $ 1,96 \pm 0,24 $ & $ 2,00 \pm 0,40 $ & $-0,10 \pm 0,50 $ \\
+    $  4 $ & $ 1,22 \pm 0,08 $ & $ 0,98 \pm 0,02 $ & $ 0,24 \pm 0,09 $ \\
+    $  5 $ & $ 0,90 \pm 0,02 $ & $ 0,84 \pm 0,03 $ & $ 0,07 \pm 0,04 $ \\
+    $  6 $ & $ 1,48 \pm 0,11 $ & $ 1,38 \pm 0,02 $ & $ 0,11 \pm 0,11 $  \\
+    $  7 $ & $ 1,94 \pm 0,24 $ & $ 1,78 \pm 0,24 $ & $ 0,16 \pm 0,33 $  \\
+    $  8 $ & $ 1,25 \pm 0,09 $ & $ 0,47 \pm 0,03 $ & $ 7,80 \pm 0,10 $  \\
+    $  9 $ & $ 1,34 \pm 0,03 $ & $ 0,85 \pm 0,01 $ & $ 0,48 \pm 0,03 $  \\
+    $ 10 $ & $ 1,18 \pm 0,02 $ & $ 1,03 \pm 0,01 $ & $ 0,15 \pm 0,02 $  \\
+    $ 11 $ & $ 2,38 \pm 0,22 $ & $ 2,60 \pm 0,40 $ & $-0,30 \pm 0,40 $ \\
+    $ 12 $ & $ 2,22 \pm 0,05 $ & $ 2,20 \pm 0,40 $ & $ 0,00 \pm 0,40 $ \\
+    $ 13 $ & $ 1,17 \pm 0,09 $ & $ 1,08 \pm 0,04 $ & $ 0,08 \pm 0,10 $ \\
+    $ 14 $ & $ 1,87 \pm 0,11 $ & $ 1,79 \pm 0,10 $ & $ 0,08 \pm 0,15 $ \\
+    $ 15 $ & $ 0,73 \pm 0,18 $ & $ 0,56 \pm 0,18 $ & $ 0,17 \pm 0,25 $ \\
+    $ 16 $ & $ 1,59 \pm 0,13 $ & $ 1,47 \pm 0,04 $ & $ 0,11 \pm 0,13 $ \\
+    $ 17 $ & $ 2,31 \pm 0,09 $ & $ 2,26 \pm 0,14 $ & $ 0,06 \pm 0,17 $ \\
+    $ 18 $ & $ 1,40 \pm 0,03 $ & $ 0,10 \pm 0,03 $ & $ 0,41 \pm 0,04 $ \\
+    $ 19 $ & $ 1,23 \pm 0,16 $ & $ 1,38 \pm 0,08 $ & $-0,15 \pm 0,18 $ \\
+    $ 20 $ & $ 3,00 \pm 0,60 $ & $ 3,40 \pm 0,80 $ & $-0,40 \pm 1,00 $ \\
+    $ 21 $ & $ 2,37 \pm 0,29 $ & $ 2,27 \pm 0,24 $ & $ 0,40 \pm 1,00 $ \\
+    $ 22 $ & $ 1,63 \pm 0,29 $ & $ 0,84 \pm 0,04 $ & $ 0,10 \pm 0,40 $ \\
+    $ 23 $ & $ 3,00 \pm 0,40 $ & $ 3,40 \pm 0,40 $ & $-0,79 \pm 0,30 $ \\
+    $ 24 $ & $ 2,60 \pm 0,25 $ & $ 2,29 \pm 0,19 $ & $ 0,40 \pm 0,60 $ \\
+    $ 25 $ & $ 2,12 \pm 0,08 $ & $ 1,81 \pm 0,01 $ & $ 0,32 \pm 0,08 $ \\
     \bottomrule
   \end{tabular}
 \end{table}
 
+\subsection{Bestimmung der Ladung und des Radius der Öltröpfchen}
+\label{sec:LadRad}
+Aus \autoref{eqn:q} und \autoref{eqn:r} lassen sich nun die Ladungen und der Radius der Tröpfchen bestimmen.
+Die Viskosität der Luft lässt sich aus der im Anhang angegebenen \autoref{fig:viskositaet} zu $\eta_{\symup{L}}
+=1,8575\cdot 10^{-5}\si{\newton\second\per\meter^2}$ ablesen. Die Dichte der Luft beträgt $\rho_{\symup{L}}=
+\SI{1,204}{\kg\per\meter^3}$ und die für Öl beträgt $\rho_{\symup{Öl}}=\SI{886}{\kg\per\meter^3}$. Die Viskosität
+wird in \autoref{eqn:r} und \autoref{eqn:q} durch die Korrektur nach Cunningham in \autoref{eqn:Korrekturterm}
+bestimmt. Die elektrische Feldstärke des Plattenkondensators lässt sich aus dem Zusammenhang
+$E=\frac{U}{d}$ mit $d=(7,6250 \pm 0,0051)\,\si{\milli\meter}$ bestimmen. Die korrigierte Ladung
+ergibt sich aus \autoref{eqn:qKorr}. Die ermittelten Werte sind in ...
+abgebildet.
 
 %\begin{figure}
 %  \centering
