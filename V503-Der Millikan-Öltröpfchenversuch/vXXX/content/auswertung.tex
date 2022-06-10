@@ -150,8 +150,10 @@ gilt. Mit $v_{\symup{0}}$ ergibt sich
   0 \approx v_{\symup{ab}} - v_{\symup{auf}}
 \end{align*}
 Die ermittelten Werte sind in \autoref{tab:Geschwindigkeit} zu finden. Insgesamt lässt sich fest stellen, dass
-für die meisten Geschwindigkeitsdifferenzen der Tröpfchen in einem Intervall liegen. Die Tröpfchen für deren
-Geschwindigkeitsdifferenzen das nicht gilt sind dennoch klein genug, um zu bestätigen, dass sie ungefähr Null sind.
+für die meisten Geschwindigkeitsdifferenzen der Tröpfchen in einem Intervall, das Null mit einschließt, liegen.
+Die Geschwindigkeitsdifferenzen der Tröpfchen, für die das nicht gilt, sind so nah dran, dass trotzdem die
+Bedingung gilt. Lediglich die Werte bei denen die Geschwindigkeitsdifferenz negativ ist werden nicht verwendet,
+da mit ihnen keine Auswertung möglich ist.
 \begin{table}
   \centering
   \caption{Geschwindigkeiten der Tröpfchen.}
@@ -161,31 +163,31 @@ Geschwindigkeitsdifferenzen das nicht gilt sind dennoch klein genug, um zu best�
     Tröpfchen & $v_{\symup{ab}}/\frac{\si{\milli\meter}}{\si{\second}}$ & $v_{\symup{auf}}/\frac{\si{\milli\meter}}{\si{\second}}$ &
     $\left(v_{\symup{ab}} - v_{\symup{auf}}/\right)\frac{\si{\milli\meter}}{\si{\second}}$ \\
     \midrule
-    $  1 $ & $ 0,89 \pm 0,03 $ & $ 0,75 \pm 0,08 $ & $ 0,13 \pm 0,08 $ \\
-    $  2 $ & $ 1,38 \pm 0,13 $ & $ 1,17 \pm 0,19 $ & $ 0,21 \pm 0,23 $ \\
-    $  3 $ & $ 1,96 \pm 0,24 $ & $ 2,00 \pm 0,40 $ & $-0,10 \pm 0,50 $ \\
-    $  4 $ & $ 1,22 \pm 0,08 $ & $ 0,98 \pm 0,02 $ & $ 0,24 \pm 0,09 $ \\
-    $  5 $ & $ 0,90 \pm 0,02 $ & $ 0,84 \pm 0,03 $ & $ 0,07 \pm 0,04 $ \\
-    $  6 $ & $ 1,48 \pm 0,11 $ & $ 1,38 \pm 0,02 $ & $ 0,11 \pm 0,11 $  \\
-    $  7 $ & $ 1,94 \pm 0,24 $ & $ 1,78 \pm 0,24 $ & $ 0,16 \pm 0,33 $  \\
-    $  8 $ & $ 1,25 \pm 0,09 $ & $ 0,47 \pm 0,03 $ & $ 7,80 \pm 0,10 $  \\
-    $  9 $ & $ 1,34 \pm 0,03 $ & $ 0,85 \pm 0,01 $ & $ 0,48 \pm 0,03 $  \\
-    $ 10 $ & $ 1,18 \pm 0,02 $ & $ 1,03 \pm 0,01 $ & $ 0,15 \pm 0,02 $  \\
-    $ 11 $ & $ 2,38 \pm 0,22 $ & $ 2,60 \pm 0,40 $ & $-0,30 \pm 0,40 $ \\
-    $ 12 $ & $ 2,22 \pm 0,05 $ & $ 2,20 \pm 0,40 $ & $ 0,00 \pm 0,40 $ \\
-    $ 13 $ & $ 1,17 \pm 0,09 $ & $ 1,08 \pm 0,04 $ & $ 0,08 \pm 0,10 $ \\
-    $ 14 $ & $ 1,87 \pm 0,11 $ & $ 1,79 \pm 0,10 $ & $ 0,08 \pm 0,15 $ \\
-    $ 15 $ & $ 0,73 \pm 0,18 $ & $ 0,56 \pm 0,18 $ & $ 0,17 \pm 0,25 $ \\
-    $ 16 $ & $ 1,59 \pm 0,13 $ & $ 1,47 \pm 0,04 $ & $ 0,11 \pm 0,13 $ \\
-    $ 17 $ & $ 2,31 \pm 0,09 $ & $ 2,26 \pm 0,14 $ & $ 0,06 \pm 0,17 $ \\
-    $ 18 $ & $ 1,40 \pm 0,03 $ & $ 0,10 \pm 0,03 $ & $ 0,41 \pm 0,04 $ \\
-    $ 19 $ & $ 1,23 \pm 0,16 $ & $ 1,38 \pm 0,08 $ & $-0,15 \pm 0,18 $ \\
-    $ 20 $ & $ 3,00 \pm 0,60 $ & $ 3,40 \pm 0,80 $ & $-0,40 \pm 1,00 $ \\
-    $ 21 $ & $ 2,37 \pm 0,29 $ & $ 2,27 \pm 0,24 $ & $ 0,40 \pm 1,00 $ \\
-    $ 22 $ & $ 1,63 \pm 0,29 $ & $ 0,84 \pm 0,04 $ & $ 0,10 \pm 0,40 $ \\
-    $ 23 $ & $ 3,00 \pm 0,40 $ & $ 3,40 \pm 0,40 $ & $-0,79 \pm 0,30 $ \\
-    $ 24 $ & $ 2,60 \pm 0,25 $ & $ 2,29 \pm 0,19 $ & $ 0,40 \pm 0,60 $ \\
-    $ 25 $ & $ 2,12 \pm 0,08 $ & $ 1,81 \pm 0,01 $ & $ 0,32 \pm 0,08 $ \\
+    $  1 $ & $ 0,886 \pm 0,028 $ & $ 0,750 \pm 0,080 $ & $ 0,130 \pm 0,080 $ \\
+    $  2 $ & $ 1,380 \pm 0,130 $ & $ 1,170 \pm 0,190 $ & $ 0,210 \pm 0,230 $ \\
+    $  3 $ & $ 1,960 \pm 0,240 $ & $ 2,000 \pm 0,400 $ & $-0,100 \pm 0,500 $ \\
+    $  4 $ & $ 1,220 \pm 0,080 $ & $ 0,982 \pm 0,016 $ & $ 0,240 \pm 0,090 $ \\
+    $  5 $ & $ 0,902 \pm 0,021 $ & $ 0,836 \pm 0,031 $ & $ 0,070 \pm 0,040 $ \\
+    $  6 $ & $ 1,480 \pm 0,110 $ & $ 1,379 \pm 0,023 $ & $ 0,110 \pm 0,110 $  \\
+    $  7 $ & $ 1,940 \pm 0,240 $ & $ 1,780 \pm 0,240 $ & $ 0,160 \pm 0,330 $  \\
+    $  8 $ & $ 1,250 \pm 0,090 $ & $ 0,468 \pm 0,025 $ & $ 0,780 \pm 0,100 $  \\
+    $  9 $ & $ 1,336 \pm 0,031 $ & $ 0,852 \pm 0,012 $ & $ 0,484 \pm 0,033 $  \\
+    $ 10 $ & $ 1,181 \pm 0,022 $ & $ 1,033 \pm 0,010 $ & $ 0,148 \pm 0,024 $  \\
+    $ 11 $ & $ 2,380 \pm 0,220 $ & $ 2,600 \pm 0,400 $ & $-0,300 \pm 0,400 $ \\
+    $ 12 $ & $ 2,220 \pm 0,050 $ & $ 2,200 \pm 0,400 $ & $ 0,000 \pm 0,400 $ \\
+    $ 13 $ & $ 1,170 \pm 0,090 $ & $ 1,080 \pm 0,040 $ & $ 0,080 \pm 0,100 $ \\
+    $ 14 $ & $ 1,870 \pm 0,110 $ & $ 1,790 \pm 0,100 $ & $ 0,080 \pm 0,150 $ \\
+    $ 15 $ & $ 0,730 \pm 0,180 $ & $ 0,560 \pm 0,180 $ & $ 0,170 \pm 0,250 $ \\
+    $ 16 $ & $ 1,590 \pm 0,130 $ & $ 1,470 \pm 0,040 $ & $ 0,110 \pm 0,130 $ \\
+    $ 17 $ & $ 2,310 \pm 0,090 $ & $ 2,260 \pm 0,140 $ & $ 0,060 \pm 0,170 $ \\
+    $ 18 $ & $ 1,403 \pm 0,027 $ & $ 0,994 \pm 0,032 $ & $ 0,410 \pm 0,040 $ \\
+    $ 19 $ & $ 1,230 \pm 0,160 $ & $ 1,380 \pm 0,080 $ & $-0,150 \pm 0,180 $ \\
+    $ 20 $ & $ 3,000 \pm 0,600 $ & $ 3,400 \pm 0,800 $ & $-0,400 \pm 1,000 $ \\
+    $ 21 $ & $ 2,370 \pm 0,290 $ & $ 2,270 \pm 0,240 $ & $ 0,100 \pm 1,000 $ \\
+    $ 22 $ & $ 1,630 \pm 0,290 $ & $ 0,840 \pm 0,040 $ & $ 0,790 \pm 0,400 $ \\
+    $ 23 $ & $ 3,000 \pm 0,400 $ & $ 3,400 \pm 0,400 $ & $-0,400 \pm 0,300 $ \\
+    $ 24 $ & $ 2,600 \pm 0,250 $ & $ 2,290 \pm 0,190 $ & $ 0,310 \pm 0,600 $ \\
+    $ 25 $ & $ 2,120 \pm 0,080 $ & $ 1,805 \pm 0,011 $ & $ 0,320 \pm 0,080 $ \\
     \bottomrule
   \end{tabular}
 \end{table}
