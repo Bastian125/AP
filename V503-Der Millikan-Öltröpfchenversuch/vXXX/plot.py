@@ -9,7 +9,8 @@ s = 0.005
 nL = 1.8575e-5
 dL = 1.204
 dO = 886
-d = unp.uarray([7.6250e-3], [0,0051e-3])
+p = 101.325e3
+d = 7.6250e-3
 B = 6.17e-3
 g = const.g
 e = const.e
@@ -19,6 +20,22 @@ e = const.e
 def v(t):
     t = ufloat(np.mean(t), np.std(t))
     return (s/t)*10**(2)
+
+# Feldstärke des Plattenkondensators
+def E(U):
+    return U/d
+
+# Radius des Öltröpfchens
+def r(vab, vauf):
+    return np.sqrt((9/2)*(nL/g)*(vab-vauf)/(dO-dL))
+
+# Unkorriegierte Ladung
+def q(vab, vauf, E, r):
+    return (3/4)*np.pi*nL*r*((vab+vauf)/(E))
+
+# Korrigierte Ladung
+def qkorr(q, r):
+    return q*(1+(B/p*r))
 
 # Geschwindikeiten
 # Daten einlesen
@@ -52,6 +69,7 @@ t531, t532 = np.genfromtxt('messwerte/5/53.txt', unpack=True)
 t541, t542 = np.genfromtxt('messwerte/5/54.txt', unpack=True)
 t551, t552 = np.genfromtxt('messwerte/5/55.txt', unpack=True)
 
+# Auf- und Abgeschwindigkeiten
 v111 = v(t111)
 v112 = v(t112)
 v121 = v(t121)
@@ -107,6 +125,7 @@ v542 = v(t542)
 v551 = v(t551)
 v552 = v(t552)
 
+# Geschwindigkeitsdifferenzen
 v1  = v111 - v112
 v2  = v121 - v122
 v3  = v131 - v132
@@ -136,6 +155,17 @@ v22 = v521 - v522
 v23 = v531 - v532
 v24 = v541 - v542
 v25 = v551 - v552
+
+# Feldstärke
+E1 = E(150)
+E2 = E(170)
+E3 = E(190)
+E4 = E(210)
+E5 = E(240)
+
+# Radius
+
+# Ausgabe
 
 print('v111: ', v111, ', v112: ', v112)
 print('v121: ', v121, ', v122: ', v122)
