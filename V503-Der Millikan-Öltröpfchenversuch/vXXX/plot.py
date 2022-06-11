@@ -10,8 +10,8 @@ nL = 1.8575e-5
 dL = 1.204
 dO = 886
 p = 101.325e3
-d = 7.6250e-3
-B = 6.17e-3
+d = ufloat(7.6250, 0.0051)*10**(-3)
+B = 6.17*10**(-5)*133.322
 g = const.g
 e = const.e
 
@@ -30,7 +30,7 @@ def r(vab, vauf):
     if vab-vauf<0:
         return 0
     else:
-        return ((9/2)*(nL/g)*(vab-vauf)/(dO-dL))**(0.5)
+        return unp.sqrt((9/2)*(nL/g)*(vab-vauf)/(dO-dL))
 
 # Unkorriegierte Ladung
 def q(vab, vauf, E, r):
@@ -44,7 +44,7 @@ def qkorr(q, r):
     if q==0:
         return 0
     else:
-        return q*(1+(B/p*r))
+        return q*(1+(B/(p*r)))**(3/2)
 
 # Geschwindikeiten
 # Daten einlesen
@@ -226,6 +226,33 @@ q23 = q(v531, v532, E5, r23)
 q24 = q(v541, v542, E5, r24)
 q25 = q(v551, v552, E5, r25)
 
+# Korrigierte Ladungen
+qk1  = qkorr(q1, r1)
+qk2  = qkorr(q2, r2)
+qk3  = qkorr(q3, r3)
+qk4  = qkorr(q4, r4)
+qk5  = qkorr(q5, r5)
+qk6  = qkorr(q6, r6)
+qk7  = qkorr(q7, r7)
+qk8  = qkorr(q8, r8)
+qk9  = qkorr(q9, r9)
+qk10 = qkorr(q10, r10)
+qk11 = qkorr(q11, r11)
+qk12 = qkorr(q12, r12)
+qk13 = qkorr(q13, r13)
+qk14 = qkorr(q14, r14)
+qk15 = qkorr(q15, r15)
+qk16 = qkorr(q16, r16)
+qk17 = qkorr(q17, r17)
+qk18 = qkorr(q18, r18)
+qk19 = qkorr(q19, r19)
+qk20 = qkorr(q20, r20)
+qk21 = qkorr(q21, r21)
+qk22 = qkorr(q22, r22)
+qk23 = qkorr(q23, r23)
+qk24 = qkorr(q24, r24)
+qk25 = qkorr(q25, r25)
+
 
 # Ausgabe
 
@@ -285,32 +312,34 @@ q25 = q(v551, v552, E5, r25)
 #print('v24: ', v24)
 #print('v25: ', v25)
 
-#print('r1  : ',  r1)
-#print('r2  : ',  r2)
-#print('r3  : ',  r3)
-#print('r4  : ',  r4)
-#print('r5  : ',  r5)
-#print('r6  : ',  r6)
-#print('r7  : ',  r7)
-#print('r8  : ',  r8)
-#print('r9  : ',  r9)
-#print('r10 : ', r10)
-#print('r11 : ', r11)
-#print('r12 : ', r12)
-#print('r13 : ', r13)
-#print('r14 : ', r14)
-#print('r15 : ', r15)
-#print('r16 : ', r16)
-#print('r17 : ', r17)
-#print('r18 : ', r18)
-#print('r19 : ', r19)
-#print('r20 : ', r20)
-#print('r21 : ', r21)
-#print('r22 : ', r22)
-#print('r23 : ', r23)
-#print('r24 : ', r24)
-#print('r25 : ', r25)
+print('Radius:')
+print('r1  : ',  r1)
+print('r2  : ',  r2)
+print('r3  : ',  r3)
+print('r4  : ',  r4)
+print('r5  : ',  r5)
+print('r6  : ',  r6)
+print('r7  : ',  r7)
+print('r8  : ',  r8)
+print('r9  : ',  r9)
+print('r10 : ', r10)
+print('r11 : ', r11)
+print('r12 : ', r12)
+print('r13 : ', r13)
+print('r14 : ', r14)
+print('r15 : ', r15)
+print('r16 : ', r16)
+print('r17 : ', r17)
+print('r18 : ', r18)
+print('r19 : ', r19)
+print('r20 : ', r20)
+print('r21 : ', r21)
+print('r22 : ', r22)
+print('r23 : ', r23)
+print('r24 : ', r24)
+print('r25 : ', r25)
 
+print('Ladungen')
 print('q1  : ', q1)
 print('q2  : ', q2)
 print('q3  : ', q3)
@@ -336,6 +365,33 @@ print('q22 : ', q22)
 print('q23 : ', q23)
 print('q24 : ', q24)
 print('q25 : ', q25)
+
+print('Korrigierte Ladungen')
+print('qk1  : ', qk1)
+print('qk2  : ', qk2)
+print('qk3  : ', qk3)
+print('qk4  : ', qk4)
+print('qk5  : ', qk5)
+print('qk6  : ', qk6)
+print('qk7  : ', qk7)
+print('qk8  : ', qk8)
+print('qk9  : ', qk9)
+print('qk10 : ', qk10)
+print('qk11 : ', qk11)
+print('qk12 : ', qk12)
+print('qk13 : ', qk13)
+print('qk14 : ', qk14)
+print('qk15 : ', qk15)
+print('qk16 : ', qk16)
+print('qk17 : ', qk17)
+print('qk18 : ', qk18)
+print('qk19 : ', qk19)
+print('qk20 : ', qk20)
+print('qk21 : ', qk21)
+print('qk22 : ', qk22)
+print('qk23 : ', qk23)
+print('qk24 : ', qk24)
+print('qk25 : ', qk25)
 
 x=1
 y=2
