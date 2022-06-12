@@ -226,7 +226,7 @@ abgebildet.
     12 & $190$ & $-$              & $-$             & $-$               \\
     13 & $190$ & $2,80 \pm 1,70$  & $1,1 \pm 0,7$   & $1,60 \pm 0,70$   \\
     14 & $190$ & $2,70 \pm 2,70$  & $1,8 \pm 1,7$   & $2,60 \pm 1,70$   \\
-    15 & $190$ & $4,00 \pm 3,00$  & $9,0 \pm 7,0$   & $1,20 \pm 0,70$   \\
+    15 & $190$ & $4,00 \pm 3,00$  & $0,9 \pm 0,7$   & $1,20 \pm 0,70$   \\
     16 & $210$ & $3,30 \pm 1,90$  & $1,6 \pm 1,0$   & $2,20 \pm 1,00$   \\
     17 & $210$ & $2,40 \pm 3,50$  & $1,7 \pm 2,5$   & $2,70 \pm 2,40$   \\
     18 & $210$ & $6,28 \pm 0,32$  & $2,39 \pm 0,12$ & $2,87 \pm 0,12$   \\
@@ -244,13 +244,39 @@ abgebildet.
 \subsection{Bestimmung der Elementarladung}
 \label{sec:Elementarladung}
 Die korrigierten Ladungen sind in \autoref{fig:plot1} dargestellt. Die Elementarladung ist dabei der größte
-gemeinsame Teiler der korrigierten Ladungen.
+gemeinsame Teiler der Ladungen. Die Nummerierung der Messungen wird wie in \autoref{tab:Geschwindigkeit}
+beibehalten, so dass nach 5 Messwerten die Spannung erhöht wird und eine neue Messreihe begonnen wird. Um den
+größten gemeinsamen Teiler zu bestimmen, wird nun der minimale Abstand der bestimmten Ladungen einer Messreihe,
+der größer als $1\cdot 10^{-19}\,\si{\coulomb}$ ist, da der größte gemeinsame Teiler für fehlerbehaftet nicht
+ganzzahlige Größen nicht bestimmbar ist. Anschließend werden die ermittelten Werte für $e_{\symup{0}}$
+und $e_{\symup{0, korr.}}$ gemittelt.
 \begin{figure}
   \centering
   \includegraphics{plot1.pdf}
   \caption{Korrigierte Ladungen.}
   \label{fig:plot1}
 \end{figure}
+Die bestimmten Elementarladungen für die Ladung und die korrigierte Ladung sind in \autoref{tab:e} abgebildet.
+Für die vierte Messreihe lässt sich dabei weder ein $e_{\symup{0}}$ noch ein $e_{\symup{0, korr}}$ bestimmen
+und für die dritte Messreihe lässt sich kein $e_{\symup{0}}$ bestimmen.
+\begin{table}
+  \centering
+  \caption{Elementarladungen mit und ohne Korrektur nach Cunningham und deren Mittelwerte.}
+  \label{tab:e}
+  \begin{tabular}{c c c c}
+    \toprule
+    Messreihe & $U/\si{\volt}$ & $e_{\symup{0}}/10^{-19}\si{\coulomb}$ & $e_{\symup{0, korr}}/10^{-19}
+    \si{\coulomb}$ \\
+    \midrule
+    1           & $150$ & $1,1 \pm 0,6$ & $1,2 \pm 0,6$ \\
+    2           & $170$ & $1,1 \pm 1,1$ & $1,1 \pm 0,4$ \\
+    3           & $190$ &               & $1,0 \pm 1,8$ \\
+    4           & $210$ &               &               \\
+    5           & $240$ & $1 \pm 4$     & $2,0 \pm 4,0$ \\
+    Mittelwert  &       & $1,1 \pm 1,4$ & $1,3 \pm 1,2$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \subsection{Berechnung der Avogadro-Konstante}
 \label{sec:Avogadro}
@@ -258,4 +284,8 @@ Die Avogadrokonstane ist durch
 \begin{align*}
   N_{\symup{A}} = \frac{F}{e_{\symup{0}}}
 \end{align*}
-definiert.
+definiert. Dabei ist die $F$ die Faradykonstante und beträgt $F= (96.485,3399 \pm 0,0024)\,\frac{\si{\coulomb}}
+{\si{\mol}}$ \cite{faraday}. Mit $e_{\symup{0, korr}}$ eingesetzt ergibt sich
+\begin{align*}
+  N_{\symup{A}} = (8 \pm 7)\cdot 10^{23} \, \frac{1}{\si{\mol}}.
+\end{align*}

@@ -15,6 +15,7 @@ d = ufloat(7.6250, 0.0051)*10**(-3)
 B = 6.17*10**(-5)*133.322
 g = const.g
 e = const.e
+F = ufloat(96485.3399, 0.0024)
 
 # Funktionen zur Berechnung
 # Geschwindigkeit v
@@ -270,7 +271,23 @@ unp.std_devs(qk18), unp.std_devs(qk21), unp.std_devs(qk22), unp.std_devs(qk24), 
 etick = [0, e, 2*e, 3*e, 4*e, 5*e]
 etickname = [r'$0$', r'$e$', r'$2e$', r'$3e$', r'$4e$', r'$5e$']
 
-# Groeßter gemeinsamer Teiler:
+# Elementarladung
+e1 = q4-q1
+e2 = q8-q6
+e5 = q25-q21
+
+e = (1/3)*(e1+e2+e5)
+
+# Cunninghamkorrektur
+ek1 = qk4-qk1
+ek2 = qk8-qk10
+ek3 = qk14-qk13
+ek5 = qk24-qk21
+
+ek = 0.25*(ek1+ek2+ek3+ek5)
+
+# Avogadrokonstante
+Na = F/ek
 
 # Ausgabe
 #
@@ -410,6 +427,23 @@ etickname = [r'$0$', r'$e$', r'$2e$', r'$3e$', r'$4e$', r'$5e$']
 #print('qk23 : ', qk23)
 #print('qk24 : ', qk24)
 #print('qk25 : ', qk25)
+
+# Elemntarladung
+#print('Ladung:')
+#print('e1: ', e1)
+#print('e2: ', e2)
+#print('e5: ', e5)
+#print('Mittelwert:', e)
+#
+#print('Korrigierte Ladungen:')
+#print('e1: ', ek1)
+#print('e2: ', ek2)
+#print('e3: ', ek3)
+#print('e5: ', ek5)
+#print('Mittelwert: ', ek)
+
+# Avogadrokonstante
+print('Avogadrokonstante: ', Na)
 
 # Plot
 plt.plot(messwerte, qk, 'x', label='Korrigierte Ladung')
