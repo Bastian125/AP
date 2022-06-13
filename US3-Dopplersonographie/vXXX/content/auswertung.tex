@@ -3,14 +3,14 @@
 
 \subsection{Strömungsgeschwindigkeit in Abhängigkeit des Dopplerwinkels}
 
-Bei diesem Versuchsteil werden bei unterschiedlichen Pumpengeschwindigkeiten und Einstrahlwinkeln die
+Bei diesem Versuchsteil werden bei unterschiedlichen Pumpgeschwindigkeiten und Einstrahlwinkeln die
 Frequenzverschiebungen des ausgehenden und eingehenden Schalls untersucht um daraus die Strömungsgeschwindigkeit
 zu berechnen.\\
 Die Strömungsgeschwindigkeit in Abhängigkeit des Dopplerwinkels lässt sich durch \autoref{eqn:fdiff}
 berechnen. Da nicht die Frequenzverschiebung, sondern die Geschwindigkeit gesucht ist, wird die Formel
 nach $v$ umgestellt. In die resultierende Formel
 \begin{equation*}
-  v_{\mathrm{Str}} = \frac{\symup{\Delta}\nu\cdot c}{\nu_0\,\symup{cos}\,\alpha} 
+  v_{\mathrm{Str}} = \frac{\symup{\Delta}\nu\cdot c}{2\nu_0\,\symup{cos}\,\alpha} 
 \end{equation*}
 werden dann alle aufgenommenen Messwerte eingesetzt und die Strömungsgeschwindigkeiten ausgerechnet.\\
 Die Messwerte lassen sich in \autoref{tab:Teil1} finden. Die Frequenzverschiebungen wurden jeweils
@@ -20,7 +20,7 @@ Aus diesen Einstrahlwinkeln lässt sich mithilfe von \autoref{eqn:alpha} der Dop
   \centering
   \begin{tabular}{c | c | c | c}
     \toprule
-    Pumpengeschwindigkeit / rpm & \multicolumn{3}{c}{Fr.-versch. $f_{\mathrm{diff}}$} \\
+    Pumpengeschwindigkeit / rpm & \multicolumn{3}{c}{Fr.-versch. $\Delta \nu$} \\
     \hline
      & $15^\circ$ & $30^\circ$ & $45^\circ$ \\
     \midrule
@@ -36,7 +36,7 @@ Aus diesen Einstrahlwinkeln lässt sich mithilfe von \autoref{eqn:alpha} der Dop
 \end{table}
 
 Mithilfe der obigen Formel werden dann die Strömungsgeschwindigkeiten ausgerechnet und ein Plot erstellt,
-wo $\frac{\Delta f}{\cos{\alpha}}$ gegen die Strömungsgeschwindigkeit aufgetragen wird. Das Ergebnis ist in 
+wo $\frac{\Delta \nu}{\cos{\alpha}}$ gegen die Strömungsgeschwindigkeit aufgetragen wird. Das Ergebnis ist in 
 \autoref{plt:Teil1} zu sehen.
 
 \begin{figure}
@@ -61,7 +61,7 @@ Gesamtleistung) gewählt. Die aufgezeichneten Messwerte sind jeweils in \autoref
   \centering
   \begin{tabular}{c | c | c | c}
     \toprule
-    Messtiefe $l$ / $\si{\micro\second}$ & Fr.-versch. $f_{\mathrm{diff}}$ / $\si{\hertz}$ & Strömungsgeschw. $v$ / $\si{\centi\meter\per\second}$ & Intensität / $\si{\kilo\volt\squared\per\second}$ \\
+    Messtiefe $l$ / $\si{\micro\second}$ & Fr.-versch. $\Delta \nu$ / $\si{\hertz}$ & Strömungsgeschw. $v$ / $\si{\centi\meter\per\second}$ & Intensität / $\si{\kilo\volt\squared\per\second}$ \\
     \midrule
     13.5        &    0      &     0         &      29\\
     14          &    81     &     23.9      &      33\\
@@ -81,7 +81,7 @@ Gesamtleistung) gewählt. Die aufgezeichneten Messwerte sind jeweils in \autoref
   \centering
   \begin{tabular}{c | c | c | c}
     \toprule
-    Messtiefe $l$ / $\si{\micro\second}$ & Fr.-versch. $f_{\mathrm{diff}}$ / $\si{\hertz}$ & Strömungsgeschw. $v$ / $\si{\centi\meter\per\second}$ & Intensität / $\si{\kilo\volt\squared\per\second}$ \\
+    Messtiefe $l$ / $\si{\micro\second}$ & Fr.-versch. $\Delta \nu$ / $\si{\hertz}$ & Strömungsgeschw. $v$ / $\si{\centi\meter\per\second}$ & Intensität / $\si{\kilo\volt\squared\per\second}$ \\
     \midrule
     12          &    0      &     0          &     14\\
     12.5        &    0      &     0          &     24\\
