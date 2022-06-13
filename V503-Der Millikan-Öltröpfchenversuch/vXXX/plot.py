@@ -3,9 +3,10 @@ import numpy as np
 import scipy.constants as const
 from uncertainties import ufloat
 from uncertainties import unumpy as unp
+from math import gcd
 
 # Konstanten
-s = 0.005
+s = 0.0005
 nL = 1.8575e-5
 dL = 1.204
 dO = 886
@@ -14,6 +15,7 @@ d = ufloat(7.6250, 0.0051)*10**(-3)
 B = 6.17*10**(-5)*133.322
 g = const.g
 e = const.e
+F = ufloat(96485.3399, 0.0024)
 
 # Funktionen zur Berechnung
 # Geschwindigkeit v
@@ -266,12 +268,29 @@ unp.std_devs(qk8), unp.std_devs(qk9), unp.std_devs(qk10), unp.std_devs(qk13), un
 unp.std_devs(qk18), unp.std_devs(qk21), unp.std_devs(qk22), unp.std_devs(qk24), unp.std_devs(qk25)]
 
 # Ticks fuer die y-Achse
-etick = [-30*e, -20*e, -10*e, 0, 10*e, 20*e, 30*e, 40*e, 50*e, 60*e, 70*e, 80*e, 90*e, 100*e, 110*e, 120*e, 130*e]
-etickname = [r'$-30e$', r'$-20e$', r'$-10e$', 0, r'$10e$', r'$20e$', r'$30e$', r'$40e$', r'$50e$', r'$60e$', r'$70e$', r'$80e$',
-r'$90e$', r'$100e$', r'$110e$', r'$120e$', r'$130e$']
+etick = [0, e, 2*e, 3*e, 4*e, 5*e]
+etickname = [r'$0$', r'$e$', r'$2e$', r'$3e$', r'$4e$', r'$5e$']
+
+# Elementarladung
+e1 = q4-q1
+e2 = q8-q6
+e5 = q25-q21
+
+e = (1/3)*(e1+e2+e5)
+
+# Cunninghamkorrektur
+ek1 = qk4-qk1
+ek2 = qk8-qk10
+ek3 = qk14-qk13
+ek5 = qk24-qk21
+
+ek = 0.25*(ek1+ek2+ek3+ek5)
+
+# Avogadrokonstante
+Na = F/ek
 
 # Ausgabe
-
+#
 #print('v111: ', v111, ', v112: ', v112)
 #print('v121: ', v121, ', v122: ', v122)
 #print('v131: ', v131, ', v132: ', v132)
@@ -355,32 +374,32 @@ r'$90e$', r'$100e$', r'$110e$', r'$120e$', r'$130e$']
 #print('r24 : ', r24)
 #print('r25 : ', r25)
 
-# print('Ladungen')
-# print('q1  : ', q1)
-# print('q2  : ', q2)
-# print('q3  : ', q3)
-# print('q4  : ', q4)
-# print('q5  : ', q5)
-# print('q6  : ', q6)
-# print('q7  : ', q7)
-# print('q8  : ', q8)
-# print('q9  : ', q9)
-# print('q10 : ', q10)
-# print('q11 : ', q11)
-# print('q12 : ', q12)
-# print('q13 : ', q13)
-# print('q14 : ', q14)
-# print('q15 : ', q15)
-# print('q16 : ', q16)
-# print('q17 : ', q17)
-# print('q18 : ', q18)
-# print('q19 : ', q19)
-# print('q20 : ', q20)
-# print('q21 : ', q21)
-# print('q22 : ', q22)
-# print('q23 : ', q23)
-# print('q24 : ', q24)
-# print('q25 : ', q25)
+#print('Ladungen')
+#print('q1  : ', q1)
+#print('q2  : ', q2)
+#print('q3  : ', q3)
+#print('q4  : ', q4)
+#print('q5  : ', q5)
+#print('q6  : ', q6)
+#print('q7  : ', q7)
+#print('q8  : ', q8)
+#print('q9  : ', q9)
+#print('q10 : ', q10)
+#print('q11 : ', q11)
+#print('q12 : ', q12)
+#print('q13 : ', q13)
+#print('q14 : ', q14)
+#print('q15 : ', q15)
+#print('q16 : ', q16)
+#print('q17 : ', q17)
+#print('q18 : ', q18)
+#print('q19 : ', q19)
+#print('q20 : ', q20)
+#print('q21 : ', q21)
+#print('q22 : ', q22)
+#print('q23 : ', q23)
+#print('q24 : ', q24)
+#print('q25 : ', q25)
 
 #print('Korrigierte Ladungen')
 #print('qk1  : ', qk1)
@@ -409,12 +428,28 @@ r'$90e$', r'$100e$', r'$110e$', r'$120e$', r'$130e$']
 #print('qk24 : ', qk24)
 #print('qk25 : ', qk25)
 
+# Elemntarladung
+#print('Ladung:')
+#print('e1: ', e1)
+#print('e2: ', e2)
+#print('e5: ', e5)
+#print('Mittelwert:', e)
+#
+#print('Korrigierte Ladungen:')
+#print('e1: ', ek1)
+#print('e2: ', ek2)
+#print('e3: ', ek3)
+#print('e5: ', ek5)
+#print('Mittelwert: ', ek)
+
+# Avogadrokonstante
+print('Avogadrokonstante: ', Na)
+
 # Plot
 plt.plot(messwerte, qk, 'x', label='Korrigierte Ladung')
 plt.errorbar(messwerte, qk, yerr=qerr, elinewidth = 0.7, linewidth = 0, marker = ".", markersize = 7, capsize=3)
 plt.xlabel('Messung')
 plt.xlim(0, 26)
-plt.ylim(-40*e, 130*e)
 plt.yticks(etick, etickname)
 plt.grid()
 plt.legend(loc='best')
