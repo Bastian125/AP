@@ -13,7 +13,7 @@ Beziehung
 ab. Dabei ist $\vec{M}$ die Magnetisierung und $\mu_{0}$ die magnetische Feldkonstante. $\vec{M}$ hängt von
 $\vec{H}$ durch die Suszeptibilität $\chi$ durch
 \begin{equation}
-    \vec{M} = \mu_{0}\chi\vec{H}
+    \vec{M} = \mu_{0}\left(\chi+1\right)\vec{H}
 \end{equation}
 ab. $\chi$ ist dabei keineswegs eine Konstante, sondern hängt in komplizierter Weise von $\vec{H}$ und der
 Temperatur $T$ ab. Allgemein tritt für alle Atome der Diamagnetismus auf, da er durch ein von außen angelegtes
@@ -24,17 +24,17 @@ dem Drehimpuls gekoppelten magnetischen Momente relativ zum äußeren Magnetfeld
 Momente durchgängig durch die thermische Bewegung gestört werden, ist der Paramagnetismus temperaturabhängig.
 Für den Diamagnetismus trifft dies nicht zu. Der Gesamtdrehimpuls setzt sich aus dem Bahndrehimpuls $\vec{L}$
 und dem Spin $\vec{S}$ durch
-\begin{equation}
+\begin{equation*}
     \vec{J} = \vec{L} + \vec{S}
-\end{equation}
+\end{equation*}
 zusammen. Die magnetischen Momente zum Drehimpuls und Spin ergeben sich zu
-\begin{equation}
+\begin{equation*}
     \vec{\mu}_{\symup{L}} = -\frac{\mu_{\symup{B}}}{\hbar} \vec{L}
-\end{equation}
+\end{equation*}
 und
-\begin{equation}
+\begin{equation*}
     \vec{\mu_{\symup{S}}} =  -g_{\symup{S}}\frac{\mu_{\symup{B}}}{\hbar}\vec{S}\,.
-\end{equation}
+\end{equation*}
 $\hbar$ ist dabei das reduzierte Plancksche Wirkungsquantum, $\mu_{\symup{B}}=\frac{e_{0}\hbar}{2m_{0}}$ das
 Bohrsche Magneton und $g_{\symup{S}}$ das gyromagnetische Verhältnis des freien Elektrons.
 \begin{figure}
@@ -44,9 +44,9 @@ Bohrsche Magneton und $g_{\symup{S}}$ das gyromagnetische Verhältnis des freien
     \label{fig:vektordiagramm}
 \end{figure}
 Aus den geometrischen Zusammenhänge aus \autoref{fig:vektordiagramm} ergibt sich
-\begin{equation}
+\begin{equation*}
     |\vec{\mu_{\symup{J}}}| = |\vec{\mu_{\symup{S}}}|\cos{\alpha}| + |\vec{\mu_{\symup{L}}}|\cos{\beta}
-\end{equation}
+\end{equation*}
 Weiterhin gelten für $|\vec{\mu_{\symup{L}}}|$ und $|\vec{\mu_{\symup{S}}}|$
 \begin{align*}
     |\vec{\mu_{\symup{L}}}| &= \mu_{\symup{B}}\sqrt{L\left(L+1\right)} \\
@@ -57,6 +57,49 @@ Mit Hilfe des durch
     g_{\symup{J}} = \frac{3J\left(J+1\right) + S\left(S+1\right)- L\left(L+1\right)}{2J\left(J+1\right)}
 \end{equation*}
 definierten Lande-Faktors ergibt sich dann
-\begin{equation}
+\begin{equation*}
     |\vec{\mu_{\symup{J}}}| \approx \mu_{\symup{B}}g_{\symup{J}}\sqrt{J\left(J+1\right)}\,.
+\end{equation*}
+Daraus ergibt sich dann die potentielle Energie der Ausrichtung mit der Ausrichtungsquantenzahl $m$ zu
+\begin{equation}
+    E_{\symup{m}} = \mu_{\symup{B}}g_{\symup{J}}m\,.
+\end{equation}
+Anschließend spalten sich die Energieniveaus durch den Zeeman-Effekt auf. Um nun die Magnetisierung zu bestimmen
+wird ein mittleres magnetisches Moment bestimmt, dass sich mit Hilfe der Brillouin-Funktion bestimmen lässt.
+Die magnetischen Momente sind nach der Boltzmann-Verteilung verteilt. Da sich im Allgemeinen eine tranzendente
+Gleichung ergibt, wird eine Näherung für hohe Temperaturen bzw. Raumtemperatur und schwache Felder benutzt,
+so dass sich die Magnetisierung zu
+\begin{equation*}
+    M = \frac{1}{3}\mu_{0}Ng^{2}_{\symup{J}}\mu^2_{\symup{B}}\frac{J\left(J+1\right)B}{kT}
+\end{equation*}
+und daraus die Suszeptibilität zu
+\begin{equation}
+    \chi = \frac{1}{3}\mu_{0}Ng^{2}_{\symup{J}}\mu^2_{\symup{B}}\frac{J\left(J+1\right)}{kT}\,.
+\end{equation}
+Es ergibt sich die aus dem Curieschen Gesetz bekannte $\frac{1}{T}$-Abhängigkeit des Paramagnetismus.
+
+\subsection{Suszeptibilität seltener Erden}
+\label{sec:selteneErden}
+Da seltene Erden einen starken Paramagnetismus aufweisen, müssen die Elektronenhüllen große Drehimpulse aufweisen.
+Dies lässt sich durch die $4f$-Elektronen erklären, die in der $6s$-Schale liegen und erst ab Ordnungszahlen größer
+gleich $58$ auftreten. Der Gesamtdrehimpuls der $6s$-Schale lässt sich mit Hilfe der Hundschen Regeln bestimmen.
+Wenn die Schale weniger als die Hälfte gefüllt ist, bestimmt sich der Gesamtdrehimpuls zu $\vec{J}=\vec{L}-\vec{S}$
+und wenn die Schale mehr als die Hälfte gefüllt ist, bestimmt sich der Gesamtdrehimpuls zu
+$\vec{J}=\vec{L}+\vec{S}$. Dabei gilt für $\vec{L}$ und $\vec{S}$
+\begin{align*}
+    \vec{L} = \sum_{\symup{i}} \vec{l_{\symup{i}}}\\
+    \vec{S} = \sum_{\symup{i}} \vec{s_{\symup{i}}}\,.
+\end{align*}
+
+\subsection{Messapparatur zur Bestimmung der Suszeptibilität}
+\label{sec:Messapparatur}
+Um ein Magnetfeld zu erzeugen wird eine lange Spule verwendet, da in ihrem Inneren das Magnetfeld annähernd homogen
+ist. Für das Induktivität $L$ einer langen Spule gilt
+\begin{equation*}
+    L = \mu_{0}\frac{n^2}{l}F\,.
+\end{equation*}
+Dabei sind $n$ die Anzahl der Windungen $l$ die Länge der Spule und $F$ der Querschnitt der Spule. Um den Umstand
+mit ein zu beziehen, dass die Probe die Spule nicht ganz ausfüllt, kann die Formel zu
+\begin{equation}
+    L_{\symup{M}}
 \end{equation}
