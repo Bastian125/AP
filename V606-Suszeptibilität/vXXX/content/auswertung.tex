@@ -1,12 +1,46 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
-\begin{figure}
+\subsection{Filterkurve des Selektiv-Verstärkers}
+
+In diesem Versuchsteil soll die Filterkurve des verwendeten Selektiv-Verstärkers bei 
+einer Güte von $Q=20$ untersucht werden.\\
+Es werden bei immer höheren Frequenzen des Sinusgenerators eingestellt und die resultierenden
+Spannungen im Wechselstrom-Milli-Voltmeters abgelesen. Die aufgenommenen Werte sind in 
+\autoref{tab:Filterkurve} zu sehen. Es wurde eine Verstärkung von x10 verwendet. Die eigentlich
+resultierenden Spannung sind also nur 0,1x so groß wie die in der Tabelle angegebenen.\\
+
+\begin{table}
   \centering
-  \includegraphics{plot.pdf}
-  \caption{Plot.}
-  \label{fig:plot}
-\end{figure}
+  \caption{Gemessene Ausgangsspannungen in Abhängigkeit der Frequenz des Sinusgenerators.}
+  \label{tab:Filterkurve}
+  \begin{tabular}{c | c || c | c}
+    \toprule
+    Frequenz $f$ / kHz & Ausgangsspannung $U_{\mathrm{A}}$ / V & Frequenz $f$ / kHz & Ausgangsspannung $U_{\mathrm{A}}$ / V \\
+    \hline
+    10,17 &  0,16  &  22,10 &  8,50 \\
+    13,81 &  0,36  &  22,40 &  7,00 \\
+    18,23 &  0,90  &  23,10 &  2,90 \\
+    19,40 &  1,50  &  24,40 &  1,00 \\
+    20,10 &  2,40  &  26,10 &  0,50 \\
+    21,00 &  5,20  &  30,80 &  0,30 \\
+    21,50 &  8,30  & & \\
+    \midrule
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Die aufgenommenen Messwertpaare werden nun in einem Diagramm gegeneinander geplotted. Die 
+enstehende Graphik zeigt wie zu erwarten eine Glockenkurve nach der Gleichung
+\begin{equation*}
+  U(f) = e^{-a(f-\nu_0)^2}.
+\end{equation*}
+Die Graphik mitsamt der mit Python gefiteten Glockenkurve ist in ... zu sehen.\\
+Damit die Graphik besser zu lesen ist, werden die Messwerte der Spannung relativ zur 
+maximal gemessenen Spannung $U_{\mathrm{max}} = 8,5 \si{\volt}$ geplotted. Der in der Formel
+der Glockenkurve verwendeten Parameter $\nu_0$ gibt die Verschiebung der Glockenkurve an.
+Mittels Python wurde ein Wert von $\nu_0 = (21,79 \pm 0,07) \, \si{\kilo\hertz} $ berechnet. Für den Parameter $a$ gibt 
+Python den Wert $a = (0,52 \pm 0,07 ) \, \si{\per\square\kilo\hertz}$.
 
 
 Siehe \autoref{fig:plot}!
