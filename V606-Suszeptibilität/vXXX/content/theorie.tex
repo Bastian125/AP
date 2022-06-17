@@ -101,5 +101,52 @@ ist. Für das Induktivität $L$ einer langen Spule gilt
 Dabei sind $n$ die Anzahl der Windungen $l$ die Länge der Spule und $F$ der Querschnitt der Spule. Um den Umstand
 mit ein zu beziehen, dass die Probe die Spule nicht ganz ausfüllt, kann die Formel zu
 \begin{equation}
-    L_{\symup{M}}
+    L_{\symup{M}} = \mu_{0}\frac{n^{2}F}{I}+\chi\mu_{0}\frac{n^{2}Q}{I}
 \end{equation}
+bestimmt werden, wobei $Q$ der Querschnitt der Spule ist. Da die Induktivitäten der gefüllten Spule und der im
+Vakuum nur sehr gering ist, wird eine hohe Messauflösung benötigt. Zur Messung werden deshalb zwei
+möglichst identische Spulen verwendet. In die eine Spule wird die Messprobe eingeführt und die andere wird leer
+gelassen. Mit Hilfe einer Brückenschaltung lässt sich nun die Suszeptibilität über zwei Methoden bestimmen.
+Der Schaltplan der verwendeten Brückenschaltung ist in \autoref{fig:bruecke} angegeben.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{bilder/bruecke.png}
+    \caption{Brückenschaltung zweier Spulen zur Bestimmung der Suszeptibilität \cite{sample}.}
+    \label{fig:bruecke}
+\end{figure}
+Bei der ersten Methode wird nach Abgleichen der Brücke die Spannung $U_{\symup{Br}}$ gemessen, wenn die Probe
+eingeführt wird. Bei der zweiten Methode wird die Brücke wieder zuerst abgeglichen und nach Einführen der Probe
+erneut abgeglichen. Aus der Änderung der Abgleichelemente kann dann die Suszeptibilität bestimmt werden.
+Für die erste Methode bestimmt sich $\chi$ unter Verwendung der Knoten- und Maschenregel, dem Umstand,
+dass $\symup{\Delta}L << L$ gilt und der Annahme, dass hinreichen hohe Messfrequenzen verwendet werden, zu
+\begin{equation}
+    \chi = 4\frac{F}{Q}\frac{U_{\symup{Br}}}{U_{\symup{Sp}}}\,.
+\end{equation}
+Für die zweite Methode wird $\chi$ unter Verwendung der Abgleichbedingung $r_{1}R_{4}=r_{2}R_{3}$ für eine kleine
+Abweichung $\symup{\Delta}R$ und der Annäherung $\symup{\Delta}L << L$ zu
+\begin{equation}
+    \chi = 2 \frac{\symup{\Delta}R}{R_{3}}\frac{F}{Q}
+\end{equation}
+bestimmt.
+
+\subsection{Verfahren zur Unterdrückung der Störspannung}
+\label{sec:stoer}
+Die Messung der Brückenspannung stellt sich als schwierig dar, da Störspannungen an den Ausgangsklemmen die
+Brückenspannung überdecken können. Da es sich um monofrequente Signalspannungen handelt, lässt sich dieses
+Problem mit Hilfe eines Selektivverstärkers eleiminieren. Dabei ist die Filterkurve eines Selektivverstärkers
+eine Glockenkurve, wie in \autoref{fig:Filterkurve} abgebildet.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{bilder/filterkurve.png}
+    \caption{Fiterkurve eines Selektrivverstärkers \cite{sample}.}
+    \label{fig:Filterkurve}
+\end{figure}
+Die Filterkurve beschreibt die Abhängigkeit des Quotienten aus Ausgangs- und Eingangsspannung
+$\frac{U_{\symup{A}}}{U_{\symup{B}}}$ zur Frequenz $\nu$. Dabei gilt die Breite der Filterkurve ist proportional
+zur Spannungsunterdrückung. Dieser Zusammenhang lässt sich durch die Güte $Q$ eines Selektivverstärkers
+durch
+\begin{equation}
+    Q = \frac{\nu_{0}}{\nu_{+}-\nu_{-}}
+\end{equation}
+ausdrücken. Hier sind $\nu_{\pm}$ die Frequenzen bei denen die Filterkurve den Werte $\frac{1}{\sqrt{2}}$ erreicht
+haben.
