@@ -1,6 +1,9 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
+Im Folgenden wird die Fehlerfortpflanzung und Standardabweichung mittels der Python Bibliothek uncertainties \cite{uncertainties}
+berechnet.
+
 \subsection{Filterkurve des Selektiv-Verstärkers}
 
 In diesem Versuchsteil soll die Filterkurve des verwendeten Selektiv-Verstärkers bei 
@@ -35,7 +38,7 @@ enstehende Graphik zeigt wie zu erwarten eine Glockenkurve nach der Gleichung
 \begin{equation*}
   U(f) = e^{-a(f-\nu_0)^2}.
 \end{equation*}
-Die Graphik mitsamt der mit Python gefiteten Glockenkurve ist in ... zu sehen.\\
+Die Graphik mitsamt der mit Python gefiteten Glockenkurve ist in \autoref{Abb:Filterkurve} zu sehen.\\
 Damit die Graphik besser zu lesen ist, werden die Messwerte der Spannung relativ zur 
 maximal gemessenen Spannung $U_{\mathrm{max}} = 8,5 \si{\volt}$ geplotted. Der in der Formel
 der Glockenkurve verwendeten Parameter $\nu_0$ gibt die Verschiebung der Glockenkurve an.
@@ -46,12 +49,12 @@ $a = (0,52 \pm 0,07 ) \, \si{\per\square\kilo\hertz}$.\\
   \centering
   \includegraphics[width=1\textwidth]{build/plot.pdf}
   \caption{Filterkurve des Selektiv-Verstärkers.}
-  \label{Abb:Absorption}
+  \label{Abb:Filterkurve}
 \end{figure}
 Die Frequenzen $\nu_{-}$ und $\nu_{+}$ sind die Schnittpunkte des Fits mit der Geraden
 $f(x) = \frac{1}{\sqrt{2}}$. Die Schnittstellen wurden mittels eines Grafischen Taschenrechners
 ermittelt und ergaben die Werte $\nu_{-} = 20,97 \, \si{\kilo\hertz}$ und $\nu_{+} = 22,60 \, \si{\kilo\hertz}$.\\
-Mit ... lässt sich nun die Güte bestimmen. Mit Gaußscher Fehlerfortpflanzung ergibt sich
+Mit \autoref{eqn:Guete} lässt sich nun die Güte bestimmen. Mit Gaußscher Fehlerfortpflanzung ergibt sich
 für die zu untersuchende Filterkurve $Q = (13,37 \pm 0,04)$.\\
 Die relative Abweichung zu unserem Theoriewert $Q^* = 20$ lässt sich mit der Gleichung
 \begin{equation*}
@@ -64,8 +67,8 @@ berechnen. Einsetzen ergibt den Wert $\Delta Q = 33,15 \%$.\\
 Zur experimentellen Bestimmung der Suszeptibilitäten von Neodym(III)oxid, 
 Gadolinium(III)oxid und Dysprosium(III)oxid werden zwei Methoden verwendet. 
 Bei einer Methode macht man sich die gemessenen Spannungen vor und 
-nach dem Abgleichen zur Gute, hier wird ... verwendet. Die zweite Methode
-bedient sich dem Unterschied der Widerstände. Hier wird ... genutzt.\\
+nach dem Abgleichen zur Gute, hier wird \autoref{eqn:chiSp} verwendet. Die zweite Methode
+bedient sich dem Unterschied der Widerstände. Hier wird \autoref{eqn:chiWd} genutzt.\\
 Für beide Gleichungen wird die Querschnittsfläche der Proben benötigt.
 Hierzu werden die Proben vermessen und die Querschnittsfläche gemäß
 \begin{equation*}
@@ -129,7 +132,7 @@ lassen sich der \autoref{tab:Widerstand} und \autoref{tab:Spannung} entnehmen.\\
   \end{tabular}
 \end{table}
 
-Die Theoriewerte der Suszeptibilitäten der Proben werden durch ... berechnet. Dafür sind
+Die Theoriewerte der Suszeptibilitäten der Proben werden durch \autoref{eqn:chi} berechnet. Dafür sind
 die Quantenzahl J, L und S, die Konstanten $\mu_0$, $\mu_{\mathrm{B}}$ 
 und $k_{\mathrm{B}}$, der Landé-Faktor $g_{\mathrm{J}}$, die Anzahl der Momente pro 
 Volumeneinheit $N$ und die Temperatur $T$ nötig.\\
