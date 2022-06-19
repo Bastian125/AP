@@ -61,4 +61,99 @@ berechnen. Einsetzen ergibt den Wert $\Delta Q = 33,15 \%$.\\
 
 \subsection{Bestimmung der Suszeptibilitäten drei seltener Erden}
 
-Siehe \autoref{fig:plot}!
+Zur experimentellen Bestimmung der Suszeptibilitäten von Neodym(III)oxid, 
+Gadolinium(III)oxid und Dysprosium(III)oxid werden zwei Methoden verwendet. 
+Bei einer Methode macht man sich die gemessenen Spannungen vor und 
+nach dem Abgleichen zur Gute, hier wird ... verwendet. Die zweite Methode
+bedient sich dem Unterschied der Widerstände. Hier wird ... genutzt.\\
+Für beide Gleichungen wird die Querschnittsfläche der Proben benötigt.
+Hierzu werden die Proben vermessen und die Querschnittsfläche gemäß
+\begin{equation*}
+  Q = \frac{m}{l \cdot \rho}
+\end{equation*}
+ausgerechnet. $m$ ist die Masse der Probe, $\rho$ die Dichte und $l$ die Länge.
+Die originalen Messdaten lassen sich dem Anhang entnehmen. Die Querschnittsflächen
+sind in \autoref{tab:Querschnitt} zu finden.
+
+\begin{table}
+  \centering
+  \caption{Ausgerechneten Querschnittsflächen der Proben.}
+  \label{tab:Querschnitt}
+  \begin{tabular}{c | c | c }
+    \toprule
+    $Q_{\mathrm{Nd}}$ / $\si{\square\milli\meter}$ & $Q_{\mathrm{Gd}}$ / $\si{\square\milli\meter}$ & $Q_{\mathrm{Dy}}$ / $\si{\square\milli\meter}$ \\
+    \hline
+    6,83 & 9,12 & 12,13 \\
+    \midrule
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Der Spulenquerschnitt ist gegeben durch $F = 86,6 \, \si{\square\milli\meter}$, der feste
+Widerstand der Schaltung mit $R_3 = 998\,  \si{\ohm}$ und $U_{\mathrm{Sp}}= 8,5 \, \si{\volt}$.
+Die nun zur Berechnung fehlenden Größen
+$U_{\mathrm{Br}}$ und $\Delta R$ sind bei jeder Messung unterschiedlich
+und lassen sich ebenfalls dem Anhang entnehmen. Da pro Probe jeweils drei Messungen 
+durchgeführt werden, wird im Anschluss der Mittelwert der Ergebnisse bestimmt. Die Ergebnisse
+lassen sich der \autoref{tab:Widerstand} und \autoref{tab:Spannung} entnehmen.\\
+
+\begin{table}
+  \centering
+  \caption{Experimentell berechnete Suszeptibilitäten aus den Widerständen.}
+  \label{tab:Widerstand}
+  \begin{tabular}{c || c | c | c || c }
+    \toprule
+    Probenname & $\chi_1$ & $\chi_2$ & $\chi_3$ & $\overline{\chi}_{\mathrm{exp}}$ \\
+    \hline
+    $\mathrm{Nd}_2 \mathrm{O}_3$ & 0,0042 & 0,0031 & 0,0028 & 0,0033 $\pm$ 0,0006 \\
+    $\mathrm{Gd}_2 \mathrm{O}_3$ & 0,0131 & 0,0131 & 0,0131 & 0,0131 $\pm$ 0 \\
+    $\mathrm{Dy}_2 \mathrm{O}_3$ & 0,0236 & 0,0223 & 0,0239 & 0,0233 $\pm$ 0,0007 \\
+    \midrule
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}
+  \centering
+  \caption{Experimentell berechnete Suszeptibilitäten aus den Spannungen.}
+  \label{tab:Spannung}
+  \begin{tabular}{c || c | c | c || c }
+    \toprule
+    Probenname & $\chi_1$ & $\chi_2$ & $\chi_3$ & $\overline{\chi}_{\mathrm{exp}}$ \\
+    \hline
+    $\mathrm{Nd}_2 \mathrm{O}_3$ & 0,0179 & 0,0209 & 0,0194 & 0,0194 $\pm$ 0,0012 \\
+    $\mathrm{Gd}_2 \mathrm{O}_3$ & 0,0067 & 0,0067 & 0,0068 & 0,0067 $\pm$ 0 \\
+    $\mathrm{Dy}_2 \mathrm{O}_3$ & 0,0369 & 0,0419 & 0,0504 & 0,0430 $\pm$ 0,006 \\
+    \midrule
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Die Theoriewerte der Suszeptibilitäten der Proben werden durch ... berechnet. Dafür sind
+die Quantenzahl J, L und S, die Konstanten $\mu_0$, $\mu_{\mathrm{B}}$ 
+und $k_{\mathrm{B}}$, der Landé-Faktor $g_{\mathrm{J}}$, die Anzahl der Momente pro 
+Volumeneinheit $N$ und die Temperatur $T$ nötig.\\
+Die Quantenzahlen J, L und S werden im Internet nachgeguckt und sind für Neodym(III)oxid 
+J = 4.5, L = 6 und S = 1.5 \cite{Nd}, für Gadolinium(III)oxid J = 3.5, L = 0 und S = 3,5 
+und für das Dysprosium(III)oxid J = 7.5, L = 5 und S = 2.5 \cite{DyGd}.\\
+Die Anzahl der Momente der Volumeneinheit berechnet sich zu $N = \frac{2 N_{\mathrm{A}} \rho }{M}$,
+wobei $N_{\mathrm{A}}$ die Avogadro-Konstante und $M$ die molare Masse des Moleküls ist.\\
+für die Temperatur wird die Zimmertemperatur mit $T = 293,15 \, \si{\kelvin}$ angenommen.\\
+Die Werte werden ausgerechnet und in \autoref{tab:Theorie} dargestellt.
+
+\begin{table}
+  \centering
+  \caption{Theoretisch berechnete Suszeptibilitäten.}
+  \label{tab:Theorie}
+  \begin{tabular}{c || c }
+    \toprule
+    Probenname & $\chi_{\mathrm{theo}}$ \\
+    \hline
+    $\mathrm{Nd}_2 \mathrm{O}_3$ & 0,0030 \\
+    $\mathrm{Gd}_2 \mathrm{O}_3$ & 0,0138 \\
+    $\mathrm{Dy}_2 \mathrm{O}_3$ & 0,0254 \\
+    \midrule
+    \bottomrule
+  \end{tabular}
+\end{table}
+
