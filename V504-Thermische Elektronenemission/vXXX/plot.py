@@ -118,3 +118,5 @@ plt.close()
 m = ufloat(params[0], errors[0])
 T = -e/(k_B*m)
 print('T: ', T)
+
+# Temperaturen und Austrittsarbeit
