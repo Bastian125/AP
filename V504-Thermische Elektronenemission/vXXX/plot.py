@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy.constants as const
 from uncertainties import ufloat
+import uncertainties.unumpy as unp
 
 # Spannung korrigieren
 # U_korr = U_gemessen + RI
@@ -10,7 +11,13 @@ from uncertainties import ufloat
 
 # Konstanten
 e = const.e
+m = const.m_e
+h = const.h
 k_B = const.k
+f = 0.32
+sigma =5.7e-12
+n = 0.28
+N_WL = 0.95
 
 # Daten einlesen
 U1, I1 = np.genfromtxt('messwerte/2a.txt', unpack=True)
@@ -120,3 +127,18 @@ T = -e/(k_B*m)
 print('T: ', T)
 
 # Temperaturen und Austrittsarbeit
+def T(I, U):
+    return ((I*U-N_WL)/(f*n*sigma))**(1/4)
+
+def phi(T, I):
+    return -((k_B*T)/(e))*np.log((I*h**3)/(4*np.pi*f*e*m*k_B**2 *T**2))
+
+
+def printT():
+    print('T1: ', T(1.9, 2.3))
+    print('T2: ', T(2.0, 3.9))
+    print('T3: ', T(2.1, 4.1))
+    print('T4: ', T(2.3, 5.0))
+    print('T5: ', T(2.5, 5.6))
+
+printT()

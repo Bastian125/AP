@@ -93,7 +93,7 @@ Aus den ermittelten Werten ergibt sich die Kathodentemperatur zu
 
 \subsection{Bestimmung der Kathodentemperaturen und Austrittsarbeit von Wolfram}
 \label{sec:Wolfram}
-Um die Kathodentemperatur zu bestimmen, lässt sich .... zu
+Um die Kathodentemperatur zu bestimmen, lässt sich \autoref{eqn:Temp} zu
 \begin{equation*}
   T = \left(\frac{I_{\symup{H}}\cdot U_{\symup{H}}-N_{\symup{WL}}}{f\eta\sigma}\right)^{1/4}
 \end{equation*}
@@ -108,11 +108,31 @@ Temperaturen lassen sich in \autoref{tab:kathode} finden.
     \toprule
     $I_{\symup{H}}/\si{\ampere}$ & $U_{\symup{H}}/\si{\volt}$ & $T/\si{\kelvin}$ \\
     \midrule
-    1,9 & 3,2 & \\
-    2,0 & 3,9 & \\
-    2,1 & 4,1 & \\
-    2,3 & 3,2 & \\
-    2,5 & 5,6 & \\
+    1,9 & 3,2 & 1609 \\
+    2,0 & 3,9 & 1914 \\
+    2,1 & 4,1 & 1968 \\
+    2,3 & 5,0 & 2132 \\
+    2,5 & 5,6 & 2248 \\
     \bottomrule
   \end{tabular}
 \end{table}
+Durch Umstellen von \autoref{eqn:Saettigung} und Einsetzen von $j_{\symup{S}}=\frac{I_{\symup{S}}}{f}$ ergibt sich
+für die Austrittsarbeit
+\begin{equation*}
+  \phi = -\frac{kT}{e} log\left(\frac{I_{\symup{S}}h^3}{4\pi fem_{0}k^2 T^2}\right)\,.
+\end{equation*}
+Mit den Werten aus \autoref{tab:saettigungswerte} lässt sich dann die Austrittsarbeit bestimmen. Die berechneten
+Werte sind in \autoref{tab:austrittsarbeit} zu finden.
+\begin{table}
+  \centering
+  \caption{Austrittsarbeiten in Abhängigkeit der Temperatur.}
+  \label{tab:austrittsarbeit}
+  \begin{tabular}{c c}
+    \toprule
+    $I_{\symup{H}}/\si{\ampere}$ & $\phi/\si{\eV}$ \\
+    \midrule
+    \bottomrule
+  \end{tabular}
+\end{table}
+Außerdem wurde noch der Mitellwert der Austrittsarneit zu 
+bestimmt.
