@@ -32,7 +32,6 @@ plt.ylabel(r'$I/\unit{\milli\ampere}$')
 plt.grid()
 plt.legend()
 
-# in matplotlibrc leider (noch) nicht möglich
 plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
 plt.savefig('build/plot1.pdf')
 plt.close()
@@ -46,9 +45,35 @@ plt.ylabel(r'$I/\unit{\milli\ampere}$')
 plt.grid()
 plt.legend()
 
-# in matplotlibrc leider (noch) nicht möglich
 plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
 plt.savefig('build/plot2.pdf')
+plt.close()
+
+# Plot 3
+
+# Lineare Regression
+x_plot = np.linspace(1.5, 5.6)
+params, covariance_matrix = np.polyfit(np.log(U5[1:]), np.log(I5[1:]), deg=1, cov=True)
+
+errors = np.sqrt(np.diag(covariance_matrix))
+
+for name, value, error in zip('ab', params, errors):
+    print(f'{name} = {value:.3f} ± {error:.3f}')
+
+plt.plot(np.log(U5[1:]), np.log(I5[1:]), 'x', label='Messwerte')
+plt.plot(
+    x_plot,
+    params[0] * x_plot + params[1],
+    label='Lineare Regression',
+    linewidth=2,
+)
+plt.xlabel(r'$log(U/\unit{\volt})$')
+plt.ylabel(r'$log(I/\unit{\milli\ampere})$')
+plt.grid()
+plt.legend()
+
+plt.tight_layout(pad=0, h_pad=1.08, w_pad=1.08)
+plt.savefig('build/plot3.pdf')
 plt.close()
 
 # Ausgabe
