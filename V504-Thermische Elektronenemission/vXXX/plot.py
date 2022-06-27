@@ -36,8 +36,8 @@ def saettigung(I1, I2, I3, I4, I5):
     print('I_Saettigung_5: ', np.amax(I5))
 
 # Plot 1
-plt.plot(U1, I1, 'o', label=r'$I_{\symup{H}}=\SI{1,9}{\ampere}$')
-plt.plot(U2, I2, 'o', label=r'$I_{\symup{H}}=\SI{2,0}{\ampere}$')
+plt.plot(U1, I1, 'x', label=r'$I_{\symup{H}}=\SI{1,9}{\ampere}$')
+plt.plot(U2, I2, 'x', label=r'$I_{\symup{H}}=\SI{2,0}{\ampere}$')
 plt.xlabel(r'$U/\unit{\volt}$')
 plt.ylabel(r'$I/\unit{\milli\ampere}$')
 plt.grid()
@@ -48,9 +48,9 @@ plt.savefig('build/plot1.pdf')
 plt.close()
 
 # Plot 2
-plt.plot(U3, I3, 'o', label=r'$I_{\symup{H}}=\SI{2,1}{\ampere}$')
-plt.plot(U4, I4, 'o', label=r'$I_{\symup{H}}=\SI{2,3}{\ampere}$')
-plt.plot(U5, I5, 'o', label=r'$I_{\symup{H}}=\SI{2,5}{\ampere}$')
+plt.plot(U3, I3, 'x', label=r'$I_{\symup{H}}=\SI{2,1}{\ampere}$')
+plt.plot(U4, I4, 'x', label=r'$I_{\symup{H}}=\SI{2,3}{\ampere}$')
+plt.plot(U5, I5, 'x', label=r'$I_{\symup{H}}=\SI{2,5}{\ampere}$')
 plt.xlabel(r'$U/\unit{\volt}$')
 plt.ylabel(r'$I/\unit{\milli\ampere}$')
 plt.grid()
@@ -131,7 +131,7 @@ def T(I, U):
     return ((I*U-N_WL)/(f*n*sigma))**(1/4)
 
 def phi(T, I):
-    return -((k_B*T)/(e))*np.log((I*h**3)/(4*np.pi*f*e*m*k_B**2 *T**2))
+    return ((k_B*T)/(e))*np.log((I*h**3)/(4*np.pi*f*e*m*k_B**2 *T**2))
 
 
 def printT():
@@ -142,3 +142,7 @@ def printT():
     print('T5: ', T(2.5, 5.6))
 
 printT()
+
+# Mittelwert der Austrittsarbeiten
+phim = np.array([3.92 , 4.50, 4.57, 4.71, 4.82])
+print('Phi: ', np.mean(phim), ' +- ', np.std(phim))
