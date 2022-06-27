@@ -63,3 +63,30 @@ $b$ ist dabei für die Auswertung vernachlässigbar. Nur $m$ kann durch den Theo
 
 \subsection{Bestimmung der Kathodentemperatur}
 \label{sec:kathodetemp}
+Aus \autoref{eqn:AnlaufStrom} lässt sich erkennen, dass für den Bereich des Anlaufstroms ein exponentieller
+Zusammenhang zwischen Strom und Spannung besteht. Jetzt kann durch logarithmisieren des Stroms und
+anschließendem Auftragen gegen die Spannung eine lineare Regression durchgeführt werden. Die lineare Regression
+wird analog wie in \autoref{sec:Langmuir} durchgeführt und ist in \autoref{fig:plot4} dargestellt. 
+\begin{figure}
+  \centering
+  \includegraphics{plot4.pdf}
+  \caption{Logarithmische Darstellung des Anlaufgebiets mit entsprechender linearer Regression.}
+  \label{fig:plot4}
+\end{figure}
+Die Parameter der linearen Regressionen bestimmen sich zu
+\begin{align*}
+  m &= (-6,843 \pm 0,379)\frac{1}{\si{\volt}} \\
+  b &= -18,063 \pm 0,156\,.
+\end{align*}
+Dabei ergibt sich $m$ aus \autoref{eqn:AnlaufStrom} zu
+\begin{equation*}
+  m = -\frac{e}{kT}\,.
+\end{equation*}
+Daraus folgt für die Kathodentemperatur
+\begin{equation*}
+  T = -\frac{e}{km}\,.
+\end{equation*}
+Aus den ermittelten Werten ergibt sich die Kathodentemperatur zu
+\begin{equation*}
+  T = (1700 \pm 90)\si{\kelvin}\,.
+\end{equation*}
