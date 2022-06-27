@@ -188,3 +188,19 @@ und Sättigungsstromgebiet aufgeteilt werden. Die drei Kennlinien sind in
     \includegraphics[width=\textwidth]{Bilder/Kennlinien.png}
     \label{Abb:Kennlinien}
 \end{figure}
+
+\subsection{Kathodentemperatur \textit{T}}
+
+Die Kathodentemperatur $T$ kann aus der Leistungsbilanz des Heizstromfadens berechnet werden.
+Die zugeführte Leistung ist $N_{\mathrm{zu}} = V_{\mathrm{f}} \cdot I_{\mathrm{f}}$. Diese 
+Leistung wird mittels Abstrahlung von Wärme und Wärmeleitung wieder abgegeben. Die Wärmeleitung
+bei dem verwendeten Versuchsaufbau ist circa $N_{\mathrm{WL}} = 0,9$ bis $1 \, \si{\watt}$.
+Mit dem Stefan-Boltzman-Gesetz kann die abgestrahlte Wärme zu $N_{\mathrm{W}} = f \mu \sigma T^4$
+berechnet werden. $\sigma = 5,7 \cdot 10^{-12} \, \si{\watt\per\square\centi\meter\per\kelvin}^4$ ist
+die Stefan-Boltzman Konstante, $f = 0,32 \, \si{\square\centi\meter}$ die emittierte
+Kathodenoberfläche und $\mu = 0,28$ der Emissiongrad der Oberfläche.
+Mit dem Energiesatz folgt schließlich
+\begin{equation}
+    \label{eqn:Temp}
+    I_{\mathrm{f}} U_{\mathrm{f}} =  f \mu \sigma T^4 + N_{\mathrm{WL}}.
+\end{equation}
